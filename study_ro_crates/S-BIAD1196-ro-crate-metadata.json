@@ -107,7 +107,7 @@
           "@id": "#38912fe4-9d42-421f-8891-11fb109ce3f6"
         },
         {
-          "@id": "#04c2c36d-e22f-4337-8d10-47db054314c9"
+          "@id": "#cb016e44-6a27-4936-91a4-2ed0b6376902"
         }
       ],
       "citation": [],
@@ -138,18 +138,6 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#04c2c36d-e22f-4337-8d10-47db054314c9",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#de7ee26e-30d9-4187-a765-52a69efa7187"
-        }
-      ],
-      "name": "Luciano Höher"
-    },
-    {
       "@id": "#38912fe4-9d42-421f-8891-11fb109ce3f6",
       "@type": [
         "Person"
@@ -172,6 +160,18 @@
         }
       ],
       "name": "Doris Kaltenecker"
+    },
+    {
+      "@id": "#cb016e44-6a27-4936-91a4-2ed0b6376902",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de7ee26e-30d9-4187-a765-52a69efa7187"
+        }
+      ],
+      "name": "Luciano Höher"
     },
     {
       "@id": "https://orcid.org/0000-0001-5163-5100",

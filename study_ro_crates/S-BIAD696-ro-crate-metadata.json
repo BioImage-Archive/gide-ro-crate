@@ -58,13 +58,13 @@
           "@id": "#86c0dfa5-41c9-4666-9c82-d125b7c45ae3"
         },
         {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000241"
         }
       ],
       "about": [
@@ -77,7 +77,7 @@
       ],
       "author": [
         {
-          "@id": "#d84adb22-f6c7-48a6-917d-4be28f49087d"
+          "@id": "#4e88b2cb-bf75-457a-91d1-5762cf85fca9"
         }
       ],
       "citation": [],
@@ -107,7 +107,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#d84adb22-f6c7-48a6-917d-4be28f49087d",
+      "@id": "#4e88b2cb-bf75-457a-91d1-5762cf85fca9",
       "@type": [
         "Person"
       ],

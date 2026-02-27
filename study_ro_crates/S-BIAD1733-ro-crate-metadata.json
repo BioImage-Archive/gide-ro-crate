@@ -67,16 +67,16 @@
           "@id": "#b6829a13-64e3-4c97-933c-fff00d239474"
         },
         {
-          "@id": "obo:FBbi_00000240"
+          "@id": "obo:FBbi_00000251"
+        },
+        {
+          "@id": "obo:FBbi_00000241"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000251"
-        },
-        {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000240"
         }
       ],
       "about": [
@@ -141,10 +141,10 @@
           "@id": "#ff6e8aba-9b98-4055-8102-e0ac468a205b"
         },
         {
-          "@id": "obo:NCBITaxon_4100"
+          "@id": "obo:NCBITaxon_3702"
         },
         {
-          "@id": "obo:NCBITaxon_3702"
+          "@id": "obo:NCBITaxon_4100"
         }
       ],
       "author": [

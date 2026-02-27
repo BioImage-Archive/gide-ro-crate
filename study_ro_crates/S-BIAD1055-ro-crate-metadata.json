@@ -84,10 +84,10 @@
           "@id": "obo:NCBITaxon_4097"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [
@@ -137,6 +137,9 @@
           "@id": "https://orcid.org/0000-0002-9757-2341"
         },
         {
+          "@id": "#137e7819-8cdc-4ccb-b8be-eacd9a84b0f8"
+        },
+        {
           "@id": "https://orcid.org/0000-0003-3415-9864"
         },
         {
@@ -171,6 +174,19 @@
         "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD1055/f040034c-9faf-4098-8775-e52db749f6f7/cd03225c-0a40-4669-998f-f8b4693f4ecd.png",
         "https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD1055/fe911846-d313-4d42-b35d-2512e4685c19/0d7c9e79-244b-4192-b58b-ee9a49af4ed5.png"
       ]
+    },
+    {
+      "@id": "#137e7819-8cdc-4ccb-b8be-eacd9a84b0f8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#602dd4cb-ab10-4d4b-b972-2c6f998cc7ca"
+        }
+      ],
+      "email": "rudolfo@mbl.edu",
+      "name": "Rudolf Oldenbourg"
     },
     {
       "@id": "#1ec004b3-87ec-4984-b166-93bec986dab2",
@@ -310,19 +326,10 @@
       "affiliation": [
         {
           "@id": "#d6de387d-fe42-4bfb-8863-23f1d013e3a1"
-        },
-        {
-          "@id": "#602dd4cb-ab10-4d4b-b972-2c6f998cc7ca"
         }
       ],
-      "email": [
-        "nain@vt.edu",
-        "rudolfo@mbl.edu"
-      ],
-      "name": [
-        "Amrinder Nain",
-        "Rudolf Oldenbourg"
-      ]
+      "email": "nain@vt.edu",
+      "name": "Amrinder Nain"
     },
     {
       "@id": "https://orcid.org/0000-0002-9946-810X",

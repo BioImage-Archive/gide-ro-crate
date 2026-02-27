@@ -95,7 +95,7 @@
           "@id": "#a8389f72-64cf-44f3-b3ac-acadd0888cc3"
         },
         {
-          "@id": "#02b6bcb1-d328-4dc7-9b3f-f5b3f97f0d54"
+          "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac"
         }
       ],
       "citation": [],
@@ -122,19 +122,6 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#02b6bcb1-d328-4dc7-9b3f-f5b3f97f0d54",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
-        }
-      ],
-      "email": "jacobs-wagner@stanford.edu",
-      "name": "Christine Jacobs-Wagner"
-    },
-    {
       "@id": "#3ad25ce3-3162-4f75-989d-39311ef59bc4",
       "@type": [
         "Person"
@@ -146,6 +133,19 @@
       ],
       "email": "tatjana.schlechtweg@stanford.edu",
       "name": "Tatjana Schlechtweg"
+    },
+    {
+      "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "jacobs-wagner@stanford.edu",
+      "name": "Christine Jacobs-Wagner"
     },
     {
       "@id": "#a8389f72-64cf-44f3-b3ac-acadd0888cc3",

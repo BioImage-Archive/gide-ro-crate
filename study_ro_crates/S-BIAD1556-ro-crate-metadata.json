@@ -74,7 +74,7 @@
           "@id": "#ad0c6caf-1220-495e-a415-010285690183"
         },
         {
-          "@id": "#ab87840e-5f60-4045-a546-5fa772e35f23"
+          "@id": "#25731cef-57d3-47f3-b37e-295f6d43c572"
         },
         {
           "@id": "#678454c3-c567-49bf-8483-5bdd38574fe6"
@@ -116,6 +116,19 @@
       ]
     },
     {
+      "@id": "#25731cef-57d3-47f3-b37e-295f6d43c572",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#08c928aa-83ab-4a8d-8323-3bada302c211"
+        }
+      ],
+      "email": "dbaggett@stjude.org",
+      "name": "David Baggett"
+    },
+    {
       "@id": "#4152ca09-2e1d-4e26-8c3f-03bfb6964737",
       "@type": [
         "Person"
@@ -140,19 +153,6 @@
       ],
       "email": "h.shirnekhi@gmail.com",
       "name": "Hazheen Shirnekhi"
-    },
-    {
-      "@id": "#ab87840e-5f60-4045-a546-5fa772e35f23",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#08c928aa-83ab-4a8d-8323-3bada302c211"
-        }
-      ],
-      "email": "dbaggett@stjude.org",
-      "name": "David Baggett"
     },
     {
       "@id": "#ad0c6caf-1220-495e-a415-010285690183",

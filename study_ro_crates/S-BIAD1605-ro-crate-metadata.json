@@ -83,7 +83,7 @@
           "@id": "#2e946863-9d95-47ad-bf0c-b927c0de303b"
         },
         {
-          "@id": "#2b5c53c3-d986-4bde-ad3c-47e18986ec77"
+          "@id": "#ab343861-ca82-40a3-8fce-2392dc2c941c"
         }
       ],
       "citation": [],
@@ -113,19 +113,6 @@
         }
       ],
       "thumbnailUrl": []
-    },
-    {
-      "@id": "#2b5c53c3-d986-4bde-ad3c-47e18986ec77",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
-        }
-      ],
-      "email": "Jacobs-Wagner@stanford.edu",
-      "name": "Christine Jacobs-Wagner"
     },
     {
       "@id": "#2e946863-9d95-47ad-bf0c-b927c0de303b",
@@ -174,6 +161,19 @@
         }
       ],
       "name": "Manuel Campos"
+    },
+    {
+      "@id": "#ab343861-ca82-40a3-8fce-2392dc2c941c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "Jacobs-Wagner@stanford.edu",
+      "name": "Christine Jacobs-Wagner"
     },
     {
       "@id": "#14157161-e255-488e-85fb-422178c6db82",

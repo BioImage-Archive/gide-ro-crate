@@ -80,7 +80,7 @@
           "@id": "#3425527f-52df-46f7-8953-4134ae4e0e0b"
         },
         {
-          "@id": "#3c4ef9c7-a2c9-4d2e-9430-d95b2abd97c6"
+          "@id": "#662bc894-07f1-43ed-a1d8-713d030e9c07"
         },
         {
           "@id": "#7ba12f43-b44a-450c-853c-a11c0e89221a"
@@ -184,19 +184,6 @@
       "name": "Dominik Kutra"
     },
     {
-      "@id": "#3c4ef9c7-a2c9-4d2e-9430-d95b2abd97c6",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "https://ror.org/01yr73893"
-        }
-      ],
-      "email": "christian.tischer@embl.de",
-      "name": "Christian Tischer"
-    },
-    {
       "@id": "#61cdc7d2-4a40-49e7-b914-8fc7c914d30d",
       "@type": [
         "Person"
@@ -207,6 +194,19 @@
         }
       ],
       "name": "Noa Borst"
+    },
+    {
+      "@id": "#662bc894-07f1-43ed-a1d8-713d030e9c07",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/01yr73893"
+        }
+      ],
+      "email": "christian.tischer@embl.de",
+      "name": "Christian Tischer"
     },
     {
       "@id": "#6b65e288-defd-4d4e-b4ee-aff6935ffa55",

@@ -83,7 +83,7 @@
           "@id": "#bed435f5-32eb-4b01-a3db-3861223fe667"
         },
         {
-          "@id": "#218db084-a039-4d02-b03f-99831ce28c04"
+          "@id": "#dd4786c3-9c78-499b-88fd-78ab2568726f"
         },
         {
           "@id": "#830467c3-a492-4c6a-bf69-74ab5296b29d"
@@ -120,18 +120,6 @@
         }
       ],
       "thumbnailUrl": []
-    },
-    {
-      "@id": "#218db084-a039-4d02-b03f-99831ce28c04",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#de7ee26e-30d9-4187-a765-52a69efa7187"
-        }
-      ],
-      "name": "Daniela Bureik"
     },
     {
       "@id": "#24bbd129-0f0b-4ea9-ae51-e2bdde55f82a",
@@ -180,6 +168,18 @@
         }
       ],
       "name": "Alissa Finster"
+    },
+    {
+      "@id": "#dd4786c3-9c78-499b-88fd-78ab2568726f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de7ee26e-30d9-4187-a765-52a69efa7187"
+        }
+      ],
+      "name": "Daniela Bureik"
     },
     {
       "@id": "https://orcid.org/0000-0001-5790-5204",

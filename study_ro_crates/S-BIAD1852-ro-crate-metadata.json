@@ -66,10 +66,10 @@
           "@id": "#bc45e4d9-bae1-41b0-9056-cb0941a83308"
         },
         {
-          "@id": "obo:NCBITaxon_4565"
+          "@id": "obo:NCBITaxon_4530"
         },
         {
-          "@id": "obo:NCBITaxon_4530"
+          "@id": "obo:NCBITaxon_4565"
         }
       ],
       "author": [
@@ -77,7 +77,7 @@
           "@id": "https://orcid.org/0000-0002-3941-576X"
         },
         {
-          "@id": "#9f1b6506-67b6-4bd4-9a49-35647fb0e77f"
+          "@id": "#d34efda7-9e7c-49b1-9eab-e1f360b95889"
         }
       ],
       "citation": [],
@@ -107,7 +107,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#9f1b6506-67b6-4bd4-9a49-35647fb0e77f",
+      "@id": "#d34efda7-9e7c-49b1-9eab-e1f360b95889",
       "@type": [
         "Person"
       ],

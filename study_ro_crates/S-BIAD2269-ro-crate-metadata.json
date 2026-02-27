@@ -132,10 +132,13 @@
           "@id": "#2e202e92-1a87-4d67-8f74-de79ddce334a"
         },
         {
-          "@id": "obo:NCBITaxon_4577"
+          "@id": "obo:NCBITaxon_5270"
         },
         {
           "@id": "obo:NCBITaxon_9606"
+        },
+        {
+          "@id": "obo:NCBITaxon_4513"
         },
         {
           "@id": "obo:NCBITaxon_51208"
@@ -144,10 +147,7 @@
           "@id": "obo:NCBITaxon_78475"
         },
         {
-          "@id": "obo:NCBITaxon_4513"
-        },
-        {
-          "@id": "obo:NCBITaxon_5270"
+          "@id": "obo:NCBITaxon_4577"
         }
       ],
       "author": [

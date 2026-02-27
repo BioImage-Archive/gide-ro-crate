@@ -71,13 +71,13 @@
       ],
       "author": [
         {
-          "@id": "#56886596-d454-4d02-bc89-469c22ebb791"
+          "@id": "#30d00904-66d3-4d52-9cad-0e89849bf02e"
         },
         {
           "@id": "#cfc758f0-3216-4586-ab04-5ad5d32b0ada"
         },
         {
-          "@id": "#4b4ad1c9-c43b-44f9-b7f7-4a9bce248b31"
+          "@id": "#e0636f2d-8b6f-4154-8612-2ae8b03bcd24"
         }
       ],
       "citation": [],
@@ -106,20 +106,7 @@
       ]
     },
     {
-      "@id": "#4b4ad1c9-c43b-44f9-b7f7-4a9bce248b31",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
-        }
-      ],
-      "email": "knapp@pharmchem.uni-frankfurt.de",
-      "name": "Stefan Knapp"
-    },
-    {
-      "@id": "#56886596-d454-4d02-bc89-469c22ebb791",
+      "@id": "#30d00904-66d3-4d52-9cad-0e89849bf02e",
       "@type": [
         "Person"
       ],
@@ -143,6 +130,19 @@
       ],
       "email": "susanne.mueller-knapp@bmls.de",
       "name": "Susanne Müller"
+    },
+    {
+      "@id": "#e0636f2d-8b6f-4154-8612-2ae8b03bcd24",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
+        }
+      ],
+      "email": "knapp@pharmchem.uni-frankfurt.de",
+      "name": "Stefan Knapp"
     },
     {
       "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf",

@@ -71,10 +71,10 @@
           "@id": "https://orcid.org/0000-0003-2281-5780"
         },
         {
-          "@id": "#fe88cfdc-3ceb-4b4e-a2b1-5dbdab8f9ce2"
+          "@id": "#2b0523ca-e679-4a68-8ffd-23465807c234"
         },
         {
-          "@id": "#3328b7fb-f088-4019-b4c6-4c454fb9f315"
+          "@id": "#4a756021-07d2-4cbd-a051-c4cda4c130a8"
         }
       ],
       "citation": [],
@@ -102,20 +102,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#3328b7fb-f088-4019-b4c6-4c454fb9f315",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#ca302015-6cbb-45be-9cb4-4d7b965ba72a"
-        }
-      ],
-      "email": "n.f.de_miranda@lumc.nl",
-      "name": "Noel de Miranda"
-    },
-    {
-      "@id": "#fe88cfdc-3ceb-4b4e-a2b1-5dbdab8f9ce2",
+      "@id": "#2b0523ca-e679-4a68-8ffd-23465807c234",
       "@type": [
         "Person"
       ],
@@ -126,6 +113,19 @@
       ],
       "email": "j.v.m.g.bovee@lumc.nl",
       "name": "Judith Bovee"
+    },
+    {
+      "@id": "#4a756021-07d2-4cbd-a051-c4cda4c130a8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#ca302015-6cbb-45be-9cb4-4d7b965ba72a"
+        }
+      ],
+      "email": "n.f.de_miranda@lumc.nl",
+      "name": "Noel de Miranda"
     },
     {
       "@id": "https://orcid.org/0000-0003-2281-5780",

@@ -84,10 +84,10 @@
           "@id": "#e1694470-3bbe-45b8-80dc-4f7c9fde06b1"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [

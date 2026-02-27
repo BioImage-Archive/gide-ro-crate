@@ -86,7 +86,7 @@
           "@id": "#195757d1-430f-4a79-b6d7-7d2d215f8045"
         },
         {
-          "@id": "#bceb084b-8c87-4737-ad16-8871f4ebe8b9"
+          "@id": "#0cdc0b55-df90-429b-9617-e08ace48c55c"
         },
         {
           "@id": "#56b65ec6-4597-44ca-a7cf-743a40eff446"
@@ -95,7 +95,7 @@
           "@id": "#41a4f52c-d2f1-4d54-820e-260276f55b64"
         },
         {
-          "@id": "#ab343861-ca82-40a3-8fce-2392dc2c941c"
+          "@id": "#33c3d249-022c-4d76-8a1f-6403b0f9d206"
         }
       ],
       "citation": [],
@@ -124,6 +124,19 @@
       "thumbnailUrl": []
     },
     {
+      "@id": "#0cdc0b55-df90-429b-9617-e08ace48c55c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "yashna.thappeta@gmail.com",
+      "name": "Yashna Thappeta"
+    },
+    {
       "@id": "#195757d1-430f-4a79-b6d7-7d2d215f8045",
       "@type": [
         "Person"
@@ -148,6 +161,19 @@
       ],
       "email": "eamueller33@gmail.com",
       "name": "Elizabeth A. Mueller"
+    },
+    {
+      "@id": "#33c3d249-022c-4d76-8a1f-6403b0f9d206",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "jacobs-wagner@stanford.edu",
+      "name": "Christine Jacobs-Wagner"
     },
     {
       "@id": "#41a4f52c-d2f1-4d54-820e-260276f55b64",
@@ -187,32 +213,6 @@
       ],
       "email": "c.takacs@northeastern.edu",
       "name": "Constantin N. Takacs"
-    },
-    {
-      "@id": "#ab343861-ca82-40a3-8fce-2392dc2c941c",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
-        }
-      ],
-      "email": "jacobs-wagner@stanford.edu",
-      "name": "Christine Jacobs-Wagner"
-    },
-    {
-      "@id": "#bceb084b-8c87-4737-ad16-8871f4ebe8b9",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
-        }
-      ],
-      "email": "yashna.thappeta@gmail.com",
-      "name": "Yashna Thappeta"
     },
     {
       "@id": "#d5e633d5-aaa9-40a6-a196-f11f4ff197ea",

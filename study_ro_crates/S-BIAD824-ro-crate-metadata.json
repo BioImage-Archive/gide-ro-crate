@@ -58,10 +58,10 @@
           "@id": "#d6da3d5b-e364-427d-aa47-29580976830e"
         },
         {
-          "@id": "obo:FBbi_00000245"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000245"
         },
         {
           "@id": "obo:FBbi_00000240"
@@ -117,31 +117,22 @@
           "@id": "#38b60910-16da-4b56-a456-d928f2db370f"
         },
         {
-          "@id": "obo:NCBITaxon_122620"
-        },
-        {
-          "@id": "obo:NCBITaxon_122635"
-        },
-        {
           "@id": "obo:NCBITaxon_2779757"
         },
         {
-          "@id": "obo:NCBITaxon_122646"
-        },
-        {
-          "@id": "obo:NCBITaxon_2779758"
-        },
-        {
-          "@id": "obo:NCBITaxon_122636"
-        },
-        {
-          "@id": "obo:NCBITaxon_179045"
+          "@id": "obo:NCBITaxon_1914413"
         },
         {
           "@id": "obo:NCBITaxon_3108177"
         },
         {
-          "@id": "obo:NCBITaxon_37395"
+          "@id": "obo:NCBITaxon_122646"
+        },
+        {
+          "@id": "obo:NCBITaxon_122620"
+        },
+        {
+          "@id": "obo:NCBITaxon_2779758"
         },
         {
           "@id": "obo:NCBITaxon_71659"
@@ -150,10 +141,19 @@
           "@id": "obo:NCBITaxon_122615"
         },
         {
+          "@id": "obo:NCBITaxon_122636"
+        },
+        {
+          "@id": "obo:NCBITaxon_122635"
+        },
+        {
+          "@id": "obo:NCBITaxon_37395"
+        },
+        {
           "@id": "obo:NCBITaxon_122639"
         },
         {
-          "@id": "obo:NCBITaxon_1914413"
+          "@id": "obo:NCBITaxon_179045"
         }
       ],
       "author": [

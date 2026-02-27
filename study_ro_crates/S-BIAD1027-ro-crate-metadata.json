@@ -75,6 +75,9 @@
         },
         {
           "@id": "#f779b911-5b5d-4076-b09a-889fe2c97860"
+        },
+        {
+          "@id": "#c9372b08-3801-49e9-b6d3-2d592ffbb97c"
         }
       ],
       "citation": [],
@@ -105,6 +108,19 @@
       ]
     },
     {
+      "@id": "#c9372b08-3801-49e9-b6d3-2d592ffbb97c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#cb6ed0f4-2e64-45ef-b323-040ba0bac589"
+        }
+      ],
+      "email": "daniel.dickinson@austin.utexas.edu",
+      "name": "Daniel Dickinson "
+    },
+    {
       "@id": "#f779b911-5b5d-4076-b09a-889fe2c97860",
       "@type": [
         "Person"
@@ -127,14 +143,8 @@
           "@id": "#cb6ed0f4-2e64-45ef-b323-040ba0bac589"
         }
       ],
-      "email": [
-        "nimanzi@utexas.edu",
-        "daniel.dickinson@austin.utexas.edu"
-      ],
-      "name": [
-        "Nadia Manzi",
-        "Daniel Dickinson "
-      ]
+      "email": "nimanzi@utexas.edu",
+      "name": "Nadia Manzi"
     },
     {
       "@id": "#cb6ed0f4-2e64-45ef-b323-040ba0bac589",

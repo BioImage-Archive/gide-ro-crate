@@ -71,7 +71,7 @@
       ],
       "author": [
         {
-          "@id": "#396cec93-2e8b-477f-aa66-2c76545d0b17"
+          "@id": "#4c0ba076-89fb-4ef9-8c5e-1b91ff0b61d6"
         },
         {
           "@id": "#0b751b8a-714e-4ddd-977e-401364d5dd0f"
@@ -169,19 +169,6 @@
       "name": "KyungMok Kim"
     },
     {
-      "@id": "#396cec93-2e8b-477f-aa66-2c76545d0b17",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#35e20511-769a-4e57-8d91-71943eaa309e"
-        }
-      ],
-      "email": "bjoern.voneyss@leibniz-fli.de",
-      "name": "Bjoern von Eyss"
-    },
-    {
       "@id": "#3b8e13d6-91fd-4f8d-bbd1-8e00c2b22f54",
       "@type": [
         "Person"
@@ -192,6 +179,19 @@
         }
       ],
       "name": "Christin Ritter"
+    },
+    {
+      "@id": "#4c0ba076-89fb-4ef9-8c5e-1b91ff0b61d6",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#35e20511-769a-4e57-8d91-71943eaa309e"
+        }
+      ],
+      "email": "bjoern.voneyss@leibniz-fli.de",
+      "name": "Bjoern von Eyss"
     },
     {
       "@id": "#92fcf5df-30ad-457e-a30a-7774adb1b7a2",

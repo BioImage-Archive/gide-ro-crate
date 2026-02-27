@@ -64,19 +64,19 @@
           "@id": "#d7a7936b-a16b-4a6d-add3-4e2c34c81cf3"
         },
         {
+          "@id": "obo:FBbi_00000243"
+        },
+        {
           "@id": "obo:FBbi_00000247"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000249"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000253"
-        },
-        {
-          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -101,7 +101,7 @@
           "@id": "https://orcid.org/0000-0002-1562-6343"
         },
         {
-          "@id": "#eb023cd2-d8ab-4a06-8df9-945b3f3fa03c"
+          "@id": "#ffb8d93d-131d-40ac-83f7-b78a814c8c16"
         },
         {
           "@id": "https://orcid.org/0000-0001-8759-1170"
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "@id": "#eb023cd2-d8ab-4a06-8df9-945b3f3fa03c",
+      "@id": "#ffb8d93d-131d-40ac-83f7-b78a814c8c16",
       "@type": [
         "Person"
       ],

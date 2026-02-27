@@ -64,10 +64,10 @@
           "@id": "#030781d0-c43b-4530-8b0d-8d737bd5ee1b"
         },
         {
-          "@id": "obo:FBbi_00050000"
+          "@id": "obo:FBbi_00000256"
         },
         {
-          "@id": "obo:FBbi_00000256"
+          "@id": "obo:FBbi_00050000"
         }
       ],
       "about": [
@@ -99,10 +99,10 @@
           "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_7227"
+          "@id": "obo:NCBITaxon_10090"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_7227"
         }
       ],
       "author": [

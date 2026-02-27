@@ -71,13 +71,13 @@
       ],
       "author": [
         {
-          "@id": "#53063759-205b-41b8-bc47-0a6bf51c1d27"
+          "@id": "#6648035d-09fd-4200-b3a5-c260586b81f8"
         },
         {
           "@id": "#d281ec86-e79e-4d0b-8408-9e26e88405b7"
         },
         {
-          "@id": "#c6f731d7-16da-4230-b1dd-b2d20f79dd15"
+          "@id": "#06881e06-955b-407f-8221-fb2bc9bd2c54"
         }
       ],
       "citation": [],
@@ -106,20 +106,7 @@
       ]
     },
     {
-      "@id": "#53063759-205b-41b8-bc47-0a6bf51c1d27",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
-        }
-      ],
-      "email": "elson@pharmchem.uni-frankfurt.de",
-      "name": "Lewis Elson"
-    },
-    {
-      "@id": "#c6f731d7-16da-4230-b1dd-b2d20f79dd15",
+      "@id": "#06881e06-955b-407f-8221-fb2bc9bd2c54",
       "@type": [
         "Person"
       ],
@@ -130,6 +117,19 @@
       ],
       "email": "Knapp@pharmchem.uni-frankfurt.de",
       "name": "Stefan Knapp"
+    },
+    {
+      "@id": "#6648035d-09fd-4200-b3a5-c260586b81f8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
+        }
+      ],
+      "email": "elson@pharmchem.uni-frankfurt.de",
+      "name": "Lewis Elson"
     },
     {
       "@id": "#d281ec86-e79e-4d0b-8408-9e26e88405b7",

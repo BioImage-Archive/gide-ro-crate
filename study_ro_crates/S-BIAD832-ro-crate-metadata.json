@@ -58,13 +58,13 @@
           "@id": "#bc651c6d-f6ea-4341-bfbd-6ce43849eeca"
         },
         {
-          "@id": "obo:FBbi_00000256"
-        },
-        {
           "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000251"
+        },
+        {
+          "@id": "obo:FBbi_00000256"
         }
       ],
       "about": [

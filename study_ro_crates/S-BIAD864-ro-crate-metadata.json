@@ -75,6 +75,9 @@
         },
         {
           "@id": "https://orcid.org/0000-0002-9821-3578"
+        },
+        {
+          "@id": "#220c6074-5034-416d-b525-a5eb59a0ab7a"
         }
       ],
       "citation": [],
@@ -102,6 +105,19 @@
         }
       ],
       "thumbnailUrl": []
+    },
+    {
+      "@id": "#220c6074-5034-416d-b525-a5eb59a0ab7a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
+        }
+      ],
+      "email": "heilemann@chemie.uni-frankfurt.de",
+      "name": "Mike Heilemann"
     },
     {
       "@id": "#ad783e2d-3ce1-40ad-98e2-a0b5481de3e8",
@@ -138,14 +154,8 @@
           "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf"
         }
       ],
-      "email": [
-        "dietz@chemie.uni-frankfurt.de",
-        "heilemann@chemie.uni-frankfurt.de"
-      ],
-      "name": [
-        "Marina S. Dietz",
-        "Mike Heilemann"
-      ]
+      "email": "dietz@chemie.uni-frankfurt.de",
+      "name": "Marina S. Dietz"
     },
     {
       "@id": "#3087fced-eb89-461a-8b3a-33a92f32fdcf",

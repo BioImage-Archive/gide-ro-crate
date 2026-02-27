@@ -107,7 +107,7 @@
           "@id": "#a81bf871-5201-4b34-a0f8-91b85de5030a"
         },
         {
-          "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac"
+          "@id": "#2b5c53c3-d986-4bde-ad3c-47e18986ec77"
         }
       ],
       "citation": [],
@@ -154,6 +154,19 @@
       "name": "Wei-Hsiang Lin"
     },
     {
+      "@id": "#2b5c53c3-d986-4bde-ad3c-47e18986ec77",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5525fe78-0df3-4a00-8b3c-45273bd8c01c"
+        }
+      ],
+      "email": "jacobs-wagner@stanford.edu",
+      "name": "Christine Jacobs-Wagner"
+    },
+    {
       "@id": "#4beac8bd-23ff-4f15-a76c-8db00eff6b00",
       "@type": [
         "Person"
@@ -178,19 +191,6 @@
       ],
       "email": "sander.govers@kuleuven.be",
       "name": "Sander Govers"
-    },
-    {
-      "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#5525fe78-0df3-4a00-8b3c-45273bd8c01c"
-        }
-      ],
-      "email": "jacobs-wagner@stanford.edu",
-      "name": "Christine Jacobs-Wagner"
     },
     {
       "@id": "#99993c6c-75e2-44ac-86fb-ec0eae926da8",

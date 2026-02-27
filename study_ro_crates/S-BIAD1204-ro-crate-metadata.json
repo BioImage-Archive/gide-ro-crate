@@ -87,7 +87,7 @@
           "@id": "#3b39a989-b4d8-41c3-b1ec-12cdcf718029"
         },
         {
-          "@id": "obo:NCBITaxon_53011"
+          "@id": "obo:NCBITaxon_95766"
         },
         {
           "@id": "obo:NCBITaxon_53008"
@@ -96,16 +96,16 @@
           "@id": "obo:NCBITaxon_115594"
         },
         {
-          "@id": "obo:NCBITaxon_184650"
+          "@id": "obo:NCBITaxon_53011"
         },
         {
           "@id": "obo:NCBITaxon_53005"
         },
         {
-          "@id": "obo:NCBITaxon_2998295"
+          "@id": "obo:NCBITaxon_184650"
         },
         {
-          "@id": "obo:NCBITaxon_95766"
+          "@id": "obo:NCBITaxon_2998295"
         }
       ],
       "author": [

@@ -74,13 +74,13 @@
           "@id": "#ae49a943-771f-4ae1-9aa7-dcc34c47c41f"
         },
         {
-          "@id": "#9440d6ff-171f-409b-bb2b-07a3d3493266"
+          "@id": "#bdefa6e6-3178-4c55-a4c8-d668dca73965"
         },
         {
-          "@id": "#ec92a251-1894-4def-bbe4-48dd9daedbb5"
+          "@id": "#bf36dc13-3c38-4f42-b8fb-21c814791c1d"
         },
         {
-          "@id": "#8a5ad50b-e7b1-41ac-8b68-c2f226d05d50"
+          "@id": "#65691a0c-d827-437e-8060-9c995634664b"
         },
         {
           "@id": "#54ed8e39-d864-4801-9f0f-769e54cbc128"
@@ -89,7 +89,7 @@
           "@id": "#3bf76e0f-2886-41d0-a8e7-37fe041285f0"
         },
         {
-          "@id": "#6cb0c4b9-e20c-4945-b388-0d0acb43d0be"
+          "@id": "#122b98ee-a019-4c8e-a78d-c068fe43818e"
         }
       ],
       "citation": [],
@@ -129,6 +129,18 @@
       ]
     },
     {
+      "@id": "#122b98ee-a019-4c8e-a78d-c068fe43818e",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#fb6f44ea-8cfe-48cb-b104-9f73cd54c18b"
+        }
+      ],
+      "name": "Bradley T. Hyman"
+    },
+    {
       "@id": "#3bf76e0f-2886-41d0-a8e7-37fe041285f0",
       "@type": [
         "Person"
@@ -153,19 +165,7 @@
       "name": "Douglas S. Richardson"
     },
     {
-      "@id": "#6cb0c4b9-e20c-4945-b388-0d0acb43d0be",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#fb6f44ea-8cfe-48cb-b104-9f73cd54c18b"
-        }
-      ],
-      "name": "Bradley T. Hyman"
-    },
-    {
-      "@id": "#8a5ad50b-e7b1-41ac-8b68-c2f226d05d50",
+      "@id": "#65691a0c-d827-437e-8060-9c995634664b",
       "@type": [
         "Person"
       ],
@@ -175,18 +175,6 @@
         }
       ],
       "name": "Zachary Hoglund"
-    },
-    {
-      "@id": "#9440d6ff-171f-409b-bb2b-07a3d3493266",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#4feafd40-08cd-4786-823c-f0d5e67791db"
-        }
-      ],
-      "name": "Benjamin Woost"
     },
     {
       "@id": "#ae49a943-771f-4ae1-9aa7-dcc34c47c41f",
@@ -202,7 +190,19 @@
       "name": "Theodore J. Zwang"
     },
     {
-      "@id": "#ec92a251-1894-4def-bbe4-48dd9daedbb5",
+      "@id": "#bdefa6e6-3178-4c55-a4c8-d668dca73965",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#4feafd40-08cd-4786-823c-f0d5e67791db"
+        }
+      ],
+      "name": "Benjamin Woost"
+    },
+    {
+      "@id": "#bf36dc13-3c38-4f42-b8fb-21c814791c1d",
       "@type": [
         "Person"
       ],

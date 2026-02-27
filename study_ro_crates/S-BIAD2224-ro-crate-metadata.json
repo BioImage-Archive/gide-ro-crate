@@ -116,6 +116,9 @@
           "@id": "https://orcid.org/0000-0002-3111-4006"
         },
         {
+          "@id": "#b3c0bcf9-d069-4c5b-90a8-6270408c508f"
+        },
+        {
           "@id": "https://orcid.org/0000-0002-7863-9619"
         },
         {
@@ -153,6 +156,19 @@
       "thumbnailUrl": []
     },
     {
+      "@id": "#b3c0bcf9-d069-4c5b-90a8-6270408c508f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05cy4wa09"
+        }
+      ],
+      "email": "cm18@sanger.ac.uk",
+      "name": "Cecilia Icoresi-Mazzeo"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-3111-4006",
       "@type": [
         "Person"
@@ -162,14 +178,8 @@
           "@id": "https://ror.org/05cy4wa09"
         }
       ],
-      "email": [
-        "vl6@sanger.ac.uk",
-        "cm18@sanger.ac.uk"
-      ],
-      "name": [
-        "Valentina Lorenzi",
-        "Cecilia Icoresi-Mazzeo"
-      ]
+      "email": "vl6@sanger.ac.uk",
+      "name": "Valentina Lorenzi"
     },
     {
       "@id": "https://orcid.org/0000-0002-7863-9619",

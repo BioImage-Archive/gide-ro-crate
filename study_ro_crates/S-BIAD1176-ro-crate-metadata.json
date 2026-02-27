@@ -86,10 +86,10 @@
           "@id": "#49baad05-3778-4f34-bf48-ef9d7117fe1e"
         },
         {
-          "@id": "#cc636a2a-7c94-4547-b58f-4056ce9bcca0"
+          "@id": "#436c06f1-03e2-45fe-acb6-b107fe910bde"
         },
         {
-          "@id": "#90e35895-22d8-414e-9683-bc3eca37eda6"
+          "@id": "#e1a61520-fc43-47b5-80bb-bf0447e79653"
         }
       ],
       "citation": [],
@@ -121,6 +121,19 @@
       ]
     },
     {
+      "@id": "#436c06f1-03e2-45fe-acb6-b107fe910bde",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#38da569e-f601-4204-ae9c-8c352ae2d54d"
+        }
+      ],
+      "email": "ofra.golani@weizmann.ac.il",
+      "name": "Ofra Golani"
+    },
+    {
       "@id": "#49baad05-3778-4f34-bf48-ef9d7117fe1e",
       "@type": [
         "Person"
@@ -147,7 +160,7 @@
       "name": "Mariya Mardamshina"
     },
     {
-      "@id": "#90e35895-22d8-414e-9683-bc3eca37eda6",
+      "@id": "#e1a61520-fc43-47b5-80bb-bf0447e79653",
       "@type": [
         "Person"
       ],
@@ -158,19 +171,6 @@
       ],
       "email": "tami.geiger@weizmann.ac.il",
       "name": "Tamar Geiger"
-    },
-    {
-      "@id": "#cc636a2a-7c94-4547-b58f-4056ce9bcca0",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#38da569e-f601-4204-ae9c-8c352ae2d54d"
-        }
-      ],
-      "email": "ofra.golani@weizmann.ac.il",
-      "name": "Ofra Golani"
     },
     {
       "@id": "https://orcid.org/0000-0002-0008-5513",
