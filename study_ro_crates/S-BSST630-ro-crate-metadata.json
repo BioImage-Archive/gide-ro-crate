@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST630-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST630"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST630",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-2081-1743"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-04-15",
+      "description": "U-2 OS knock-in cells were genereated using CRISPR to express CRY1 and/or PER2 fused to either mScarlet-I or mClover3 from the endogenous promoter. Cells were synchronized with dexamethasone and imaged for 71h with an sampling interval of 1/h, starting 2 h after synchronization. Files are .nd2 and contain 3 channels: (1)RFP channel, (2)YFP channel, (3) DIC channel. All files are stacks with 71 timepoints. nd2 file image stacks can be opened using the freeware Fiji/ImageJ, but also contain alot of metadata. For each cell line, 10 imaging regions are provided.\nThe cells identifiers are as follows: 42c5: CRY1-mClover3, 44c5: CRY1-mScarlet-I, 56c1: PER2-mClover3. 58b59: PER2-mScarlet-I. 80c16: CRY1-mClover3/PER2-mScarlet-I.\nAdditionally, 4 imagiong areas without cells are provided, which were used to estmimate and subtract dynamic background fluorescence signals. \nFor the Manuscript ~ 130 cells were tracked in imageJ. Each onject track was saved as a zip file, which can be loaded into the object manager of imageJ. A zip file containing all tracks is provided here.\nData of those cells were extracted, background subtracted and trend-eliminated. The reulting values for these single cell time series are provided as an Excel file. \nMore information on data acquisition and analysis can be found in the manuscript (doi provided after final publication)",
+      "funder": [],
+      "identifier": "S-BSST630",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Circadian time series of dexamethasone synchronized U-2 OS knock-in cell expressing fluorescent fusion proteins of CRY1 and/or PER2 ",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2081-1743",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8d745edc-979b-43d3-810a-e2b1311fef09"
+        }
+      ],
+      "email": "christian.gabriel@charite.de",
+      "name": "Christian Gabriel"
+    },
+    {
+      "@id": "#8d745edc-979b-43d3-810a-e2b1311fef09",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Charite Universitätsmedizin Berlin"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 56
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 96331427728
+    }
+  ]
+}

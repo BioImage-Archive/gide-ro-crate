@@ -1,0 +1,240 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1065-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1065"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1065",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#ffde3c44-01d5-4458-bf4c-468370a2b479"
+        },
+        {
+          "@id": "#6c99963b-1cf7-4e98-babf-ca99f2f196fc"
+        },
+        {
+          "@id": "#8b2e7795-5ff1-4a3a-8b70-f11b157cbf0d"
+        },
+        {
+          "@id": "#eb2de27e-c337-4b5d-a774-a88cc65f12db"
+        },
+        {
+          "@id": "#fb3df91c-531f-4635-b569-54500cfadfa4"
+        },
+        {
+          "@id": "#38fc8cd5-70e0-4852-8c3b-2b517d1c95ef"
+        },
+        {
+          "@id": "#d4b31a1c-38d6-4bd2-99ab-9bff1a95fa45"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-04-12",
+      "description": "Here we used a nanomotion detection method based on optical microscopy for testing bacterial viability. This novel technique only requires a very basic microfluidic analysis chamber, and a optical microscope equipped with a camera or a mobile phone. No attachment of the microorganisms is needed, nor are specific bacterial stains or markers. This single-cell technique was successfully tested to obtain AST for motile, non-motile, gram-positive and -negative bacteria. The simplicity and efficiency of the method make it a game-changer in the field of rapid AST.",
+      "funder": [],
+      "identifier": "S-BSST1065",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Simple optical nanomotion method for single-bacterium viability and antibiotic response testing",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#38fc8cd5-70e0-4852-8c3b-2b517d1c95ef",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1f5ac860-754a-4d32-8633-a8bf09ba9a86"
+        }
+      ],
+      "email": "Ronnie.Willaert@vub.be",
+      "name": "Ronnie Willaert"
+    },
+    {
+      "@id": "#6c99963b-1cf7-4e98-babf-ca99f2f196fc",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5b0e5c5b-cdc2-422e-8462-d05b8912df3f"
+        }
+      ],
+      "email": "eugenia.rossetti@unil.ch",
+      "name": "Eugenia Rossetti"
+    },
+    {
+      "@id": "#8b2e7795-5ff1-4a3a-8b70-f11b157cbf0d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5b0e5c5b-cdc2-422e-8462-d05b8912df3f"
+        }
+      ],
+      "email": "Ronnie.Willaert@vub.be",
+      "name": "Allan Bonvallat"
+    },
+    {
+      "@id": "#d4b31a1c-38d6-4bd2-99ab-9bff1a95fa45",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bea5a0d1-3627-4fae-a373-4e6e4ecc6164"
+        }
+      ],
+      "email": "sandor.kasas@epfl.ch",
+      "name": "Sandor Kasas"
+    },
+    {
+      "@id": "#eb2de27e-c337-4b5d-a774-a88cc65f12db",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1f5ac860-754a-4d32-8633-a8bf09ba9a86"
+        }
+      ],
+      "email": "Ronnie.Willaert@vub.be",
+      "name": "Charlotte Yvanoff"
+    },
+    {
+      "@id": "#fb3df91c-531f-4635-b569-54500cfadfa4",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1f5ac860-754a-4d32-8633-a8bf09ba9a86"
+        }
+      ],
+      "email": "Ronnie.Willaert@vub.be",
+      "name": "Vjera Radonicic"
+    },
+    {
+      "@id": "#ffde3c44-01d5-4458-bf4c-468370a2b479",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bea5a0d1-3627-4fae-a373-4e6e4ecc6164"
+        }
+      ],
+      "email": "ines.villalba@epfl.ch",
+      "name": "Maria Ines Villalba"
+    },
+    {
+      "@id": "#1f5ac860-754a-4d32-8633-a8bf09ba9a86",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Vrije Universiteit Brussel"
+    },
+    {
+      "@id": "#5b0e5c5b-cdc2-422e-8462-d05b8912df3f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Lausanne"
+    },
+    {
+      "@id": "#bea5a0d1-3627-4fae-a373-4e6e4ecc6164",
+      "@type": [
+        "Organization"
+      ],
+      "name": "École Polytechnique Fédérale de Lausanne"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 16
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 4661883952
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST266-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST266"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST266",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-0002-0012"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-07-08",
+      "description": "Tau is an intrinsically-disordered protein, which diffuses on microtubules1. In neurodegenerative diseases, collectively termed tauopathies, tau malfunction and its detachment from axonal microtubules is correlated with microtubule degradation2. It is known that tau can protect microtubules from microtubule-degrading enzymes, such as katanin3. However, how tau can fulfill such regulative function is still unclear. Using in vitro reconstitution, we here show that on microtubules tau molecules cooperatively form cohesive islands kinetically distinct from tau molecules individually diffusing on microtubules. Dependent on the tau concentration in solution, the islands reversibly grow or shrink by addition or release of tau molecules at their boundaries. Shielding microtubules from kinesin-1 motors and katanin, the islands exhibit regulatory qualities distinct from a comparably dense layer of diffusible tau. Super-processive kinesin-8 motors penetrate the islands and cause their disassembly. Our results reveal a microtubule-dependent phase of tau that constitutes an adaptable protective layer on the microtubule surface. We anticipate other intrinsically-disordered axonal proteins to display a similar cooperative behavior and potentially compete with tau in regulating access to the microtubule surface.",
+      "funder": [],
+      "identifier": "S-BSST266",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Kinetically distinct phases of tau on microtubules regulate kinesin motors and severing enzymes",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0002-0012",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#d540c2e4-8d6b-436f-aa5b-d0e702a0c317"
+        }
+      ],
+      "email": "jochen.krattenmacher@ibt.cas.cz",
+      "name": "Jochen Krattenmacher"
+    },
+    {
+      "@id": "#d540c2e4-8d6b-436f-aa5b-d0e702a0c317",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BIOCEV Prague"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 20
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 11168007404
+    }
+  ]
+}

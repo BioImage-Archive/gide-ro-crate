@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST263-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST263"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST263",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-6863-2950"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-06-21",
+      "description": "Supporting CellProfiler image analysis pipeline for enumerating total cell counts and T-cell (CD3) counts in sheep intestinal tissue from laser scanning confocal micrographs.\n\nPlease see the publication - \nGastrointestinal nematode infections are associated with significantly expanded populations of potential pathobionts and high T cell infiltration in livestock species.\nfor full information. \n\nDescription of the quantitative method:\nAutomated, in situ cell counting was performed using the freely available CellProfiler 2.2.0 software (www.CellProfiler.org). Example raw image data from the confocal microscope, alongside the CellProfiler pipeline are available for direct download here. \n\nImage channels:\nChannel 0 = anti-CD3 (T lymphocyte marker)\nChannel 1 = TO-PRO?-3 iodide  (nuclear marker)\nChannel 3 = Transmitted light image\n\nThe CellProfiler pipeline takes image data loaded directly from the raw Leica microscope .LIF files. The images were then thresholded on the basis of tissue-matched serial cryostat sections exposed to the secondary antibody alone (i.e., secondary-only controls). A mask of the nuclei in each image was then created to define the region of each field-of-view that contained mucosal tissue (i.e., to avoid illumination correction calculation on ?blank? regions of the image). For the tissue-occupied region, an illumination correction function was calculated to compensate for any unevenness in illumination resulting from tissue section curvature relative to the optical section of the confocal. Once calculated, this function was used to correct both the nuclei (i.e., TO-PRO?-3 iodide) and CD3 (i.e., AlexaFluor? 488) images. The TO-PRO?-3 iodide image was then intensity rescaled prior to segmentation of each nuclei using ?IdentifyPrimaryObjects? module. Each nuclei-object was then dilated 5 pixels to create an integration contour wide enough from the parent nucleus to capture any associated CD3 staining. The size and shape of each cell-object defined by the integration contour was then measured, as well as the per-object fluorescence intensity in every channel. Data were exported as MATLAB objects. As is recommended practice for image based cell profiling, cell objects outside the 5th and 95th percentiles by size were discarded prior to determining T lymphocyte counts on the basis of integrated, per-cell fluorescence intensities with values greater than those observed in tissue-matched, isotype control images (i.e., as per flow cytometry). \n\n",
+      "funder": [],
+      "identifier": "S-BSST263",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Supporting Files for: Gastrointestinal nematode infections are associated with significantly expanded populations of potential pathobionts and high T cell infiltration in livestock species",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6863-2950",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#940c5db9-f6a5-47ba-8e12-659dac275555"
+        }
+      ],
+      "email": "cc779@cam.ac.uk",
+      "name": "Dr Cinzia Cantacessi"
+    },
+    {
+      "@id": "#940c5db9-f6a5-47ba-8e12-659dac275555",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Cambridge"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 2
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 50677825
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST244-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST244"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST244",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#c99f8bb6-52fb-45e6-8dd7-f89e4e1acb36"
+        },
+        {
+          "@id": "#263f5c9c-5a92-47a4-93fa-a8608e6be783"
+        },
+        {
+          "@id": "#deb39ee9-7d13-42fd-bae7-7338cb5a1abf"
+        },
+        {
+          "@id": "#2eba6c43-dcdc-4124-af34-ee2ab8d550c3"
+        },
+        {
+          "@id": "#8e9b1d35-31f6-4845-9912-dd485ba1862a"
+        },
+        {
+          "@id": "#76f2af80-f09a-4484-8735-804f4d9f882d"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-03-22",
+      "description": "Bacteria occupy heterogeneous environments, attaching and growing within pores in materials, living hosts, and matrices like soil. Systems that permit high-resolution visualization of dynamic bacterial processes within the physical confines of a realistic and tractable porous media environment are rare. Here we use microfluidics to replicate the grain shape and packing density of natural sands in a 2D platform to study the flow-induced spatial evolution of bacterial biofilms underground. We introduce a wildtype strain (Pantoea sp. YR343, n=3)  or an EPS-defective strain (Pantoea sp. YR343 ΔUDP, n=3) to the porous media platform and then simulate a rainfall event using gravity-driven flow of bacterial growth media.",
+      "funder": [],
+      "identifier": "S-BSST244",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Supplementary Dataset for \"Pore-scale hydrodynamics influence the spatial evolution of bacterial biofilms in a microfluidic porous network\"",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#263f5c9c-5a92-47a4-93fa-a8608e6be783",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "fowlkesjd@ornl.gov",
+      "name": "Jason Fowlkes"
+    },
+    {
+      "@id": "#2eba6c43-dcdc-4124-af34-ee2ab8d550c3",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "morrelljl1@ornl.gov",
+      "name": "Jennifer Morrell-Falvey"
+    },
+    {
+      "@id": "#76f2af80-f09a-4484-8735-804f4d9f882d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "rettererst@ornl.gov",
+      "name": "Scott Retterer"
+    },
+    {
+      "@id": "#8e9b1d35-31f6-4845-9912-dd485ba1862a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "doktyczmj@ornl.gov",
+      "name": "Mitchel Doktycz"
+    },
+    {
+      "@id": "#c99f8bb6-52fb-45e6-8dd7-f89e4e1acb36",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "aufrechtja@ornl.gov",
+      "name": "Jayde Aufrecht"
+    },
+    {
+      "@id": "#deb39ee9-7d13-42fd-bae7-7338cb5a1abf",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f"
+        }
+      ],
+      "email": "biblean@ornl.gov",
+      "name": "Amber N. Bible"
+    },
+    {
+      "@id": "#284aba98-8723-4fb8-8858-2f86b4d8546f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Oak Ridge National Laboratory"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 6
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 3581979212
+    }
+  ]
+}

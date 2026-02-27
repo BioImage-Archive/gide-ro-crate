@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST577-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST577"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST577",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-4764-3639"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-01-13",
+      "description": "A hallmark of microbial biofilms is the self-production of extracellular matrix that encases the cells resident within the community. The matrix provides protection from the environment, while spatial heterogeneity of expression influences the structural morphology and colony spreading dynamics. Bacillus subtilis is a model bacterial system used to uncover the regulatory pathways and key building blocks required for biofilm growth and development. Previous reports have suggested that poly-?-glutamic acid (PGA) production is suppressed during biofilm formation and does not play a major role in biofilm morphology of the undomesticated isolate NCIB 3610. In this work we report on the observation of multiple travelling fronts that develop during the early stage of B. subtilis colony biofilm formation. We find the emergence of a highly motile population of bacteria that is facilitated by the extraction of fluid from the underlying agar substrate. Motility develops behind a moving front of fluid that propagates from the boundary of the biofilm towards the interior. The extent of proliferation is strongly modulated by the presence of extracellular polysaccharides (EPS). We trace the origin of this moving front of fluid to the production of PGA. We find that PGA production is correlated with higher temperatures, resulting in a mature biofilm morphology that is distinct from the biofilm architecture typically associated with B. subtilis. Our results suggest that B. subtilis NCIB 3610 produces distinct biofilm matrices in response to environmental conditions.",
+      "funder": [],
+      "identifier": "S-BSST577",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Density and temperature controlled fluid extraction in a bacterial biofilm is determined by\npoly-?-glutamic acid production",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4764-3639",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "ryan.morris@ed.ac.uk",
+      "name": "Ryan Morris"
+    },
+    {
+      "@id": "#de588502-f2ed-4e10-94dc-797256ad666b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Edinburgh"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 4
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 1511547364
+    }
+  ]
+}

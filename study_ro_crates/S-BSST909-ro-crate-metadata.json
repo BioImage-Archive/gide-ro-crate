@@ -1,0 +1,201 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST909-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST909"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST909",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-8234-6176"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9749-1656"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-5204-0723"
+        },
+        {
+          "@id": "#621e4d71-29fd-460c-a1f3-516535848d64"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9087-506X"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-09-29",
+      "description": "Here, we solve the longstanding conundrum—why minichromosome maintenance proteins (MCMs) have never been visualized at DNA replication sites inside a cell—known as the MCM paradox. We showed that upon conversion of inactive MCM double hexamers to active replication forks, multiple MCM interacting partners block the antibody binding sites making the MCM scaffold of active replisome invisible in immunodetection experiments. CRISPR-Cas9 endogenous tagging of MCMs bypasses this steric hindrance and enables MCM visualization at fully assembled active replisomes. In summary, our work explains the MCM paradox, provides important validation of replisome architecture in physiological settings, and paves the way for further investigating replication dynamics in cells.",
+      "funder": [],
+      "identifier": "S-BSST909",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Microscopy data for ‘Solving the MCM paradox by visualizing the scaffold of CMG helicase at active replisomes’",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#621e4d71-29fd-460c-a1f3-516535848d64",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "maj-britt.rask@cpr.ku.dk",
+      "name": "Maj-Britt Rask"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5204-0723",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#396e0a1a-f654-447f-97ac-ed50cd2f7c1b"
+        }
+      ],
+      "email": "krejci@ibp.cz",
+      "name": "Jana Krejci"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8234-6176",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#396e0a1a-f654-447f-97ac-ed50cd2f7c1b"
+        }
+      ],
+      "email": "polasek-sedlackova@ibp.cz",
+      "name": "Hana Polasek-Sedlackova"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9087-506X",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "jiri.lukas@cpr.ku.dk",
+      "name": "Jiri Lukas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9749-1656",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "tmiller@sund.ku.dk",
+      "name": "Thomas C. R. Miller"
+    },
+    {
+      "@id": "#396e0a1a-f654-447f-97ac-ed50cd2f7c1b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Czech Academy of Sciences, Institute of Biophysics"
+    },
+    {
+      "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Copenhagen"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 18
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 51188530259
+    }
+  ]
+}

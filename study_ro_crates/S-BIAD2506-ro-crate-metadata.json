@@ -58,10 +58,10 @@
           "@id": "#b1c004c6-0fa7-4048-8ff7-5fa5796e91c2"
         },
         {
-          "@id": "obo:FBbi_00000247"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000247"
         }
       ],
       "about": [
@@ -80,11 +80,7 @@
       "citation": [],
       "datePublished": "2025-12-15",
       "description": "Microscopy dataset underlying the results presented in the article \"E. coli prepares for starvation by dramatically remodeling its proteome in the first hours after loss of nutrients\".",
-      "funder": [
-        {
-          "@id": "#b4a7b2b6-f61b-48dd-9732-3e7da47348c0"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2506",
       "keywords": [
         "bacteria",
@@ -134,14 +130,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#b4a7b2b6-f61b-48dd-9732-3e7da47348c0",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "310030_197836",
-      "name": "Swiss National Science Foundation"
     },
     {
       "@id": "obo:NCBITaxon_562",

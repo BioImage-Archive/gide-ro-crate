@@ -1,0 +1,209 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST37-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST37"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST37",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#78a82b8d-41b7-4e05-964a-f0bebea7d8b4"
+        },
+        {
+          "@id": "#613a6c22-e6a7-420c-ba1f-15ec24412bfc"
+        },
+        {
+          "@id": "#5d1362f2-1ab9-45c7-89c7-3f8ca6cb7e6a"
+        },
+        {
+          "@id": "#3f9cd97f-a368-4733-b1f1-8d21375ec038"
+        },
+        {
+          "@id": "#c4fa110d-58e1-433b-81ea-93a71d248b7f"
+        },
+        {
+          "@id": "#0db85743-ab52-41e3-bd3c-1953e6ea6481"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2017-09-15",
+      "description": "In this work we present a proof of principle experiment that extends the quantitative power of microfluidic devices and advanced live cell microscopy to the scale of pool generated strain libraries. We achieve this by identifying the genotypes for individual cells in situ after a detailed characterization of the phenotype. The principle is demonstrated by single molecule fluorescence time-lapse imaging of E. coli strains harboring barcoded plasmids that express a sgRNA which suppress different genes in the E. coli genome through dCas9 interference. In general, the method solves the problem of characterizing complex dynamic phenotypes for diverse genetic libraries of cell strains. For example, it allows screens of how changes in regulatory or coding sequences impact the temporal expression, location or function of a gene product; or how the altered expression of a set of genes impact the intracellular dynamics of a labeled reporter. ",
+      "funder": [],
+      "identifier": "S-BSST37",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "In situ genotyping of a pooled strain library after characterizing complex phenotypes.",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#0db85743-ab52-41e3-bd3c-1953e6ea6481",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "name": "Johan Elf"
+    },
+    {
+      "@id": "#3f9cd97f-a368-4733-b1f1-8d21375ec038",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "email": "ozden.baltakin@icm.uu.se",
+      "name": "Ozden Baltekin"
+    },
+    {
+      "@id": "#5d1362f2-1ab9-45c7-89c7-3f8ca6cb7e6a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "email": "jimmy.larrson@icm.uu.se",
+      "name": "Jimmy Larrson"
+    },
+    {
+      "@id": "#613a6c22-e6a7-420c-ba1f-15ec24412bfc",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "email": "daniel.camsund@icm.uu.se",
+      "name": "Daniel Camsund"
+    },
+    {
+      "@id": "#78a82b8d-41b7-4e05-964a-f0bebea7d8b4",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "email": "lawsonjmichael@gmail.com",
+      "name": "Michael J Lawson"
+    },
+    {
+      "@id": "#c4fa110d-58e1-433b-81ea-93a71d248b7f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d"
+        }
+      ],
+      "email": "david.fange@icm.uu.se",
+      "name": "David Fange"
+    },
+    {
+      "@id": "#6c45eb2d-1133-4763-8dc3-f5f3d9179e8d",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Uppsala University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 9
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 27124402888
+    }
+  ]
+}

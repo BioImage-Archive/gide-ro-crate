@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST401-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST401"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST401",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#2b91a0e8-a3f4-4379-a560-3f04b8790a16"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-05-31",
+      "description": "The data set used for developing the segmentation framework consists of 231 embryonic mice HFU volumes which were acquired in utero and in vivo from pregnant mice (10-14.5 days after mating) using a 5-element 40-MHz annular array. The dimensions of the HFU volumes vary from 150 × 161 × 81 to 210 × 281 × 282 voxels and each voxel size is 50 × 50 × 50 ?m. For each of the 231 volumes, manual BV and body segmentations were conducted by trained research assistants using Amira, a commercial software. The data were then randomly split into 185 for training and 46 for testing. Because the proposed segmentation performed accurately, the algorithm was then applied on the remaining unlabeled images and those images with reasonable automatic BV and body segmentation were selected. This process resulted in a total of 552 images with BV and body segmentation: 102 mutant and 440 normal. 6-fold cross validation was used to develop and evaluate the mutant classification algorithm.",
+      "funder": [],
+      "identifier": "S-BSST401",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Ultrasound Mouse embryo Images",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#2b91a0e8-a3f4-4379-a560-3f04b8790a16",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3712daeb-456f-412c-8317-0b33cadd329d"
+        }
+      ],
+      "email": "zq415@nyu.edu",
+      "name": "Ziming Qiu"
+    },
+    {
+      "@id": "#3712daeb-456f-412c-8317-0b33cadd329d",
+      "@type": [
+        "Organization"
+      ],
+      "name": "New York University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 1962457845
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST707-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST707"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST707",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#a3b79b8f-fe5d-44a9-b01f-cfe2c8303f72"
+        },
+        {
+          "@id": "#03805fd2-15a5-42fe-88b8-84c746fe304d"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5703-2922"
+        },
+        {
+          "@id": "#7bf3fdfb-1d67-4840-adad-92cdba4ac486"
+        },
+        {
+          "@id": "#4d341c64-7a76-4ff7-96b5-e6085d3aa9cd"
+        },
+        {
+          "@id": "#bed4fce7-52f8-402d-8e88-3856742c4373"
+        },
+        {
+          "@id": "#3a01671b-6597-4f34-a829-99b40c38b610"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-10-13",
+      "description": "Zeiss Airyscan laser scanning microscopy data of HeLa cells labelled with Hoechst 33342, GFP-TGN46, lysotracker red and mitotracker deep red. The light microscopy data was acquired on formaldehyde-fixed cells, which were then processed for FIB SEM. The FIB SEM data can be found on EMPIAR, entry # EMPIAR-10819.",
+      "funder": [],
+      "identifier": "S-BSST707",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Benchmark Airyscan data matching FIB SEM data deposited on EMPIAR",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#03805fd2-15a5-42fe-88b8-84c746fe304d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#4c98d5ef-dada-480f-9f0e-acad9207279f"
+        }
+      ],
+      "email": "r.laine@ucl.ac.uk",
+      "name": "Romain Laine"
+    },
+    {
+      "@id": "#3a01671b-6597-4f34-a829-99b40c38b610",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "martin.jones@crick.ac.uk",
+      "name": "Martin L Jones"
+    },
+    {
+      "@id": "#4d341c64-7a76-4ff7-96b5-e6085d3aa9cd",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#4c98d5ef-dada-480f-9f0e-acad9207279f"
+        }
+      ],
+      "email": "r.henriques@ucl.ac.uk",
+      "name": "Ricardo Henriques"
+    },
+    {
+      "@id": "#7bf3fdfb-1d67-4840-adad-92cdba4ac486",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "christopher.peddie@crick.ac.uk",
+      "name": "Christopher J Peddie"
+    },
+    {
+      "@id": "#a3b79b8f-fe5d-44a9-b01f-cfe2c8303f72",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "daniel.krentzel@crick.ac.uk",
+      "name": "Daniel Krentzel"
+    },
+    {
+      "@id": "#bed4fce7-52f8-402d-8e88-3856742c4373",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "lucy.collinson@crick.ac.uk",
+      "name": "Lucy M Collinson"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5703-2922",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "marie-charlotte.domart@crick.ac.uk",
+      "name": "Marie-Charlotte Domart"
+    },
+    {
+      "@id": "#4c98d5ef-dada-480f-9f0e-acad9207279f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "MRC Laboratory for Molecular Cell Biology (LMCB)"
+    },
+    {
+      "@id": "#83625887-2618-413e-939f-80c6622736b9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Francis Crick Institute"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 5
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 11672349409
+    }
+  ]
+}

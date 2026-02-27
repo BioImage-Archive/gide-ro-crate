@@ -1,0 +1,311 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST265-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST265"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST265",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-1439-5301"
+        },
+        {
+          "@id": "#a647956b-2aeb-407b-8ed4-25559a57c218"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5507-7211"
+        },
+        {
+          "@id": "#5a76d4de-97b7-41ea-aca2-205cc7875d33"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7149-5843"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1477-6849"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-7046-3412"
+        },
+        {
+          "@id": "#d9dec2f8-acf1-48cc-b8bf-9ff86c2d183c"
+        },
+        {
+          "@id": "#cb391f54-6f61-4ac8-b24c-4ed8af60c58a"
+        },
+        {
+          "@id": "#2a03ccaf-8fc7-4ca4-8f6e-95a0fc0929b1"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4557-5652"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-04-15",
+      "description": "This dataset contains annotated fluorescent nuclear images of different tissue origins and sample preparation types and can be used to train machine-learning based nuclear image segmentation algorithms.",
+      "funder": [],
+      "identifier": "S-BSST265",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "An annotated fluorescence image dataset for training nuclear segmentation methods",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#2a03ccaf-8fc7-4ca4-8f6e-95a0fc0929b1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "eva.bozsaky@ccri.at",
+      "name": "Eva Bozsaky"
+    },
+    {
+      "@id": "#5a76d4de-97b7-41ea-aca2-205cc7875d33",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#299342f3-289a-42f2-a308-44eee87e4ea6"
+        }
+      ],
+      "email": "klaus.beiske@medisin.uio.no",
+      "name": "Klaus Beiske"
+    },
+    {
+      "@id": "#a647956b-2aeb-407b-8ed4-25559a57c218",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "inge.ambros@ccri.at",
+      "name": "Inge M. Ambros"
+    },
+    {
+      "@id": "#cb391f54-6f61-4ac8-b24c-4ed8af60c58a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "magdalena.ambros@ccri.at",
+      "name": "Magdalena Ambros"
+    },
+    {
+      "@id": "#d9dec2f8-acf1-48cc-b8bf-9ff86c2d183c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "maria.berneder@ccri.at",
+      "name": "Maria Berneder"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7046-3412",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "tamara.weiss@meduniwien.ac.at",
+      "name": "Tamara Weiss"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1439-5301",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "sabine.taschner@ccri.at",
+      "name": "Sabine Taschner-Mandl"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5507-7211",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "peter.ambros@ccri.at",
+      "name": "Peter F. Ambros"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7149-5843",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#62553e52-80b1-48a9-a3af-c4fbe52afab6"
+        }
+      ],
+      "email": "hanbury@ifs.tuwien.ac.at",
+      "name": "Allan  Hanbury"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1477-6849",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#29aecae1-93c7-4ec4-8a3c-03a1db7acbb6"
+        }
+      ],
+      "email": "wolfgang.doerr@meduniwien.ac.at",
+      "name": "Wolfgang Doerr"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4557-5652",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5"
+        }
+      ],
+      "email": "florian.kromp@ccri.at",
+      "name": "Florian Kromp"
+    },
+    {
+      "@id": "#299342f3-289a-42f2-a308-44eee87e4ea6",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Oslo University Hospital"
+    },
+    {
+      "@id": "#29aecae1-93c7-4ec4-8a3c-03a1db7acbb6",
+      "@type": [
+        "Organization"
+      ],
+      "name": "TRAB-Applied and Translational Radiobiology, Department of Radiation Oncology, Medical University of Vienna"
+    },
+    {
+      "@id": "#3aba4a78-a6c2-47bd-aec8-85f4f7ec45b5",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Children's Cancer Research Institute"
+    },
+    {
+      "@id": "#62553e52-80b1-48a9-a3af-c4fbe52afab6",
+      "@type": [
+        "Organization"
+      ],
+      "name": "TU Wien"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 76325475
+    }
+  ]
+}

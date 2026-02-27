@@ -84,10 +84,10 @@
           "@id": "#aaa90c56-500b-48be-af32-bbf829150a5b"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [
@@ -128,20 +128,7 @@
       "citation": [],
       "datePublished": "2025-12-18",
       "description": "We present cloneXplorer, a fully automated live cell analysis and clone picking platform that uses time lapse monitoring of cell proliferation, cytokine secretion, and surface marker expression in ~100,000 single cell co-cultures to identify and isolate desired cells for clonal expansion or sequence analysis. We employ this platform in a cell line development workflow, in which single cells are selected from a heterogeneous source population based on cell proliferation rate and a fluorescent reporter, and are successfully expanded into monoclonal cell lines in >95% of attempts. Next, we devise a TCR epitope matching workflow by engineering Jurkat cells to express NFAT-GFP, CD8, and a TCR that recognizes a specific antigen. When Jurkat cells are co-cultured with a K562 library of 100 antigen presenting cells (APC), we show that the molecules recovered from microwells with positive GFP expression have the correct antigen in ~80% of attempts, determined by sequencing. To monitor immune activation in mouse and human primary samples, we implement a fluorescent sandwich assay to detect IFN-γ secretion in individual co-cultures. Finally, we combine these capabilities in a proof-of-concept demonstration, which uses IFN-γ secretion and the presence of CD8 surface markers as hierarchical gates to isolate and expand single T cells, and we verify their antigen-specificity by tetramer staining. Together, these results showcase potential applications of the cloneXplorer platform in cell line development and immune discovery applications.",
-      "funder": [
-        {
-          "@id": "#9fb12307-d4fd-44e1-8266-c02e226580e0"
-        },
-        {
-          "@id": "#05ee5252-efc9-463f-a618-d8135f94c968"
-        },
-        {
-          "@id": "#4a965442-6483-4bf5-ab35-d8730fca0758"
-        },
-        {
-          "@id": "#e24348e6-c9f3-46f7-9cc6-a565b0c320bb"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2105",
       "keywords": [
         "T cell",
@@ -368,38 +355,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#05ee5252-efc9-463f-a618-d8135f94c968",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "R35GM122465",
-      "name": "National Institutes of Health"
-    },
-    {
-      "@id": "#4a965442-6483-4bf5-ab35-d8730fca0758",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "DK119795",
-      "name": "National Institutes of Health"
-    },
-    {
-      "@id": "#9fb12307-d4fd-44e1-8266-c02e226580e0",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "R44CA281575",
-      "name": "National Institutes of Health"
-    },
-    {
-      "@id": "#e24348e6-c9f3-46f7-9cc6-a565b0c320bb",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "RP240007",
-      "name": "Cancer Prevention and Research Institute of Texas"
     },
     {
       "@id": "obo:NCBITaxon_10090",

@@ -74,14 +74,7 @@
       "citation": [],
       "datePublished": "2025-12-03",
       "description": "DNA point accumulation for imaging in nanoscale topography (DNA-PAINT) was applied to measure EGFR receptor in resting and EGF-stimulated fixed HeLa cells. Pre-incubated antibody-nanobody construct was used to label EGFR. R3 docking strand was conjugated to the nanobody and complimentary imager strand was coupled to Cy3b fluorophore. ",
-      "funder": [
-        {
-          "@id": "#099c7868-7982-4ff6-92c5-f621bd50e269"
-        },
-        {
-          "@id": "#8bae75ad-abbe-46ec-bf29-27f77db11a4c"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2469",
       "keywords": [
         "in situ",
@@ -133,22 +126,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#099c7868-7982-4ff6-92c5-f621bd50e269",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "CRC1507",
-      "name": "Deutsche Forschungsgemeinschaft"
-    },
-    {
-      "@id": "#8bae75ad-abbe-46ec-bf29-27f77db11a4c",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "GRK 2566 (iMOL)",
-      "name": "Deutsche Forschungsgemeinschaft"
     },
     {
       "@id": "obo:NCBITaxon_9606",

@@ -117,11 +117,7 @@
       ],
       "datePublished": "2026-01-13",
       "description": "The dataset contains the original confocal fluorescence microscopy images of E. coli BL21(DE3) expressing the iron biosensor MDtxRG149GA (IronSenseR) and its binding deficient mutants used in the publication \"A novel biosensor for ferrous iron developed via CoBiSe: A computational method for rapid biosensor design\". Images contain a channel for cpsfGFP fluorescence, LSSmApple fluorescence and transmitted light. Prior to imaging, cells were either incubated in PBS buffer only, PBS buffer containing 20 µM 2,2′-Bipyridine (BPD) or 250 µM BPD.",
-      "funder": [
-        {
-          "@id": "#da10d450-a2c7-4d72-a4a4-53f54681868e"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2396",
       "keywords": [
         "Biosensor",
@@ -345,14 +341,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#da10d450-a2c7-4d72-a4a4-53f54681868e",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "458090666",
-      "name": "German Research Foundation"
     },
     {
       "@id": "https://doi.org/10.1021/acssensors.5c02481",

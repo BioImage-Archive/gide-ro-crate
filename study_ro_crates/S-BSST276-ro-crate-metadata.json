@@ -1,0 +1,200 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST276-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST276"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST276",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#50d26110-5467-44d1-8b08-5b1bb80d3019"
+        },
+        {
+          "@id": "#870e3fbc-736a-40f6-8ade-ce80160c03ae"
+        },
+        {
+          "@id": "#747cc889-2a28-47cc-9ac5-3a9484d7536a"
+        },
+        {
+          "@id": "#2cad5f05-e89b-4fc5-99ab-a9d5468693cc"
+        },
+        {
+          "@id": "#64aa2bca-255d-436f-87df-6a992740bb62"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-08-21",
+      "description": "Raw images acquired with an Opera Phenix High-Content Screening System and using PRISM staining method. See \"Multiplexed and high-througput neuronal fluorescence imaging with diffusable probes\" Nature Comm (2018). Images are single plane single channel tiff files. file name indicates plate coordinates, field of view and plane. WO in file folder indicates washout round, where PRISM imaging probe was removed. Folder name indicates which PRISM target was imaged for that round. Baseline folder contains images before PRISM imaging probes were used. 4 channels per field. ch1: MAP2, ch2: DAPI, ch3:PRISM probe (indicated by folder name), ch4: vGlut.",
+      "funder": [],
+      "identifier": "S-BSST276",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Multiplexed imaging of neuronal synapses with PRISM",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#2cad5f05-e89b-4fc5-99ab-a9d5468693cc",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#e450c313-4c69-4d02-be01-fff6bfe8cd32"
+        }
+      ],
+      "email": "mbathe@mit.edu",
+      "name": "Mark Bathe"
+    },
+    {
+      "@id": "#50d26110-5467-44d1-8b08-5b1bb80d3019",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#e450c313-4c69-4d02-be01-fff6bfe8cd32"
+        }
+      ],
+      "email": "lili@uwalumni.com",
+      "name": "Li Li"
+    },
+    {
+      "@id": "#64aa2bca-255d-436f-87df-6a992740bb62",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#e450c313-4c69-4d02-be01-fff6bfe8cd32"
+        }
+      ],
+      "email": "edaniels@mit.edu",
+      "name": "Eric Danielson"
+    },
+    {
+      "@id": "#747cc889-2a28-47cc-9ac5-3a9484d7536a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#2d387ab9-8437-45f5-a8a8-7b031a086256"
+        }
+      ],
+      "email": "kperezde@broadinstitute.org",
+      "name": "Karen Perez de Arce"
+    },
+    {
+      "@id": "#870e3fbc-736a-40f6-8ade-ce80160c03ae",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#e450c313-4c69-4d02-be01-fff6bfe8cd32"
+        }
+      ],
+      "name": "Syuan-Ming Guo"
+    },
+    {
+      "@id": "#2d387ab9-8437-45f5-a8a8-7b031a086256",
+      "@type": [
+        "Organization"
+      ],
+      "name": "o2"
+    },
+    {
+      "@id": "#e450c313-4c69-4d02-be01-fff6bfe8cd32",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Massachusetts Institute of Technology"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 0
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 0
+    }
+  ]
+}

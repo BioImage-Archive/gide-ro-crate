@@ -1,0 +1,256 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST805-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST805"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST805",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-4544-9480"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8329-5419"
+        },
+        {
+          "@id": "#f5879574-1aa2-456e-b781-ddc7668f3279"
+        },
+        {
+          "@id": "#8581d271-3b93-4331-8a0c-b96498922350"
+        },
+        {
+          "@id": "#21582975-931b-45d4-9993-6298d488d3b3"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0260-613X"
+        },
+        {
+          "@id": "#e20694e4-9d0d-4aa8-9936-b7677ebe5a9c"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5517-373X"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-02-25",
+      "description": "Background: Spermidine has recently received major attention for its potential therapeutic benefits in the context of neurodegeneration, cancer, and aging. However, it is unclear whether concentration dependencies of spermidine exist, to differentially enhance autophagic flux. Moreover, the relationship between low or high autophagy activity relative to basal neuronal autophagy flux and subsequent protein clearance as well as cellular toxicity has remained largely unclear.\nMethods: Here, we used high resolution imaging and biochemical techniques to investigate the effects of a low and high concentration of spermidine on autophagic flux, neuronal toxicity, and protein clearance in models of paraquat (PQ) induced neuronal toxicity and APP over-expression, as well as in an in vivo model of PQ-induced rodent brain injury.\nResults: Our results reveal that spermidine induces autophagic flux in a concentration-dependent manner, however the detectable change in the autophagy response critically depends on the specificity and sensitivity of the method employed. By using correlative imaging techniques through super-resolution structured illumination (SR-SIM) and focused ion beam scanning electron microscopy (FIB-SEM), we demonstrate that spermidine at a low concentration induces autophagosome formation capable of large volume clearance. In addition, we provide evidence of distinct, context-dependent protective roles of spermidine in models of Alzheimer’s disease. In an in-vitro environment, a low concentration of spermidine protected against PQ-induced toxicity, while both low and high concentrations provided protection against cytotoxicity induced by APP over-expression. In the in vivo scenario, we demonstrate brain region-specific susceptibility to PQ-induced neuronal toxicity, with the hippocampus being highly susceptible followed by the cortex. Regardless of this, spermidine administered at both low and high dosages protected against paraquat-induced toxicity.\nConclusions: Taken together, our results demonstrate that firstly, administration of spermidine may present a favourable therapeutic strategy for the treatment of Alzheimer’s disease and secondly, that concentration and dosage dependent precision autophagy flux screening may be more critical for optimal autophagy and cell death control than previously thought. ",
+      "funder": [],
+      "identifier": "S-BSST805",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Investigating the role of spermidine in a model system of Alzheimer’s disease using super-resolution techniques",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#21582975-931b-45d4-9993-6298d488d3b3",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5f654d67-7880-429b-9154-1362d0bc6041"
+        }
+      ],
+      "email": "20186282@sun.ac.za",
+      "name": "Nicola Heathcote"
+    },
+    {
+      "@id": "#8581d271-3b93-4331-8a0c-b96498922350",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5f654d67-7880-429b-9154-1362d0bc6041"
+        }
+      ],
+      "email": "leah.michie@gmail.com",
+      "name": "Leah Louise Michie"
+    },
+    {
+      "@id": "#e20694e4-9d0d-4aa8-9936-b7677ebe5a9c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5f654d67-7880-429b-9154-1362d0bc6041"
+        }
+      ],
+      "email": "gkin@sun.ac.za",
+      "name": "Craig Kinnear "
+    },
+    {
+      "@id": "#f5879574-1aa2-456e-b781-ddc7668f3279",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5f654d67-7880-429b-9154-1362d0bc6041"
+        }
+      ],
+      "email": "jkriel@sun.ac.za",
+      "name": "Jurgen Kriel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4544-9480",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "d.lumkwana@ucl.ac.uk",
+      "name": "Dumisile Lumkwana"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5517-373X",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5f654d67-7880-429b-9154-1362d0bc6041"
+        }
+      ],
+      "email": "bloos@sun.ac.za",
+      "name": "Ben Loos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8329-5419",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82"
+        }
+      ],
+      "email": "christopher.peddie@crick.ac.uk",
+      "name": "Christopher J Peddie"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0260-613X",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82"
+        }
+      ],
+      "email": "lucy.collinson@crick.ac.uk",
+      "name": "Lucy M Collinson"
+    },
+    {
+      "@id": "#5f654d67-7880-429b-9154-1362d0bc6041",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Stellenbosch University"
+    },
+    {
+      "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82",
+      "@type": [
+        "Organization"
+      ],
+      "name": "The Francis Crick Institute"
+    },
+    {
+      "@id": "#f4107419-8c06-4036-814e-fcbc916f8956",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University College London"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 6
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 2062940224
+    }
+  ]
+}

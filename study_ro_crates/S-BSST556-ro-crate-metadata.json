@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST556-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST556"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST556",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-8508-7461"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-12-14",
+      "description": "It has been suggested that asymmetrically dividing Drosophila germline stem cells (GSCs) maintain their cytoplasmic connection with their daughters throughout most of the G1/S phase. We used live cell imaging to determine the fraction of GSCs sharing cytoplasm with preCB. The alpha-tubulin-tdEOS expressed in GSC was photoconverted in either GSC or preCB (differentiating daughter cell), and the redistribution of signal was followed every 10 seconds for more than130 seconds (Assay1). The percentage of connected pairs and the mass-transfer coefficient for each cases were determined by this study. Similarly, we expressed GFP-Mad protein to determine the GFP-Mad mass-transfer coefficient (Assay2). In the later experiment, we photo-bleached GFP-Mad localizing in entire GSC or preCB and followed recovery signal every 10 seconds for more than130 seconds. ",
+      "funder": [],
+      "identifier": "S-BSST556",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Determination of cell connectivity and mass-transfer coefficient between asymmetrically dividing stem cell daughters",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8508-7461",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5103147b-7d18-481c-b978-75f6933c4305"
+        }
+      ],
+      "email": "inaba@uchc.edu",
+      "name": "Mayu Inaba"
+    },
+    {
+      "@id": "#5103147b-7d18-481c-b978-75f6933c4305",
+      "@type": [
+        "Organization"
+      ],
+      "name": "UConn Health Center"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 3605161585
+    }
+  ]
+}

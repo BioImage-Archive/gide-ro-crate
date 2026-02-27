@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST861-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST861"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST861",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3030-2539"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-06-22",
+      "description": "Abstract: Background: Current strategies in circulating tumor cell (CTC) isolation in pancreatic cancer heavily rely on the EpCAM and cytokeratin cell status. EpCAM is generally not a good marker given its transitory change during EMT or TME. There is a need to identify other surface markers to capture the complete repertoire of PDAC CTCs. The primary objective is to charac-terize putative protein biomarkers on the CTCs’ surface expressing low or negligible levels of EpCAM to aid with the investigation of pancreatic cancer in patients with metastatic tumors. Methods: Flow cytometry and surface mass spectrometry was used to identify proteins ex-pressed on the surface of PDAC CTCs in culture. CTCs were grown under conditions of attach-ment and in co-culture with naïve neutrophils. Putative biomarkers were then validated in GEMMs and patient samples. Results: Surface proteomic profiling of CTCs identified several novel protein biomarkers. ALCAM was identified as a novel robust marker in GEMM models and in patient samples. Conclusions: We identified several novel surface biomarkers on CTCs expressed under differing conditions of culture among which, we validated expression of AL-CAM on patient CTCs.",
+      "funder": [],
+      "identifier": "S-BSST861",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "ALCAM: A Novel Surface marker on EpCAMlow Circulating Tumor Cells",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3030-2539",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "email": "harryskcjacob@miami.edu",
+      "name": "Harrys KC Jacob"
+    },
+    {
+      "@id": "https://ror.org/02dgjyy92",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Miami"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 18
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 9375408867
+    }
+  ]
+}

@@ -92,11 +92,7 @@
       "citation": [],
       "datePublished": "2025-12-30",
       "description": "This repository includes a single slice of human thalamus tissue, stained with various neuronal, vascular, and glial markers. 9 ROIs were imaged over the medio-lateral axis of the thalamus. Refer to included .ppt for details on the locations of each ROI and the included .xlsx for details on the performed stainings.",
-      "funder": [
-        {
-          "@id": "#822b06b6-b541-4ae9-8e6d-ad90e4985133"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD1641",
       "keywords": [
         "Thalamus",
@@ -227,14 +223,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#822b06b6-b541-4ae9-8e6d-ad90e4985133",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "Bridging micro- and macroscale: Neuroanatomical correlates to gradient organization of human thalamus",
-      "name": "Graduate School Brain Dynamics"
     },
     {
       "@id": "obo:NCBITaxon_9606",

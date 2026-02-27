@@ -1,0 +1,309 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST429-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST429"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST429",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#2caaa587-2606-45b8-a7ef-da2b089458d9"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5703-2922"
+        },
+        {
+          "@id": "#062eef6f-3bde-4316-9878-eec10a521a0c"
+        },
+        {
+          "@id": "#6b80b0fb-654f-46af-85f0-a587abf37db7"
+        },
+        {
+          "@id": "#543577b4-54c8-425f-a1e3-36756f686d37"
+        },
+        {
+          "@id": "#4ab9b2b8-6ec1-4670-92e4-b2094697678a"
+        },
+        {
+          "@id": "#1010762c-b1a3-496e-9a62-8316f97b6275"
+        },
+        {
+          "@id": "#b5ee2045-3b64-4f10-82f9-468e08fde487"
+        },
+        {
+          "@id": "#d7e216c3-5586-41cf-8314-90eeb8c5256f"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7286-6503"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-07-03",
+      "description": "Toxoplasma gondii is an obligate intracellular parasite capable of invading any nucleated cell. Three main clonal lineages (type I, II, III) exist and murine models have driven the understanding of general and strain-specific immune mechanisms underlying Toxoplasma infection. However, murine models are limited for studying parasite-leukocyte interactions in vivo, and discrepancies exist between cellular immune responses observed in mouse versus human cells. Here, we developed a zebrafish infection model to study the innate immune response to Toxoplasma in vivo. By infecting the zebrafish hindbrain ventricle, and using high-resolution microscopy techniques coupled with computer vision driven automated image analysis, we reveal that Toxoplasma invades brain cells and replicates inside a parasitophorous vacuole to which type I and III parasites recruit host cell mitochondria. We also show that type II and III strains maintain a higher infectious burden than type I strains. To understand how parasites are cleared in vivo, we further analyzed Toxoplasma-macrophage interactions using time-lapse microscopy and three-dimensional correlative light and electron microscopy (3D CLEM). Time-lapse microscopy revealed that macrophages are recruited to the infection site and play a key role in Toxoplasma control. High-resolution 3D CLEM revealed parasitophorous vacuole breakage in brain cells and macrophages in vivo, suggesting that cell-intrinsic mechanisms may be used to destroy the intracellular niche of tachyzoites. Together, our results demonstrate in vivo control of Toxoplasma by macrophages, and highlight the possibility that zebrafish may be further exploited as a novel model system for discoveries within the field of parasite immunity.",
+      "funder": [],
+      "identifier": "S-BSST429",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "The zebrafish as a novel model for the in vivo study of Toxoplasma gondii replication and interaction with macrophages",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#062eef6f-3bde-4316-9878-eec10a521a0c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82"
+        }
+      ],
+      "email": "christopher.peddie@crick.ac.uk",
+      "name": "Christopher J. Peddie"
+    },
+    {
+      "@id": "#1010762c-b1a3-496e-9a62-8316f97b6275",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83625887-2618-413e-939f-80c6622736b9"
+        }
+      ],
+      "email": "lucy.collinson@crick.ac.uk",
+      "name": "Lucy Collinson"
+    },
+    {
+      "@id": "#2caaa587-2606-45b8-a7ef-da2b089458d9",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#09a54d51-487d-43b6-9adb-3108710e70c9"
+        }
+      ],
+      "email": "nagisa.yoshida@crick.ac.uk",
+      "name": "Nagisa Yoshida"
+    },
+    {
+      "@id": "#4ab9b2b8-6ec1-4670-92e4-b2094697678a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "thomas.hawkins@ucl.ac.uk",
+      "name": "Thomas A. Hawkins"
+    },
+    {
+      "@id": "#543577b4-54c8-425f-a1e3-36756f686d37",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1ba7043f-fcc8-4c41-bc07-2aa74d649202"
+        }
+      ],
+      "email": "mjmazonmoya@gmail.com",
+      "name": "Maria J. Mazon-Moya"
+    },
+    {
+      "@id": "#6b80b0fb-654f-46af-85f0-a587abf37db7",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "ayakimovich@ails.institute",
+      "name": "Artur Yakimovich"
+    },
+    {
+      "@id": "#b5ee2045-3b64-4f10-82f9-468e08fde487",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#08584de5-cf54-4337-bdf3-be11312c1ae9"
+        }
+      ],
+      "email": "j.p.mercer@bham.ac.uk",
+      "name": "Jason Mercer"
+    },
+    {
+      "@id": "#d7e216c3-5586-41cf-8314-90eeb8c5256f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#08584de5-cf54-4337-bdf3-be11312c1ae9"
+        }
+      ],
+      "email": "e.frickel@bham.ac.uk",
+      "name": "Eva-Maria Frickel"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5703-2922",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82"
+        }
+      ],
+      "email": "marie-charlotte.domart@crick.ac.uk",
+      "name": "Marie-Charlotte Domart"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7286-6503",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#09a54d51-487d-43b6-9adb-3108710e70c9"
+        }
+      ],
+      "email": "serge.mostowy@lshtm.ac.uk",
+      "name": "Serge Mostowy"
+    },
+    {
+      "@id": "#08584de5-cf54-4337-bdf3-be11312c1ae9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Birmingham"
+    },
+    {
+      "@id": "#09a54d51-487d-43b6-9adb-3108710e70c9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "London School of Hygiene & Tropical Medicine"
+    },
+    {
+      "@id": "#1ba7043f-fcc8-4c41-bc07-2aa74d649202",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Imperial College London"
+    },
+    {
+      "@id": "#83625887-2618-413e-939f-80c6622736b9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Francis Crick Institute"
+    },
+    {
+      "@id": "#8cf4e4a6-0ed2-4a7c-bb26-a0fb87ec1b82",
+      "@type": [
+        "Organization"
+      ],
+      "name": "The Francis Crick Institute"
+    },
+    {
+      "@id": "#f4107419-8c06-4036-814e-fcbc916f8956",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University College London"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 9
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 844437818
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST514-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST514"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST514",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#885f3a99-1623-429b-8136-d7f8e3d075f7"
+        },
+        {
+          "@id": "#271ee2f0-e2c4-49aa-91fa-e4f112576a3d"
+        },
+        {
+          "@id": "#8997aaae-adf1-4c3f-a1e9-adc1a686689b"
+        },
+        {
+          "@id": "#a2e8bba2-22fc-46c0-be93-99b0c708440b"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-02-18",
+      "description": "Understanding how cancer cells interact with the surrounding microenvironment early in breast cancer development can provide insight into the initiation and progression of invasive breast cancers. The myoepithelial cell layer surrounding breast ducts acts as a physical barrier in early breast cancer, preventing cancer cells from invading the surrounding stroma. Changes to the expression profile and properties of myoepithelial cells have been implicated in progression to invasive carcinoma. Identifying the molecular drivers of myoepithelial cell-mediated tumour suppression may offer new approaches to predict and block the earliest stages of cancer invasion. We employed a high-throughput approach to knock down 87 different genes using siRNA in an immortalised myoepithelial cell line, prior to co-culture with invasive breast cancer cells in 3D. Combined with high-throughput imaging and a customised analysis pipeline, this system was used to identify myoepithelial proteins that are necessary to control cancer cell invasion. This dataset has identified prospective myoepithelial suppressors of early breast cancer invasion which may be used by researchers to investigate their clinical validity and utility.  \nOpen data is data that can be freely used, re-used and redistributed by anyone—subject only, at most, to the requirement to attribute and sharealike.",
+      "funder": [],
+      "identifier": "S-BSST514",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "High-throughput siRNA 3D co-cultures to identify myoepithelial cell-derived breast cancer suppressor proteins",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#271ee2f0-e2c4-49aa-91fa-e4f112576a3d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#17b287dc-383d-4d10-a201-fdc84d180e40"
+        }
+      ],
+      "email": "natasha.brockwell@petermac.org",
+      "name": "Natasha Brockwell "
+    },
+    {
+      "@id": "#885f3a99-1623-429b-8136-d7f8e3d075f7",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#ab8f1067-e318-42f1-87bb-195725801f5e"
+        }
+      ],
+      "email": "hendrika.duivenvoorden@monash.edu",
+      "name": "Hendrika Duivenvoorden "
+    },
+    {
+      "@id": "#8997aaae-adf1-4c3f-a1e9-adc1a686689b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#17b287dc-383d-4d10-a201-fdc84d180e40"
+        }
+      ],
+      "email": "kaylene.simpson@petermac.org",
+      "name": "Kaylene Simpson "
+    },
+    {
+      "@id": "#a2e8bba2-22fc-46c0-be93-99b0c708440b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#17b287dc-383d-4d10-a201-fdc84d180e40"
+        }
+      ],
+      "email": "belinda.parker@petermac.org",
+      "name": "Belinda Parker "
+    },
+    {
+      "@id": "#17b287dc-383d-4d10-a201-fdc84d180e40",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Peter MacCallum Cancer Centre "
+    },
+    {
+      "@id": "#ab8f1067-e318-42f1-87bb-195725801f5e",
+      "@type": [
+        "Organization"
+      ],
+      "name": "La Trobe Institute for Molecular Science "
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 7171904963
+    }
+  ]
+}

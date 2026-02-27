@@ -1,0 +1,286 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST609-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST609"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST609",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3782-7194"
+        },
+        {
+          "@id": "#1c940c14-b083-46f2-bc41-a8ae554d4ec0"
+        },
+        {
+          "@id": "#7e223ecf-6eee-413f-ac4c-77977142e0c0"
+        },
+        {
+          "@id": "#3fc2013e-ceed-4ff6-8897-30f860d4ee8c"
+        },
+        {
+          "@id": "#92880396-a9db-4117-874e-cc51e0beb5d1"
+        },
+        {
+          "@id": "#999523fe-bdc2-4a27-a7ae-325fbcbb8f96"
+        },
+        {
+          "@id": "#90c6abdd-2943-4093-9589-4b53341a5b37"
+        },
+        {
+          "@id": "#578978b2-152d-45fe-8718-27ead5c456f7"
+        },
+        {
+          "@id": "#4531a84e-a741-4dea-8356-f24d80a965a5"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-05-06",
+      "description": "Sensory systems are shaped in postnatal life by the refinement of synaptic connections. In the spinal cord, sensory circuits undergo postnatal reorganisation, including refinement of primary afferent A-fibres accompanied by decreases in cutaneous sensitivity. Here we show that functional microglia are necessary for normal development of dorsal horn sensory circuits and tactile sensitivity. In the absence of microglial engulfment, superfluous A-fibre projections persist, leading to lifelong hypersensitivity to dynamic touch.",
+      "funder": [],
+      "identifier": "S-BSST609",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Microglial refinement of spinal cord sensory circuitry regulates normal maturation of dynamic touch",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#1c940c14-b083-46f2-bc41-a8ae554d4ec0",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "s.koch@ucl.ac.uk",
+      "name": "Stephanie Koch"
+    },
+    {
+      "@id": "#3fc2013e-ceed-4ff6-8897-30f860d4ee8c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#fb62b790-94a2-4371-b611-c17019e04b0d"
+        }
+      ],
+      "email": "a.chamessian@wustl.edu",
+      "name": "Alexander Chamessian"
+    },
+    {
+      "@id": "#4531a84e-a741-4dea-8356-f24d80a965a5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#fa428224-b10e-44e9-86bf-b671c6161895"
+        }
+      ],
+      "email": "s.beggs@ucl.ac.uk",
+      "name": "Simon Beggs"
+    },
+    {
+      "@id": "#578978b2-152d-45fe-8718-27ead5c456f7",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "m.fitzgerald@ucl.ac.uk",
+      "name": "Maria Fitzgerald"
+    },
+    {
+      "@id": "#7e223ecf-6eee-413f-ac4c-77977142e0c0",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#03f189f5-1ee0-4b5e-bc6e-2ee927b85050"
+        }
+      ],
+      "email": "heqianru@ntu.edu.cn",
+      "name": "Qianru He"
+    },
+    {
+      "@id": "#90c6abdd-2943-4093-9589-4b53341a5b37",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#fb62b790-94a2-4371-b611-c17019e04b0d"
+        }
+      ],
+      "email": "ru-rong.ji@duke.edu",
+      "name": "RuRong Ji"
+    },
+    {
+      "@id": "#92880396-a9db-4117-874e-cc51e0beb5d1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#92989a83-ad16-40e7-b7d3-c1ab864bc548"
+        }
+      ],
+      "email": "mayya.sundukova@embl.it",
+      "name": "Mayya Sundukova"
+    },
+    {
+      "@id": "#999523fe-bdc2-4a27-a7ae-325fbcbb8f96",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#92989a83-ad16-40e7-b7d3-c1ab864bc548"
+        }
+      ],
+      "email": "paul.heppenstall@sissa.it",
+      "name": "Paul Heppenstall"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3782-7194",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "yajing.xu.15@ucl.ac.uk",
+      "name": "Yajing Xu"
+    },
+    {
+      "@id": "#03f189f5-1ee0-4b5e-bc6e-2ee927b85050",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Center for Translational Pain Medicine, Duke Univeristy"
+    },
+    {
+      "@id": "#92989a83-ad16-40e7-b7d3-c1ab864bc548",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Epigenetics & Neurobiology Unit, EMBL"
+    },
+    {
+      "@id": "#f4107419-8c06-4036-814e-fcbc916f8956",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University College London"
+    },
+    {
+      "@id": "#fa428224-b10e-44e9-86bf-b671c6161895",
+      "@type": [
+        "Organization"
+      ],
+      "name": "UCL Great Ormond Street Institute of Child Health"
+    },
+    {
+      "@id": "#fb62b790-94a2-4371-b611-c17019e04b0d",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Center for Translational Pain Medicine, Duke University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 10
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 64166955507
+    }
+  ]
+}

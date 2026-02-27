@@ -90,14 +90,7 @@
       ],
       "datePublished": "2026-01-09",
       "description": "Purpose: Retinal ganglion cell (RGC) loss in glaucoma occurs in a large fraction of patients even after intraocular pressure (IOP) is reduced. Mitochondrial dysfunction is a key mechanism that links elevated IOP to RGC degeneration. We tested whether HDAP2, a novel high-density aromatic peptide that binds cardiolipin to stabilize mitochondrial membranes, can protect RGCs in the DBA/2J mouse model.\n\nMethods: DBA/2J mice received HDAP2 (3 mg/kg, intraperitoneally, every other day) starting at 4 months of age for 8 months. IOP was measured each month to track pressure exposure. RGC survival was assessed by counting RBPMS-stained cells in retinal wholemounts and optic nerve axons in semithin toludine blue-stained sections.\n\nResults: HDAP2-treated retinas had ~49% more RGCs than untreated retinas at similar pressure exposures (p = 0.0063; F(2,59) = 5.524). At mild IOP exposure, HDAP2 preserved 58% more RGCs compared with untreated retinas, and at high IOPs, RGC survival was 180% greater. Kaplan–Meier analysis indicated that HDAP2 increased the threshold for severe RGC loss by 29 mmHg and reduced the chance of developing severe RGC degeneration by a factor of 4.6. Optic nerve axons from treated retinas were also well preserved, with axon morphologies appearing indistinguishable from controls. Axon size distributions did not change significantly among the treatment groups, suggesting that protection by HDAP2 was similar among RGC subtypes. \n\nConclusions: HDAP2 preserved both RGCs and axons in a pressure-dependent manner and increased tolerance to IOP. These results suggest that HDAP2 may complement pressure-lowering therapy, including for normal-tension and treatment-refractory glaucoma.\n",
-      "funder": [
-        {
-          "@id": "#9da7f177-6b4b-423a-b26d-66739ea2a998"
-        },
-        {
-          "@id": "#c621ca4c-2f5c-4365-a37a-52430fca70de"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2734",
       "keywords": [
         "glaucoma, retinal ganglion cells; neuroprotection; DBA/2J mice, mitochondrial dysfunction, intraocular pressure, HDAP2"
@@ -143,22 +136,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#9da7f177-6b4b-423a-b26d-66739ea2a998",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "ShafGrnt2024MacNM",
-      "name": "Glaucoma Research Foundation"
-    },
-    {
-      "@id": "#c621ca4c-2f5c-4365-a37a-52430fca70de",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "R16GM149428",
-      "name": "NIH NIGMS"
     },
     {
       "@id": "https://doi.org/10.1167/iovs.66.15.66",

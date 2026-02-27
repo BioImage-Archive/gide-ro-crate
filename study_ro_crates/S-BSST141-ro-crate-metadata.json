@@ -1,0 +1,204 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST141-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST141"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST141",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#36235bd8-4ec7-4a38-b2bb-102b7878d20c"
+        },
+        {
+          "@id": "#f37762c8-7f60-4915-9d55-143a5f0162f1"
+        },
+        {
+          "@id": "#19c8dc36-62cb-4710-b063-077c91d39dae"
+        },
+        {
+          "@id": "#15be3568-5295-4433-8d42-f6369a6b4308"
+        },
+        {
+          "@id": "#b3f59226-db4d-4cd0-a461-b13969f38c85"
+        },
+        {
+          "@id": "#1050cb1a-f4d8-4845-873c-2303d6906dd0"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-04-03",
+      "description": "",
+      "funder": [],
+      "identifier": "S-BSST141",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Mutational landscape of a chemically induced mouse model of liver cancer",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#1050cb1a-f4d8-4845-873c-2303d6906dd0",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Duncan Odom"
+    },
+    {
+      "@id": "#15be3568-5295-4433-8d42-f6369a6b4308",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Christine Feig"
+    },
+    {
+      "@id": "#19c8dc36-62cb-4710-b063-077c91d39dae",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Frances Connor"
+    },
+    {
+      "@id": "#36235bd8-4ec7-4a38-b2bb-102b7878d20c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Margus Lukk"
+    },
+    {
+      "@id": "#b3f59226-db4d-4cd0-a461-b13969f38c85",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Tim Rayner"
+    },
+    {
+      "@id": "#f37762c8-7f60-4915-9d55-143a5f0162f1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936"
+        }
+      ],
+      "name": "Sarah Aitken"
+    },
+    {
+      "@id": "#f63e87c1-6490-4178-9c9e-977ea6d19936",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, United Kingdom"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 15
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 916846543
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST839-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST839"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST839",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#9ce8896d-ee5b-45f8-8676-5821fb68b451"
+        },
+        {
+          "@id": "#da86f046-9242-47c5-9210-28d90f66f6b6"
+        },
+        {
+          "@id": "#e4afb9d5-9fb2-4c11-880c-2269030af14d"
+        },
+        {
+          "@id": "#9fa51acb-8db6-42f3-8db2-fc0606387831"
+        },
+        {
+          "@id": "#49209f34-95ca-405f-880a-52106b03b5d2"
+        },
+        {
+          "@id": "#6282a9b9-0f2a-4040-b4d3-34b4a9dc869e"
+        },
+        {
+          "@id": "#5d7cf8e3-be65-4037-a2fc-954de4165fc7"
+        },
+        {
+          "@id": "#79de59d9-c8c0-4377-8ec5-a50edc232764"
+        },
+        {
+          "@id": "#d791a22d-16a9-4862-b9fb-3449a5d8f0af"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-05-11",
+      "description": "Multi-channel detection in single-molecule localization microscopy greatly increases information content for various biological applications. Here, we present globLoc, a graphics processing unit based global fitting algorithm with flexible PSF modeling and parameter sharing, to extract maximum information from multi-channel single molecule data. As signals in multi-channel data are highly correlated, globLoc links parameters such as 3D coordinates or photon counts across channels, improving localization precision and robustness. We show, both in simulations and experiments, that global fitting can substantially improve the 3D localization precision for biplane and 4Pi single-molecule localization microscopy and color assignment for ratiometric multicolor imaging. ",
+      "funder": [],
+      "identifier": "S-BSST839",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Global fitting for high-accuracy multi-channel single-molecule localization",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#49209f34-95ca-405f-880a-52106b03b5d2",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/038t36y30"
+        }
+      ],
+      "email": "yu-le.wu@embl.de",
+      "name": "Yu-Le Wu"
+    },
+    {
+      "@id": "#5d7cf8e3-be65-4037-a2fc-954de4165fc7",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c90b77f2-6693-4bf7-a1da-b29b056ed477"
+        }
+      ],
+      "email": "wudc@sustech.edu.cn",
+      "name": "Decheng Wu"
+    },
+    {
+      "@id": "#6282a9b9-0f2a-4040-b4d3-34b4a9dc869e",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5074a07c-1144-4134-96c3-f98335b1653a"
+        }
+      ],
+      "email": "ulf.matti@embl.de",
+      "name": "Ulf Matti"
+    },
+    {
+      "@id": "#79de59d9-c8c0-4377-8ec5-a50edc232764",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5074a07c-1144-4134-96c3-f98335b1653a"
+        }
+      ],
+      "email": "simone.koehler@embl.de",
+      "name": "Simone Koehler"
+    },
+    {
+      "@id": "#9ce8896d-ee5b-45f8-8676-5821fb68b451",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c90b77f2-6693-4bf7-a1da-b29b056ed477"
+        }
+      ],
+      "email": "liym2019@sustech.edu.cn",
+      "name": "Yiming Li"
+    },
+    {
+      "@id": "#9fa51acb-8db6-42f3-8db2-fc0606387831",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/038t36y30"
+        }
+      ],
+      "email": "ivana.cavka@embl.de",
+      "name": "Ivana Cavka"
+    },
+    {
+      "@id": "#d791a22d-16a9-4862-b9fb-3449a5d8f0af",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5074a07c-1144-4134-96c3-f98335b1653a"
+        }
+      ],
+      "email": "jonas.ries@embl.de",
+      "name": "Jonas Ries"
+    },
+    {
+      "@id": "#da86f046-9242-47c5-9210-28d90f66f6b6",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c90b77f2-6693-4bf7-a1da-b29b056ed477"
+        }
+      ],
+      "email": "shiw@mail.sustech.edu.cn",
+      "name": "Wei Shi"
+    },
+    {
+      "@id": "#e4afb9d5-9fb2-4c11-880c-2269030af14d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5074a07c-1144-4134-96c3-f98335b1653a"
+        }
+      ],
+      "email": "sheng.liu@embl.de",
+      "name": "Sheng Liu"
+    },
+    {
+      "@id": "#5074a07c-1144-4134-96c3-f98335b1653a",
+      "@type": [
+        "Organization"
+      ],
+      "name": "European Molecular Biology Laboratory"
+    },
+    {
+      "@id": "#c90b77f2-6693-4bf7-a1da-b29b056ed477",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Southern University of Science and Technology"
+    },
+    {
+      "@id": "https://ror.org/038t36y30",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Heidelberg University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 12
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 101156852495
+    }
+  ]
+}

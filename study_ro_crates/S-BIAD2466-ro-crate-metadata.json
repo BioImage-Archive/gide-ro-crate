@@ -78,14 +78,7 @@
       ],
       "datePublished": "2025-12-05",
       "description": "Radiation damage remains a fundamental limitation in cryo-electron microscopy (cryo-EM), constraining the total electron dose that can be used and thus hindering high-resolution imaging of biological specimens. Recent studies have proposed that temporally structured or pulsed electron beams could reduce radiation damage by allowing time for energy dissipation between individual electron interactions. To evaluate this hypothesis, we conducted a systematic investigation using a radio-frequency (RF) driven 300 kV Titan Krios microscope equipped with cold field emission gun (c-FEG) to generate highly regular pulsed electron beams for specimens under cryogenic conditions. We compared radiation damage in three representative samples: paraffin 2D crystals, bacteriorhodopsin (purple membrane) 2D crystals, and plunge-frozen tobacco mosaic virus (TMV) in vitreous ice, under both pulsed and conventional random illumination, while keeping all other imaging conditions constant. Radiation damage was quantified by tracking the decay of computed diffraction intensities to determine the critical dose (Ne). We observed no statistically significant difference in critical dose between pulsed and random illumination across all 3 samples. Our findings provide a critical reference point for future development and evaluation of temporally modulated electron sources in cryo-EM instrumentation.",
-      "funder": [
-        {
-          "@id": "#fdb3f925-c58f-48b4-8ba4-d4288c9348dd"
-        },
-        {
-          "@id": "#0c9cad97-576f-4357-8568-a885960e0b1e"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2466",
       "keywords": [
         "cryo-EM",
@@ -136,22 +129,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#0c9cad97-576f-4357-8568-a885960e0b1e",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "200021_200628",
-      "name": "Swiss National Science Foundation"
-    },
-    {
-      "@id": "#fdb3f925-c58f-48b4-8ba4-d4288c9348dd",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "ERC 4D-BioSTEM, No 101118656",
-      "name": "ERC"
     },
     {
       "@id": "https://doi.org/10.1101/2025.07.29.667395",

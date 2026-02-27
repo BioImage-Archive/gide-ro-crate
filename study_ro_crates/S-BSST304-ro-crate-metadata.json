@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST304-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST304"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST304",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-1399-8677"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0960-6781"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-11-12",
+      "description": "We conducted a longitudinal experiment in which we monitored a K18-seeded hTau.P301L mouse model using correlative whole-brain microscopy and resting-state functional MRI. This repository contains the raw data of the resting-state functional (rsf)MRI and 3D anatomical scans of this study. Annotated processed data containing functional connectivity (FC) matrices extracted from four-voxel-sized regions-of-interest (ROIs) are also attached.",
+      "funder": [],
+      "identifier": "S-BSST304",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "hTau.P301L mice with seeded tau pathology retain functional brain network connectivity",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0960-6781",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f8c61370-eceb-49ca-8761-6553c64c4b67"
+        }
+      ],
+      "email": "winnok.devos@uantwerpen.be",
+      "name": "Winnok H. De Vos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1399-8677",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bb36d53d-0ad6-4a68-ae14-c2505f7a75ba"
+        }
+      ],
+      "email": "detrez.jan@gmail.com",
+      "name": "Jan Detrez"
+    },
+    {
+      "@id": "#bb36d53d-0ad6-4a68-ae14-c2505f7a75ba",
+      "@type": [
+        "Organization"
+      ],
+      "name": "UCB Biopharma"
+    },
+    {
+      "@id": "#f8c61370-eceb-49ca-8761-6553c64c4b67",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Antwerp University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 2
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 3977107231
+    }
+  ]
+}

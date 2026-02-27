@@ -1,0 +1,217 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST397-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST397"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST397",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-3612-0456"
+        },
+        {
+          "@id": "#1096c297-622e-4b0c-8c16-c372f12d6f55"
+        },
+        {
+          "@id": "#85e0069b-96d0-4887-be93-8ed03a7c2d84"
+        },
+        {
+          "@id": "#60d4afaa-b54d-480a-a62f-066fa61cae80"
+        },
+        {
+          "@id": "#5fbf9bb7-71a1-4b4d-a7bd-893223755036"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-7827-8481"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-06-02",
+      "description": "Alpha-toxin (Hla) is a major virulence factor of Staphylococcus aureus (S. aureus) and plays an important role in S. aureus -induced pneumonia. It binds as a monomer to the cell surface of eukaryotic host cells and forms heptameric transmembrane pores. Sensitivities toward the toxin of various types of potential host cells have been shown to vary substantially, and the reasons for these differences are unclear. We used three human model airway epithelial cell lines (16HBE14o-, S9, A549) to correlate cell sensitivity (measured as rate of paracellular gap formation in the cell layers) with Hla monomer binding, presence of the potential Hla receptors ADAM10 or alpha5beta1 integrin, presence of the toxin-stabilizing factor caveolin-1 as well as plasma membrane lipid composition (phosphatidylserine/choline, sphingomyelin). The abundance of ADAM10 correlated best with gap formation or cell sensitivities, respectively, when the three cell types were compared. Caveolin-1 or alpha5beta1 integrin did not correlate with toxin sensitivity. The relative abundance of sphingomyelin in plasma membranes may also be used as a proxi for cellular sensitivity against alpha-toxin as sphingomyelin abundances correlated well with the intensities of alpha-toxin mediated gap formation in the cell layers.",
+      "funder": [],
+      "identifier": "S-BSST397",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "S. aureus alpha-toxin monomer binding and heptamer formation in host cell membranes – Do they determine sensitivity of airway epithelial cells toward the toxin?",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#1096c297-622e-4b0c-8c16-c372f12d6f55",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c1f98538-4744-46bc-82c5-c4cd26d06866"
+        }
+      ],
+      "email": "sabine.ziesemer@uni-greifswald.de",
+      "name": "Sabine Ziesemer"
+    },
+    {
+      "@id": "#5fbf9bb7-71a1-4b4d-a7bd-893223755036",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1a11a8b9-d4ae-4c76-abda-769683c5e74b"
+        }
+      ],
+      "email": "uwe.voelker@uni-greifswald.de",
+      "name": "Uwe Völker"
+    },
+    {
+      "@id": "#60d4afaa-b54d-480a-a62f-066fa61cae80",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c1f98538-4744-46bc-82c5-c4cd26d06866"
+        }
+      ],
+      "email": "na152281@uni-greifswald.de",
+      "name": "Nadine Assenheimer"
+    },
+    {
+      "@id": "#85e0069b-96d0-4887-be93-8ed03a7c2d84",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1a11a8b9-d4ae-4c76-abda-769683c5e74b"
+        }
+      ],
+      "email": "petra.hildebrandt@uni-greifswald.de",
+      "name": "Petra Hildebrandt"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7827-8481",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c1f98538-4744-46bc-82c5-c4cd26d06866"
+        }
+      ],
+      "email": "jph@uni-greifswald.de",
+      "name": "Jan-Peter Hildebrandt"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3612-0456",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c1f98538-4744-46bc-82c5-c4cd26d06866"
+        }
+      ],
+      "email": "nils.moeller@uni-greifswald.de",
+      "name": "Nils Möller"
+    },
+    {
+      "@id": "#1a11a8b9-d4ae-4c76-abda-769683c5e74b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University Medicine Greifswald; Interfaculty Institute for Genetics and Functional Genomics"
+    },
+    {
+      "@id": "#c1f98538-4744-46bc-82c5-c4cd26d06866",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Greifswald; Animal Physiology and Biochemistry"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 8
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 1580744007
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1156-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1156"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1156",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-2858-4696"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-5452-4801"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3939-3708"
+        },
+        {
+          "@id": "#ed840fca-6a9d-4d56-ac04-79d6c6454762"
+        },
+        {
+          "@id": "https://orcid.org/0009-0006-7579-1435"
+        },
+        {
+          "@id": "https://orcid.org/0009-0000-5951-0142"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-09-22",
+      "description": "Mutations of several genes cause incomplete penetrance and variable expressivity of phenotypes. Although phenotypic variabilities are usually attributed to modifier genes or gene-environment interactions, causes of variable outcomes are still unclear. Here, we used loss of function her1 and her7 somite segmentation clock mutants in zebrafish as a quantitative testbed to investigate the causes of phenotypic variability. By quantifying individual somite boundary defects in single mutant embryos, we found stochastic gene expression underlies variability of segmentation defects. Phenotypic strength is further augmented under unfavorable conditions, like low temperature and hypoxia. By performing live imaging of the segmentation clock reporters, we further showed that groups of cells with higher oscillation amplitudes successfully formed somites while those with lower amplitudes failed to do so. In unfavorable environments, the number of cycles with high amplitude oscillations and the number of successful segmentations proportionally decreased. These results suggest that individual oscillation cycles stochastically fail to pass a threshold amplitude, resulting in segmentation defects in mutants. Our quantitative methodology could be adaptable to investigate variable phenotypes of other mutant genes in different systems.",
+      "funder": [],
+      "identifier": "S-BSST1156",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Stochastic gene expression and environmental stressors trigger variable somite segmentation phenotypes",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#ed840fca-6a9d-4d56-ac04-79d6c6454762",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#cde18a94-ca82-47a3-84bd-85830efdb4ea"
+        }
+      ],
+      "email": "sevdenurtoker.md@gmail.com",
+      "name": "Sevdenur Keskin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5452-4801",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994"
+        }
+      ],
+      "email": "kemal.keseroglu@cchmc.org",
+      "name": "Kemal Keseroglu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3939-3708",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994"
+        }
+      ],
+      "email": "orianazinani@gmail.com",
+      "name": "Oriana Q.H. Zinani"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2858-4696",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994"
+        }
+      ],
+      "email": "ertugrul.ozbudak@cchmc.org",
+      "name": "Ertugrul M. Ozbudak"
+    },
+    {
+      "@id": "https://orcid.org/0009-0000-5951-0142",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994"
+        }
+      ],
+      "email": "eslim.alpay@cchmc.org",
+      "name": "Eslim E. Alpay"
+    },
+    {
+      "@id": "https://orcid.org/0009-0006-7579-1435",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994"
+        }
+      ],
+      "email": "hannah.seawall@cchmc.org",
+      "name": "Hannah Seawall"
+    },
+    {
+      "@id": "#85f9475e-d906-43c4-9fb5-c7f79f56e994",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Cincinnati Children's Hospital Medical Center"
+    },
+    {
+      "@id": "#cde18a94-ca82-47a3-84bd-85830efdb4ea",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Albany Medical College"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 8
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 475695860845
+    }
+  ]
+}

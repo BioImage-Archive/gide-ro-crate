@@ -1,0 +1,217 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST151-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST151"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST151",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#9c33f0c7-c310-4613-80f7-d1c04d1aea87"
+        },
+        {
+          "@id": "#c3b63f6a-283f-4ee0-85ce-4eb57def4cd8"
+        },
+        {
+          "@id": "#d15a42f0-144c-413c-abc2-9bf989fabcc9"
+        },
+        {
+          "@id": "#1f0a773b-e87b-4058-ad6e-8e91ac32e40b"
+        },
+        {
+          "@id": "#7b75538c-fe88-4976-9428-7ef9f24ba009"
+        },
+        {
+          "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2018-06-09",
+      "description": "Part 1: plates 1-69\n\nPart 2 is submission S-BSST192.\n\nImage data accompanying our manuscript entitled \"Genome-wide phenotypic analysis of growth, cell morphogenesis and cell cycle events in Escherichia coli\", describing an image-based quantitative screen of the single-gene knockout collection of Escherichia coli.\n\nThis dataset contains images (both phase contrast and DAPI epifluorescence images) of the E. coli deletion collection (Keio collection). The entire Keio collection consists of 90 96-well plates, in which each plate is present twice (as a duplicate). This dataset contains images of the 45 odd-numbered plates. The image data is organized by plate, channel and row: each individual folder/zip file contains images of an individual plate, of 1 channel (c1 = phase contrast and c2 = DAPI) and 1 row (A through H). Images are labeled according to the well (and thus also the strain) they correspond to (e.g. A1 corresponds to the first and H12 to the last well). For each strain, 9 phase contrast and 9 corresponding DAPI images were taken. The number after 'xy' in the image file name indicates this image number. An Excel file is provided that contains an overview of the location (plate and well number) of individual deletion strains throughout the E. coli Keio collection. Included are also 3 plates that contain images of wild-type replicates (labeled WT).\n\nImportant:\nAs detailed in the manuscript, the (quantitative) information obtained from these images requires correction for both spatial (plate number) and temporal (time elapsed since imaging) biases. The images present in this dataset should thus not be used without taking these correction procedures into account.\n\nAbstract\nCell size, cell growth and the cell cycle are necessarily intertwined to achieve robust bacterial replication. Yet, a comprehensive and integrated view of these fundamental processes is lacking. Here, we describe an image-based quantitative screen of the single-gene knockout collection of Escherichia coli, and identify many new genes involved in cell morphogenesis, population growth, nucleoid (bulk chromosome) dynamics and cell division. Functional analyses, together with high-dimensional classification, unveil new associations of morphological and cell cycle phenotypes with specific functions and pathways. Additionally, correlation analysis across ~4,000 genetic perturbations shows that growth rate is surprisingly not predictive of cell size. Growth rate was also uncorrelated with the relative timings of nucleoid separation and cell constriction. Rather, our analysis identifies scaling relationships between cell size and nucleoid size and between nucleoid size and the relative timings of nucleoid separation and cell division. These connections suggest that the nucleoid links cell morphogenesis to the cell cycle.",
+      "funder": [],
+      "identifier": "S-BSST151",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Genome-wide phenotypic analysis of growth, cell morphogenesis and cell cycle events in Escherichia coli (Part 1)",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#1f0a773b-e87b-4058-ad6e-8e91ac32e40b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9"
+        }
+      ],
+      "email": "gdobihal@gmail.com",
+      "name": "Genevieve Dobihal"
+    },
+    {
+      "@id": "#7b75538c-fe88-4976-9428-7ef9f24ba009",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#db46efcb-86ce-4e4b-a358-e7cae280c18f"
+        }
+      ],
+      "email": "francois.cornet@ibcg.biotoul.fr",
+      "name": "Francois Cornet"
+    },
+    {
+      "@id": "#8f3c35b5-45b1-4ba6-9047-9c18ce100bac",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9"
+        }
+      ],
+      "email": "christine.jacobs-wagner@yale.edu",
+      "name": "Christine Jacobs-Wagner"
+    },
+    {
+      "@id": "#9c33f0c7-c310-4613-80f7-d1c04d1aea87",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9"
+        }
+      ],
+      "email": "manuel.campos@ibcg.biotoul.fr",
+      "name": "Manuel Campos"
+    },
+    {
+      "@id": "#c3b63f6a-283f-4ee0-85ce-4eb57def4cd8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9"
+        }
+      ],
+      "email": "sander.govers@yale.edu",
+      "name": "Sander Govers"
+    },
+    {
+      "@id": "#d15a42f0-144c-413c-abc2-9bf989fabcc9",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9"
+        }
+      ],
+      "email": "irnov.irnov@gmail.com",
+      "name": "Irnov Irnov"
+    },
+    {
+      "@id": "#af30ac76-393f-4b5c-ba30-0731559bdda9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Yale University"
+    },
+    {
+      "@id": "#db46efcb-86ce-4e4b-a358-e7cae280c18f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "CBI Toulouse"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 560
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 126848465850
+    }
+  ]
+}

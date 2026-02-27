@@ -1,0 +1,199 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST666-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST666"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST666",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#9a028d70-82c8-477f-9a28-0b82bff0f3a0"
+        },
+        {
+          "@id": "#54fe46ea-307f-4843-bcfe-bd8663bb1a41"
+        },
+        {
+          "@id": "#5dbaff7b-a55e-4c9d-a522-25f543bb206c"
+        },
+        {
+          "@id": "#7ff55756-1c83-4100-8e22-467a9fae5d69"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-06-17",
+      "description": "Training and test data used in ZeroCostDL4Mic, can be used as a standard datasets or always-online reference sets for testing\n",
+      "funder": [],
+      "identifier": "S-BSST666",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "ZeroCostDL4Mic - Training and Testing datasets",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#54fe46ea-307f-4843-bcfe-bd8663bb1a41",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#ef4e507b-0b37-4586-b4e0-4f0ccd5a94b9"
+        }
+      ],
+      "email": "guillaume.jacquemet@utu.fi",
+      "name": "Guillaume Jacquemet"
+    },
+    {
+      "@id": "#5dbaff7b-a55e-4c9d-a522-25f543bb206c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#4a106407-224f-410c-a2c9-07895632b687"
+        }
+      ],
+      "email": "rjhenriques@igc.gulbenkian.pt",
+      "name": "Ricardo Henriquez"
+    },
+    {
+      "@id": "#7ff55756-1c83-4100-8e22-467a9fae5d69",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "r.laine@ucl.ac.uk",
+      "name": "Romain Laine"
+    },
+    {
+      "@id": "#9a028d70-82c8-477f-9a28-0b82bff0f3a0",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#2cb05745-c6d0-4c87-b77f-f59edd751d7f"
+        }
+      ],
+      "email": "ctr26@ebi.ac.uk",
+      "name": "Craig Russell"
+    },
+    {
+      "@id": "#2cb05745-c6d0-4c87-b77f-f59edd751d7f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "European Bioinformatics Institute (EMBL-EBI)"
+    },
+    {
+      "@id": "#4a106407-224f-410c-a2c9-07895632b687",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Instituto Gulbenkian de Ciência"
+    },
+    {
+      "@id": "#ef4e507b-0b37-4586-b4e0-4f0ccd5a94b9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Åbo Akademi University"
+    },
+    {
+      "@id": "#f4107419-8c06-4036-814e-fcbc916f8956",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University College London"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 11
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 12081789468
+    }
+  ]
+}

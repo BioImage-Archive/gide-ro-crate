@@ -1,0 +1,332 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST946-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST946"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST946",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9038-9483"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6603-2986"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6035-9395"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2890-4947"
+        },
+        {
+          "@id": "#e1996112-edca-4c4c-bb0a-6c42242d750a"
+        },
+        {
+          "@id": "#0eec0c02-70db-4a70-81af-723a52fe7ec5"
+        },
+        {
+          "@id": "#ea5b1bed-f764-42fd-aeb5-83027895a71c"
+        },
+        {
+          "@id": "#e1e9b208-7e89-401c-8d81-e0db16b4e2bf"
+        },
+        {
+          "@id": "#de2bcc6a-8970-4ac6-be5d-7ed9648335e8"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1433-8048"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-7660-2524"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-11-19",
+      "description": "Supplementary electron microscopy files for the manuscript ",
+      "funder": [],
+      "identifier": "S-BSST946",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Basal stem cell progeny establish their apical surface in a junctional niche during turnover of an adult barrier epithelium",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#0eec0c02-70db-4a70-81af-723a52fe7ec5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05f82e368"
+        }
+      ],
+      "email": "antoine.guichet@ijm.fr",
+      "name": "Antoine Guichet"
+    },
+    {
+      "@id": "#de2bcc6a-8970-4ac6-be5d-7ed9648335e8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02qg15b79"
+        }
+      ],
+      "email": "bruno.humbel@oist.jp",
+      "name": "Bruno M. Humbel"
+    },
+    {
+      "@id": "#e1996112-edca-4c4c-bb0a-6c42242d750a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02en5vm52"
+        }
+      ],
+      "email": "alain.debec2@gmail.com",
+      "name": "Alain Debec"
+    },
+    {
+      "@id": "#e1e9b208-7e89-401c-8d81-e0db16b4e2bf",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/019whta54"
+        }
+      ],
+      "email": "caroline.kizilyaprak@bluewin.ch",
+      "name": "Caroline Kizilyaprak"
+    },
+    {
+      "@id": "#ea5b1bed-f764-42fd-aeb5-83027895a71c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c9ce0f3d-dae5-47e8-84d4-cb533d3d8401"
+        }
+      ],
+      "email": "jonmichael.knapp@luminintconsulting.com",
+      "name": "Jon-Michael Knapp"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6603-2986",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "paola.moreno.roman@gmail.com",
+      "name": "Paola Moreno-Roman"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7660-2524",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00knt4f32"
+        }
+      ],
+      "email": "lucye@stanford.edu",
+      "name": "Lucy Erin O’Brien"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9038-9483",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "agalenza@stanford.edu",
+      "name": "Anthony Galenza"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2890-4947",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "lacosta3@stanford.edu",
+      "name": "Lehi Acosta-Alvarez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6035-9395",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9"
+        }
+      ],
+      "email": "elsasu@stanford.edu",
+      "name": "Yu-Han Su"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1433-8048",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/019whta54"
+        }
+      ],
+      "email": "irina.kolotueva@unil.ch",
+      "name": "Irina Kolotuev"
+    },
+    {
+      "@id": "#269fc60a-db00-4b0b-b190-31a97aedf5e9",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Stanford University"
+    },
+    {
+      "@id": "#c9ce0f3d-dae5-47e8-84d4-cb533d3d8401",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Luminint Consulting Group"
+    },
+    {
+      "@id": "https://ror.org/00knt4f32",
+      "@type": [
+        "Organization"
+      ],
+      "name": "CZ Biohub"
+    },
+    {
+      "@id": "https://ror.org/019whta54",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Lausanne"
+    },
+    {
+      "@id": "https://ror.org/02en5vm52",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Sorbonne University"
+    },
+    {
+      "@id": "https://ror.org/02qg15b79",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Okinawa Institute of Science and Technology Graduate University"
+    },
+    {
+      "@id": "https://ror.org/05f82e368",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Université Paris Cité"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 18472506414
+    }
+  ]
+}

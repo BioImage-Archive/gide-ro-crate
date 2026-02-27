@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST174-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST174"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST174",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-6194-0467"
+        },
+        {
+          "@id": "#81363d83-771e-4485-b978-9ed85f5cbce4"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2018-07-04",
+      "description": "Dataset of cardiomyocyte images labelled according to cardiomyocyte development stages. The images were acquire using confocal microscopy. The dataset consists training and evaluation data. The original training set is denoted as T-XXX-A while an augmented one as T-XXX-B. Python scripts for further data augmentation are provided as well. The augmentation is carried out as rotation and flying of source images.",
+      "funder": [],
+      "identifier": "S-BSST174",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Cardiomyocyte images by confocal microscopy classified according development stages",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#81363d83-771e-4485-b978-9ed85f5cbce4",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4152f1a-31a2-46bf-b9c7-5b75c6ddeaa5"
+        }
+      ],
+      "email": "Saschia.Zahradnikova@savba.sk",
+      "name": "Alexandra Zahradnikova jr."
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6194-0467",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#76cdacc5-36d5-4e0c-b52b-3b4d09b46586"
+        }
+      ],
+      "email": "skrabanek@fme.vutbr.cz",
+      "name": "Pavel Skrabanek"
+    },
+    {
+      "@id": "#76cdacc5-36d5-4e0c-b52b-3b4d09b46586",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Brno University of Technology"
+    },
+    {
+      "@id": "#f4152f1a-31a2-46bf-b9c7-5b75c6ddeaa5",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Centre of Biosciences SAS"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 125851953
+    }
+  ]
+}

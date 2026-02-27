@@ -1,0 +1,217 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST833-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST833"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST833",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#6e7bf800-f729-4f73-bec7-05c0bdf16477"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-7877-7504"
+        },
+        {
+          "@id": "#115ce0b6-d5e2-4f79-ab89-ba0d481bd1fb"
+        },
+        {
+          "@id": "#b51faecd-84c9-4136-979f-909ebf7dd98e"
+        },
+        {
+          "@id": "#1cf1673c-49b7-435f-9b8f-ad9b590c7109"
+        },
+        {
+          "@id": "#7a25237e-1a81-458a-a6ac-91b39d842737"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-04-28",
+      "description": "Two datasets have been collected in order to quantify the effect of varying the growth rate (modulated by changing the nutrient quality) on the SOS response in Escherichia coli K-12 MG1655. \nThe first dataset consists of snapshot images taken for cells mounted on agar-pads after being grown in different conditions. The second dataset consists of timelapse images of cells grown in the mother \nmachine microfluidic device under different conditions. Apart from the wild type (WT) strain, several derivative strains were also used. Of these, the \"2-pal\" strain was focussed on as it constitutes a reliable and controlled source of chronic, replication-dependent DNA damage. Data was collected for three growth conditions separated by growth medium corresponding to 'slow', 'medium', and 'fast' growth rates. Some datasets additionally include ciprofloxacin exposure as an alternative DNA-damaging agent. Images were captured in brightfield, mCherry (red), and mGFP (green) fluorescence channels. The mKate2 fluorescent marker is linked to constitutive gene expression (Ptet01-mKate2) and primarily used for cell segmentation; while mGFP fluorescent marker is linked to SOS regulon expression (PsulA-mGFP).",
+      "funder": [],
+      "identifier": "S-BSST833",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Growth-dependent heterogeneity in the DNA damage response in Escherichia coli",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#115ce0b6-d5e2-4f79-ab89-ba0d481bd1fb",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "alex.mcvey@ogibio.co.uk",
+      "name": "Alexander McVey"
+    },
+    {
+      "@id": "#1cf1673c-49b7-435f-9b8f-ad9b590c7109",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f2418db6-160e-406e-a089-e553b6f09d12"
+        }
+      ],
+      "email": "mscott@uwaterloo.ca",
+      "name": "Matthew Scott"
+    },
+    {
+      "@id": "#6e7bf800-f729-4f73-bec7-05c0bdf16477",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "sebajarar@gmail.com",
+      "name": "Sebastian Jaramillo-Riveri"
+    },
+    {
+      "@id": "#7a25237e-1a81-458a-a6ac-91b39d842737",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "meriem.elkaroui@ed.ac.uk",
+      "name": "Meriem El Karoui"
+    },
+    {
+      "@id": "#b51faecd-84c9-4136-979f-909ebf7dd98e",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "teuta.pilizota@ed.ac.uk",
+      "name": "Teuta Pilizota"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7877-7504",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#de588502-f2ed-4e10-94dc-797256ad666b"
+        }
+      ],
+      "email": "j.k.broughton@sms.ed.ac.uk",
+      "name": "James Broughton"
+    },
+    {
+      "@id": "#de588502-f2ed-4e10-94dc-797256ad666b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Edinburgh"
+    },
+    {
+      "@id": "#f2418db6-160e-406e-a089-e553b6f09d12",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Waterloo"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 211010533032
+    }
+  ]
+}

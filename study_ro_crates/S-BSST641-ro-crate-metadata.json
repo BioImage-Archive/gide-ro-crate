@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST641-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST641"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST641",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#0cad8436-f7bb-4304-9b37-3683681a06f7"
+        },
+        {
+          "@id": "#ea39dc8c-8daa-4197-ac58-48438ca0a335"
+        },
+        {
+          "@id": "#3de575d8-8803-403e-a1f9-8c6a9182a548"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-05-03",
+      "description": "Here we present the image analysis pipeline used in the manuscript entitled \"Inter-laboratory automation of the in vitro micronucleus assay using imaging flow cytometry and deep learning\".\n\nThe pipeline automates scoring of the cytokinesis-block micronucleus assay using cell image data collected by imaging flow cytometry. Code is provided for MATLAB (using the Deep Learning Toolbox) and for Python (using TensorFlow/keras) programming languages. \n\nIn brief - after image collection, a template file created in the cytometer manufacturer’s IDEAS software was used to automatically batch-save populations of single cells that additionally met acceptable focus criteria. These cell populations then serve as the input into the deep learning scoring pipeline. This download demonstrates initial image preprocessing to normalise image illumination across cytometers in addition to how to build and train the DeepFlow neural network using a human-scored training image set. \n\nWe also provide the final DeepFlow model presented in Figure 4 of the manuscript alongside 5,000 human-scored images for testing. \n ",
+      "funder": [],
+      "identifier": "S-BSST641",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "In support of: Inter-laboratory automation of the in vitro micronucleus assay using imaging flow cytometry and deep learning",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#0cad8436-f7bb-4304-9b37-3683681a06f7",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8013d5bc-1baa-477f-9f0c-0322f7ac1d7a"
+        }
+      ],
+      "email": "jw2020@cam.ac.uk",
+      "name": "Dr John W. Wills"
+    },
+    {
+      "@id": "#3de575d8-8803-403e-a1f9-8c6a9182a548",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a6647dfb-9b58-443e-9018-fb902c41f07c"
+        }
+      ],
+      "email": "g.johnson@swansea.ac.uk",
+      "name": "Dr George Johnson"
+    },
+    {
+      "@id": "#ea39dc8c-8daa-4197-ac58-48438ca0a335",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a6647dfb-9b58-443e-9018-fb902c41f07c"
+        }
+      ],
+      "email": "p.rees@swansea.ac.uk",
+      "name": "Professor Paul Rees"
+    },
+    {
+      "@id": "#8013d5bc-1baa-477f-9f0c-0322f7ac1d7a",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Cambridge University"
+    },
+    {
+      "@id": "#a6647dfb-9b58-443e-9018-fb902c41f07c",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Swansea University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 2816438052
+    }
+  ]
+}

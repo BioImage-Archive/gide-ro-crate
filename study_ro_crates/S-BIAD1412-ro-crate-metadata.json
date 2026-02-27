@@ -1,0 +1,240 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BIAD1412-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1412"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1412",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [
+        {
+          "@id": "#bee03a5f-275e-4bf2-83a0-c2a504e747eb"
+        },
+        {
+          "@id": "obo:NCBITaxon_10090"
+        }
+      ],
+      "author": [
+        {
+          "@id": "#f7063605-26d0-404d-9ee5-fc8bd9bdfc8c"
+        },
+        {
+          "@id": "#c08ebe05-a555-4dbb-be86-73dfa83c75e1"
+        },
+        {
+          "@id": "#91a18c1f-e024-4d51-9c98-4971d214a1e1"
+        },
+        {
+          "@id": "#064491d4-5828-490c-ae34-d43ca5e08100"
+        },
+        {
+          "@id": "#dd8b12d1-2d69-4157-8c56-30656e4af77c"
+        },
+        {
+          "@id": "#f14aa14a-cce0-466d-99e3-0a6e8f654b78"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2025-10-09",
+      "description": "The source image data for the manuscript: 'BMP-9 mediates fibroproliferation in fibrodysplasia ossificans progressiva through TGF-β signaling'.",
+      "funder": [],
+      "identifier": "S-BIAD1412",
+      "keywords": [
+        "fibrodysplasia ossificans progressiva, TGF-β signaling, TGF-β signaling"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "Aberrant TGF-β signals by BMP-9 mediates fibroproliferation in fibrodysplasia ossificans progressiva",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#064491d4-5828-490c-ae34-d43ca5e08100",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2"
+        }
+      ],
+      "name": "Daisuke Kamiya"
+    },
+    {
+      "@id": "#91a18c1f-e024-4d51-9c98-4971d214a1e1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2"
+        }
+      ],
+      "name": "Souta Motoike"
+    },
+    {
+      "@id": "#c08ebe05-a555-4dbb-be86-73dfa83c75e1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2"
+        }
+      ],
+      "name": "Yoshiko Inada"
+    },
+    {
+      "@id": "#dd8b12d1-2d69-4157-8c56-30656e4af77c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2"
+        }
+      ],
+      "name": "Kyosuke Hino"
+    },
+    {
+      "@id": "#f14aa14a-cce0-466d-99e3-0a6e8f654b78",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2"
+        }
+      ],
+      "email": "mikeya@cira.kyoto-u.ac.jp",
+      "name": "Makoto Ikeya"
+    },
+    {
+      "@id": "#f7063605-26d0-404d-9ee5-fc8bd9bdfc8c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#98f0faef-a24c-49df-9de3-00107f5f1098"
+        }
+      ],
+      "email": "chengzhu.zhao@cqmu.edu.cn",
+      "name": "Chengzhu Zhao"
+    },
+    {
+      "@id": "#16fbde59-39ef-4c65-919a-88ba2d9ca4f2",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Kyoto University"
+    },
+    {
+      "@id": "#98f0faef-a24c-49df-9de3-00107f5f1098",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Chongqing Medical University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "obo:NCBITaxon_10090",
+      "@type": [
+        "Taxon"
+      ],
+      "scientificName": "Mus musculus"
+    },
+    {
+      "@id": "#bee03a5f-275e-4bf2-83a0-c2a504e747eb",
+      "@type": [
+        "BioSample"
+      ],
+      "description": "Gastrocnemius muscle of FOP model mouse. Drug (PBS, BMP-9 or CTX) injected gastrocnemius muscle of Dox-treated or untreated FOP model mice",
+      "name": "Flare-up or HO tissue",
+      "taxonomicRange": {
+        "@id": "obo:NCBITaxon_10090"
+      }
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 127
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 414637651
+    }
+  ]
+}

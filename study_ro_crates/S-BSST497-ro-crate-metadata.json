@@ -1,0 +1,162 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST497-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST497"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST497",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-6688-0539"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1837-6359"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5196-1122"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-01-04",
+      "description": "Here we present a canonical 3D digital atlas of Arabidopsis ovules from homozygous ino-5 mutants (Col-0) with cellular and tissue resolution. The atlas covers all stages from early primordium outgrowth to the mature pre-fertilization ovule. The dataset includes 118 3D digital ino-5 ovules, which includes ovules from stage 1-II to 3-IV. The atlas not only provides information about the number of cells and their relative positions but also about characteristics of cellular morphology, such as cell size and shape, for nearly all cells of the ovule. The database is organized according to individual ovule identity code used in the study. Each dataset contains the 3D z-stack and the associated 3D mesh file. The dataset includes raw cell boundaries from confocal microscopy, neural network based cell boundary predictions from PlantSeg (https://github.com/hci-unihd/plant-seg), nuclei stack, 3D segmented cells from the boundary predictions as well as the annotated 3D cell meshes and the associated attribute files in csv format. The 3D mesh files can be opened in the open source software MorphoGraphX (MGX) (www.morphographx.org), the mesh file can be reconverted to obj, stl, ply or any other format of interest in MGX.",
+      "funder": [],
+      "identifier": "S-BSST497",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "ino Arabidopsis ovule atlas: A 3D digital cell atlas of ino ovules in Arabidopsis with cellular and tissue resolution.",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6688-0539",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f9c71eac-d3c3-4095-b28b-a654d9a7f94b"
+        }
+      ],
+      "email": "kay.schneitz@tum.de",
+      "name": "Kay Schneitz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5196-1122",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f9c71eac-d3c3-4095-b28b-a654d9a7f94b"
+        }
+      ],
+      "email": "r.tofanelli@tum.de",
+      "name": "Rachele Tofanelli"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1837-6359",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f9c71eac-d3c3-4095-b28b-a654d9a7f94b"
+        }
+      ],
+      "email": "athul.vijayan@tum.de",
+      "name": "Athul Vijayan"
+    },
+    {
+      "@id": "#f9c71eac-d3c3-4095-b28b-a654d9a7f94b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Technical University of Munich"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 150258206639
+    }
+  ]
+}

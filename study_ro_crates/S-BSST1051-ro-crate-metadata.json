@@ -1,0 +1,272 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1051-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1051"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1051",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9058-4481"
+        },
+        {
+          "@id": "#c43ada45-c47f-4af3-a783-f5abf1181de3"
+        },
+        {
+          "@id": "#7cdca134-3ea4-4374-8e57-5dc4ba90faa5"
+        },
+        {
+          "@id": "#49a157da-9ee3-4a48-951d-ef94ba2d0419"
+        },
+        {
+          "@id": "#b8cfcfdb-18df-428b-9df1-82128a7574f1"
+        },
+        {
+          "@id": "#2ffedff6-68da-45d2-a23f-086d2472b4f4"
+        },
+        {
+          "@id": "#1d6c15e0-58eb-473e-9561-339fa7727308"
+        },
+        {
+          "@id": "#18175521-1ce8-4d71-96c2-ca7660df0330"
+        },
+        {
+          "@id": "#90b27c72-1a90-4cda-9036-4b7902fa526f"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-10-31",
+      "description": "Based on imagery taken at summer coastal haul-out sites on the islands of the Valaam Archipelago in northern Lake Ladoga in 2019 and 2020, a photo-identification database for the endangered Ladoga ringed seal (Pusa hispida ladogensis) has been developed. We based individual identification on unique patterns visible on the seal pelt and demonstrated the utility of this approach to ringed seal monitoring. The current version of the database contains 539 individual seals. When possible, the sex and age class of individuals were recorded, as well as individual resightings within one day, as well as intra- and inter-seasonal resightings. \nThis dataset is associated with the following publication: Trukhanova I.S., Chirkova O.A., Shakhnazarova V.Yu., Gromov V.V., Bakunovich P.M., Kouprianov P.A., Kouprianov A.V., Fedeneva Yu.V., M.V. Sokolovskaya. 2023. Non-invasive monitoring of endangered Ladoga ringed seal (Pusa hispida ladogensis) (Carnivora: Phocidae) using photoidentifi cation // Russian J. Theriol. Vol.22. No.2. P.172–181. doi: 10.15298/rusjtheriol.22.2.10",
+      "funder": [],
+      "identifier": "S-BSST1051",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Ladoga ringed seal photo-identification database.",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#18175521-1ce8-4d71-96c2-ca7660df0330",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "fedeneva.yy@mail.ru",
+      "name": "Yulia V. Fedeneva"
+    },
+    {
+      "@id": "#1d6c15e0-58eb-473e-9561-339fa7727308",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "alexei.kouprianov@gmail.com",
+      "name": "Alexei V. Kouprianov "
+    },
+    {
+      "@id": "#2ffedff6-68da-45d2-a23f-086d2472b4f4",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "alexei.kouprianov@gmail.com",
+      "name": "Platon A. Kouprianov "
+    },
+    {
+      "@id": "#49a157da-9ee3-4a48-951d-ef94ba2d0419",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "gromov@vladimir.one",
+      "name": "Vladimir V. Gromov "
+    },
+    {
+      "@id": "#7cdca134-3ea4-4374-8e57-5dc4ba90faa5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#e4093754-ed41-42db-8e04-94495ac88b33"
+        }
+      ],
+      "email": "shahnazarova-v@mail.ru",
+      "name": "Vlada Yu. Shakhnazarova "
+    },
+    {
+      "@id": "#90b27c72-1a90-4cda-9036-4b7902fa526f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#03ff1876-23a0-4ed3-b327-94448127979f"
+        }
+      ],
+      "email": "ladoganerpa@mail.ru",
+      "name": "Maria V. Sokolovskaya "
+    },
+    {
+      "@id": "#b8cfcfdb-18df-428b-9df1-82128a7574f1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "polina.bakunovich@yandex.ru",
+      "name": "Polina M Bakunovich"
+    },
+    {
+      "@id": "#c43ada45-c47f-4af3-a783-f5abf1181de3",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "chirr.dec@yandex.ru",
+      "name": "Olga A. Chirkova "
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9058-4481",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83"
+        }
+      ],
+      "email": "irina_trukhanova@yahoo.com",
+      "name": "Irina S Trukhanova"
+    },
+    {
+      "@id": "#03ff1876-23a0-4ed3-b327-94448127979f",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Palace of Children's (Youth) Creativity of the Frunzensky District"
+    },
+    {
+      "@id": "#885364cd-880c-4d28-90e5-2e96efadfa83",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Biologists for Nature Conservation"
+    },
+    {
+      "@id": "#e4093754-ed41-42db-8e04-94495ac88b33",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Saint-Petersburg State University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 459294799
+    }
+  ]
+}

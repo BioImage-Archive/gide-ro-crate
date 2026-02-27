@@ -1,0 +1,146 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1174-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1174"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1174",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#6573d0c8-7b72-446e-91dc-3291330d117b"
+        },
+        {
+          "@id": "#9dd6ffb8-aa45-4101-8963-501549391ea5"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-11-10",
+      "description": "Extracellular vesicles released by tumors (tEVs) disseminate via circulatory networks and promote microenvironmental changes in distant organs favoring metastatic seeding. Despite their abundance in the bloodstream, how hemodynamics affect the function of circulating tEVs remains unsolved. We experimentally tuned flow profiles in vitro (microfluidics) and in vivo (zebrafish) and demonstrated that efficient uptake of tEVs occurs in venous endothelial cells subjected to specific hemodynamics. Such low flow profiles partially reroute internalized tEVs towards non-acidic and non-degradative Rab14-positive endosomes, at the expense of lysosomes, suggesting that endothelial mechanosensing diverts tEVs from degradation. Subsequently, tEVs promote the expression of pro-angiogenic transcription factors in low flow-stimulated endothelial cells and favor vessel sprouting in zebrafish. Altogether, we demonstrate that low flow regimes potentiate the pro-tumoral function of circulating tEVs by promoting their uptake and rerouting their trafficking. We propose that tEVs contribute to pre-metastatic niche formation by exploiting endothelial mechanosensing in specific vascular regions with permissive hemodynamics.",
+      "funder": [],
+      "identifier": "S-BSST1174",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Blood flow diverts extracellular vesicles from endothelial degradative compartments to promote angiogenesis",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#6573d0c8-7b72-446e-91dc-3291330d117b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b0963704-8cb1-4c13-b0af-fdb8f9ba3db5"
+        }
+      ],
+      "email": "hyenne@unistra.fr",
+      "name": "Vincent Hyenne"
+    },
+    {
+      "@id": "#9dd6ffb8-aa45-4101-8963-501549391ea5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b0963704-8cb1-4c13-b0af-fdb8f9ba3db5"
+        }
+      ],
+      "email": "jacky.goetz@inserm.fr",
+      "name": "jacky Goetz"
+    },
+    {
+      "@id": "#b0963704-8cb1-4c13-b0af-fdb8f9ba3db5",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Inserm"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 4
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 994777469
+    }
+  ]
+}

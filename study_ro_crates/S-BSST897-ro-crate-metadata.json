@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST897-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST897"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST897",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-4108-2714"
+        },
+        {
+          "@id": "#01c9d450-9a9f-4303-80ae-c007c0669af3"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-09-12",
+      "description": "Cell polarity is an essential and highly conserved process governing cell function. Cell polarization is generally triggered by an external signal that induces the relocation of the centrosome, thus defining the polarity axis of the cell. Here, we took advantage of B cells as a model to study cell polarity and perform a medium-throughput siRNA-based imaging screen to identify new molecular regulators of polarization. ",
+      "funder": [],
+      "identifier": "S-BSST897",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "siRNA screen to unveil the molecular basis of B cell polarization ",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#01c9d450-9a9f-4303-80ae-c007c0669af3",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#1d7e00f3-5644-4b2a-a4e4-05fa1d4315e8"
+        }
+      ],
+      "email": "helene.moreau@curie.fr",
+      "name": "Hélène Moreau"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4108-2714",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#68a178ea-dc2b-45ad-af8f-6f02199d8460"
+        }
+      ],
+      "email": "dorian.obino@pasteur.fr",
+      "name": "Dorian OBINO"
+    },
+    {
+      "@id": "#1d7e00f3-5644-4b2a-a4e4-05fa1d4315e8",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Institute Curie"
+    },
+    {
+      "@id": "#68a178ea-dc2b-45ad-af8f-6f02199d8460",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Institut Pasteur"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 6
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 24349550594
+    }
+  ]
+}

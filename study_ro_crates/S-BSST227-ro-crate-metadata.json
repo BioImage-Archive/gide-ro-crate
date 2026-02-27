@@ -1,0 +1,210 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST227-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST227"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST227",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#455ef3f2-9d07-4fb3-a3c0-8dc8546a1429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-7169-6883"
+        },
+        {
+          "@id": "#de816f2b-6be4-4e05-bf79-b407ff0430ad"
+        },
+        {
+          "@id": "#0501677a-aea8-486d-bac3-368c784e401f"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8035-5914"
+        },
+        {
+          "@id": "#5dffe92c-6a04-425e-b999-b1251af19ff5"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2019-01-11",
+      "description": "This study explores the role of the 53BP1 protein in the repair of DNA lesions arising from replication stress. The main approach of this study is live-cell microscopy to track DNA lesions and their repair in real time. The primary image data submitted here consist of movie files and their underlying single image files of all time-lapse microscopy recordings in the manuscript.",
+      "funder": [],
+      "identifier": "S-BSST227",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Primary image data for publication \"53BP1 nuclear bodies enforce replication timing at under-replicated DNA to limit heritable DNA damage\"",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#0501677a-aea8-486d-bac3-368c784e401f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "jiri.lukas@cpr.ku.dk",
+      "name": "Jiri Lukas"
+    },
+    {
+      "@id": "#455ef3f2-9d07-4fb3-a3c0-8dc8546a1429",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "julian.spies@cpr.ku.dk",
+      "name": "Julian Spies"
+    },
+    {
+      "@id": "#5dffe92c-6a04-425e-b999-b1251af19ff5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "maj-britt.rask@cpr.ku.dk",
+      "name": "Maj-Britt Rask"
+    },
+    {
+      "@id": "#de816f2b-6be4-4e05-bf79-b407ff0430ad",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "kumar.somyajit@cpr.ku.dk",
+      "name": "Kumar Somyajit"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7169-6883",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "claudia.lukas@cpr.ku.dk",
+      "name": "Claudia Lukas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8035-5914",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "kai.neelsen@cpr.ku.dk",
+      "name": "Kai John Neelsen"
+    },
+    {
+      "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Copenhagen"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 34
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 54563682170
+    }
+  ]
+}

@@ -86,14 +86,7 @@
       "citation": [],
       "datePublished": "2025-12-31",
       "description": "All imaging regards the study evaluating the role of GBP1 in phagolysosomal response of macrophages to mycobacteria. Folders correspond to each specific figure. ",
-      "funder": [
-        {
-          "@id": "#6657bb91-fa23-4e70-a56c-9fff513ea3ff"
-        },
-        {
-          "@id": "#761a3fa0-9818-4099-8c38-364f8736c93a"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD1876",
       "keywords": [
         "macrophage",
@@ -183,22 +176,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#6657bb91-fa23-4e70-a56c-9fff513ea3ff",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "VI.Veni.192.151",
-      "name": "Dutch Research Council (NWO)"
-    },
-    {
-      "@id": "#761a3fa0-9818-4099-8c38-364f8736c93a",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "955576",
-      "name": "European Union’s Horizon 2020"
     },
     {
       "@id": "obo:NCBITaxon_9606",

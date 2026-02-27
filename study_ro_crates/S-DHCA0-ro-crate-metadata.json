@@ -1,0 +1,185 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-DHCA0-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-DHCA0"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-DHCA0",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-6397-3518"
+        },
+        {
+          "@id": "#434d03b6-ecaa-4a40-a696-8b9a00dabc22"
+        },
+        {
+          "@id": "#5a4fc28d-daa5-40cf-8600-0bede22abc7d"
+        },
+        {
+          "@id": "#e7245567-6821-4f57-82e1-4133dbf73c99"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-11-30",
+      "description": "The yolk sac (YS) represents an evolutionarily-conserved extra-embryonic structure that ensures timely delivery of nutritional support and oxygen to the developing embryo. However, the YS remains ill-defined in humans. We therefore assemble a complete single cell 3D map of human YS from 3-8 post conception weeks by integrating multiomic protein and gene expression data. We reveal the YS as a site of primitive and definitive haematopoiesis including a YS-specific accelerated route to macrophage production, a source of nutritional/metabolic support and a regulator of oxygen-carrying capacity. We reconstruct the emergence of primitive haematopoietic stem and progenitor cells from YS hemogenic endothelium and their decline upon stromal support modulation as intraembryonic organs specialise to assume these functions. The YS therefore functions as ‘three organs in one’ revealing a multifaceted relay of vital organismal functions as pregnancy proceeds.\n\nWe provide a range of multi-modal spatially-defined validation imaging data including hiplex_RNA-scope, Light-sheet-microscopy and Immunofluorescence data.\n\nData_type:\n- hiplex_RNA-scope\n- Immunofluorescence\n- Light-sheet-microscopy (not on farm)",
+      "funder": [],
+      "identifier": "S-DHCA0",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Multi-organ functions of yolk sac during human early development",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#434d03b6-ecaa-4a40-a696-8b9a00dabc22",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03dywwh47"
+        }
+      ],
+      "email": "megumi.inoue@inserm.fr",
+      "name": "Megumi Inoue"
+    },
+    {
+      "@id": "#5a4fc28d-daa5-40cf-8600-0bede22abc7d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#95ee80d5-bdd8-467a-b44e-088c8f5936f2"
+        }
+      ],
+      "email": "Rachel.Botting@newcastle.ac.uk",
+      "name": "Rachel Botting"
+    },
+    {
+      "@id": "#e7245567-6821-4f57-82e1-4133dbf73c99",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#95ee80d5-bdd8-467a-b44e-088c8f5936f2"
+        }
+      ],
+      "email": "mh32@sanger.ac.uk",
+      "name": "Muzlifah Haniffa"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6397-3518",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#95ee80d5-bdd8-467a-b44e-088c8f5936f2"
+        }
+      ],
+      "email": "ig7@sanger.ac.uk",
+      "name": "Issac Goh"
+    },
+    {
+      "@id": "#95ee80d5-bdd8-467a-b44e-088c8f5936f2",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Wellcome Sanger Institute"
+    },
+    {
+      "@id": "https://ror.org/03dywwh47",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Instituto de la Visión"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 3
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 301901490212
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST669-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST669"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST669",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#8bc06d18-5468-4de7-9a65-98b5bec78704"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9448-4741"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2544-5340"
+        },
+        {
+          "@id": "#48fba7d1-973c-488e-9c00-fdb31565eb91"
+        },
+        {
+          "@id": "#662bc894-07f1-43ed-a1d8-713d030e9c07"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5287-2332"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-06-24",
+      "description": "Raw confocal imaging data sets of mitotic cells of various cell types with fluorescently-labeled chromatin and tubulin. For our study, we developed an open-source 3D morphometric analysis tool \"Spindle3D\" (https://sites.imagej.net/Spindle3D) to robustly and reproducibly derive morphometric quantifications from confocal spindle images.",
+      "funder": [],
+      "identifier": "S-BSST669",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Confocal imaging data for \"Volumetric morphometry reveals mitotic spindle width as the best predictor of spindle scaling\"",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#48fba7d1-973c-488e-9c00-fdb31565eb91",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f651c474-5fff-4d9b-b8e0-e7c8a6cf6509"
+        }
+      ],
+      "email": "nilsdempewolf@gmail.com",
+      "name": "Nils Dempewolf"
+    },
+    {
+      "@id": "#662bc894-07f1-43ed-a1d8-713d030e9c07",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a73b048b-6331-4fb2-977e-555a4e093e6a"
+        }
+      ],
+      "email": "christian.tischer@embl.de",
+      "name": "Christian Tischer"
+    },
+    {
+      "@id": "#8bc06d18-5468-4de7-9a65-98b5bec78704",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a616460b-9956-4d79-af0d-79dd3f4767f2"
+        }
+      ],
+      "email": "tobias.kletter@hu-berlin.de",
+      "name": "Tobias Kletter"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5287-2332",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#203daa1c-bc82-41fa-877a-b7ca71575dd2"
+        }
+      ],
+      "email": "simone.reber@iri-lifesciences.de",
+      "name": "Simone Reber"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9448-4741",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#203daa1c-bc82-41fa-877a-b7ca71575dd2"
+        }
+      ],
+      "email": "sebastian.reusch@hu-berlin.de",
+      "name": "Sebastian Reusch"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2544-5340",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a62eb98b-a7c9-4ed1-bff1-8234e2199165"
+        }
+      ],
+      "email": "tommaso.cavazza@mpibpc.mpg.de",
+      "name": "Tommaso Cavazza"
+    },
+    {
+      "@id": "#203daa1c-bc82-41fa-877a-b7ca71575dd2",
+      "@type": [
+        "Organization"
+      ],
+      "name": "IRI Life Sciences, Humboldt-Universität zu Berlin"
+    },
+    {
+      "@id": "#a616460b-9956-4d79-af0d-79dd3f4767f2",
+      "@type": [
+        "Organization"
+      ],
+      "name": "IRI Life Sciences, Humboldt Universität zu Berlin"
+    },
+    {
+      "@id": "#a62eb98b-a7c9-4ed1-bff1-8234e2199165",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Max Planck Institute for Biophysical Chemistry"
+    },
+    {
+      "@id": "#a73b048b-6331-4fb2-977e-555a4e093e6a",
+      "@type": [
+        "Organization"
+      ],
+      "name": "ALMF, EMBL Heidelberg"
+    },
+    {
+      "@id": "#f651c474-5fff-4d9b-b8e0-e7c8a6cf6509",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Applied Sciences Berlin"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 9
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 2296343742
+    }
+  ]
+}

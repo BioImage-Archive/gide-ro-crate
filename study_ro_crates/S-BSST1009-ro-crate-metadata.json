@@ -1,0 +1,178 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1009-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1009"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1009",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3782-7194"
+        },
+        {
+          "@id": "#141ba70a-c624-419b-838c-0f4c27d439d8"
+        },
+        {
+          "@id": "#9bf46f44-5152-4c03-b7eb-ce6c59580d3f"
+        },
+        {
+          "@id": "#7a8bfeb8-0a8c-450d-9b92-cb550bf2a48b"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-01-29",
+      "description": "Peripheral injury during the early postnatal period alters the somatosensory system, leading to behavioural hyperalgesia upon re-injury in adulthood. Spinal microglia have been implicated as the cellular mediators of this phenomenon, but the mechanism is unclear. We hypothesised that neonatal injury (1) alters microglial phagocytosis of synapses in the dorsal horn leading to long-term structural changes in neurons, and/or (2) trains microglia, leading to a stronger microglial response after re-injury in adulthood. Using hindpaw surgical incision as a model we showed that microglial density and phagocytosis increased in the dorsal horn region innervated by the hindpaw. Dorsal horn microglia increased engulfment of synapses following injury, with a preference for those expressing the vesicular GABA transporter VGAT and primary afferent A-fibre terminals in neonates. This led to a long-term reduction of VGAT density in the dorsal horn and reduced microglial phagocytosis of VGLUT2 terminals. We also saw an increase in apoptosis following neonatal injury, which was not limited to the dorsal horn suggesting that larger circuit wide changes are happening.\nIn adults, hindpaw incision increased microglial engulfment of predominantly VGAT synapses but did not alter the engulfment of A-fibres. This engulfment was not affected by prior neonatal injury, suggesting that microglial phagocytosis was not trained. These results highlight microglial phagocytosis in the dorsal horn as an important physiological response towards peripheral injury with potential long-term consequences and reveals differences in microglial responses between neonates and adults.\n",
+      "funder": [],
+      "identifier": "S-BSST1009",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Microglial phagocytosis mediates long-term restructuring of spinal GABAergic circuits following early life injury",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#141ba70a-c624-419b-838c-0f4c27d439d8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "d.moulding@ucl.ac.uk",
+      "name": "Dale Moulding"
+    },
+    {
+      "@id": "#7a8bfeb8-0a8c-450d-9b92-cb550bf2a48b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "s.beggs@ucl.ac.uk",
+      "name": "Simon Beggs"
+    },
+    {
+      "@id": "#9bf46f44-5152-4c03-b7eb-ce6c59580d3f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "w.jin.16@ucl.ac.uk",
+      "name": "Wenanlan Jin"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3782-7194",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#f4107419-8c06-4036-814e-fcbc916f8956"
+        }
+      ],
+      "email": "yajing.xu.15@ucl.ac.uk",
+      "name": "Yajing Xu"
+    },
+    {
+      "@id": "#f4107419-8c06-4036-814e-fcbc916f8956",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University College London"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 11
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 1046623574267
+    }
+  ]
+}

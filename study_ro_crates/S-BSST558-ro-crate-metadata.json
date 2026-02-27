@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST558-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST558"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST558",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9690-3180"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-12-13",
+      "description": "Biological switches are wide spread in many biological systems. Of them, the switch of the bacterial flagellar motor appears to be unique as it is not an on/off switch but it rather controls the motor’s direction of rotation in response to binding the signaling protein CheY. In spite of being extensively studied, the molecular mechanism underlying the function of this switch has remained unknown at large. Here we resolved the functions of each of the three CheY-binding sites at the switch and their different dependences on phosphorylation and acetylation of CheY. On the basis of this, we propose that CheY becomes potentiated as it binds to the first site. Binding of potentiated CheY to the second site has two outcomes. It produces unstable switching and it enables CheY binding to the third site. The latter binding stabilizes the switched state. Thus, while the switching mechanism is tightly regulated, it also endows the motor with switching flexibility. This unique combination of both tight regulation and flexibility makes this switching mechanism of special interest. This submission contains the raw data that was obtained to support these conclusions.",
+      "funder": [],
+      "identifier": "S-BSST558",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Tightly regulated, yet flexible, directional switching mechanism of a rotary motor",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9690-3180",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#38da569e-f601-4204-ae9c-8c352ae2d54d"
+        }
+      ],
+      "email": "afanzar@stanford.edu",
+      "name": "Oshri Afanzar"
+    },
+    {
+      "@id": "#38da569e-f601-4204-ae9c-8c352ae2d54d",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Weizmann Institute of Science"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 23
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 41017207884
+    }
+  ]
+}

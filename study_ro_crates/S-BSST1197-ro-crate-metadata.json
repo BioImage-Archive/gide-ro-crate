@@ -1,0 +1,265 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1197-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1197"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1197",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-3719-7631"
+        },
+        {
+          "@id": "#b3cf12a7-a5a9-4b56-8f95-490ee100dba0"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2907-2169"
+        },
+        {
+          "@id": "#e40609a7-449b-49a1-901c-85d5e4f541c4"
+        },
+        {
+          "@id": "#1fc4af0c-241d-4bc5-be58-0da58d9d5cb1"
+        },
+        {
+          "@id": "#a226bd46-d95f-4737-9fc4-940690152586"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8488-7638"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0086-9622"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-5431-4628"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-09-14",
+      "description": "UBR-1, a conserved ubiquitin ligase, regulates DVB activity by suppressing bidirectional inhibitory glutamate signaling. Loss of UBR-1 impairs DVB calcium activity and expulsion frequency. These impairments are fully compensated by the knock-down of EAT-4 in DVB. Further, glutamate-gated chloride channels GLC-3 and GLC-2/4 receive DVB's glutamate signals to inhibit DVB and enteric muscle activity, respectively. These results implicate an intrinsic cellular mechanism that promotes the inherent asymmetric neural activity. We propose that elevated glutamate in ubr-1 mutants being the cause of the E/I shift, potentially contributes to Johanson Blizzard Syndrome.",
+      "funder": [],
+      "identifier": "S-BSST1197",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "UBR-1 regulates the balance between GABAergic and glutamatergic signaling",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#1fc4af0c-241d-4bc5-be58-0da58d9d5cb1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "1120669057@qq.com",
+      "name": "Jing Wu"
+    },
+    {
+      "@id": "#a226bd46-d95f-4737-9fc4-940690152586",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "tpp858099537@163.com",
+      "name": "Panpan Ti"
+    },
+    {
+      "@id": "#b3cf12a7-a5a9-4b56-8f95-490ee100dba0",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "email": "btjyothsna@gmail.com",
+      "name": "Jyothsna Chitturi"
+    },
+    {
+      "@id": "#e40609a7-449b-49a1-901c-85d5e4f541c4",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "zhangyongning11@foxmail.com",
+      "name": "Yongning Zhang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5431-4628",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "sgao@hust.edu.cn",
+      "name": "Shangbang Gao"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8488-7638",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "email": "markssh8888@gmail.com",
+      "name": "Wesley Hung"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2907-2169",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "ybin217@qq.com",
+      "name": "Bin Yu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3719-7631",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00p991c53"
+        }
+      ],
+      "email": "liyii@hust.edu.cn",
+      "name": "Yi Li "
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0086-9622",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "email": "meizhen@lunenfeld.ca",
+      "name": "Mei Zhen"
+    },
+    {
+      "@id": "https://ror.org/00p991c53",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Huazhong University of Science and Technology"
+    },
+    {
+      "@id": "https://ror.org/03dbr7087",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Toronto"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 12
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 33519030
+    }
+  ]
+}

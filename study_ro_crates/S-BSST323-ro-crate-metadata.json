@@ -1,0 +1,146 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST323-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST323"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST323",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-1707-8088"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9464-6125"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-01-16",
+      "description": "The advent of single-cell methods is paving the way for an in-depth understanding of the cell cycle with unprecedented detail. The cell cycle integrates all biological processes from the genesis of a cell until its division. An evaluation of cell cycle progression is therefore critical for an exhaustive cellular characterization. In this work, we present DeepCycle, an unsupervised deep learning method for estimating the cell cycle trajectory from unsegmented single-cell microscopy images only relying on the brightfield and DAPI channels. DeepCycle was trained on 2.6 million single-cell images of MDCKII cells with the fluorescent FUCCI system providing a quantified measure of their cell cycle progression. The cells were tracked using brightfield and fluorescence time-lapse microscopy resulting in an elaborate spatiotemporal readout used for data validation. Finally, we could show that DeepCycle learned a latent representation of single-cell images revealing a continuous and closed trajectory of the cell cycle. This is the first model able to resolve the closed cell cycle trajectory, including cell division, solely based on microscopy data from adherent cell cultures.",
+      "funder": [],
+      "identifier": "S-BSST323",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "DeepCycle: Deep learning reconstruction of the closed cell cycle trajectory from single-cell unsegmented microscopy images\n",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9464-6125",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#be9a0d10-461a-4b2b-812f-99d85bc528b0"
+        }
+      ],
+      "email": "theodore.alexandrov@embl.de",
+      "name": "Theodore Alexandrov "
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1707-8088",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#be9a0d10-461a-4b2b-812f-99d85bc528b0"
+        }
+      ],
+      "email": "theodore.alexandrov@embl.de",
+      "name": "Luca Rappez"
+    },
+    {
+      "@id": "#be9a0d10-461a-4b2b-812f-99d85bc528b0",
+      "@type": [
+        "Organization"
+      ],
+      "name": "European Molecular Biology Laboratory (EMBL)"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 8157255757
+    }
+  ]
+}

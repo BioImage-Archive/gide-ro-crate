@@ -86,17 +86,7 @@
       "citation": [],
       "datePublished": "2026-01-21",
       "description": "Plasma membrane calcium ATPases (PMCAs) are believed to function exclusively at the plasma membrane where they expel calcium from the cytosol. We have unexpectedly identified a splice variant-dependent localisation of the PMCA isoform PMCA2 to the lysosome, where it forms an evolutionarily conserved complex with NPC1, the lysosomal membrane protein defective in the rare lysosomal storage disease Niemann-Pick disease type C (NPC). This interaction is required for lysosomal Ca2+ homeostasis and implicates PMCA2 as a mediator of Ca2+ uptake into lysosomes. Disruption of the NPC1-PMCA2 complex contributes to the pathophysiology of both Niemann-Pick disease type C and Parkinson’s disease, revealing an unrecognised intracellular function for PMCA2 and a shared mechanism linking lysosomal Ca2+ and lipid regulation in neurodegeneration. ",
-      "funder": [
-        {
-          "@id": "#1b5755b1-5b39-4802-a31d-8a5665786380"
-        },
-        {
-          "@id": "#1283ec48-0cd3-4a9c-9b35-ff258573540d"
-        },
-        {
-          "@id": "#48ea2c82-5add-43e2-a206-4873f88d61b6"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2807",
       "keywords": [
         "PMCA2",
@@ -148,30 +138,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#1283ec48-0cd3-4a9c-9b35-ff258573540d",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "NF171121 ",
-      "name": "The Royal Society Newton International Fellowship"
-    },
-    {
-      "@id": "#1b5755b1-5b39-4802-a31d-8a5665786380",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "ASAP-000478",
-      "name": "Aligning Science Across Parkinson’s"
-    },
-    {
-      "@id": "#48ea2c82-5add-43e2-a206-4873f88d61b6",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "202834/Z/16/2 ",
-      "name": "Wellcome Trust Investigator in Science"
     },
     {
       "@id": "obo:NCBITaxon_10116",

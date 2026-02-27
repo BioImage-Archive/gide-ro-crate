@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST742-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST742"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST742",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#ff8e099a-ce99-4c15-b7d2-f11ca7f90c74"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-02-06",
+      "description": "20221212 \nCode and image-data supporting the 2-D and 3-D label-free cell segmentation method demonstrated in the paper \"Label-free cell segmentation of diverse lymphoid tissues in 2-D and 3-D\".2022\n\nFive zip files are available for download:\n1 - Standalone software. This allows deployment of the method using precompiled Windows software to generate the label-free probability maps with no programming required. (~2.77GB including image-data)\n\n2 - MATLAB version. This provides the data and code necessary to reproduce the methods shown in the paper using MATLAB and the Deep Learning Toolbox (~7GB including image-data). \n\n3 - Python version. This provides the data and code necessary to reproduce the methods shown in the paper using the Python programming language using TensorFlow / Keras (~8GB including image-data). \n\n4 - MATLAB App files to enable further development/tailoring of standalone software (i.e., not compiled) (~2.80GB including image-data)\n\n5 - MATLAB, Python and uncompiled software files - CODE ONLY NO DATA (~60 MB)\n\nAbstract -\nUnlocking and quantifying fundamental biological processes through tissue microscopy requires accurate, in situ segmentation of all cells imaged. Currently, achieving this is complex and requires exogenous fluorescent labels that occupy significant spectral bandwidth, increasing the duration and complexity of imaging experiments whilst limiting the number of channels remaining to address the study’s objectives. To overcome these difficulties, here we show that the excitation light reflected during routine confocal microscopy contains sufficient information to achieve accurate, label-free cell segmentation in 2-D and 3-D. This is achieved using a simple neural network trained to output the probability that reflected light pixels belong to either nucleus, cytoskeleton or background classifications. We demonstrate the approach across diverse lymphoid tissues and provide video tutorials demonstrating deployment using Python, MATLAB or precompiled software for Windows.",
+      "funder": [],
+      "identifier": "S-BSST742",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "In Support of: Label-free cell segmentation of diverse lymphoid tissues in 2-D and 3-D",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#ff8e099a-ce99-4c15-b7d2-f11ca7f90c74",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#940c5db9-f6a5-47ba-8e12-659dac275555"
+        }
+      ],
+      "email": "jw2020@cam.ac.uk",
+      "name": "John W. Wills"
+    },
+    {
+      "@id": "#940c5db9-f6a5-47ba-8e12-659dac275555",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Cambridge"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 5
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 22084725472
+    }
+  ]
+}

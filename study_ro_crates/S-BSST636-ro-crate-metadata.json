@@ -1,0 +1,217 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST636-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST636"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST636",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-2825-5676"
+        },
+        {
+          "@id": "#4036c4c2-ea38-4e46-85f1-8465ce337810"
+        },
+        {
+          "@id": "#b73a7c83-cff1-49ae-a7fb-e69ac9017c0c"
+        },
+        {
+          "@id": "#bd813bb6-1032-4cfd-b075-8d9a3085dffe"
+        },
+        {
+          "@id": "#a687dd25-75d0-43b8-9b81-a6ed889798f8"
+        },
+        {
+          "@id": "#b6a72fb7-15a6-4289-986a-fc697aa0cd15"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-04-26",
+      "description": "Silver nanoparticles (AgNPs) are widely used nanomaterials in both commercial and clinical biomedical applications, but the molecular mechanisms underlying their activity remain elusive. In this study we profiled proteomics and redox proteomics changes induced by AgNPs in two lung cancer cell lines: AgNPs sensitive Calu-1 and AgNPs resistant NCI-H358. We show that AgNPs induce changes in protein abundance and reversible oxidation in a time and cell line dependent manner impacting critical cellular processes such as protein translation and modification, lipid metabolism, bioenergetics and mitochondrial dynamics. Supporting confocal microscopy and transmission electron microscopy (TEM) data further emphasize mitochondria as a target of AgNPs toxicity differentially impacting mitochondrial networks and morphology in Calu-1 and NCI-H358 lung cells.",
+      "funder": [],
+      "identifier": "S-BSST636",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Integrated Redox Proteomic Analysis Highlights New Mechanisms of Sensitivity to Silver Nanoparticles",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#4036c4c2-ea38-4e46-85f1-8465ce337810",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#d0ca0bf6-a3db-429d-93d6-61e95fbea78b"
+        }
+      ],
+      "email": "hwu@wakehealth.edu",
+      "name": "Hanzhi Wu"
+    },
+    {
+      "@id": "#a687dd25-75d0-43b8-9b81-a6ed889798f8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#067c3094-d079-46db-b7ea-985abef2d3df"
+        }
+      ],
+      "email": "rasingh@wakehealth.edu",
+      "name": "Ravi Singh"
+    },
+    {
+      "@id": "#b6a72fb7-15a6-4289-986a-fc697aa0cd15",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#067c3094-d079-46db-b7ea-985abef2d3df"
+        }
+      ],
+      "email": "cfurdui@wakehealth.edu",
+      "name": "Cristina M Furdui"
+    },
+    {
+      "@id": "#b73a7c83-cff1-49ae-a7fb-e69ac9017c0c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#067c3094-d079-46db-b7ea-985abef2d3df"
+        }
+      ],
+      "email": "jilee@wakehealth.edu",
+      "name": "Jingyun Lee"
+    },
+    {
+      "@id": "#bd813bb6-1032-4cfd-b075-8d9a3085dffe",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#067c3094-d079-46db-b7ea-985abef2d3df"
+        }
+      ],
+      "email": "atsang@wakehealth.edu",
+      "name": "Allen W Tsang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2825-5676",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#067c3094-d079-46db-b7ea-985abef2d3df"
+        }
+      ],
+      "email": "reetta.holmila@gmail.com",
+      "name": "Reetta Holmila"
+    },
+    {
+      "@id": "#067c3094-d079-46db-b7ea-985abef2d3df",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Wake Forest School of Medicine"
+    },
+    {
+      "@id": "#d0ca0bf6-a3db-429d-93d6-61e95fbea78b",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Wake Forest School of Medecine"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 2
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 670154937
+    }
+  ]
+}

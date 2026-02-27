@@ -1,0 +1,233 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST374-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST374"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST374",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-2680-1837"
+        },
+        {
+          "@id": "#0d3b64f0-eb38-4df9-8642-2e946b1ddd40"
+        },
+        {
+          "@id": "#09dcab7f-3564-4047-991d-1011f5e82016"
+        },
+        {
+          "@id": "#a4f0dcef-061d-4ed0-8a8f-18dffdf83d4a"
+        },
+        {
+          "@id": "#65f3a17a-e4a8-4e8d-902f-a8dafc1bf907"
+        },
+        {
+          "@id": "#cd992504-74ad-4dba-bee6-f30955d94156"
+        },
+        {
+          "@id": "#72c6d69a-0290-4514-be75-2cd96c1e4181"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-03-30",
+      "description": "Supporting source data for the paper entitled \"Dynamic properties of noise and Her6 levels are optimized by miR-9, allowing the decoding of the Her6 oscillator\". This submission contains image data used in the study. In addition, numerical data including statistics are provided as excel documents. Data has been organised by figure and by panel number. ",
+      "funder": [],
+      "identifier": "S-BSST374",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "\nIn support of: Dynamic properties of noise and Her6 levels are optimized by miR-9, allowing the decoding of the Her6 oscillator. Authors: Ximena Soto, Veronica Biga, Jochen Kursawe, Robert Lea, Parnian Doostdar, Riba Thomas and Nancy Papalopulu. Corresponding authors: NP and XS.\n",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#09dcab7f-3564-4047-991d-1011f5e82016",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c18d9558-bbb7-4556-a80c-4b6236a05b2c"
+        }
+      ],
+      "email": "jochen.kursawe@st-andrews.ac.uk",
+      "name": "Jochen Kursawe"
+    },
+    {
+      "@id": "#0d3b64f0-eb38-4df9-8642-2e946b1ddd40",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "veronica.biga@manchester.ac.uk",
+      "name": "Veronica Biga"
+    },
+    {
+      "@id": "#65f3a17a-e4a8-4e8d-902f-a8dafc1bf907",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "parnian.doostdar@postgrad.manchester.ac.uk",
+      "name": "Parnian Doostdar"
+    },
+    {
+      "@id": "#72c6d69a-0290-4514-be75-2cd96c1e4181",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "nancy.papalopulu@manchester.ac.uk",
+      "name": "Nancy Papalopulu"
+    },
+    {
+      "@id": "#a4f0dcef-061d-4ed0-8a8f-18dffdf83d4a",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "Robert.Lea@manchester.ac.uk",
+      "name": "Robert Lea"
+    },
+    {
+      "@id": "#cd992504-74ad-4dba-bee6-f30955d94156",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "riba.thomas@manchester.ac.uk",
+      "name": "Riba Thomas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2680-1837",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d"
+        }
+      ],
+      "email": "ximena.soto@manchester.ac.uk",
+      "name": "Ximena Soto"
+    },
+    {
+      "@id": "#12f48030-f1d5-42b3-9b47-443155426d0d",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Manchester"
+    },
+    {
+      "@id": "#c18d9558-bbb7-4556-a80c-4b6236a05b2c",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of St Andrews"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 15
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 47200756408
+    }
+  ]
+}

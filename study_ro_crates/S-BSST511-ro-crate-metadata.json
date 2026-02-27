@@ -1,0 +1,146 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST511-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST511"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST511",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#34126441-72c2-4e1b-a4c7-e3ad815c996e"
+        },
+        {
+          "@id": "#9a6fa097-6a61-4568-9cc5-3b8d3aea31cd"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-09-09",
+      "description": "Activating mutations in RAS are present in ~30% of human tumors, and the resulting aberrations in ERK/MAPK signaling play a central role in oncogenesis. However, the form of these signaling changes is uncertain, with activating RAS mutants linked to both increased and decreased ERK activation in vivo. Rationally targeting the kinase activity of this pathway requires clarification of the quantitative effects of RAS mutations. Here, we use live-cell imaging in cells expressing only one RAS isoform to quantify ERK activity with a new level of accuracy. We find that despite large differences in their biochemical activity, mutant KRAS isoforms within cells have similar ranges of ERK output. We identify roles for pathway-level effects, including variation in feedback strength and feedforward modulation of phosphatase activity, that act to rescale pathway sensitivity, ultimately resisting changes in the dynamic range of ERK activity while preserving responsiveness to growth factor stimuli. Our results reconcile seemingly inconsistent reports within the literature and imply that the signaling changes induced by RAS mutations early in oncogenesis are subtle.",
+      "funder": [],
+      "identifier": "S-BSST511",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Oncogenic mutant RAS signaling activity is rescaled by the ERK/MAPK pathway",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#34126441-72c2-4e1b-a4c7-e3ad815c996e",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3ed4934a-3afd-44d1-890e-9dc81222b575"
+        }
+      ],
+      "email": "jgalbeck@ucdavis.edu",
+      "name": "John G Albeck"
+    },
+    {
+      "@id": "#9a6fa097-6a61-4568-9cc5-3b8d3aea31cd",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#3ed4934a-3afd-44d1-890e-9dc81222b575"
+        }
+      ],
+      "email": "tgillies@ucdavis.edu",
+      "name": "Taryn E Gillies"
+    },
+    {
+      "@id": "#3ed4934a-3afd-44d1-890e-9dc81222b575",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of California - Davis"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 6
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 99022701506
+    }
+  ]
+}

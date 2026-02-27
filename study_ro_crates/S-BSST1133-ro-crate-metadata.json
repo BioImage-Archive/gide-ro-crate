@@ -1,0 +1,194 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST1133-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1133"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST1133",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-3091-2559"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9592-9554"
+        },
+        {
+          "@id": "#83ed8c48-8925-42e0-ac90-9ba44e664932"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5669-6399"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8560-3964"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2023-09-29",
+      "description": "We identified N4BP1, which is highly expressed in the neural progenitor cells (NPCs) of the developing cerebral cortex, as a negative modulator of Notch signalling dynamics in NPCs. Intriguingly, N4BP1 mediated NICD turnover through ubiquitin-mediated degradation that depended on its RAM domain, not its PEST domain, as had been extensively and previously described. The CoCUN domain in N4BP1, particularly the \"Phe-Pro\" motif (862/863 amino acid), was indispensable for mediating NICD degradation. The Ring family E3 ligase Trim21, but not NEDD4 family member, was involved in this process. Overexpression of N4BP1 in cortical NPCs promoted neural stem cell differentiation, whereas NPCs lacking N4BP1 were sensitized to Notch signalling, resulting in the maintenance of stem-like properties of NPCs and lower production of cortical neurons.",
+      "funder": [],
+      "identifier": "S-BSST1133",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "N4BP1 mediates RAM domain-dependent Notch signalling turnover during neocortical development",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#83ed8c48-8925-42e0-ac90-9ba44e664932",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58"
+        }
+      ],
+      "email": "zhihuama1991@163.com",
+      "name": "Zhihua Ma"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3091-2559",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58"
+        }
+      ],
+      "email": "pengcheng_shu@ibms.pumc.edu.cn",
+      "name": "Pengcheng Shu"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5669-6399",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58"
+        }
+      ],
+      "email": "zengyi_cq@hospital.cqmu.edu.cn",
+      "name": "Yi Zeng"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8560-3964",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58"
+        }
+      ],
+      "email": "wmingang@163.com",
+      "name": "Ming Wang"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9592-9554",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58"
+        }
+      ],
+      "email": "pengxiaozhong@pumc.edu.cn",
+      "name": "Xiaozhong Peng"
+    },
+    {
+      "@id": "#72e9ab25-b707-4b19-a7ef-a5ea9591eb58",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Chinese Academy of Medical Sciences & Peking Union Medical College"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 11
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 2909696404
+    }
+  ]
+}

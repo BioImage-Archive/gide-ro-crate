@@ -1,0 +1,258 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST525-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST525"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST525",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#8135acd3-de50-48df-8add-24e394a5edde"
+        },
+        {
+          "@id": "#33cb1272-272d-4eeb-aa72-7ce35a071f07"
+        },
+        {
+          "@id": "#292863ca-a453-4cf3-a001-b513d32a656d"
+        },
+        {
+          "@id": "#3a58f4a5-8593-4b98-9709-52f9cbe2f3df"
+        },
+        {
+          "@id": "#cc539745-a856-4dc7-9f89-ebd97f203e37"
+        },
+        {
+          "@id": "#cd7c41c9-4a8e-4e0e-8824-e2a16b5ad246"
+        },
+        {
+          "@id": "#15b46121-f057-4c80-abcb-27ca967319a5"
+        },
+        {
+          "@id": "#d07ca587-936f-4c74-af6d-ad4951a91f11"
+        },
+        {
+          "@id": "#f731804a-83d5-44e0-a6f8-751d31ae00e8"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-10-24",
+      "description": "Background\nThe COVID-19 agent, SARS-CoV-2, is conspecific with the severe acute respiratory syndrome coronavirus (SARS-CoV) that caused SARS in 2002. Whereas both viruses share a completely homologous repertoire of proteins and use the same cellular entry receptor, their transmission efficiencies and pathogenetic traits differ. Here, we studied differences in dsRNA abundance and IRF-3 nuclear translocation in SARS and SARS-CoV-2 infected Calu-3 cells under untreated conditions or after treatment with Ruxolitinib, a JAK-STAT-inhibitor, and Camostat Mesylate.",
+      "funder": [],
+      "identifier": "S-BSST525",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Interferon antagonism by SARS-CoV-2: a functional study using reverse genetics ",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#15b46121-f057-4c80-abcb-27ca967319a5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "christine.goffinet@charite.de",
+      "name": "Christine Goffinet"
+    },
+    {
+      "@id": "#292863ca-a453-4cf3-a001-b513d32a656d",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "daniela.niemeyer@charite.de",
+      "name": "Daniela Niemeyer"
+    },
+    {
+      "@id": "#33cb1272-272d-4eeb-aa72-7ce35a071f07",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "fabian.pott@charite.de",
+      "name": "Fabian Pott"
+    },
+    {
+      "@id": "#3a58f4a5-8593-4b98-9709-52f9cbe2f3df",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "talitha.veith@charite.de",
+      "name": "Talitha Veith"
+    },
+    {
+      "@id": "#8135acd3-de50-48df-8add-24e394a5edde",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "simon.schroeder@charite.de",
+      "name": "Simon Schroeder"
+    },
+    {
+      "@id": "#cc539745-a856-4dc7-9f89-ebd97f203e37",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "anja.richter@charite.de",
+      "name": "Anja Richter"
+    },
+    {
+      "@id": "#cd7c41c9-4a8e-4e0e-8824-e2a16b5ad246",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "doreen.muth@charite.de",
+      "name": "Doreen Muth"
+    },
+    {
+      "@id": "#d07ca587-936f-4c74-af6d-ad4951a91f11",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "marcel.mueller@charite.de",
+      "name": "Marcel A. Müller"
+    },
+    {
+      "@id": "#f731804a-83d5-44e0-a6f8-751d31ae00e8",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#5e619101-faaa-46c0-ba63-f94834270f78"
+        }
+      ],
+      "email": "christian.drosten@charite.de",
+      "name": "Christian Drosten"
+    },
+    {
+      "@id": "#5e619101-faaa-46c0-ba63-f94834270f78",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Charité - Universitätsmedizin Berlin"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 86
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 9882654706
+    }
+  ]
+}

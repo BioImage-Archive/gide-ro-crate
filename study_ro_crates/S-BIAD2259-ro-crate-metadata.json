@@ -84,23 +84,7 @@
       ],
       "datePublished": "2026-01-16",
       "description": "Essential for eukaryotes, multiple copies of the exocyst complex tether each secretory vesicle to\nthe plasma membrane (PM) in constitutive exocytosis. The exocyst higher-order structure\n(ExHOS) that coordinates the action of these multiple exocysts remains unexplored. We integrated particle tracking, super-resolution microscopy and cryo-electron tomography to time-\nresolve the continuum conformational landscape of the ExHOS and to functionally annotate its\ndifferent conformations. We found that 7 exocysts form flexible ring-shaped ExHOS that tether 2\nvesicles at <45 nm from the PM. The ExHOS rapidly expands while it pulls the vesicle towards the\nPM in a stepwise mechanism comprising three metastable states at 27, 18 and 5 nm from the\nPM. After fusion, Sec18 mediates the disassembly of the stationary ExHOS, an emergent function\nthat controls the rate of exocytosis. By resolving the biophysical principles of tethering we\nbridged the gap between static isolated structures and the dynamic and multimeric nature of\nexocytosis.\n\nThis datset contains in particular the correlative light and electorn microscopy images of lamellae that were subsequently used to target tomogram acqusition. ",
-      "funder": [
-        {
-          "@id": "pid: 24954"
-        },
-        {
-          "@id": "#79f7c8fa-e472-478a-997a-17d9211d8ba4"
-        },
-        {
-          "@id": "#8c46d359-92e4-4083-b093-34307dd92b85"
-        },
-        {
-          "@id": "#edd7f5cf-58ba-41ee-94f8-45979e250bdc"
-        },
-        {
-          "@id": "#3145fe12-1cd8-41cc-9382-a82f82b45ae7"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2259",
       "keywords": [
         "constitutive exocytosis",
@@ -175,46 +159,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#3145fe12-1cd8-41cc-9382-a82f82b45ae7",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "grant IBF-01",
-      "name": "European Commission – NextGenerationEU - Momentum CSIC Programme"
-    },
-    {
-      "@id": "#79f7c8fa-e472-478a-997a-17d9211d8ba4",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "grant RGP0017/2020",
-      "name": "Human Frontiers Science Program (HFSP)"
-    },
-    {
-      "@id": "#8c46d359-92e4-4083-b093-34307dd92b85",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "PID2021-127773NB-I00 and PID2021-127309NB-I00",
-      "name": "Spanish funding agency (MICIU/AEI/10.13039/501100011033/FEDER/UE)"
-    },
-    {
-      "@id": "#edd7f5cf-58ba-41ee-94f8-45979e250bdc",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "CEX2018-000792-M",
-      "name": "Unidad de Excelencia Maria de Maeztu (MICIU/AEI/10.13039/501100011033)"
-    },
-    {
-      "@id": "pid: 24954",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "PID: 24954",
-      "name": "iNEXT-Discovery funding"
     },
     {
       "@id": "https://doi.org/10.1101/2025.02.05.635468",

@@ -80,14 +80,7 @@
       "citation": [],
       "datePublished": "2025-12-12",
       "description": "Parkinson’s disease is considered biologically a neuronal alpha-synuclein disease, largely ignoring the more widespread alpha-synuclein deposition that occurs in astrocytes. Recent single cell transcriptomics have identified early astrocytic differences in both Parkinson’s disease and mouse models with an increase in reactive astrocytes associated with proteostasis. To identify whether astrocytes accumulate alpha-synuclein before or after neurons, the present study histologically assessed astrocytes and alpha-synuclein accumulation in the M83 A53T transgenic mouse model of Parkinson’s disease prior to significant neuronal alpha-synuclein accumulation.\nThe brains of M83 A53T transgenic (n=5) and wild-type (n=4) mice were perfusion fixed and serial sections of the midbrain and striatum processed for multiplex labelling. Digital images were captured from standardised sampling regions and astrocyte quantitation performed using QuPath software. Multivariate linear region models with Turkey posthoc tests were used to evaluate the effects of genotype on regional astrocyte morphology and numbers.\nThe density of astrocytes within the substantia nigra pars compacta was approximately 30% greater compared with other sampled regions (P<0.005). Small aggregates of alpha-synuclein were observed in astrocytic processes, including in wild-type mice where a quarter of all astrocytes had an obvious alpha-synuclein aggregate. Compared to wild-type, A53T transgenic astrocytes had significantly enlarged somas (P<0.001) with more processes (P<0.001) consistent with a reactive phenotype. The expression of vascular endothelial growth factor A was present in analysed astrocytes, but not the synthesising enzyme for vitamin D CYP27B1. The A53T transgenic mice had more than double the numbers of astrocytes (P<0.001) and 2.5 times more astrocytes with alpha-synuclein aggregates compared to wild-type mice (P<0.001). \nThese data suggest that -synuclein is normally cleared by astrocytes and that the substantia nigra pars compacta requires more astrocytic support than other midbrain dopaminergic regions or the striatum. This adds another vulnerability factor to those already known for the substantia nigra. In the A53T transgenic mouse model, astrocytes have an early upregulation of their clearance of alpha-synuclein aggregates. While speculative, a loss of this ability to take up alpha-synuclein in these regions may precipitate the selective neuronal degeneration and pathologies observed in Parkinson’s disease. As we move to a biological definition for this disease, understanding this early role of astrocytes needs to be considered further.",
-      "funder": [
-        {
-          "@id": "#7d4987c5-977f-4d87-80a8-77b806595f56"
-        },
-        {
-          "@id": "#0eccc2b4-3e2f-4a98-aa8f-bfc7c73f345e"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2485",
       "keywords": [
         "alpha-synuclein",
@@ -152,22 +145,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#0eccc2b4-3e2f-4a98-aa8f-bfc7c73f345e",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "1176607, 2026395",
-      "name": "National Health and Medical Research Council of Australia"
-    },
-    {
-      "@id": "#7d4987c5-977f-4d87-80a8-77b806595f56",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "000497",
-      "name": "Aligning Science Across Parkinson’s"
     },
     {
       "@id": "obo:NCBITaxon_10090",

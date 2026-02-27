@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST353-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST353"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST353",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-8352-2979"
+        },
+        {
+          "@id": "#084982ff-b114-4049-a750-ffaf0e3aab93"
+        },
+        {
+          "@id": "#217b74be-88b9-4112-874c-0d41717010aa"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-03-04",
+      "description": "EEG, behavior, and patch clamp electrophysiology data associated with the manuscript, 'Deficits in Behavioral and Neuronal Pattern Separation in Temporal Lobe Epilepsy'.",
+      "funder": [],
+      "identifier": "S-BSST353",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Deficits in Behavioral and Neuronal Pattern Separation in Temporal Lobe Epilepsy",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#084982ff-b114-4049-a750-ffaf0e3aab93",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#62f4153f-5eb8-47c0-97e2-9607386bc8cd"
+        }
+      ],
+      "email": "madar@uchicago.edu",
+      "name": "Antoine Madar"
+    },
+    {
+      "@id": "#217b74be-88b9-4112-874c-0d41717010aa",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bcf0cdd4-e849-4156-a29f-22b203251595"
+        }
+      ],
+      "email": "mathewjones@wisc.edu",
+      "name": "Mathew Jones"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8352-2979",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bcf0cdd4-e849-4156-a29f-22b203251595"
+        }
+      ],
+      "email": "jesse.pfammatter@gmail.com",
+      "name": "Jesse Pfammatter"
+    },
+    {
+      "@id": "#62f4153f-5eb8-47c0-97e2-9607386bc8cd",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Chicago"
+    },
+    {
+      "@id": "#bcf0cdd4-e849-4156-a29f-22b203251595",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Wisconsin Madison"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 16
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 24449954336
+    }
+  ]
+}

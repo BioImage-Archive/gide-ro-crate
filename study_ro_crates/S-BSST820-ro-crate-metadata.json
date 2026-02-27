@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST820-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST820"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST820",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-7843-5341"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1292-4799"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4492-1798"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2022-05-19",
+      "description": "This study describes a new concept called Deep Visual Proteomics (DVP), which combines high parametric imaging with a deep proteomic readout of single cell types or states (Mund et al., Nat Biotechnol, 2022). The primary raw data submitted here consist of BIAS raw data, image raw data, a demo dataset, and online material of how to install a free compiled version of BIAS and to reproduce our work.",
+      "funder": [],
+      "identifier": "S-BSST820",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Deep Visual Proteomics defines single cell identity and heterogeneity",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4492-1798",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a11f84e2-44d8-454b-83a7-f1937e6410e1"
+        }
+      ],
+      "email": "h938454@gmail.com",
+      "name": "Peter Horvath"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7843-5341",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c"
+        }
+      ],
+      "email": "andreas.mund@cpr.ku.dk",
+      "name": "Andreas Mund"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1292-4799",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#8d9eac2f-686b-4e8d-9261-ffb72bd4bc74"
+        }
+      ],
+      "email": "mmann@biochem.mpg.de",
+      "name": "Matthias Mann"
+    },
+    {
+      "@id": "#8d9eac2f-686b-4e8d-9261-ffb72bd4bc74",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Max Planck Institute for Biochemistry"
+    },
+    {
+      "@id": "#a11f84e2-44d8-454b-83a7-f1937e6410e1",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Biological Research Centre"
+    },
+    {
+      "@id": "#b154dd0c-62be-4e09-99aa-686e0e90795c",
+      "@type": [
+        "Organization"
+      ],
+      "name": "University of Copenhagen"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 4
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 8006286229
+    }
+  ]
+}

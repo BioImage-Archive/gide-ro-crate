@@ -105,17 +105,7 @@
       ],
       "datePublished": "2026-01-16",
       "description": "The chicken embryo has been a long-standing model for studying embryonic development. Its easy access for in vivo experiments, together with the development of ex ovo culture techniques, has made it a choice model system for elaborate experimental manipulations. Here we present a time-lapse imaging dataset of the developing chicken embryo in ex ovo culture covering a range of HH3 to HH14+ embryonic stages, with 3-6 min temporal resolution. ",
-      "funder": [
-        {
-          "@id": "#e7c1858a-bb71-4bdb-9474-6835e4081985"
-        },
-        {
-          "@id": "#cbb8a75a-bf97-45b7-863b-c8b75d1ba25f"
-        },
-        {
-          "@id": "#a7dc5ebe-268f-4f03-8199-0f0017792ca2"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD1474",
       "keywords": [
         "Embryo Development",
@@ -261,30 +251,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#a7dc5ebe-268f-4f03-8199-0f0017792ca2",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "10.54499/2022.12867.BD",
-      "name": "Fundação para a Ciência e Tecnologia (FCT)"
-    },
-    {
-      "@id": "#cbb8a75a-bf97-45b7-863b-c8b75d1ba25f",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "COVID/BD/153553/2024",
-      "name": "Fundação para a Ciência e Tecnologia (FCT)"
-    },
-    {
-      "@id": "#e7c1858a-bb71-4bdb-9474-6835e4081985",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "10.54499/SFRH/BD/146043/2019",
-      "name": "Fundação para a Ciência e Tecnologia (FCT)"
     },
     {
       "@id": "https://doi.org/10.1016/j.ydbio.2025.12.022",

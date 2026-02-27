@@ -77,14 +77,7 @@
       "citation": [],
       "datePublished": "2025-12-05",
       "description": "MEIOC prevents continued mitotic cycling and promotes meiotic entry during mouse oogenesis: In multicellular organisms, germ cells’ transformation into haploid gametes requires that they transition from mitosis to meiosis, whereby they stop mitotic cycling and enter the meiotic cell cycle. In mammals, transcriptional activator STRA8-MEIOSIN mediates the decision to enter the meiotic cell cycle by triggering the G1-to-meiotic S phase transition. However, the molecular basis by which mammalian germ cells prevent continued mitotic cycling before entering the meiotic cell cycle remains unclear. Here, we investigate MEIOC’s role in the mitosis-to-meiosis transition during mouse oogenesis by analyzing proliferation, cell cycle transcriptomics, and cell cycle-associated protein expression. MEIOC was previously shown to destabilize mRNA and repress the mitotic program after meiotic entry. Here, we demonstrate that MEIOC prevents continued mitotic cycling prior to meiotic entry in oogenic cells. We find that the mitosis-to-meiosis transition involves the repression of G1/S cyclin CCNA2 at the transcript and protein levels, and that MEIOC downregulates CCNA2 protein expression. In addition, MEIOC promotes entry into meiotic S phase by increasing Meiosin transcript abundance and consequently activating the STRA8-MEIOSIN transcription factor. Given that STRA8-MEIOSIN upregulates Meioc expression, MEIOC and STRA8-MEIOSIN form a positive feedback loop to reinforce timely meiotic initiation. We also demonstrate that BMP signaling halts mitotic cycling and promotes meiotic entry by upregulating MEIOC. We conclude that, in mouse oogenic cells, the transition from mitosis to meiosis occurs as two molecularly regulated steps– (i) halt of mitotic cycling and (ii) entry into the meiotic cell cycle – and that MEIOC modifies the cell cycle program to facilitate both steps in this transition. \n\nThis study was published in: \n\nUshuhuda EG*, Nguyen JT*, Pfaltzgraff NG, Wenner SM, Kofron M, Mikedis MM. MEIOC prevents continued mitotic cycling and promotes meiotic entry during mouse oogenesis. Development. 2025 Nov 25:dev205037. PMID: 41287933.\n* equal contribution\n\n",
-      "funder": [
-        {
-          "@id": "#9bce54a5-093f-4782-8e8a-027e4fef3724"
-        },
-        {
-          "@id": "#d8644e48-eb3a-463a-9461-63fe7f1914f9"
-        }
-      ],
+      "funder": [],
       "identifier": "S-BIAD2080",
       "keywords": [
         "transition from mitosis to meiosis",
@@ -138,22 +131,6 @@
         "Organization"
       ],
       "name": "BioImage Archive"
-    },
-    {
-      "@id": "#9bce54a5-093f-4782-8e8a-027e4fef3724",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "K99HD097285",
-      "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
-    },
-    {
-      "@id": "#d8644e48-eb3a-463a-9461-63fe7f1914f9",
-      "@type": [
-        "Grant"
-      ],
-      "identifier": "R00HD097285",
-      "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
     },
     {
       "@id": "obo:NCBITaxon_10090",

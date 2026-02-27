@@ -1,0 +1,146 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST507-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST507"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST507",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#91617e6f-4964-4a78-8381-24c69a8ca6ee"
+        },
+        {
+          "@id": "#caac2f8c-f639-4544-b6f7-e1a4e6bf2b19"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2020-10-14",
+      "description": "Despite the noisy nature of single cells, multicellular organisms robustly generate different cell types from one zygote. This process involves dynamic cross regulation between signaling and gene expression that is difficult to capture with fixed-cell approaches. To study signaling dynamics and fate specification during preimplantation development, we generated a transgenic mouse expressing the ERK Kinase Translocation Reporter and measured ERK activity in single cells of live embryos. Our results show primarily active ERK in both the inner cell mass and trophectoderm cells due to FGF signaling. Strikingly, a subset of mitotic events result in a short pulse of ERK inactivity in both daughter cells that correlates with elevated endpoint NANOG levels. Moreover, endogenous tagging of Nanog in embryonic stem cells reveals that ERK inhibition promotes enhanced stabilization of NANOG protein after mitosis. Our data show that cell cycle, signaling, and differentiation are coordinated during preimplantation development.",
+      "funder": [],
+      "identifier": "S-BSST507",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Cell Cycle-Dependent ERK Signaling Dynamics Direct Fate Specification in the Mammalian Preimplantation Embryo",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#91617e6f-4964-4a78-8381-24c69a8ca6ee",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c836f11f-8f11-42a1-bd8e-87991cb29fc1"
+        }
+      ],
+      "email": "sregot@jhmi.edu",
+      "name": "Sergi Regot"
+    },
+    {
+      "@id": "#caac2f8c-f639-4544-b6f7-e1a4e6bf2b19",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#c836f11f-8f11-42a1-bd8e-87991cb29fc1"
+        }
+      ],
+      "email": "mpokras1@jhmi.edu",
+      "name": "Michael Pokrass"
+    },
+    {
+      "@id": "#c836f11f-8f11-42a1-bd8e-87991cb29fc1",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Johns Hopkins University"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 110181812
+    }
+  ]
+}

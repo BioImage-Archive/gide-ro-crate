@@ -1,0 +1,130 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BSST684-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST684"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BSST684",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-8917-9646"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2021-08-10",
+      "description": "Sagittal section images showing cross-section of the stomodeal valve at point of greatest opening of 15 sand flies (Lutzomyia longipalpis) at various stages of infection with Leishmania mexicana.  The images show the effects of an infection and of a second blood meal on the morphology of the foregut and midgut (especially thoracic midgut) compared to uninfected, control flies.  Three flies were imaged by micro-CT scan in each of five groups: T7CON flies were 7 days after a non-infected blood meal. T9INF and T12INF flies were 9 and 12 days, respectively, after an infected blood meal. T6INF+ and T9INF+ flies were 6 and 9 days, respectively after an infected bloodmeal and 1 and 4 days, respectively, after a second, non-infected blood meal.  The data are discussed in a paper published on 27th August 2021 in PLoS NTDs, which is accessible through the following link: https://doi.org/10.1371/journal.pntd.0009682",
+      "funder": [],
+      "identifier": "S-BSST684",
+      "keywords": [],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "name": "Micro-CT visualization of a promastigote secretory gel (PSG) and parasite plug in the digestive tract of the sand fly Lutzomyia longipalpis infected with Leishmania mexicana",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8917-9646",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#4eace7f3-8004-488c-9a88-1549f74e5c16"
+        }
+      ],
+      "email": "m.hall@nhm.ac.uk",
+      "name": "Martin Hall"
+    },
+    {
+      "@id": "#4eace7f3-8004-488c-9a88-1549f74e5c16",
+      "@type": [
+        "Organization"
+      ],
+      "name": "Natural History Museum"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 15
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 27341608
+    }
+  ]
+}
