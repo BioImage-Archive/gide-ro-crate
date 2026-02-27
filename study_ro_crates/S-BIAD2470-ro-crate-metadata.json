@@ -1,0 +1,196 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "bia": "https://bioimage-archive.org/ro-crate/",
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdf:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "S-BIAD2470-ro-crate-metadata.json",
+      "@type": [
+        "CreativeWork"
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": [
+        {
+          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2470"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2470",
+      "@type": [
+        "Dataset"
+      ],
+      "measurementMethod": [],
+      "about": [],
+      "author": [
+        {
+          "@id": "#a67128e8-8771-4966-a475-4654880585a5"
+        },
+        {
+          "@id": "#d5ed293e-97ed-4c61-87c5-85bcae8d0410"
+        },
+        {
+          "@id": "#15b9f8e3-3d3b-475c-807b-07860dfa1c3b"
+        }
+      ],
+      "citation": [],
+      "datePublished": "2025-12-03",
+      "description": "Test submission of a Xenium v4.0 dataset (gene + protein) from 10X Genomics: https://www.10xgenomics.com/datasets/xenium-protein-ffpe-human-renal-carcinoma \nThe dataset was converted to a SpatialData object with spatialdata_io (v0.5.1)\n\nhttps://s3-us-west-2.amazonaws.com/10x.files/samples/xenium/4.0.0/Xenium_V1_Human_Kidney_FFPE_Protein_updated/Xenium_V1_Human_Kidney_FFPE_Protein_updated_outs.zip",
+      "funder": [],
+      "identifier": "S-BIAD2470",
+      "keywords": [
+        "FFPE ",
+        "Xenium",
+        "SpatialData",
+        "10XGenomics",
+        "Renal Cell Carcinoma"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "Xenium In Situ Gene and Protein Expression data for FFPE Human Renal Cell Carcinoma (from 10X Genomics) as a SpatialData object",
+      "publisher": {
+        "@id": "https://www.ebi.ac.uk/bioimage-archive/"
+      },
+      "size": [
+        {
+          "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c"
+        },
+        {
+          "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c"
+        }
+      ],
+      "thumbnailUrl": []
+    },
+    {
+      "@id": "#15b9f8e3-3d3b-475c-807b-07860dfa1c3b",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02wedp412"
+        },
+        {
+          "@id": "#0e89e85e-fa01-46c6-a82e-b3888fc87853"
+        }
+      ],
+      "name": "Amonida Zadissa"
+    },
+    {
+      "@id": "#a67128e8-8771-4966-a475-4654880585a5",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "https://ror.org/04cdgtt98"
+        },
+        {
+          "@id": "#12b4425d-7cb0-44f4-abf7-2e11b68b0a59"
+        },
+        {
+          "@id": "#0e89e85e-fa01-46c6-a82e-b3888fc87853"
+        }
+      ],
+      "email": "michele.bortolomeazzi@dkfz.de",
+      "name": "Michele Bortolomeazzi"
+    },
+    {
+      "@id": "#d5ed293e-97ed-4c61-87c5-85bcae8d0410",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#0e89e85e-fa01-46c6-a82e-b3888fc87853"
+        }
+      ],
+      "name": "Sam Jackson"
+    },
+    {
+      "@id": "#0e89e85e-fa01-46c6-a82e-b3888fc87853",
+      "@type": [
+        "Organization"
+      ],
+      "name": "IO-FAST"
+    },
+    {
+      "@id": "#12b4425d-7cb0-44f4-abf7-2e11b68b0a59",
+      "@type": [
+        "Organization"
+      ],
+      "name": "NFDI4Bioimage"
+    },
+    {
+      "@id": "https://ror.org/02wedp412",
+      "@type": [
+        "Organization"
+      ],
+      "name": "UK Dementia Research Institute"
+    },
+    {
+      "@id": "https://ror.org/04cdgtt98",
+      "@type": [
+        "Organization"
+      ],
+      "name": "German Cancer Research Center"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/bioimage-archive/",
+      "@type": [
+        "Organization"
+      ],
+      "name": "BioImage Archive"
+    },
+    {
+      "@id": "#1037e7dd-b10a-47a1-885c-1f3b2998ff1c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "value": 1
+    },
+    {
+      "@id": "#480bb0bc-db43-46e5-88ae-071380b9d63c",
+      "@type": [
+        "QuantitiveValue"
+      ],
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "value": 40517683645
+    }
+  ]
+}
