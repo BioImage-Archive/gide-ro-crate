@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-10"
+      },
       "description": "Abstract: Relapse and treatment resistance are common in children with high-risk neuroblastoma, and novel therapies are needed. Conventional drug discovery is slow, expensive, often fails in practice, and consequently falls short in addressing pediatric and rare conditions. In such instances, drug repurposing is a promising strategy. Here, we used two independent in silico prediction tools including machine learning to identify approved drugs for repurposing against neuroblastoma. The combination of statins and phenothiazines showed strong synergistic effects in human neuroblastoma organoids, decreased tumor growth and prolonged survival in MYCN-amplified neuroblastoma patient-derived xenografts. The drug combination altered cholesterol metabolism through two different mechanisms and induced a phenotypic change towards an adrenergic state in vitro, which was associated with enhanced chemosensitivity. Integration of the drug combination into standard-of-care chemotherapy regressed tumors and prolonged survival in chemoresistant patient-derived xenografts. Thus, a combination of safe and approved medications added to standard-of-care chemotherapy outperforms chemotherapy alone in chemoresistant neuroblastoma.",
       "funder": [],
       "identifier": "S-BIAD2273",

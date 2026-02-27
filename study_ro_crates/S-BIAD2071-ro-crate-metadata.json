@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-29"
+      },
       "description": "We used a previously described intersectional/subtractive approach that allows for simultaneous labeling of Aldh1a1+ with EYFP and Aldh1a1- neuronal with mCherry, or Anxa,1+ with mCherry, respectively. Striatal brain sections were then stained with antibodies against bassoon to analyze the number and organization of active zone sites in Aldh1a1+ (EYFP+) or Aldh1a1- (mCherry+) axons from the same mouse. Due to the high signal of bassoon in the striatum, we used structured illumination microscopy (SIM) for improved resolution, followed by 3D reconstruction analysis.",
       "funder": [],
       "identifier": "S-BIAD2071",

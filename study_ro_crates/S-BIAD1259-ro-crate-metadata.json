@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-04"
+      },
       "description": "This is the primary image data underpinning the above manuscript. The data set are 16-bit TIFF files acquired on a fully automated spinning disk confocal microscope. Each image is a single colour channel, single optical slice, of a single position in a well, containing a spheroid of HeLa Kyoto cells.",
       "funder": [],
       "identifier": "S-BIAD1259",

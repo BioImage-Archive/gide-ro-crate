@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-31"
+      },
       "description": "Microscopic examination after applying the Ziehl–Neelsen staining for acid-fast bacilli (AFB) remains one of the most cost-effective and widely used diagnostic methods for AFB detection. However, it relies on expert interpretation, and even experienced professionals are prone to false negatives, particularly when bacterial load within a slide is low. The process is time-intensive, leading to reduced focus and subsequent errors. To address these challenges, researchers have turned to automated tuberculosis detection methods using machine learning and deep learning. Developing such algorithms requires large-scale datasets representing diverse conditions. Currently, no publicly accessible datasets for AFB whole-slide images (WSI) exist, hindering comparative performance evaluations of algorithms. Here, we present AFB-Dx, a dataset developed by the Korea National Forensic Service from autopsy-derived tissue slides fixed and stained at two testing institutions. The dataset includes 421 WSIs annotated only when reverse transcription polymerase chain reaction results and expert pathologist diagnoses were concordant, alongside quality evaluations. AFB-Dx offers a valuable resource for researchers aiming to develop and evaluate machine learning algorithms for WSI-based AFB diagnosis.",
       "funder": [],
       "identifier": "S-BIAD1527",

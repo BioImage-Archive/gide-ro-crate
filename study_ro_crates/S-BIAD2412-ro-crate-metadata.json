@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-01"
+      },
       "description": "Phase separation (PS) of biomolecular condensates is often assumed to be driven by interactions involving nucleic acids and intrinsically disordered regions (IDRs) of proteins. PGL-3 is a component of P granules, biomolecular condensates in C. elegans, that contains two structured domains in tandem (D1-D2), an internal IDR, and a C-terminal IDR rich with RGG motifs. Theoretical and in vitro studies have implicated the internal IDR and RGG motifs in driving PGL-3 PS via self-interactions and binding to RNA. Studies in cells, however, have implicated the D1 and D2 domains. Here, we investigate the molecular basis of PGL-3 PS in vitro using microscopy, crosslinking mass spectrometry and biophysical measurements. We find that D1-D2 oligomerizes and is necessary and sufficient for PS. The terminal RGG domain interacts with D1-D2 in a manner that enhances PS even in the absence of RNA.. In contrast, the internal IDR is neither necessary nor sufficient for PS. These findings support a new model for PGL-3 PS that is driven by oligomerization of structured domains and enhanced by RGG repeats. ",
       "funder": [],
       "identifier": "S-BIAD2412",

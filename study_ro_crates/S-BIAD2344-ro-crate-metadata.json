@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -103,7 +108,10 @@
           "@id": "https://doi.org/10.1101/2024.05.17.594648"
         }
       ],
-      "datePublished": "2025-10-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-14"
+      },
       "description": "The morphological diversity of blood immune cells of healthy individuals, critical for recognizing disease-related phenotypes, remains largely uncharacterized. To address this gap, we developed Blood Cell Painting (BCP): a high content, high throughput fluorescence imaging assay for peripheral blood mononuclear cells. We generated a BCP Atlas with images of 50 million cells from 390 healthy blood donors, identifying 18 distinct immune cell morphology clusters. A genome-wide association study of BCP-derived imaging-based cellular features revealed 93 significant associations across 30 genetic loci. These loci include genes linked to mast cell function, inflammation, immune signaling, mitochondrial maintenance and circadian immune modulation. We also observed correlations between immune cell morphological features and clinical traits, such as respiratory conditions and healthcare visits related to contraceptive management, potentially reflecting hormonal influences on immune cell phenotypes. As a proof of concept for clinical application, acute myeloid leukemia subtypes were distinguished by BCP. Our study establishes BCP as a versatile method for immune cell profiling to uncover genetic, phenotypic and clinical determinants of immune cell morphology in health and disease.",
       "funder": [],
       "identifier": "S-BIAD2344",
@@ -274,7 +282,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Image-based profiling of healthy donor immune cells with Blood Cell Painting reveals novel genotype-phenotype associations"
     },
     {

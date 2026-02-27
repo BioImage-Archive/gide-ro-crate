@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-12-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-17"
+      },
       "description": "Two photon microscopy time series and lightsheet microscopy z-stack and time series of early Drosophila embryogenesis during posterior midgut invagination. ",
       "funder": [],
       "identifier": "S-BIAD602",

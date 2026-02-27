@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-24",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-24"
+      },
       "description": "Low-grade serous carcinoma (LGSOC) of the ovary or peritoneum is a rare type of epithelial ovarian cancer with unique molecular and clinical characteristics compared to the more common High-grade serous ovarian carcinoma (HGSOC) subtype. All pivotal clinical trials guiding management of epithelial ovarian carcinoma are over representative of HGSOC, thus findings cannot be unconditionally extrapolated to rarer chemo-resistant subtypes such as LGSOC.  No standard-of-care treatments are established for recurrent LGSOC hence we conducted the largest quantitative high-throughput drug screening effort (n=3436 compounds) across a panel of 12 patient-derived LGSOC cell lines and one normal ovary cell line to identify unexplored therapeutic avenues. Using a combination of high-throughput robotics, high-content imaging and novel data analysis pipelines our data set identified 67 high and 24 moderate confidence hits which induced cancer cell specific cytotoxicity at the lowest compound dose assessed (0.1µM). We also revealed a series of novel drug classes (mTOR/PI3K/AKT, EGFR and MDM2-p53) in which LGSOC cell lines were highly susceptible to. ",
       "funder": [],
       "identifier": "S-BIAD1069",

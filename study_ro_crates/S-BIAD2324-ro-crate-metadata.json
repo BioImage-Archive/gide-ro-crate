@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#276212e5-aa84-482d-a1f6-243eb5826628"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000241"
         },
         {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -85,7 +90,10 @@
           "@id": "https://doi.org/10.48550/arxiv.2504.18737"
         }
       ],
-      "datePublished": "2025-10-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-01"
+      },
       "description": "Photon Absorption Remote Sensing (PARS) enables label-free imaging of subcellular morphology by observing biomolecule specific absorption interactions. Coupled with deep-learning, PARS produces label-free virtual Hematoxylin and Eosin (H&E) stained images in unprocessed tissues. \nThis set of example of PARS virtual H&E images is from a clinical study available at \nhttps://doi.org/10.48550/arXiv.2504.18737.\n\nThe purpose of this study is to evaluate the diagnostic performance of these PARS-derived virtual H&E images in benign and malignant excisional skin biopsies, including Squamous (SCC), Basal (BCC) Cell Carcinoma, and normal skin. Sixteen unstained formalin-fixed paraffin-embedded skin excisions were PARS imaged, virtually H&E stained, then chemically stained and imaged at 40x. Seven fellowship trained dermatopathologists assessed all 32 images in a masked randomized fashion. A subset of 3 PARS and 3 chemical H&E (BCC, SCC, and benign) are presented here.",
       "funder": [],
       "identifier": "S-BIAD2324",
@@ -141,7 +149,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "Photon Absorption Remote Sensing Virtual Histopathology: Diagnostic Equivalence to Gold-Standard H&E Staining in Skin Cancer Excisional Biopsies"
     },
     {

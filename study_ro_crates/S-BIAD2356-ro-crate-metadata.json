@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#261ef51b-3cb3-428c-b4a1-cf346f70f36f"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-23",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-23"
+      },
       "description": "The mechanisms regulating gamete fusion and preventing polyspermy in mammalian fertilization remain incompletely understood. This study combines real-time imaging, confocal microscopy and statistical analysis to investigate fertilization and polyspermy prevention dynamics in mice. By tracking the behavior of over one hundred spermatozoa entering the perivitelline space of oocytes, we dissect the respective contributions of oocyte structures (zona pellucida (ZP), perivitelline space (PVS), oolemma) and sperm components (head, flagellum) to fertilization and polyspermy prevention. We find that fertilization requires specific sperm head movements on the oolemma, driven by flagellar beating and facilitated by trapping the flagellum in the ZP, revealing a novel role for this structure. Our kinetic analysis characterizes a slow “penetration block” that gradually limits sperm entry into the PVS and a faster “fusion block” that prevents further fusion events. As the penetration block becomes significant after the fusion block is established, only the latter effectively prevents polyspermy in mice. We propose that it acts through neutralization of excess sperm in the PVS by oocyte-derived proteins CD9 and JUNO found coating non-fertilizing spermatozoa.",
       "funder": [],
       "identifier": "S-BIAD2356",

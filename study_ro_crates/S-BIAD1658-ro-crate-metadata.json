@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -73,10 +78,10 @@
           "@id": "#f20498a3-4614-43de-b1fe-2b4c3613d957"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -111,7 +116,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-15"
+      },
       "description": "This repository includes all the microscopy images and data that were generated and used in the publication.",
       "funder": [],
       "identifier": "S-BIAD1658",

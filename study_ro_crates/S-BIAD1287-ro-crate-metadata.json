@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -114,7 +119,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-30"
+      },
       "description": "Understanding the dynamics and interactions of cellular components is crucial for biological research and drug discovery. Current dynamic fluorescence microscopy methods can only image a few fluorescent labels, providing a limited view of these complex processes. We developed Mantis, a high-throughput 3D microscope that maps interactions among components of dynamic cell systems. Mantis combines light-sheet fluorescence imaging of multiple fluorophores with quantitative label-free microscopy and is complemented by shrimPy, our open-source software for high-throughput data acquisition and high-performance analysis. Mantis enabled simultaneous 3D time-lapse imaging of 20 cell lines and quantitative analysis of responses to perturbations like viral infection at single-cell resolution. This approach can accelerate the analysis of cellular dynamics and image-based drug discovery.",
       "funder": [],
       "identifier": "S-BIAD1287",

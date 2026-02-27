@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-12-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-18"
+      },
       "description": "The lung autopsy specimen at late exudative stage of diffuse alveolar damage. Hyaline membranes of varying thickness line the contours of most respiratory bronchioles and alveoli; at some sites, they are desquamated into their lumen. In the lumen of the bronchioles and alveoli among the fibrin filaments, the desquamated cells, macrophages and erythrocytes are seen. The branches of the pulmonary vessels are dilated and hyperemic, the capillaries of the interalveolar septa are damaged and contain desquamated endothelial cells and erythrocyte sludges in combination with focal perivascular hemorrhages. The infiltration of the interalveolar septa and the outer layers of the vessel walls is uneven, predominantly lymphoid, with an admixture of macrophages. The interalveolar septa are edematous, with uneven thickness. The bronchus wall is characterized by moderate sclerosis, hyperplasia of the mucous glands and hyperemia of the microcirculatory vascular bed. The lymphoid infiltration of the basal membrane is weak and diffuse. The bronchial epithelium is preferentially desquamated. The desquamated cells of ciliary epithelium.",
       "funder": [],
       "identifier": "S-BIAD603",

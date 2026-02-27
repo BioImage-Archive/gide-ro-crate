@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,7 +81,10 @@
           "@id": "https://doi.org/10.7554/elife.107191.1"
         }
       ],
-      "datePublished": "2025-12-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-12"
+      },
       "description": "Raw data corresponding to the publication, \"Cell surface localisation of GPI-anchored receptors in Trypanosoma brucei\", published in eLife (https://doi.org/10.7554/eLife.107191.1)",
       "funder": [],
       "identifier": "S-BIAD2480",
@@ -132,7 +140,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Cell surface localisation of GPI-anchored receptors in Trypanosoma brucei"
     },
     {

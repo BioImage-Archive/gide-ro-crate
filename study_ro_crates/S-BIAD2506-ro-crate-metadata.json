@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#b1c004c6-0fa7-4048-8ff7-5fa5796e91c2"
         },
         {
-          "@id": "obo:FBbi_00000247"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000247"
         }
       ],
       "about": [
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-15"
+      },
       "description": "Microscopy dataset underlying the results presented in the article \"E. coli prepares for starvation by dramatically remodeling its proteome in the first hours after loss of nutrients\".",
       "funder": [],
       "identifier": "S-BIAD2506",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      },
       "description": "Early embryos display a remarkable ability to regulate tissue patterning in response to changes in tissue size. However, it is not clear whether this ability continues into post-gastrulation stages. Here, we performed targeted removal of dorsal progenitors in the zebrafish tailbud using multiphoton ablation. This led to a proportional reduction in the length of the spinal cord and paraxial mesoderm in the tail, revealing a capacity for the regulation of tissue morphogenesis during tail formation. Following analysis of cell proliferation, gene expression, signalling and cell movements, we found no evidence of cell fate switching from mesoderm to neural fate to compensate for neural progenitor loss. Furthermore, tail paraxial mesoderm length is not reduced upon direct removal of an equivalent number of mesoderm progenitors, ruling out the hypothesis that neuromesodermal competent cells enable proportional regulation. Instead, reduction in cell number across the spinal cord reduces both spinal cord and paraxial mesoderm length. We conclude that spinal cord elongation is a driver of paraxial mesoderm elongation in the zebrafish tail and that this can explain proportional regulation upon neural progenitor reduction. ",
       "funder": [],
       "identifier": "S-BIAD1489",

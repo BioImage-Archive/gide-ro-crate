@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#ef0336dc-59e5-41c8-8d05-3984c49b3a43"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-27"
+      },
       "description": "This dataset comprises an independent Korean cohort of clear cell renal cell carcinoma (ccRCC) patients collected at Seoul National University Hospital. This cohort comprises patients that have undergone surgical retention with no prior treatment. It includes 300 haematoxylin and eosin (H&E) whole-slide images (WSIs) providing detailed histopathological context, alongside 71 lo-plex immunofluorescence (mIF) WSIs. The mIF panel targets  p21, MCM2, and Lamin B1,with Hoechst used as a nuclear counterstain. Additionally, 71 single-plex immunohistochemistry (IHC) images for CD105 (DAB chromogen staining of vasculature) are provided for complementary vascular analyses.\nAll H&E WSIs were acquired using a Zeiss Axio Scan.Z1 scanner at 20× magnification, and automated image analysis of all mIF slides was performed using HALO® software. The principal derived metrics for each tumour are the percentages of p21⁺/MCM2⁻ cells and CD105⁺/p21⁺/MCM2⁻ cells, representing the cell-cycle arrest fractions in tumour and putative endothelial cell populations, respectively.\nEach case is accompanied by two CSV files containing quantitative metrics (phenotypic proportions and average nuclear/cell parameters), along with a clinical metadata file providing de-identified patient information. The clinical data include recurrence, disease-free survival (DFS), Fuhrman nuclear grade, tumor status, tumor size, lymph node status, tumour necrosis, Leibovich score based on Fuhrman grade (Lscore_Fuhrman), ISUP grade (International Society of Urological Pathology grade), and Leibovich score based on ISUP grade (Lscore_ISUP).",
       "funder": [],
       "identifier": "S-BIAD2452",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-27"
+      },
       "description": "Despite being heavily infiltrated by immune cells, tuberculosis (TB) granulomas often subvert the host response to Mycobacterium tuberculosis (Mtb) infection and support bacterial persistence. We previously discovered that human TB granulomas are enriched for immunosuppressive factors typically associated with tumor-immune evasion, raising the intriguing possibility that they promote tolerance to infection. In this study, our goal was to identify candidate drivers for establishing this tolerogenic niche and to determine if the magnitude of this response correlates with bacterial persistence. To do this, we conducted a multimodal spatial analysis of 52 granulomas from 16 non-human primates (NHP) infected with low dose Mtb for 9-12 weeks. Notably, each granuloma’s bacterial burden was individually quantified, allowing us to directly ask how granuloma spatial structure and function relate to infection control. With this imaging resource, we found that a universal feature of TB granulomas was partitioning of the myeloid core into two distinct metabolic environments, one of which is hypoxic. This hypoxic environment associated with pathologic immune cell states, dysfunctional cellular organization of the granuloma, and a near-complete blockade of lymphocyte infiltration that would be required for a successful host response. The extent of these hypoxia-associated features correlated with worsened bacterial burden. We conclude that hypoxia correlates with immune cell state and organization within granulomas and is possibly a potent driver of subverted immunity during TB.",
       "funder": [],
       "identifier": "S-BIAD2359",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-12-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-12-22"
+      },
       "description": "The shaping of human embryos begins with compaction, during which cells come into close contact. Assisted reproductive technology (ART) studies suggest that human embryos fail compaction primarily because of defective adhesion. Based on our current understanding of animal morphogenesis, other morphogenetic engines, such as cell contractility, could be involved in shaping human embryos. However, the molecular, cellular and physical mechanisms driving human embryo morphogenesis remain uncharacterized. Using micropipette aspiration on human embryos donated to research, we have mapped cell surface tensions during compaction. This reveals a 4-fold increase of tension at the cell-medium interface while cell-cell contacts keep a steady tension. Therefore, increased tension at the cell-medium interface drives human embryo compaction, which is qualitatively similar to compaction in mouse embryos. Further comparison between human and mouse reveals qualitatively similar but quantitively different mechanical strategies, with human embryos being mechanically least efficient. Inhibition of cell contractility and cell-cell adhesion in human embryos reveals that, while both cellular processes are required for compaction, only contractility controls the surface tensions responsible for compaction. Interestingly, cell contractility and cell-cell adhesion exhibit distinct mechanical signatures when faulty. Analyzing the mechanical signature of naturally failing embryos, we find evidence that non-compacting or partially compacting embryos containing excluded cells have defective contractility. Together, our study reveals that an evolutionarily conserved increase in cell contractility is required to generate the forces driving the first morphogenetic movement shaping the human body.",
       "funder": [],
       "identifier": "S-BIAD915",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-12"
+      },
       "description": "The mammary epithelium derives from multipotent mammary stem cells (MaSCs) that engage into differentiation during embryonic development. However, adult MaSCs maintain the ability to reactivate multipotency in non-physiological contexts. We previously reported that Notch1 activation in committed basal cells triggers a cell fate switch in the mouse mammary gland. Here, we tested the conservation of this mechanism and found that constitutive Notch1 signaling also induces a basal-to-luminal cell fate switch in adult cells of the lacrimal gland, the salivary gland, and the prostate. Since the lineage transition is progressive in time, we performed single cell transcriptomic analysis on index-sorted mammary cells at different stages of lineage conversion, to generate a temporal map of changes in cell identity. Combining single cell analyses with organoid assays, we demonstrate that proliferation is indispensable for lineage conversion. We also reveal the individual transcriptional landscapes controlling cellular plasticity of committed mammary cells in vivo with spatial and temporal resolution. Given the strong implications of Notch signaling in cancer, these results provide important insights into the mechanisms that drive cellular transformation.",
       "funder": [],
       "identifier": "S-BIAD1634",

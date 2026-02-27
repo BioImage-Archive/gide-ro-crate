@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-10"
+      },
       "description": "The data includes images recorded via a towed video frame in the Belgian Part of the North Sea. They show the seafloor, captured at a perpendicular angle, as well as various organisms living on it. Furthermore, text files containing point annotations of the organisms created with the program \"papara(zz)i\" are included. A label tree exported from the web tool \"BIIGLE\" is included as well. The goal of the associated project was to transform the existing point annotations to polygons and to attach a label from the included label tree to the newly created annotations. \n\nThis data was selected as part of the AI4Life Open Calls 2023 for image analysis consultation and deep-learning applications.",
       "funder": [],
       "identifier": "S-BIAD2005",

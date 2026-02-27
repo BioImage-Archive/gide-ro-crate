@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -103,7 +108,10 @@
           "@id": "https://doi.org/10.1126/science.adr9109"
         }
       ],
-      "datePublished": "2026-01-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-01"
+      },
       "description": "Optical nanoscopy of intact biological specimens has been transformed by recent advancements in hydrogel-based tissue clearing and expansion, enabling the imaging of cellular and subcellular structures with molecular contrast. However, existing high-resolution fluorescence microscopes are physically limited by objective-to-specimen distance, which prevents the study of whole-mount specimens without physical sectioning. To address this challenge, we developed a photochemical strategy for spatially precise sectioning of specimens. By combining serial photochemical sectioning with lattice light-sheet imaging and petabyte-scale computation, we imaged and reconstructed axons and myelin sheaths across entire mouse olfactory bulbs at nanoscale resolution. An olfactory-bulb-wide analysis of myelinated and unmyelinated axons revealed distinctive patterns of axon degeneration and de-/dysmyelination in the neurodegenerative brain, highlighting the potential for peta- to exabyte-scale super-resolution studies using this approach.",
       "funder": [],
       "identifier": "S-BIAD2387",
@@ -263,7 +271,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Mesoscale volumetric fluorescence imaging at nanoscale resolution by photochemical sectioning"
     },
     {

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-06-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-06-29"
+      },
       "description": "Nix is a membrane-anchored outer mitochondrial protein than induces mitophagy.  While Nix has a LIR motif for binding to ATG8 proteins, it also contains a MER (minimal essential region) that induces mitophagy through an unknown mechanism.  We use chemically induced dimerization (CID) to probe the mechanism of Nix-mediated mitophagy and find that both the LIR and MER are required for robust mitophagy.  We find that the Nix MER interacts with WIPI2 and recruits WIPI2 to mitochondria.  The Nix LIR motif is also required for robust mitophagy and converting WIPI2 coating the mitochondria into puncta, independently of Atg8s. Together this work reveals unanticipated mechanisms in Nix-induced mitophagy and the elusive role of the MER, while also revealing an interesting example of autophagy induction downstream of the Ulk1 initiation and PI3K complexes.",
       "funder": [],
       "identifier": "S-BIAD769",

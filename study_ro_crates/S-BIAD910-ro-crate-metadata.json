@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -132,7 +137,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-11-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-11-04"
+      },
       "description": "Data for Immunofluorescence experiments - \nThe phospholipid and free fatty acid (FFA) composition of neuronal membranes plays a crucial role in learning and memory, but the mechanisms through which neuronal activity affects the brain's lipid landscape remain largely unexplored. Saturated FFAs, particularly myristic acid (C14:0), strongly increase during neuronal stimulation and memory acquisition, suggesting the involvement of phospholipase A1 (PLA1) activity in synaptic plasticity. Here, we show that genetic ablation of the DDHD2 isoform of PLA1 in mice markedly reduced saturated FFAs across the brain and memory performance in reward-based learning and spatial memory models prior to the development of neuromuscular deficits. DDHD2 was shown to bind to the key synaptic protein STXBP1. Using STXBP1/2 knockout neurosecretory cells and a haploinsufficient STXBP1+/- mouse model of STXBP1 encephalopathy that is also associated with intellectual disability and motor dysfunction, we show that STXBP1 controls the targeting of DDHD2 to the plasma membrane and the generation of saturated FFAs in the brain. Our findings suggest key roles for DDHD2 and STXBP1 in the lipid metabolism underlying synaptic plasticity, learning and memory.",
       "funder": [],
       "identifier": "S-BIAD910",

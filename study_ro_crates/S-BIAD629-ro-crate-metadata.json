@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-02-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-02-27"
+      },
       "description": "Stroke Thromboembolism Registry of Imaging and Pathology (STRIP) is a large multicenter project with the aim of histopathologic characterization of thromboemboli of various etiologies and examining clot composition and its relation to mechanical thrombectomy revascularization. STRIP AI is an extension that builds on to provide complete digitization and online access to the labeled whole slide images (WSI) of collected clots. Successful application of image processing and deep learning tools could be useful for accurate prediction of stroke origin, such algorithms could be validated and routinely deployed to histological specimens retrieved during thrombectomy, thus addressing a major public health issue, and helping alleviate stroke burden worldwide.",
       "funder": [],
       "identifier": "S-BIAD629",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -70,13 +75,13 @@
           "@id": "#1e967fdb-5142-44a7-bac6-06d0c38472e2"
         },
         {
-          "@id": "obo:FBbi_00000345"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000345"
         }
       ],
       "about": [
@@ -89,16 +94,16 @@
       ],
       "author": [
         {
-          "@id": "#efa08c1c-39d2-427a-9da1-676b648af5b4"
+          "@id": "#0a2ae68f-52a6-4336-91e8-c57e0c7bb159"
         },
         {
           "@id": "https://orcid.org/0000-0003-0205-0944"
         },
         {
-          "@id": "#e4b94197-4c7f-4a6d-ab54-a7a25659e51b"
+          "@id": "#b35d8f0c-23df-4f91-8d79-0b79ced4c734"
         },
         {
-          "@id": "#50f0f323-183d-4f33-9d6c-704368128156"
+          "@id": "#d9cce4fb-71d8-402f-8039-c0f9b41e6374"
         },
         {
           "@id": "#5b06c135-ffbf-44b7-b32c-df73730b21e2"
@@ -119,11 +124,14 @@
           "@id": "#be2eb1ae-8de5-4589-bf3b-4a3ffcd404b1"
         },
         {
-          "@id": "#06db984f-700b-43ef-a326-501a0b105166"
+          "@id": "#92e2231a-bee0-4a89-ad9a-a986af2be851"
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-11"
+      },
       "description": "While commensal bacteria generally respect natural barriers of the human body, pathogens are able to breach epithelia, invade deeper tissue layers and cause life-threatening infections. Pseudomonas aeruginosa, an opportunistic human pathogen, is a leading cause of severe hospital-acquired pneumonia, with mortality rates up to 50% in mechanically ventilated patients1–3. Effective colonization and breaching of lung mucosa are hallmarks of P. aeruginosa pathogenesis4. Although virulence factors and behavioral strategies of P. aeruginosa have been described5,6, it has remained unclear how this pathogen disseminates on functional mucosal surfaces, how it avoids mucociliary clearance and how it invades the tissue barrier. Using fully differentiated human lung epithelia, we demonstrate that P. aeruginosa efficiently spreads on the apical tissue surface before it breaches epithelia by preferentially invading mucus secreting goblet cells. Internalization leads to host cell death and expulsion and the formation of ruptures of the epithelial barrier. Rupture sites are rapidly colonized by extracellular bacteria through active chemotaxis, leading to increasing tissue damage and successful pathogen translocation to the unprotected basolateral side of the epithelium. We show that cell invasion is promoted by two Type-6 toxin secretion systems (T6SS), while Type-3 (T3SS) mediates cell death of infected goblet cells. T3SS mutants invade goblet cells normally, but internalized bacteria fail to trigger goblet cell expulsion and instead show unrestrained intracellular replication. While the effective shedding of infected host cells reveals potent tissue protection mechanisms, the discovery of an intracellular lifestyle of P. aeruginosa in pseudostratified human lung epithelia provides new entry points into investigating the intersection of antibiotic and immune mechanisms during lung infections. By demonstrating that P. aeruginosa uses a combination of specific virulence factors and collective behavior to invade goblet cells and breach the lung tissue barrier from within, these studies reveal novel mechanisms underlying lung infection dynamics under physiological conditions. ",
       "funder": [],
       "identifier": "S-BIAD1083",
@@ -151,7 +159,7 @@
       ]
     },
     {
-      "@id": "#06db984f-700b-43ef-a326-501a0b105166",
+      "@id": "#0a2ae68f-52a6-4336-91e8-c57e0c7bb159",
       "@type": [
         "Person"
       ],
@@ -160,8 +168,8 @@
           "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
         }
       ],
-      "email": "urs.jenal@unibas.ch",
-      "name": "Urs Jenal"
+      "email": "leoni.swart@unibas.ch",
+      "name": "A. Leoni Swart"
     },
     {
       "@id": "#0b018e9a-93f5-4a10-91f0-5ca924b725be",
@@ -174,18 +182,6 @@
         }
       ],
       "name": "Sandro Jakonia"
-    },
-    {
-      "@id": "#50f0f323-183d-4f33-9d6c-704368128156",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
-        }
-      ],
-      "name": "Tina Junne"
     },
     {
       "@id": "#5b06c135-ffbf-44b7-b32c-df73730b21e2",
@@ -212,6 +208,19 @@
       "name": "Xiao Yu"
     },
     {
+      "@id": "#92e2231a-bee0-4a89-ad9a-a986af2be851",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
+        }
+      ],
+      "email": "urs.jenal@unibas.ch",
+      "name": "Urs Jenal"
+    },
+    {
       "@id": "#a4610063-3099-4d6c-b391-292a27122a52",
       "@type": [
         "Person"
@@ -222,6 +231,18 @@
         }
       ],
       "name": "Evdoxia Karagkiozi"
+    },
+    {
+      "@id": "#b35d8f0c-23df-4f91-8d79-0b79ced4c734",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
+        }
+      ],
+      "name": "Rosmarie Sütterlin"
     },
     {
       "@id": "#be2eb1ae-8de5-4589-bf3b-4a3ffcd404b1",
@@ -248,7 +269,7 @@
       "name": "Pablo Manfredi"
     },
     {
-      "@id": "#e4b94197-4c7f-4a6d-ab54-a7a25659e51b",
+      "@id": "#d9cce4fb-71d8-402f-8039-c0f9b41e6374",
       "@type": [
         "Person"
       ],
@@ -257,20 +278,7 @@
           "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
         }
       ],
-      "name": "Rosmarie Sütterlin"
-    },
-    {
-      "@id": "#efa08c1c-39d2-427a-9da1-676b648af5b4",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#a5306e8a-3370-4f5e-bc65-71657a2938a3"
-        }
-      ],
-      "email": "leoni.swart@unibas.ch",
-      "name": "A. Leoni Swart"
+      "name": "Tina Junne"
     },
     {
       "@id": "https://orcid.org/0000-0003-0205-0944",

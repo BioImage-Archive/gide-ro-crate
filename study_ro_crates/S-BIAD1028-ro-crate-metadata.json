@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-30"
+      },
       "description": "Iron (Fe) is a crucial micronutrient needed in many metabolic processes. To balance needs and potential toxicity, plants control the amount of Fe they take up and allocate to leaves and seeds during their development. One important regulator of this process is POPEYE (PYE). PYE is a Fe deficiency-induced key bHLH transcription factor (TF) for allocation of internal Fe in plants. In the absence of PYE, there is altered Fe translocation and plants develop a leaf chlorosis. NICOTIANAMINE SYNTHASE4 (NAS4), FERRIC-REDUCTION OXIDASE3 (FRO3), and ZINC-INDUCED FACILITATOR1 (ZIF1) genes are expressed at higher level in pye-1 indicating that PYE represses these genes. PYE activity is controlled in a yet unknown manner. Here, we show that a small Fe deficiency-induced protein OLIVIA (OLV) can interact with PYE. OLV has a conserved C-terminal motif, that we named TGIYY. Through deletion mapping, we pinpointed that OLV TGIYY and several regions of PYE can be involved in the protein interaction. An OLV overexpressing (OX) mutant line exhibited an enhanced NAS4 gene expression. This was a mild Fe deficiency response phenotype that was related to PYE function. Leaf rosettes of olv mutants remained smaller than those of wild type, indicating that OLV promotes plant growth. Taken together, our study identified a small protein OLV as a candidate that may connect aspects of Fe homeostasis with regulation of leaf growth.",
       "funder": [],
       "identifier": "S-BIAD1028",

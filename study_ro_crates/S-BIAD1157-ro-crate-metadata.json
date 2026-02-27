@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-14"
+      },
       "description": "This image dataset accompanies the publication \"Multiscale chromatin dynamics and high entropy in plant iPSC ancestors\" by Rutowicz et al. published in the Journal of Cell Science (2024)\nThe images are maximum projections of z-series acquired by Cell Voyager. One image corresponds to one region of interest (ROI) and one channel. Six ROIs were imaged per well (culture). Cultures were imaged at different days and segmented as described in the publication. Three families of image features were extracted from the segmented nuclei (Intensity features, Morphology features, Texture features) and used for multivariate analysis and entropy analysis. See Manuscript and Table S4 for more explanations on the dataset.",
       "funder": [],
       "identifier": "S-BIAD1157",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-17"
+      },
       "description": "This dataset comprises live-cell fluorescence resonance energy transfer (FRET) and corresponding bright-field images of MCF-7 cells co-expressing the fluorescently tagged proteins CFP-BCL-XL and YFP-BAK under various drug treatment conditions. The data were acquired using quantitative FRET microscopy to simultaneously capture dynamic drug-target interactions and morphological changes at single-cell resolution. This resource enables the quantitative analysis of drug-induced modulation of BCL-XL/BAK interactions, the correlation between target engagement and phenotypic outcomes, and the development of computational models for drug efficacy scoring. The dataset is an essential resource for researchers in cancer biology, drug discovery, and high-content image analysis, providing a foundation for studying dynamic protein-protein interactions and functional drug responses in a live-cell context.",
       "funder": [],
       "identifier": "S-BIAD2398",

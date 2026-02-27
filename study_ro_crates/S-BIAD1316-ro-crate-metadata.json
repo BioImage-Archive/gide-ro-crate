@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,13 +81,13 @@
           "@id": "#a2cd4a5d-67c6-4332-9156-2fb1f2d95fb9"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000345"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -102,6 +107,9 @@
           "@id": "#6f968923-0f98-40c7-ae97-729801d8086b"
         },
         {
+          "@id": "obo:NCBITaxon_32644"
+        },
+        {
           "@id": "obo:NCBITaxon_4932"
         },
         {
@@ -109,9 +117,6 @@
         },
         {
           "@id": "obo:NCBITaxon_10090"
-        },
-        {
-          "@id": "obo:NCBITaxon_32644"
         }
       ],
       "author": [
@@ -129,7 +134,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-13"
+      },
       "description": "Images (not externally cited), callsets, benchmarking measures, and analysis results used for testing fluorescence quantification software tools including Neuert Lab's TrueSpot tool.",
       "funder": [],
       "identifier": "S-BIAD1316",

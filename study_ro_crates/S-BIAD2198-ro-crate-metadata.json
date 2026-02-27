@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-02",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-02"
+      },
       "description": "A growing body of evidence from primate embryos as well as in vitro systems supports the notion that amnion and primordial germ cell (PGC) lineage progressing cells share a common precursor. To gain comprehensive transcriptomic insights into this critical but poorly understood precursor and its progeny, we examined the evolving transcriptome of a developing human pluripotent stem cell-derived model of amnion and PGC formation at the single cell level. This analysis revealed several continuous amniotic fate progressing states with state-specific markers. Additionally, a progenitor-like cell, that displays bi-potential characteristics for amnion and PGC-like cell lineages and is marked by CLDN10, was identified. Strikingly, we found that expression of CLDN10 is restricted to the amnion-epiblast boundary region in our human post-implantation amniotic sac model as well as in peri-gastrula cynomolgus macaque embryos; moreover, this boundary region presents amnion/PGC progenitor-like transcriptional characteristics. Furthermore, our loss of function analysis showed that CLDN10 promotes amniotic but suppresses PGC-like fate. Overall, based on the single cell transcriptomic resource in this study, we identify a CLDN10+ amnion/PGC progenitor like population at the amnion-epiblast boundary of the primate peri-gastrula, and present additional molecular clues as to how amnion and PGC may be formed at the amnion-epiblast boundary in human peri-gastrula.",
       "funder": [],
       "identifier": "S-BIAD2198",

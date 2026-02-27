@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#8a31739a-97fe-4a9c-94c5-0897600da27c"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-03"
+      },
       "description": "Mitochondrial gene expression regulation is required for the biogenesis of oxidative phosphorylation (OXPHOS) complexes, yet the spatial organization of mitochondrial RNAs (mt-RNAs) remains unknown. Here, we investigated the spatial distribution of mt-RNAs during various cellular stresses using single-molecule RNA-FISH. We discovered that transcription inhibition leads to the formation of distinct RNA granules within mitochondria, which we term inhibition granules. These structures differ from canonical mitochondrial RNA granules (MRGs) and form in response to multiple transcription arrest conditions, including ethidium bromide treatment, specific inhibition or stalling of the mitochondrial RNA polymerase and depletion of the SUV3 helicase. Inhibition granules appear to stabilize certain mt-mRNAs during prolonged transcription inhibition. This phenomenon coincides with an imbalance in OXPHOS complex expression, where mitochondrial-encoded transcripts decrease while nuclear-encoded subunits remain stable. We found that cells recover from transcription inhibition via resolving the granules, restarting transcription and repopulating the mitochondrial network with mt-mRNAs within hours. We suggest that inhibition granules may act as a reservoir to help overcome OXPHOS imbalance during recovery from transcription arrest. \n",
       "funder": [],
       "identifier": "S-BIAD1860",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-13"
+      },
       "description": "Fluorescence imaging in the near infrared (NIR 700–1000 nm) and shortwave infrared (SWIR, 1000–2000 nm) is advantageous for studying mammals. This applies established palladium-catalyzed cross coupling chemistries, Suzuki-Miyaura and Sonogashira, and develops an unprecedented coupling of alcohol substrates to achieve a panel of C–CAr, C–Csp, and C–Oalkyl functionalized SWIR fluorescent heptamethine dyes. The photophysical properties of the resulting fluorophores are analyzed against Hammett parameters to produce predictive metrics which are strategically applied in the design of laser-matched, SWIR emissive, chromenylium heptamethine dyes. These added functionalities advance the utility of SWIR fluorophores by increasing brightness in delivery vehicles, modulating lipophilicity for alternative delivery vehicles, and enabling bioconjugation to targeting moieties. There three probes are used in concert to achieve excitation-multiplexed imaging in murine cancer models.",
       "funder": [],
       "identifier": "S-BIAD1514",

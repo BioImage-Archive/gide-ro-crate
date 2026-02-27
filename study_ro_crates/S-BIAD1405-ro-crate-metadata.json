@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-03"
+      },
       "description": "Dataset containing multi-view light sheet microscopy images of whole zebrafish embryos between 12 hpf and 72 hpf labelled with DAPI and fluorescent markers reporting on the expression of different genes.",
       "funder": [],
       "identifier": "S-BIAD1405",

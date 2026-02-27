@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-25"
+      },
       "description": "Understanding the factors involved in chromatin dynamics is crucial for the study of biochemical processes in which distant genomic regions need to come in close proximity. Previous single locus tracking studies suggest that chromatin dynamics are linked to active transcription, but studies which compare the chromatin dynamics of different locations within a defined chromatin domain are still very limited. Here we used the ANCHOR3 DNA labeling system to track multiple cis-regulatory elements and non-regulatory control regions at different positions in the mouse Klf4 locus. We observe homogeneous chromatin motion of cis-regulatory elements and non-cis-regulatory control regions in Klf4 transcribing mESCs and their non-transcribing EpiLCs daughter cells. These observations challenge the notion that active transcription has a major effect on the locus dynamics of mammalian genes. ",
       "funder": [],
       "identifier": "S-BIAD2419",

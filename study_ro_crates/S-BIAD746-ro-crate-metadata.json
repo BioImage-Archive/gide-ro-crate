@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-12-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-12-30"
+      },
       "description": "Hypoxia drives breast tumor malignancy. Mitochondria play essential roles in cellular adaptation to hypoxia, but the underlying mechanism remains elusive. Through mitochondrial proteomic profiling, we find that the prolyl hydroxylase EglN1 accumulates on mitochondria under hypoxia. EglN1 substrate binding region β2β3 loop is responsible for its mitochondrial translocation and contributes to breast tumor growth. Furthermore, we identify AMP-activated protein kinase alpha (AMPKα) as an EglN1 substrate on mitochondria. The EglN1-AMPKα interaction is essential for their mutual mitochondrial translocation. EglN1 prolyl-hydroxylates AMPKα under normoxia, then they rapidly dissociate following prolyl-hydroxylation, leading to their immediate release from mitochondria. While hypoxia results in constant EglN1-AMPKα interaction and their accumulation on mitochondria, leading to the formation of Ca2+/calmodulin-dependent protein kinase 2 (CaMKK2)-EglN1-AMPKα complex to activate AMPKα phosphorylation, consequently ensuring metabolic homeostasis and breast tumor growth. Our findings demonstrate EglN1 as an oxygen-sensitive metabolic checkpoint signaling hypoxic stress to mitochondria through its β2β3 loop region, revealing a therapeutic target for breast cancer.",
       "funder": [],
       "identifier": "S-BIAD746",

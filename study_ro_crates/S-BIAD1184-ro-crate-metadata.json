@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-23",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-23"
+      },
       "description": "We provide a dataset of 11 whole-slide images of pancreatic cross-sections of non-obese diabetic (NOD) mice that were stained for CD11c (for myeloid cells), CD3 (for T-cells), DAPI (for nuclei), F4/80 (for macrophages), glucagon (for α-cells), insulin (for β-cells), and IL-1β. We performed 7 color multispectral imaging using the Akoya Biosciences Vectra Polaris instrument under 20X magnification and a pixel size of 0.5 μm/px. We also provide clinical data including the age of surgery, highest blood glucose recording, number of intact islets in the cross section, and the range of insulitis degrees (T-/β-cell count ratios - calculated for each islet).  ",
       "funder": [],
       "identifier": "S-BIAD1184",

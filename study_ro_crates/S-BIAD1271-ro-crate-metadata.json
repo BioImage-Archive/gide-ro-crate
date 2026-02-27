@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -85,7 +90,10 @@
           "@id": "https://doi.org/10.1371/journal.pbio.3002611"
         }
       ],
-      "datePublished": "2024-07-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-12"
+      },
       "description": "Movies of Drosophila embryos during germband extension (GBE) were captured with a spinning disc confocal microscope controlled by Volocity software, using two fluorescence channels: channel 1 is Myosin II (sqh-GFP[KI]) and channel 2 is cell membranes (Gap43m-Cherry).  For further details, please see (Lye et al., 2024, PMID: 38683880).  Here we are providing the raw data and relevant annotations for the movies analysed in our publication:\n \n1. Raw movies. We are providing 10 zip files containing the Volocity files (.mvd2 movie files plus associated metadata) for the 4 WT and 6 twist movies analysed in our study. Please note that the movies are not all oriented with the ‘anterior to the left’ convention, but it is possible to tell anterior from posterior using the direction of tissue extension.\n \n2. Cell type information. We focused our analysis on the ectodermal cells by excluding any mesodermal and mesectodermal cells in the field of view, using several criteria (see Lye et al., 2024, PMID: 38683880). We are providing the information about cell types in 1 zip file ‘cell type movies’ containing movies for the 4 WT and 6 twist movies (as .mov files and also .tiff files), in which ectodermal cells are labelled in magenta and meso/mesectoderm are labelled in cyan.\n \n3. Movie synchronisation information. In our paper, we analysed data from 15 minutes before, to 30 minutes after, the start of germband extension (-15 mins to 30 mins of GBE).  Note that raw movie files also contain movie frames before and after this time period.  We provide in an Excel spreadsheet called 'Synchronisation information', the frame number that corresponds to 0 mins of GBE for each of the 4 WT and 6 twist movies. Note that in the raw Volocity movie files, frame numbering starts at 1, while in the processed movies in our in-house software 'otracks', frame numbering starts at zero, so there is a difference of 1 in the frame number corresponding to time zero of GBE in the raw movie files (1.) and the 'cell types\" movie files in 'otracks' (2.). This is indicated in the spreadsheet provided.",
       "funder": [],
       "identifier": "S-BIAD1271",
@@ -165,7 +173,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2024",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024"
+      },
       "name": "Polarised cell intercalation during Drosophila axis extension is robust to an orthogonal pull by the invaginating mesoderm."
     },
     {

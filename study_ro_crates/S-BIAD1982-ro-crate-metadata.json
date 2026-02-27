@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#13adaf51-6d91-43f5-a328-e42ba617dd73"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -124,7 +129,10 @@
           "@id": "https://doi.org/10.1101/2024.09.23.614351"
         }
       ],
-      "datePublished": "2025-05-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-26"
+      },
       "description": "We here report an aberration-corrected 25-plane camera array Multifocus microscope (M25) for high-speed, high-resolution wide-field optical microscopy in three spatial dimensions (3D). We demonstrate live imaging of 25-plane 3D volumes of up to 180x180x50um at >100 volumes per second. 3D data is recorded simultaneously by an array of 25 small, sensitive, synchronized machine-vision cameras. M25 employs aberration-corrected Multifocus microscopy—an optical method where diﬀractive Fourier optics are used for multiplexing and refocusing light—with a simplified design for chromatic dispersion correction where a corrective diﬀractive gratings is placed on each camera in the array. This elegant architecture for chromatic correction will be applicable in a broad range of diﬀractive imaging applications. M25 is a powerful optical tool for high-speed 3D microscopy in that it allows both non-invasive, label-free bright-field and highly sensitive fluorescence microscopy. We showcase M25 capabilities in 3D particle tracking, bright-field, and fluorescence imaging in D. melanogaster, and locomotion and neural activity studies in C. elegans.",
       "funder": [],
       "identifier": "S-BIAD1982",
@@ -328,7 +336,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "High-speed 3D Imaging with 25-Camera Multifocus Microscope"
     },
     {

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-01"
+      },
       "description": "The obligate anaerobic, enteric pathogen Clostridioides difficile persists in the intestinal tract by forming antibiotic resistant endospores that contribute to relapsing and recurrent infections. Despite the importance of sporulation for C. difficile pathogenesis, environmental cues, and molecular mechanisms regulating sporulation initiation remain ill defined. Here, using RIL-seq to capture the Hfq-dependent RNA-RNA interactome, we discovered a network of small RNAs that bind to mRNAs encoding sporulation-related genes. We show that two of these small RNAs, SpoX and SpoY, regulate translation of the master regulator of sporulation, Spo0A, in an opposing manner, which ultimately leads to altered sporulation rates. Infection of antibiotic-treated mice with SpoX and SpoY deletion mutants revealed a global effect on gut colonization and intestinal sporulation. Our work uncovers an elaborate RNA-RNA interactome controlling the physiology and virulence of C. difficile and identifies a complex post-transcriptional layer in the regulation of spore formation in this important human pathogen.",
       "funder": [],
       "identifier": "S-BIAD622",

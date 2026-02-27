@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#3a332567-bb23-4e78-9fab-b31ad2eac1be"
         },
         {
-          "@id": "obo:FBbi_00000345"
+          "@id": "obo:FBbi_00000241"
         },
         {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000345"
         }
       ],
       "about": [
@@ -87,10 +92,7 @@
           "@id": "#3b39a989-b4d8-41c3-b1ec-12cdcf718029"
         },
         {
-          "@id": "obo:NCBITaxon_95766"
-        },
-        {
-          "@id": "obo:NCBITaxon_53008"
+          "@id": "obo:NCBITaxon_53005"
         },
         {
           "@id": "obo:NCBITaxon_115594"
@@ -99,10 +101,13 @@
           "@id": "obo:NCBITaxon_53011"
         },
         {
-          "@id": "obo:NCBITaxon_53005"
+          "@id": "obo:NCBITaxon_184650"
         },
         {
-          "@id": "obo:NCBITaxon_184650"
+          "@id": "obo:NCBITaxon_95766"
+        },
+        {
+          "@id": "obo:NCBITaxon_53008"
         },
         {
           "@id": "obo:NCBITaxon_2998295"
@@ -114,7 +119,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-02",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-02"
+      },
       "description": "The following data includes raw images, metadata, measurements and processed images as well as classifiers for image segmentations and masks created with the ImageJ/Fiji plugin Labkit to measure the leaf area. This dataset provides all acquired information for my Bachelor's thesis about leaf traits of Bryophyta related moss species. \n",
       "funder": [],
       "identifier": "S-BIAD1204",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-03"
+      },
       "description": "Hepatocellular carcinoma (HCC), the most common form of primary liver cancer, is a leading cause of cancer related mortality worldwide. HCC occurs typically from a background of chronic liver disease, caused by a spectrum of predisposing conditions. Tumour development is driven by the expansion of clones that accumulated progressive driver mutations, with hepatocytes the most likely cell of origin. However, the landscape of driver mutations in HCC is broadly independent of the underlying aetiologies.  \n\nDespite an increasing range of systemic treatment options for advanced HCC outcomes remain heterogeneous and typically poor. Emerging data suggest that drug efficacies depend on disease aetiology and genetic alterations. Exploring subtypes in preclinical models with human relevance will therefore be essential to advance precision medicine in HCC. \n\nWe generated over twenty-five new genetically-driven immune-competent in vivo and in vitro HCC models. Our models represent multiple features of human HCC, including clonal origin, histopathological appearance, and metastasis to distant organs. We integrated transcriptomic data from the mouse models with human HCC data and identified four common human-mouse subtype clusters. The subtype clusters had distinct transcriptomic characteristics that aligned with the human histopathology.  \n\nIn a proof-of-principle analysis, we verified response to standard of care treatment and used a linked in vitro-in vivo pipeline to identify a promising therapeutic candidate, cladribine, that has not been linked to HCC treatment before. Cladribine acts in a highly effective subtype-specific manner in combination with standard of care therapy.  ",
       "funder": [],
       "identifier": "S-BIAD1365",

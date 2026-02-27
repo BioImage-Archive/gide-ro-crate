@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-31"
+      },
       "description": "Astrocytes in the brain exhibit distinct regional heterogeneity contributing uniquely to regional circuits for higher-order brain functions, yet the mechanisms governing their allocation remain unknown. Here we show that the precise allocation of astrocytes to specific brain regions is achieved through the transcription factor 4 (Tcf4)-mediated fate restriction based on their embryonic origin during brain development. Loss of Tcf4 in ventral telencephalic neural progenitors alters the fate of oligodendrocyte precursors to transient intermediate astrocyte precursors, resulting in mislocated astrocytes in the dorsal neocortex. These ectopic astrocytes originated from the ventral telencephalon engage with neurons and acquire features reminiscent of dorsal neocortical astrocytes. Furthermore, Tcf4 functions as a suppressor of astrocyte fate during the differentiation of oligodendrocyte precursors derived from the ventral telencephalon, thereby restricting the fate to oligodendrocyte lineage in the dorsal neocortex. Mutations in TCF4 lead to Pitt-Hopkins syndrome characterized by severe intellectual disability. Thus, our study demonstrates a previously unappreciated function of Tcf4 in regulating astrocyte allocation and provides novel insights into the pathogenesis of neurodevelopmental disorders associated with Tcf4 mutations.  ",
       "funder": [],
       "identifier": "S-BIAD1218",

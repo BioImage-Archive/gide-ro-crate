@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-15"
+      },
       "description": "Germ granules are liquid-like condensates that regulate small RNA pathways and gene expression, ensuring genome stability and fertility in animals. In C. elegans, several Argonaute proteins, central players of small RNA pathways, localize to germ granules, yet the functional significance of this spatial enrichment remains unclear. Here, we disrupted the localization of the Argonaute WAGO-4 to germ granules by introducing targeted mutations in the FG repeats of Vasa-like GLH proteins. These mutations did not disrupt overall germ granule architecture but significantly reduced WAGO-4 partitioning, leading to its predominant localization in the cytoplasm. Functional analyses revealed that this mislocalization partially compromised WAGO-4 activity, resulting in reduced WAGO-4 binding of small RNAs targeting specific genes, particularly those not co-regulated by the Argonaute CSR-1. This selective effect highlights the importance of WAGO-4’s spatial localization for efficient small RNA loading and gene regulation. Our findings demonstrate that germ granules serve as specialized compartments that fine-tune Argonaute function, emphasizing the role of phase-separated condensates in modulating RNA pathways and gene regulatory networks.",
       "funder": [],
       "identifier": "S-BIAD2202",

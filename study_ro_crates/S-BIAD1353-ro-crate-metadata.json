@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -135,7 +140,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-27"
+      },
       "description": "This data set contains all microscopy images and the corresponding image analysis code and outputs for the manuscript: \"Pooled optical screening in bacteria using chromosomally expressed barcodes\". \n\nOptical pooled screening is an important tool to study dynamic phenotypes for libraries of genetically engineered cells. However, the desired engineering often requires that the barcodes used for in situ genotyping are expressed from the chromosome. This has not previously been achieved in bacteria. Here we describe a method for in situ genotyping of libraries with genomic barcodes in Escherichia coli. The method is applied to measure the intracellular maturation time of 84 red fluorescent proteins.\n\nInformation on post-processing and generation of tables and figures in Pooled optical screening in bacteria using chromosomally expressed barcodes is found at DOI: 10.17044/scilifelab.26976952 (see Linked Information).\n",
       "funder": [],
       "identifier": "S-BIAD1353",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-17"
+      },
       "description": "Imaging files associated with \"Cellular behavior analysis from live-cell imaging of TCR T cell--cancer cell interactions.\" Data consists of co-cultures of TCR T cells and mKate+ A375 cells imaged every 4 minutes for 72 hours. T cells have either a safe harbor AAVS1 knockout, RASA2 knockout, or CUL5 knockout. ",
       "funder": [],
       "identifier": "S-BIAD1524",

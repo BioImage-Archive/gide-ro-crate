@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-11"
+      },
       "description": "Spinal muscular atrophy (SMA) is caused by mutations in the Survival Motor Neuron 1 (SMN1) gene. While traditionally viewed as a motor neuron disorder, there is involvement of various peripheral organs in SMA. Notably, fatty liver has been observed in SMA mouse models and SMA patients. Nevertheless, it remains unclear whether intrinsic depletion of SMN protein in the liver contributes to pathology in the peripheral or central nervous systems. To address this, we developed a mouse model with a liver-specific depletion of SMN by utilizing an Alb-Cre transgene together with one Smn2B allele and one Smn1 exon 7 allele flanked by loxP sites. Initially, we evaluated phenotypic changes in these mice at postnatal day 19 (P19), when the severe model of SMA, the Smn2B/- mice, exhibit many symptoms of the disease. The liver-specific SMN depletion does not induce motor neuron death, neuromuscular pathology or muscle atrophy, characteristics typically observed in the Smn2B/- mouse at P19. However, mild liver steatosis was observed, although no changes in liver function were detected. Notably, pancreatic alterations resembled that of Smn2B/-mice, with a decrease in insulin-producing b-cells and an increase in glucagon-producing a-cells, accompanied by a reduction in blood glucose and an increase in plasma glucagon and glucagon-like peptide (GLP-1). These changes were transient, as mice at P60 exhibited recovery of liver and pancreatic function. While the mosaic pattern of the Cre-mediated excision precludes definitive conclusions regarding the contribution of liver-specific SMN depletion to overall tissue pathology, our findings highlight an intricate connection between liver function and pancreatic abnormalities in SMA.",
       "funder": [],
       "identifier": "S-BIAD1633",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,10 +107,10 @@
           "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_10116"
         },
         {
-          "@id": "obo:NCBITaxon_10116"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [
@@ -132,7 +137,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-20",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-20"
+      },
       "description": "This submission contains a set of 3D microscopy volumes of cell nuclei from different species and tissues that have been manually segmented. We also provide synthetically generated 3D microscopy volumes that can be used for training segmentation methods.",
       "funder": [],
       "identifier": "S-BIAD1518",

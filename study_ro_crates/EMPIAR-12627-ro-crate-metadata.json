@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -69,10 +74,10 @@
           "@id": "#31f5ea70-65d3-4eae-80d1-5eadd3ee2b87"
         },
         {
-          "@id": "obo:NCBITaxon_33657"
+          "@id": "obo:NCBITaxon_2864"
         },
         {
-          "@id": "obo:NCBITaxon_2864"
+          "@id": "obo:NCBITaxon_33657"
         }
       ],
       "author": [
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-22"
+      },
       "description": "",
       "funder": [],
       "identifier": "EMPIAR-12627",

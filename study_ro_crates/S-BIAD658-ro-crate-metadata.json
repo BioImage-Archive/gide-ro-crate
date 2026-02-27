@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-21"
+      },
       "description": "Significance: CSF rhinorrhea (leakage of brain fluid from the nose) can be difficult to identify and currently requires invasive procedures such as intrathecal fluorescein which requires a lumbar drain placement. Fluorescein is also known to have rare but significant side effects including seizures and death. As the number of endonasal skull base cases increase, the number of CSF leaks have also increased for which an alternative diagnostic method would be highly advantageous to patients.\nAim:  To develop an instrument to identify CSF leaks based on water absorption in the SWIR without the need of intrathecal contrast agents. This device needed to be adapted to the anatomy of the human nasal cavity while maintaining low weight and ergonomic characteristics of current surgical instruments.\nApproach: Absorption spectra of CSF and artificial CSF were obtained to characterize the absorption peaks that could be targeted with SWIR light. Different illumination systems were tested and refined prior to adapting them into a portable endoscope for testing in 3D printed models and cadavers for feasibility. \nResults: We identified CSF to have an identical absorption profile as water. In our testing, a narrow band laser source at 1480nm proved superior to using a broad 1450 nm LED. Using a SWIR enabling endoscope set up, we tested the ability to detect artificial CSF in a cadaver model.\nConclusions: An endoscopic system based on SWIR narrow band imaging can provide an alternative in the future to invasive methods of CSF leak detection.",
       "funder": [],
       "identifier": "S-BIAD658",

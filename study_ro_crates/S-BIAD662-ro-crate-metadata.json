@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-30"
+      },
       "description": "FAM3C/ILEI is an important factor in epithelial-to-mesenchymal transition (EMT) induction, tumor progression and metastasis. Overexpressed in many cancers, elevated ILEI levels and secretion correlate with poor patient survival. Although ILEI’s causative role in invasive tumor growth and metastasis has been demonstrated in several cellular tumor models, there are no available transgenic mice to study these effects in the context of a complex organism. Here, we describe the generation and initial characterization of a Tet-ON inducible Fam3c/ILEI transgenic mouse strain. We find that ubiquitous induction of ILEI overexpression (R26-ILEIind) at weaning age leads to a shortened lifespan, reduced body weight and microcytic hypochromic anemia. The anemia was reversible at a young age within a week upon withdrawal of ILEI induction. Vav1-driven overexpression of the ILEIind transgene in all hematopoietic cells (Vav-ILEIind) did not render mice anemic or lower overall fitness, demonstrating that no intrinsic mechanisms of erythroid development were dysregulated by ILEI and that hematopoietic ILEI hyperfunction did not contribute to death. Reduced serum iron levels of R26-ILEIind mice were indicative for a malfunction in iron uptake or homeostasis. Accordingly, the liver, the main organ of iron metabolism, was severely affected in moribund ILEI overexpressing mice: increased alanine transaminase and aspartate aminotransferase levels indicated liver dysfunction, the liver was reduced in size, showed increased apoptosis, reduced cellular iron content, and had a fibrotic phenotype. These data indicate that high ILEI expression in the liver might reduce hepatoprotection and induce liver fibrosis, which leads to liver dysfunction, disturbed iron metabolism and eventually to death. Overall, we show here that the novel Tet-ON inducible Fam3c/ILEI transgenic mouse strain allows tissue specific timely controlled overexpression of ILEI and thus, will serve as a versatile tool to model the effect of elevated ILEI expression in diverse tissue entities and disease conditions, including cancer.",
       "funder": [],
       "identifier": "S-BIAD662",

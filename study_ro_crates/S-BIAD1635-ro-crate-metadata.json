@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-13"
+      },
       "description": "Rheumatoid arthritis (RA) is associated with heart and lung dysfunction. Current therapies\nfail to attenuate such complications. Here, we identify formyl-peptide receptor type 2 (FPR2)\nas therapeutic target to treat heart and lung dysfunction associated with inflammatory arthritis.\nArthritic mice on high levels of dietary homocysteine develop cardiac diastolic dysfunction\nand reduced lung compliance, mirroring two comorbidities in RA. Therapeutic administration\nof a small molecule FPR2 agonist (BMS986235) to hyper-homocysteine arthritic mice\nprevented diastolic dysfunction (monitored by echocardiography) and restored lung\ncompliance. These tissue-specific effects were secondary to reduced neutrophil infiltration,\nmodulation of fibroblast activation and phenotype (in the heart) and attenuation of monocyte\nand macrophage numbers (in the lung). A dual FPR1/2 agonist (compound 43) failed to\nprevent the reduction in lung compliance of arthritic mice and promoted accumulation of\ninflammatory monocytes and pro-fibrotic macrophages in lung parenchyma. This cellular\nresponse lies downstream of FPR1-mediated potentiation of CCL2-dependent monocyte\nchemotaxis and activation. This finding supports therapeutic development of selective FPR2\nagonists to mitigate two impactful comorbidities associated with inflammatory arthritides.",
       "funder": [],
       "identifier": "S-BIAD1635",

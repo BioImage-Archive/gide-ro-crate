@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-29"
+      },
       "description": "Transposable elements are major contributors to the evolution of their hosts, but the mechanisms driving their own diversification remain poorly understood. Here, we reveal key principles governing the evolution of insect endogenous retroviruses (ERVs), a class of infectious LTR-retrotransposons that encode an Envelope protein. Through comparative analyses and experimental studies of transposon life cycles in Drosophila, we demonstrate how two crucial ERV traits—infectivity and spatiotemporal expression—co-evolve. We find that ERVs have adapted their cis-regulatory sequences to function across all ovarian cell types. Strikingly, infectious ERV lineages display distinct expression patterns in somatic cells, from where they infect the germline, whereas derived retroelement lineages that have lost infectivity are expressed exclusively in the germline. Co-evolutionary changes in the piRNA pathway, which integrates transposon promoter and sequence information into differentially expressed piRNA clusters, highlight the functional significance of the diverse ERV expression niches. By investigating a unique ERV lineage, rover, we reconstruct the molecular events that transformed an infectious ERV into a retroelement. Overall, our study uncovers fundamental mechanisms that drive the co-evolution of ERVs and their hosts, with important implications for understanding the functional diversification of LTR sequences.",
       "funder": [],
       "identifier": "S-BIAD1883",

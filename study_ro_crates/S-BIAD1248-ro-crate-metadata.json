@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-01"
+      },
       "description": "Upon activation of ASC-containing inflammasomes, intracellular molecular aggregates (ASC specks) are assembled and released from myeloid cells into the extracellular space where they enhance the aggregation of Aβ amyloid in Alzheimer’s disease. This raises the question whether ASC is involved in additional aggregation proteinopathies. In this study we report that ASC governs the extent of inflammation-induced amyloid A (AA) amyloidosis, a systemic disease caused by the aggregation and peripheral deposition of the acute-phase reactant serum amyloid A (SAA).",
       "funder": [],
       "identifier": "S-BIAD1248",

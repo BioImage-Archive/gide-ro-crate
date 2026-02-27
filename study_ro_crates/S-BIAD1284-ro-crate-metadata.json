@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-22"
+      },
       "description": "Precision cut lung slices (PCLS) are increasingly being utilized to reduce animal usage (as more experiments can be performed on complex and multicellular tissues from a single animal) but also offer the potential to study cellular and tissue level processes directly in human tissue ex vivo. PCLS can be generated using several different techniques including a vibrating microtome (vibratome) or other commercial devices such as a Krumdieck slicer or Compresstome. Due to the potential damage from mechanical cutting of the tissue and from the cold ischemic time associated with tissue preparation, some labs report letting PCLS rest overnight or for 24 hours prior to starting experiments. However, there is limited data on what occurs immediately after slicing and what time window is optimal for PCLS recovery prior to the start of experiments. This is particularly important to determine if PCLS are to be used for evaluation of targeted therapies, such as nanoparticle therapies. Non-specific uptake due to cell membrane damage may obfuscate the interpretation of results. Previous papers in the PCLS field have utilized live/dead staining which relies on Calcein AM staining which is cleaved cleaved by intracellular esterases to yield Calcein fluorescence, which is only retained in live cells. In parallel, Ethidium homodimer I (or III) are used to label dead or dying cells as this dye is impermeant to intact cell membranes. Ethidium homodimer is weakly fluorescent at baseline but becomes highly fluorescent when complexed with nucleic acids. However, this approach has several drawbacks. 1) It does not yield insight into whether cell damage detected with Calcein AM is due to apoptosis or necrosis 2) Both dyes have excitation and emission spectra in ranges that overlap with lung tissue autofluorescence (Calcein AM ex=494nm and em=514nm; EtHD ex 527nm and em=624nm). Therefore, we sought to establish the feasibility of utilizing an active caspase3/7 sensitive dye (NucView®488) and a far red cell impermeable dye which more specifically labels nuclei (RedDot™2) to complement the information available in the literature to better understand the early dynamics in PCLS. These results help to establish suitable time windows for letting PCLS recover prior to beginning experiments, provide insight into the potential for apoptotic pathways to be initiated after slicing and help to establish when such live staining agents should be administered to evaluate potential cell death. We generated 300μm thick PCLS from agarose filled murine lungs and either immediately administered apoptosis/necrosis dyes or administered them 24 hours later. To test for dye stability and as a positive control for cellular damage, we administered 150μM hydrogen peroxide to some slices. Images were acquired using confocal microscopy using identical laser and microscope settings over multiple days. There was no internal calibration performed between days. ",
       "funder": [],
       "identifier": "S-BIAD1284",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-21"
+      },
       "description": "We provide time series data for more than 4,000 wheat plots, including aligned high-resolution image sequences totaling more than 153,000 aligned images across six years. Measurement data for eight key wheat traits is included, namely canopy cover values, plant heights, wheat head counts, senescence ratings, heading date, final plant height, grain yield, and protein content. Genetic marker information and environmental data complement the time series. Data quality is demonstrated through heritability analyses and genomic prediction models, achieving accuracies aligned with previous research.",
       "funder": [],
       "identifier": "S-BIAD1727",

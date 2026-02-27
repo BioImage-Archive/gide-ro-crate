@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-29"
+      },
       "description": "We observed a decrease in the density of bassoon+ clusters in the vulnerable Aldh1a1+ but not in the resilient Aldh1a1- axons of Lrrk2G2019S as compared to Lrrk2WT mice. Furthermore, we noted an increase in the volume of the remaining bassoon clusters in Aldh1a1+ but not Aldh1a1- dopamine axons in mutant LRRK2 compared to wildtype control mice. Since the observed active zone changes may be due to the loss of Th fibers or dopamine vesicle clustering alterations, we employed confocal imaging to assess Th+ fibers in the dorsolateral striatum. ",
       "funder": [],
       "identifier": "S-BIAD2072",

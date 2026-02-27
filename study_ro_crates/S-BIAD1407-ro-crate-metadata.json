@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-30"
+      },
       "description": "527 digital whole slide images of haematoxylin and eosin (H&E) stained tissue sections from 431 colorectal cancer patients across 3 clinical datasets (BRAF, MISSONI, and VALENTINO). The BRAF cohort is comprised of patients with BRAF V600E mutant microsatellite stable (MSS) cancers (n=165, 24m median follow-up). The MISSONI cohort is comprised of patients with microsatellite instability, with a subset receiving immunotherapy, (n=90, 24m median follow-up). The VALENTINO cohort includes patients with RAS/RAF wildtype MSS cancers who received chemotherapy and anti-EGFR therapy (n=176, 32m median follow-up). Slides are taken from both primary and metastatic sites. Slides were digitised using a Zeiss AxioScan.Z1 slide scanner (40x magnification, 0.11 µm/pixel).",
       "funder": [],
       "identifier": "S-BIAD1407",

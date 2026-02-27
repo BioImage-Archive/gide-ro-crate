@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-08"
+      },
       "description": "Matrix assisted Laser Desorption/ Ionization Mass Spectrometry Imaging (MALDI-MSI) has emerged as a powerful analytical tool for various molecules such as small molecule metabolites (SMMs), correlating an analytes mass to charge ratio and its spatial localisation on a tissue surface. Despite the growing interest in this technique, a comprehensive SMM MALDI-imaging gallery is still lacking in literature. Here, we present a Small Molecule Metabolite MALDI imaging gallery, unveiling a comprehensive exploration into the spatial distribution of over 100 metabolites of various pathways and classes sourced from three distinct mouse tissues.",
       "funder": [],
       "identifier": "S-BIAD993",

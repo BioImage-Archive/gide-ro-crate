@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-03"
+      },
       "description": "Quorum sensing (QS) is a communication form between bacteria via small signal molecules that enables global gene regulation as a function of cell density. We applied a microfluidic mother machine to study the kinetics of the QS response of Pseudomonas aeruginosa bacteria to additions and withdrawals of signal molecules. We traced the fast buildup and the subsequent considerably slower decay of a population-level and single-cell-level QS response. We applied a mathematical model to explain the results quantitatively. We found significant heterogeneity in QS on the single-cell level, which may result from variations in quorum-controlled gene expression and protein degradation. Heterogeneity correlates with cell lineage history, too. We used single-cell data to define and quantitatively characterize the population-level quorum state. We found that the population-level QS response is well-defined. The buildup of the quorum is fast upon signal molecule addition. At the same time, its decay is much slower following signal withdrawal, and the quorum may be maintained for several hours in the absence of the signal. Furthermore, the quorum sensing response of the population was largely repeatable in subsequent pulses of signal molecules.",
       "funder": [],
       "identifier": "S-BIAD1158",

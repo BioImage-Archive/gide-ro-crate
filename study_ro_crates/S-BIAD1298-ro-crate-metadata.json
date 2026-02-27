@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#adc4af2b-916a-402b-a4e5-338581fd2a97"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000249"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-30"
+      },
       "description": "Motility is a phenotypic readout that indicates an organism’s integration of sensory input from its environment with its ability to move. We developed a microscopy workflow and image analysis pipeline to track motility phenotypes from unicellular algae in high-throughput.",
       "funder": [],
       "identifier": "S-BIAD1298",

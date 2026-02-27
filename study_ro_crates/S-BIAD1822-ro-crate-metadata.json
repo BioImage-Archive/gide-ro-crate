@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-01"
+      },
       "description": "During ovariogenesis, more than two-thirds of germ cells are sacrificed to improve the quality of the remaining oocytes. However, the detailed mechanisms behind this selection process are not fully understood in mammals. Here, we developed a high-resolution, four-dimensional ovariogenesis imaging system to track the progression of oocyte fate determination in live mouse ovaries. Through this, we identified a cyst-independent oocyte phagocytosis mechanism that plays a key role in determining oocyte survival. We found that oocytes act as individual cells, rather than connected cyst structures, during ovarian reserve construction. In this process, dominant oocytes capture and absorb cell debris from sacrificed oocytes to enrich their cytoplasm and support their survival. Single-cell sequencing indicated that the sacrificed oocytes are regulated by autophagy. When oocyte sacrifice was inhibited using autophagy inhibitors, the pool of surviving oocytes expanded, but they failed to fully develop and contribute to fertility. Our study suggests that mammals have evolved a cyst-independent selection system to improve oocyte quality, which is essential for sustaining a long reproductive lifespan.",
       "funder": [],
       "identifier": "S-BIAD1822",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      },
       "description": "Iron acquisition is crucial for plants. The abundance of IRON-REGULATED TRANSPORTER 1 (IRT1) at the plasma membrane is controlled through endomembrane trafficking. Vesicular trafficking requires small ARF-like GTPases, one of them is TITAN 5 (TTN5). Its physiological functions during the life cycle and effector targets remain unknown. Little is known how the vesicular trafficking mechanism controls IRT1.  \nWe show that TTN5 interacts with the large cytoplasmic variable region and protein-regulatory platform of IRT1. ttn5-1+/- plants have a reduced activity of root iron reductase, closely associated with iron uptake. Fluorescent fusion proteins of TTN5 and IRT1 colocalize at the plasma membrane and in endosomes/multivesicular bodies, where IRT1 sorting and cycling between the plasma membrane and the vacuole are coordinated. Colocalization at the plasma membrane depends partly on the interaction ability of TTN5. TTN5 can also interact with peripheral membrane proteins that are components of the IRT1 regulation machinery, like the trafficking factor SNX1, the C2 domain protein EHB1 and the SEC14-GOLD protein PATL2. Hence, this work links iron acquisition and vesicular trafficking involving a small GTPase of the ARF family. This opens up the possibility to study the involvement of TTN5 in nutritional cell biology in the endomembrane system.\n",
       "funder": [],
       "identifier": "S-BIAD1351",

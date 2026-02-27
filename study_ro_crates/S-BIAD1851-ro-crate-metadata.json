@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#71735d98-b4ad-4dab-a761-e69ca478b6df"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-30"
+      },
       "description": "Antimicrobial resistance is a growing public health threat predicted to cause up to 10 million deaths a year by 2050. To circumvent existing bacterial resistance mechanisms, discovering antibiotics with novel modes of action (MoAs) is crucial. While growth inhibition assays can robustly identify antibiotic molecules, they miss promising compounds with subinhibitory phenotypes and do not inform on drug MoA. Microscopy-based cytological profiling of drug-treated bacteria with hand-crafted image descriptors or more recently deep learning (DL) provides complementary information on the MoA. However, current approaches are limited by the need for fluorescent labelling and drug exposure at inhibitory concentrations. It also remains unclear if cytological profiling enables the detection of drugs with novel MoAs. Here, we demonstrate an approach based on supervised DL to identify antibiotic drug MoA from microscopy images without fluorescent labelling. We train a convolutional neural network to predict treatment conditions from brightfield images of Escherichia coli exposed to reference drugs covering multiple MoAs. Our method can detect drug exposure at subinhibitory concentrations and distinguishes individual drug treatments with high accuracy (86.21%). The learned representations implicitly capture MoA-specific phenotypes, enabling perfect MoA recognition (100%) without retraining using a model trained on only 644 images. Our approach can identify the MoA of previously unseen drugs with good accuracy (77.8±3.3%), as long as the MoA is represented by at least one of the training compounds. Finally, we show that our approach can detect if a drug has a novel MoA with an area under the curve of 0.77±0.19, facilitating microscopy-based identification of novel classes of antibiotics. Our methods and results pave the way towards an automated pipeline for antibiotic drug discovery based on imaging and DL.",
       "funder": [],
       "identifier": "S-BIAD1851",

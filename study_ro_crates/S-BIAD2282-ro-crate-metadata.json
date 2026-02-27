@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -114,7 +119,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-12"
+      },
       "description": "Phospholipidosis (PLD), a cellular adverse effect that is, among others, caused by numerous cationic amphiphilic drugs. Interest is raised within pharma discovery to predict this phenomenon, as it can impact the outcome of phenotypic cellular screens and significantly delay drug development processes. The development of accurate and validated machine learning models for predicting drug-induced PLD across different cell lines and research centers could provide a valuable early application tool for the pharmaceutical industry, potentially accelerating drug discovery and reducing the risk of late-stage failures. We report here the assembly, curation, testing and modeling of one of the largest datasets of repurposed drugs (5000+) tested for PLD induction on different cell lines. A machine-learning classification method was developed and validated to predict whether molecules are prone to induce PLD effects when applied in cell-based screens.\n\nThis constitutes the accompanying publication of the acquired image data.",
       "funder": [],
       "identifier": "S-BIAD2282",

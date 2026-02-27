@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#f6d90af4-1537-445d-98a7-be3b8bd3fec3"
+          "@id": "#e6e115c9-4e76-476a-bbdb-504163b3a34b"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-22"
+      },
       "description": "\"OME-NGFF converted study from idr0036.  Computational methods for image-based profiling are under active development, but their success hinges on assays that can capture a wide range of phenotypes. We have developed a multiplex cytological profiling assay that \"paints the cell\" with as many fluorescent markers as possible without compromising our ability to extract rich, quantitative profiles in high throughput. The assay detects seven major cellular components. In a pilot screen of bioactive compounds, the assay detected a range of cellular phenotypes and it clustered compounds with similar annotated protein targets or chemical structure based on cytological profiles. The results demonstrate that the assay captures subtle patterns in the combination of morphological labels, thereby detecting the effects of chemical compounds even though their targets are not stained directly. This image-based assay provides an unbiased approach to characterize compound- and disease-associated cell states to support future probe discovery. Note: This image set is BBBC022v1 [Gustafsdottir et al., PLOS ONE, 2013], obtained from the Broad Bioimage Benchmark Collection [Ljosa et al., Nature Methods, 2012].\"",
       "funder": [],
       "identifier": "S-BIAD855",
@@ -99,7 +107,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#f6d90af4-1537-445d-98a7-be3b8bd3fec3",
+      "@id": "#e6e115c9-4e76-476a-bbdb-504163b3a34b",
       "@type": [
         "Person"
       ],

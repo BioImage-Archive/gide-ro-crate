@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -70,10 +75,10 @@
           "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000241"
         },
         {
           "@id": "obo:FBbi_00000240"
@@ -153,7 +158,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-24",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-24"
+      },
       "description": "Source data for \"Interdependence of plasma membrane nanoscale dynamics of a kinase and its cognate substrate underlies Arabidopsis response to viral infection\"",
       "funder": [],
       "identifier": "S-BIAD1733",

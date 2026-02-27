@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-30"
+      },
       "description": "Immune responses play an integral role in skeletal muscle regeneration. In the genetically inherited muscle disease Duchenne muscular dystrophy (DMD), muscle regeneration is disrupted, leading to chronic inflammation, fibrosis, and early mortality. Previously, it has been suggested that type-2 innate immune cells, particularly eosinophils and their production of IL-4, play an essential role in effective muscle regeneration after acute injury. We here re-investigate the role of eosinophils in skeletal muscle repair using mice deficient in eosinophils (ΔdblGATA), or deficient in IL-4R/IL-13R signaling through STAT6 (Stat6-/-). We show that neither deficiency has an impact on skeletal muscle regeneration in response to acute injury as quantified by fiber size, immune cell infiltration, or muscle-resident stem cell proliferation. We also investigate the role of STAT6 signaling in mdx:Stat6-/- mice, a model of DMD and, again, find that ablation of STAT6 signaling has no effect on the rate or severity of fibrotic scar formation or disease progression. In contrast to previous models, our data suggest a negligible role for eosinophils and STAT6 signaling in skeletal muscle regeneration after acute or chronic injury.",
       "funder": [],
       "identifier": "S-BIAD1497",

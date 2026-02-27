@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#a8844d1e-71c1-4731-a774-e881b76359af"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000249"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-08"
+      },
       "description": "We used Chlamydomonas reinhardtii motility mutants with disrupted genes homologous to human SPEF2 or DNALI1 to model spermatogenic failure disorders SPGF43 and SPGF83, respectively. We recovered aspects of wild-type motility in these mutants with a small-scale drug screen.",
       "funder": [],
       "identifier": "S-BIAD1470",

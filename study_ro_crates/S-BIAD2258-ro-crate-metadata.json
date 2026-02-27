@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,13 +66,13 @@
           "@id": "#69847b09-8ed4-42d3-932d-50901c1861a9"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -192,7 +197,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-31"
+      },
       "description": "This dataset was acquired by confocal microscopy from environmental plankton tows during the TRaversing European Coastlines (TREC) expedition 2023-2024 (see Linked Information [1]). The dataset contains between 44 and 56 individual tiles for each of the 350 samples, acquired either in wide-field or confocal mode. The sampling sites and metadata are accessible via the respective BioSamples IDs.\n\nTo check the scripts used for data processing, to open the data files and metadata of your choice, as well as to report any issue, check the supporting GitHub repository: https://github.com/AlexandraZakieva/live-confocal-super-plankton.\nNOTA BENE After the release of this accession, the community flagged key improvements that should be made. We will implement them in January 2026. Meanwhile, for the most updated version of the OME-Zarr files, have a look at the GitHub repository.\n\nThe dataset is used for taxonomy analysis on the EcoTaxa platform at project ID 18361 [3].\n\nOntology according to Ontology Lookup Service [8]:\nBrightfield\tCHMO:0000104\nCell Wall\tGO:0005618\nCalcofluorWhite\tCHEBI:50011\nCFW\tCHEBI:50011\nChloA\tmesh:D000077194\nChlorophyll A\tmesh:D000077194\nChloroplast\tmesh:D002736\nenvironmental material\tENVO:00010483\nHoechst\tBAO:0000116\nHoechst33342\tFBbi:00000052\nHoechst34580\tmesh:C572112\nPE\tmesh:D010799\nPhycoerythrin\tmesh:D010799\npolysaccharides\tCHEBI:18154\nsurface structures\tGO:0009986\nT-PMT\tREPR:PMT",
       "funder": [],
       "identifier": "S-BIAD2258",

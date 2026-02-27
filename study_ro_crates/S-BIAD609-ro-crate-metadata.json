@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-12-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-14"
+      },
       "description": "In this study, we found that mice lacking gut microbiota displayed increased blood-cerebrospinal fluid (CSF) barrier permeability associated with disorganized tight junctions (TJs), which can be rescued by recolonization with gut microbiota or supplementation with short-chain fatty acids (SCFAs). We further confirmed that the vagus nerve plays an important role in this process but SCFAs can also bypass the vagus nerve and affect blood-CSF barrier functionality. Strikingly, the administration of SCFAs in AppNL-G-F AD mice also improved the localization of TJs in the blood-CSF barrier. This was accompanied by a pronounced reduction in β-amyloid (Aβ) burden, which could be achieved by regulating microglial phenotype. Altogether, our results suggest that modulating the microbiota or administering SCFAs might have therapeutic potential in AD via tightening blood-CSF barrier and maintaining microglial activity.",
       "funder": [],
       "identifier": "S-BIAD609",

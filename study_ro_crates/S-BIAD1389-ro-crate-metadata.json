@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-06"
+      },
       "description": "Brain development requires the coordinated growth of structures and cues that are essential for forming neural circuits and cognitive functions. The corpus callosum, the largest interhemispheric connection, is formed by the axons of callosal projection neurons through a series of tightly regulated cellular events, including neuronal specification, migration, axon extension and branching. Defects in any of those steps can lead to a range of disorders known as syndromic corpus callosum dysgenesis (CCD). We report five unrelated families carrying bi-allelic variants in WDR47 presenting with CCD together with other neuroanatomical phenotypes such as microcephaly and enlarged ventricles. Using in vitro and in vivo mouse models and complementation assays, we show that WDR47 is required for survival of callosal neurons by contributing to the maintenance of mitochondrial and microtubule homeostasis. We further propose that severity of the CCD phenotype is determined by the degree of the loss of function caused by the human variants. Taken together, we identify WDR47 as a causative gene of a new neurodevelopmental syndrome characterized by corpus callosum abnormalities and other neuroanatomical malformations.",
       "funder": [],
       "identifier": "S-BIAD1389",

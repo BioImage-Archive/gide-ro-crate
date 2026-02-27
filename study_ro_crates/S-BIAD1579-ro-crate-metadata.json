@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-22"
+      },
       "description": "Gliomas remain among the most lethal cancers, with limited treatment options and suboptimal clinical outcomes. To better understand the factors that drive glioma progression and resistance to immunotherapy, we assembled a clinically annotated cohort of 310 adult and pediatric glioma patients across multiple institutions. By combining multiplexed ion beam imaging, spatial transcriptomics, and spatial glycomics, we characterized over 1.2 million cells at single-cell resolution, profiling key immune subsets, tumor antigens (TAs), transcriptome, and glycan structures. Our analyses revealed grade- and tumor type–specific architectures, highlighting the prevalence of immunosuppressive myeloid populations that varied across glioma subtypes. We systematically quantified eight clinically actionable TAs, finding that B7H3 and EGFR are the most abundant in high-grade tumors but also exhibit considerable cell-to-cell variability. Our data shows that multi-antigen strategies could further improve tumor coverage, though cells lacking any measured TA remain significant in many patients, underscoring challenges for targeted therapy.  Consistent with the modest clinical improvements seen to date, comparing LGG lesions from patients who received immunotherapy versus standard of care revealed only minor differences in immune function and tumor architecture. However, longitudinal comparisons of LGG uncovered dynamic shifts in tumor-immune cell organization and altered functional states. To better understand the apparent stalling of anti-tumor immune activation, we characterized the glioma glycome using mass spectrometry to image 71 N-glycans and integrated with spatial proteomics and transcriptomics, identified sialylation as a key feature of high-grade lesions linked to immune pathways. Finally, a multi-omic machine-learning model revealed that glycan features were most predictive of glioma grade, whereas transcriptomic signatures in immune-rich regions better distinguished survival in glioblastoma. Collectively, these data underscore the importance of spatial multi-omics for identifying new therapeutic strategies and serve as a valuable resource to guide next-generation glioma interventions.",
       "funder": [],
       "identifier": "S-BIAD1579",

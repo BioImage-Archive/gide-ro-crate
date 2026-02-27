@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-18"
+      },
       "description": "Research utilising exercise therapeutically to enhance neuroplasticity mainly reports enhanced expression of neurotrophic (neural growth) factors which are associated with increased neurogenesis, structural changes, and improved memory.  \n\nHowever, these neural changes are tightly regulated by both promotors and inhibitors of neuroplasticity, and the effect of exercise on inhibitory pathways is currently understudied. \n\nWe show that exercise also modulates inhibitors of neuroplasticity. Six weeks of treadmill training reduced the gene expression of aggrecan, a chondroitin sulphate proteoglycan (CSPG), and altered the composition of CSPG containing structures, perineuronal nets, in the rodent hippocampus.  Genetically manipulating chondroitin-4-sulphation of CSPGs by overexpressing hippocampal Chst11 impaired memory performance, which was mitigated by treadmill training.  \n\nWe provide evidence that hippocampal CSPGs are involved in object recognition memory, and that there is a link between exercise, modulating hippocampal inhibitors of neuroplasticity, and memory performance. ",
       "funder": [],
       "identifier": "S-BIAD2411",

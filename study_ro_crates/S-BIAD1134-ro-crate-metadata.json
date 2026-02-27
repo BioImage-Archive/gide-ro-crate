@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#b64ae7e2-c038-4420-90a1-c87ed1647a66"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-30"
+      },
       "description": "This dataset contains a 3D movie of an MCF10A acini. Three fluorescence channels encode a nuclear marker for segmentation and tracking, and reporters for CDK2 and ERK activity. \n\nData dimensions: [t,c,z,y,x] -> [145, 3, 188, 188, 188]\nData format: zarr, \nVoxel size: 0.29x0.29x0.29 μm/px\nTime resolution: 5min/frame\n\nChannels:\nC0: ERK-KTR-mTurquoise2 (ERK activity)\nC1: DHB-mRuby2 (CDK2 activity)\nC2: H2B-miRFP703 (nuclear marker)\n\nThe dataset is used in the paper accompanying conv-paint, an interactive image segmentation tool for napari. The paper will be linked as soon as a preprint is published. The dataset is an interesting test set for various image analysis tools, especially because of its high dimensionality. Stored as a zarr array, it can be drag-and-dropped into the image viewer napari for interactive visualisation and exploration. Each chunk represents one time point.",
       "funder": [],
       "identifier": "S-BIAD1134",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-30"
+      },
       "description": "Drosophila male germline stem cells (GSCs) reside at the testis tip, surrounding a cluster of niche cells known as the hub. Bone Morphogenetic Protein (BMP) ligands secreted from the hub exert both contact-dependent and -independent effects. In close proximity to the niche, BMP signaling maintains stem cells by suppressing transcription of the key differentiation factor Bag of Marbles (Bam). In contrast, the diffusible fraction of BMP promotes differentiation of cells by activating bam. How a single signaling pathway produces such opposing outcomes has remained unclear. Here, we show that the diffusible BMP fraction induces bam transcription by repressing the transcriptional repressor Brinker (Brk). We further found that brk mRNA displays a highly heterogeneous expression pattern within interconnected spermatogonia, suggesting that Brk may prime cell fate in a subset of transit-amplifying cells, helping to preserve a population poised for dedifferentiation while maintaining other cells for differentiation. Our findings propose a model in which a single niche-derived factor modulates reciprocal outcomes inside versus outside the niche, which is essential for the tissue homeostasis. Given the broad use of BMP signaling across stem cell niches, this mechanism may represent a general strategy to ensure correct balance between self-renewal and differentiation of stem cells.",
       "funder": [],
       "identifier": "S-BIAD2377",

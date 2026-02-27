@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-29"
+      },
       "description": "Research into the evolution of multicellularity often focuses on clonal multicellularity, yet aggregative multicellularity (AM) may respond to different drivers and is also highly interesting evolutionarily, for example in its behavioral, regulatory, morphological, and social complexity and diversity. We investigate the potential for predation to shape AM evolution across different combinations of three species comprising a multi-trophic food web. Together in a three-species community, the fruiting bacterium Myxococcus xanthus is a mesopredator, while the bacterivorous nematode Pristionchus pacificus is apex predator and the bacterium Escherichia coli is a shared basal prey for both predators. The number and morphology of M. xanthus fruiting bodies is found to respond evolutionarily to nematodes, regardless of whether E. coli is present. E. coli alone with M. xanthus tends to reduce both fruiting body formation and spore production, but adding nematodes eliminates those negative effects. M. xanthus lineages with an ancestral antibiotic-resistance mutation evolved less overall, revealing strong historical contingency and suggesting potential tradeoffs between antibiotic-resistance and responsiveness to biotic selection. Our results suggest that predation both of and by mesopredators has played important roles in the evolution of aggregative multicellularity and reveal complex inter-trophic evolutionary interactions in a relatively simple three-species food web.",
       "funder": [],
       "identifier": "S-BIAD2203",

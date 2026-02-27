@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-28"
+      },
       "description": "Scanning Electron pictures of Prorocentrum nux, isolates AGSB-0131, deposited in the Algal Genomic and Synthetic Biology (AGSB) culture collection maintained by the National Research Council of Canada in Halifax, Nova Scotia. All pictures published here were taken on March 30th, 2023 at the Electron Microscopy Core Facility, Faculty of Medicine, Dalhousie University.\n\nAGSB-0131 was isolated from the Laurentian Channel (45.983369 N and 57.516912 W) Northwest Atlantic Ocean, with a CTD-Rosette at the chlorophyll maximum depth (41 m) on 4th of August 2021.\n\nGenBank Accession Numbers associated with AGSB-0131: PQ510849 (18S rRNA), PQ510850 (28S rRNA), PQ508261 (18S-ITS1-5.8S-ITS2-28S rRNA), PQ639436 (Cox1 gene), PQ650243 (Cob gene).\n\nAbstract:\n\nThe Prorocentrales are a diverse group of dinophytes found in a wide range of marine environments. However, species delimitation in the genus of Prorocentrum still remain a challenge especially for those of nanoscale where morphological and molecular information are often incomplete among species. Prorocentrum nux is an example where information is sparse and efforts are needed to reconcile information.  Here, a detailed morphological features and molecular information was performed on a Northwest Atlantic strain (AGSB-0131). Using Scanning Electron Microscopy, divergent morphological features from the original description were highlighted including the periflagellar area configuration (nine vs seven platelets) and the pore pattern for the marginal pores that run parallel to the intercalary bands (three or four vs three pores). Molecular characterisation using the 18S rRNA gene, partial 28S rRNA gene, mitochondrial cox1 and cob genes also revealed misleading information in the sequencing data currently available. Indeed, an important genetic divergence between the original (strain RCC303) and the AGSB-0131 18S rRNA sequence was observed suggesting a previously sequencing error. The integration of morphological and molecular information from the same species contribute to a broader knowledge of that species and provide tools to identify the prevalence of P. nux in the marine environments.",
       "funder": [],
       "identifier": "S-BIAD1496",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      },
       "description": "We benchmarked five advanced spatial transcriptomics (ST) platforms: Stereo-seq v1.3, Visium HD FF, Visium HD FFPE, CosMx 6K, and Xenium 5K. These platforms were selected for their high-throughput gene capture (>5,000 genes), subcellular resolution (<=2um), and commercial availability. Samples from three treatment-naive tumors (colon adenocarcinoma, hepatocellular carcinoma, and ovarian cancer) were processed into FFPE blocks, fresh frozen blocks with OCT compound, and single-cell suspensions. Serial tissue sections were generated for consistent evaluation. For ground truth datasets, we profiled proteins from adjacent sections using CODEX and performed scRNA-seq on the same samples, enabling integrative cross-modal comparisons. Note that Visium HD FF protocol became available three months after initial sample preparation, possibly resulting in RNA degradation.",
       "funder": [],
       "identifier": "S-BIAD1900",

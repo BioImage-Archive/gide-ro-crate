@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-26"
+      },
       "description": "This dataset is the training set without annotations of contiguous structures for SELMA3D 2025 challenge. The SELMA3D 2025 challenge focuses on self-supervised learning for 3D light-sheet microscopy (LSM) image segmentation. Its objective is to encourage the development of generalizable models capable of serving multiple 3D LSM image segmentation tasks. This dataset is dedicated to developing self-supervised learning strategies for segmenting contiguous structures in 3D light-sheet microscopy images. It contains large 3D images of different contiguous structures including vessels and nerves. ",
       "funder": [],
       "identifier": "S-BIAD2119",

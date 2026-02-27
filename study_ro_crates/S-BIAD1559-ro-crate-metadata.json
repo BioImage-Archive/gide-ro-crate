@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -67,10 +72,10 @@
           "@id": "#661728c0-4874-46d3-ba54-cd6267856992"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -159,7 +164,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-07",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-07"
+      },
       "description": "Whole-genome duplication (WGD) is widespread across eukaryotes and can promote adaptive evolution. However, given the instability of newly-formed polyploid genomes, understanding how WGDs arise in a population, persist, and underpin adaptations remains a challenge. Using our ongoing Multicellularity Long Term Evolution Experiment (MuLTEE), we show that diploid snowflake yeast (Saccharomyces cerevisiae) under selection for larger multicellular size rapidly evolve to be tetraploid. From its origin within the first 50 days of the experiment, tetraploids persist for the next 950 days (nearly 5,000 generations, the current leading edge of our experiment) in ten replicate populations, despite being genomically unstable. Using synthetic reconstruction, biophysical modeling, and counter-selection, we found that tetraploidy evolved because it confers immediate fitness benefits under this selection, by producing larger, longer cells that yield larger clusters. The same selective benefit also maintained tetraploidy over long evolutionary timescales, inhibiting the reversion to diploidy that is typically seen in laboratory evolution experiments. Once established, tetraploidy facilitated novel genetic routes for adaptation, playing a key role in the evolution of macroscopic multicellular size via the origin of evolutionarily-conserved aneuploidy. These results provide unique empirical insights into the evolutionary dynamics and impacts of WGD, showing how it can initially arise due to its immediate adaptive benefits, be maintained by selection, and fuel long-term innovations by creating additional dimensions of heritable genetic variation.",
       "funder": [],
       "identifier": "S-BIAD1559",

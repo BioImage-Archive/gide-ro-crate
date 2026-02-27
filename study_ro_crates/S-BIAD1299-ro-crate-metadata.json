@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-09-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-22"
+      },
       "description": "Lgr5+ intestinal stem cells (ISCs) play crucial roles in maintenance of the intestinal epithelium renewal and regeneration after injury. The mechanism underlying the interplay between Wnt and BMP signaling is not fully understood. Here we report that Bcl11b, which is downregulated by BMP signaling, enhances Wnt signaling to maintain Lgr5+ ISCs and thus promote the regeneration of the intestinal epithelium upon injuries. Bcl11b knockout leads to a significant decrease of Lgr5+ ISCs in both intestinal crypts and cultured organoids. Mechanistically, BMP suppresses the expression of Bcl11b, which can positively regulate Wnt target genes by inhibiting the function of the Nucleosome Remodeling and Deacetylase (NuRD) complex and facilitating the β-catenin-TCF4 interaction. Bcl11b can also promote intestinal epithelium repair after injuries elicited by both irradiation and DSS-induced inflammation. Furthermore, Bcl11b deletion prevents proliferation and tumorigenesis of colorectal cancer cells. Together, our findings suggest that BMP balances Wnt signaling via Bcl11b to delicately regulate the homeostasis and regeneration of the intestinal epithelium through signaling pathway-epigenetic axis.",
       "funder": [],
       "identifier": "S-BIAD1299",

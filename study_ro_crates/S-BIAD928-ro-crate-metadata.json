@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,16 +63,16 @@
           "@id": "#c292e945-17b8-47f3-b672-6d0bd85845f5"
         },
         {
-          "@id": "obo:FBbi_00000253"
+          "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000249"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000241"
         },
         {
-          "@id": "obo:FBbi_00000241"
+          "@id": "obo:FBbi_00000253"
         }
       ],
       "about": [
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-11-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-11-27"
+      },
       "description": "Original data for our Latrophilin paper",
       "funder": [],
       "identifier": "S-BIAD928",

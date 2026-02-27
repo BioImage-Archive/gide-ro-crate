@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#eb346345-f609-433d-a792-0952c2a236ce"
         },
         {
-          "@id": "obo:FBbi_00000345"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000345"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-25"
+      },
       "description": "Ewing sarcoma (EWS), a rare pediatric bone tumor, poses unique therapeutic challenges due to its distinct microenvironment and limited molecular understanding. To gain a comprehensive molecular and functional view of the tumors in their microenvironment, we performed a deep mass spectrometry-based proteomic analysis of 168 tumors from 72 patients from primary, relapsed, and metastatic tumors. Analysis of more than 10,000 proteins across patients revealed novel insights into cancer prognosis, chemo-resistance, and progression. We found ferroptosis inhibition as a potential mediator of EWS chemo-resistance and identified novel subclasses of EWS that link the tumor immune landscape with DNA damage repair, ubiquitin-related proteins, and patient prognosis. Validation by multiplexed immunofluorescence imaging confirmed the association between patient prognosis and tumor neutrophils, and association of macrophages and T-cells with better prognosis. These results suggest that immuno-oncological treatments might be efficacious for a subset of patients. Altogether, this comprehensive investigation provides valuable insights into the intricate biology of EWS, paving the way for developing novel therapeutic strategies.",
       "funder": [],
       "identifier": "S-BIAD1597",

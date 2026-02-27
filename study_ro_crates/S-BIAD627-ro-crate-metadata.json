@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-02-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-02-22"
+      },
       "description": "Test data belonging to a protocol paper describing dSTORM imaging and analysis of synaptonemal complex component SYCP3 and RAD51 and DMC1 in mouse spread meiotic nuclei including sample preparation, data acquisition, pre-processing, and data analysis. This data is part of the study described in PLOS Genetics (Koornneef et al. 2022, Multi-color dSTORM microscopy in Hormad1-/- spermatocytes reveals alterations in meiotic recombination intermediates and synaptonemal complex structure). ",
       "funder": [],
       "identifier": "S-BIAD627",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#ec54aeda-c142-444a-9854-40802bcc4359"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-22"
+      },
       "description": "This dataset contains all raw and processed imaging data associated with the manuscript. The images include immunofluorescent and DAB-stained brain sections used to examine amyloid, tau and alpha syunclein co-pathology and related neuroinflammation. These files support the figures presented in the manuscript and are provided to enable reproducibility and reuse.",
       "funder": [],
       "identifier": "S-BIAD2239",

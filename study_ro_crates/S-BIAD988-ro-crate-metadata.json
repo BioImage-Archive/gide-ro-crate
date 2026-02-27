@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-08"
+      },
       "description": "This dataset comprises the raw data associated with Wong et al., EMBO J., 2024. \"Regulation of centrosome size by the cell cycle oscillator in Drosophila embryos\". This dataset (approximately 900Gb in total) tracks the behavior of individual centrosomes (labelled with different centrosome markers) in early Drosophila embryos during nuclear cycles 11-13 under various conditions. The datasets are organised to align with each individual Figure shown in the paper. \n\nThe paper abstract is: Mitotic centrosomes assemble when centrioles recruit large amounts of pericentriolar material (PCM) around themselves. In early C. elegans embryos, mitotic centrosome size appears to be set by the limiting amount of a key component. In Drosophila syncytial embryos, thousands of mitotic centrosomes are assembled as the embryo proceeds through 13 rounds of rapid nuclear division, driven by a core cell-cycle oscillator. These divisions slow during nuclear cycles 11-13, and we find that centrosomes respond by reciprocally decreasing their growth rate, but increasing their growth period—so that they grow to a relatively consistent size at each cycle. At the start of each cycle, moderate CCO activity initially promotes centrosome growth, in part by stimulating Polo/PLK1 recruitment to centrosomes. Later in each cycle, high CCO activity inhibits centrosome growth by suppressing the centrosomal recruitment and/or maintenance of centrosome proteins. Thus, in fly embryos, mitotic centrosome size appears to be regulated predominantly by the core cell-cycle oscillator, rather than by the depletion of a limiting component.",
       "funder": [],
       "identifier": "S-BIAD988",

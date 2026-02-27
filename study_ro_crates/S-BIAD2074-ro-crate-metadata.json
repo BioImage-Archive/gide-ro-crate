@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-29"
+      },
       "description": "Dopaminergic neuronal release sites have unique characteristics, as only about 25–30% of axonal varicosities contain active zones that support transmitter release. Rim1/2 proteins are important scaffolding molecules that organize these release sites, and a dopaminergic neuron-specific knockout of Rim1/2 leads to the structural disorganization of active zones and almost completely abolishes evoked dopamine release in the nigrostriatal pathway. \nOur phosphoproteomic analysis showed that several pathways associated with the organization of presynaptic release sites are altered with changes in LRKK2 kinase activity, and we found a decrease in the interaction of phosphorylated Rab3a with various active zone proteins from mouse brain.  Therefore, we examined whether alterations in the number and/or organization of active zones may form the cellular basis for the observed deficits in dopamine release in Lrrk2G2019S mice.",
       "funder": [],
       "identifier": "S-BIAD2074",

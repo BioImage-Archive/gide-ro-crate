@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,13 +63,13 @@
           "@id": "#6df58830-eee6-445f-bcec-192e946442bd"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000249"
         },
         {
           "@id": "obo:FBbi_00000345"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-10"
+      },
       "description": "The zebrafish (Danio rerio), is an important biomedical model organism used in many disciplines. The phenomenon of developmental delay in zebrafish embryos has been widely reported as part of a mutant or treatment-induced phenotype. However, the detection and quantification of these delays is often achieved through manual observation with reference to staging guides, which is both time-consuming and subjective. We recently reported a machine learning-based classifier, capable of quantifying the developmental delay between two populations of zebrafish embryos. Here, we build on that work by introducing a deep learning-based model that has been trained to predict the age (hours post fertilisation) of populations of zebrafish embryos. We show that when KimmelNet is tested on 2D brightfield images of zebrafish embryos, the predictions generated agree closely with those expected from established approaches to staging. Random sampling of the test data demonstrate that KimmelNet can be used to detect developmental delay between two populations with high confidence based on as few as 100 images of each population. Finally, we show that KimmelNet generalises to previously unseen data, with limited transfer learning improving this performance significantly. With the ability to analyse tens of thousands of standard brightfield microscopy images on a timescale of minutes, we envisage that KimmelNet will be a valuable resource for the developmental biology community. Furthermore, the approach we have used could easily be adapted to generate models for other organisms.",
       "funder": [],
       "identifier": "S-BIAD840",

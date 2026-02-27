@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-30"
+      },
       "description": "Skeletal muscles display a unique plasticity, which responds to the rapid changes of the organism activity, nutritional habits, health conditions, genetic background, and other factors (Schiaffino and Reggiani, 2011; Sirago et al., 2022). The muscle is composed by multiple fibers that have different contractile characteristics. Skeletal muscle fibers differ one from another in the contractile apparatus composition, calcium handling properties, number of mitochondria, and morphological features (Schiaffino and Reggiani, 2011; Giacomello et al., 2020). We refer to the term “fiber profile” to all the features, such as MHC expression, morphology and metabolic activity, that characterize a single muscle fiber. In general, the isoforms of Myosin Heavy Chain (MyHC) expressed in a muscle fiber, are considered the gold standard in the correlation of the morphological, contractile, and metabolic properties. Interestingly, recent data show that both in rodent and human muscles, morphological and metabolic characteristics of fibers expressing the same MyHCs can significantly diverge.\nIn the present project we investigated the different fiber profile of skeletal muscle fibers expressing MyHCI and IIa in soleus and exstensor digitorum longus muscles.\nThis data was selected as part of the AI4Life Open Calls 2023 for image analysis consultation and deep-learning applications.",
       "funder": [],
       "identifier": "S-BIAD1089",

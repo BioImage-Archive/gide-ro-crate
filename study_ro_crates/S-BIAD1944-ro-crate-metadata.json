@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-09"
+      },
       "description": "Image dataset of immunofluorescence tile- and confocal microscopy images and their corresponding segmentations of dorsal root ganglia (DRG) after chronic construction injury (CCI) in the rat. We analyzed the DRG of male and female rats 1 week or 5 weeks after CCI from the ipsilateral (IL) and contralateral (CL) side and L4 and L5 spinal level. Image segmentation was performed with a DL-based method (deepflash2) and advanced thresholding. Provided are the raw images, the converted tiff images separated by each channel, and the predicted masks.",
       "funder": [],
       "identifier": "S-BIAD1944",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-20",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-20"
+      },
       "description": "The L-Leu amino acid transporter SLC7A5 has become an important target in inflammation and cancer. However, its role in acute graft-versus-host disease (aGVHD) and graft versus tumor (GVT) remains unexplored. We demonstrate that SLC7A5 deletion affected T cell activation, expansion and survival, and reduced IFNγ and granzyme B expression, thus controlling aGVHD, but without effect on tumor growth. On the other hand, dietary restriction of L-Leu reduced aGVHD by controlling T cell expansion, inducing apoptosis, and affecting granzyme B secretion. However, CD8 T cells did not fail to activate and express IFNγ in the absence of L-Leu, and showed an increased proportion of central memory T cells, which contributed to the GVT response. Deletion of SLC7A5 in T cells compromises mTORC1, glycolysis and mitochondrial oxidation. On the contrary, L-Leu removal reduced mTORC1 and completely blocked glycolysis but preserved mitochondrial function, favoring the generation of central memory responses and expression of stemness marker TCF1. In addition, our metabolomics data underscores the L-Leu-derived metabolite β-hydroxybutyrate as an important marker for SLC7A5-dependent allogenic T cell expansion in aGVHD.",
       "funder": [],
       "identifier": "S-BIAD1834",

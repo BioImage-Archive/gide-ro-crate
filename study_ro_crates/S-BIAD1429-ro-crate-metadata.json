@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-25"
+      },
       "description": "Live imaging of secretory cargoes is a powerful method for understanding the mechanisms of membrane trafficking. Inducing the synchronous release of cargoes from an organelle is key for enhancing microscopic observation. We developed an optical cargo-releasing method, ‘retention using dark state of LOV2’ (RudLOV), which enables exceptional spatial, temporal, and quantity control during cargo release. A limited amount of cargo-release using RudLOV successfully visualized cargo cisternal-movement and cargo-specific exit sites on the Golgi/trans-Golgi network. Moreover, by controlling the timing of cargo-release using RudLOV, we revealed canonical and non-canonical effects of the well-known dynamin inhibitor dynasore, which inhibits early- but not late-Golgi transport and exits from the trans-Golgi network where dynamin-2 is active. Accumulation of COPI vesicles at the cis-side of the Golgi stacks in dynasore-treated cells suggests that dynasore targets COPI-uncoating/tethering/fusion machinery in the early-Golgi cisternae or endoplasmic reticulum but not in the late-Golgi cisternae. These results provide insight into the cisternal maturation of Golgi stacks. ",
       "funder": [],
       "identifier": "S-BIAD1429",

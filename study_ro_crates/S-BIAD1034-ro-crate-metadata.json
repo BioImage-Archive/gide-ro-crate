@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-08"
+      },
       "description": "Using lacZ reporter mouse models, we mapped expression of the HH ligand SHH, HH receptors, and GLI transcription factors in fungiform, circumvallate and foliate taste papillae in early and late postnatal and adult stages. In adults we also studied the soft palate, and the geniculate and trigeminal ganglia, which extend afferent fibers to the anterior tongue. ",
       "funder": [],
       "identifier": "S-BIAD1034",

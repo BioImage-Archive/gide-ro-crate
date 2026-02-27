@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-02",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-02"
+      },
       "description": "Bipolar spindle assembly and chromosome biorientation are prerequisites for chromosome segregation during cell division. The kinesin motor KIF11 (also widely known as Eg5) drives spindle bipolarization by sliding antiparallel microtubules bidirectionally, elongating a spherical spindle into a bipolar-shaped structure in acentrosomal oocytes. During meiosis I, this process stretches homologous chromosome pairs, establishing chromosome biorientation at the spindle equator. The quantitative requirement for KIF11 in acentrosomal spindle bipolarization and homologous chromosome biorientation remains unclear. Here, using a genetic strategy to modulate KIF11 expression levels, we show that Kif11 haploinsufficiency impairs spindle elongation, leading to the formation of a partially bipolarized spindle during meiosis I in mouse oocytes. While the partially bipolarized spindle allows chromosome stretching in the inner region of its equator, it fails to do so in the outer region, where merotelic kinetochore-microtubule attachments are favored to form. These findings demonstrate the necessity of biallelic functional Kif11 for bipolar spindle assembly in acentrosomal oocytes and reveal a spatially differential requirement for homologous chromosome biorientation within the spindle.",
       "funder": [],
       "identifier": "S-BIAD1946",

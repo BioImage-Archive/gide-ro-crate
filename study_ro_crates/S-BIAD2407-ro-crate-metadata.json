@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-12"
+      },
       "description": "This collection includes 3D FIB-SEM datasets of Phaeodactylum tricornutum (strain 1 and strain 18) with segmentation labels for chloroplast and vacuole. It provides pretrained deep learning models developed across multiple architectures (3D VNet, 3D SegNet, 3D CNN 4-level, MONAI DynUNet, MONAI BasicUNet, Swin-Net + VNet hybrid, and Contrast-Aware Dual Encoder VNet). The dataset supports organelle segmentation research and transfer learning.",
       "funder": [],
       "identifier": "S-BIAD2407",

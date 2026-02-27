@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-28"
+      },
       "description": "The Drosophila melanogaster olfactory system is one of the most intensively studied parts of the nervous system in any animal. Composed of ~50 independent olfactory neuron classes, with several associated hygrosensory and thermosensory pathways, it has been subject to diverse types of experimental analyses. However, synthesizing the available information is limited by the incomplete data and inconsistent nomenclature found in the literature. In this work, we first “complete” the peripheral sensory map through the identification of a previously uncharacterized antennal sensory neuron population expressing Or46aB, and the definition of an exceptional “hybrid” olfactory neuron class comprising functional Or and Ir receptors. Second, we survey developmental, anatomical, connectomic, functional and evolutionary studies to generate an integrated dataset and associated visualisations of these sensory neuron pathways, creating an unprecedented resource. Third, we illustrate the utility of the dataset to reveal relationships between different organizational properties of this sensory system, and the new questions these stimulate. Such examples emphasize the power of this resource to promote further understanding of the construction, function and evolution of these neural circuits.",
       "funder": [],
       "identifier": "S-BIAD1758",

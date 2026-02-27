@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-19"
+      },
       "description": "Animal growth is driven by the collective actions of cells, which are reciprocally influenced in real-time by the animal’s overall growth state. While cell behavior and animal growth state are expected to be tightly coupled, it is not yet determined whether local cellular features at the micrometer scale might correlate with the body size of an animal at the macroscopic level. Here, we report the use of a deep learning model to link single-cell resolution images of live zebrafish larvae with whole-animal size. Using a skin cell barcoding system termed palmskin, we labeled superficial epithelial cells (SECs) in developing zebrafish larvae with multicolor fluorescent markers. By inputting 722 skin cell images and corresponding size data for each larva into machine learning models, we determined that the Vision Transformer (ViT)-based model with a random cropping and voting strategy was able to achieve high predictive performance (F-score of 0.91). Remarkably, analyzing as few as 27 skin cells within a single image of 0.01 mm^2 (approximately 0.6% of the animal’s trunk surface area) was sufficient to reach an F-score of 0.79 for prediction of the individual’s overall size, ranging from 0.9 to 3.1 mm^2. Using a gradient-weighted class activation map (Grad-CAM) approach, we further identified that growth-driven clonal expansion of SECs is among the most important cellular features influencing the model’s decisions. Together, these findings provide a proof-of-concept that organismic information at a macroscopic length scale may be de-encrypted from a snapshot of only a few dozen cells using deep-learning approaches.",
       "funder": [],
       "identifier": "S-BIAD1654",

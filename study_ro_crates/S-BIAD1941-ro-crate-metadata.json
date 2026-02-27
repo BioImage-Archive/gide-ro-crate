@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-04"
+      },
       "description": "In this study, we demonstrate the effectiveness of dodecaLSFM by achieving high-resolution imaging of whole mouse brain vasculature with tissue clearing, allowing precise morphometric analysis of vascular networks without stripe artifacts. Furthermore, we show that combining dodecaLSFM with expansion microscopy (ExM) enables whole-organ 3D imaging at cellular resolution. This approach provides an advanced, scalable solution for large-volume imaging, facilitating detailed structural and functional studies across diverse biological applications.",
       "funder": [],
       "identifier": "S-BIAD1941",

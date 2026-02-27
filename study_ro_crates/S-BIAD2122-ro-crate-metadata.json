@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-30"
+      },
       "description": "The RNA-binding protein eIF2A is an alternative translation initiation factor shown to drive tumor formation by facilitating translation from near-cognate initiation codons. Here, we uncover a novel function for eIF2A in regulating cell migration in a manner independent of overt control of translation. Using a melanoma cell model consisting of non-tumoral melanocytic Mel-ST cells and their metastatic counterpart obtained by H-Ras transformation, we unexpectedly find minimal effects of eIF2A depletion on translation. Interactome studies identified centrosomal proteins as major binding partners of eIF2A. We found that eIF2A co-localizes with the centrosome, enhances centrosome composition and promotes centrosome orientation during cell migration. Migration requires the C-terminal disordered region of eIF2A, involved in mRNA-binding. Interaction with mRNA, however, does not require ongoing translation. These findings reveal a new role for eIF2A in centrosome dynamics beyond its traditional function in translation. ",
       "funder": [],
       "identifier": "S-BIAD2122",

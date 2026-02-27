@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-04"
+      },
       "description": "This repository contains high-resolution confocal microscopy datasets of mosquito larval midgut tissues exposed to Bacillus thuringiensis Cry toxins and fluorescent markers for cellular organelles. The data were collected using an Olympus FV1000 confocal laser scanning microscope with a 60X oil immersion objective and a pixel size of 59 nm. The datasets include images of Cry toxins labeled with Alexa Fluor dyes and markers such as SiR-Actin, SiR-Lysosomes, MitoTracker, FM4-64, ER-Tracker, and DAPI. Each dataset represents independent replicates from midgut tissue dissections of at least five larvae per experimental condition.",
       "funder": [],
       "identifier": "S-BIAD1612",

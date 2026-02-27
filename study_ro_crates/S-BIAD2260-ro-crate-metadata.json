@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-01"
+      },
       "description": "Biomolecular condensates mediate dynamic compartmentalization of cellular processes. The multivalent interactions that underlie biomolecular condensation are often promoted by intrinsically disordered regions (IDRs) within proteins. While the role of IDRs in biomolecular condensates is well appreciated, predicting whether an IDR forms condensates in cells remains challenging. Here, we developed a machine learning model to accurately predict the condensation behavior of IDRs, analyzing 215 IDRs from fusion oncoproteins in HEK293T cells. We identified distinct sequence-derived physicochemical features associated with condensation. Leveraging these data, our model predicts that ~12% of the ~13,000 IDRs in the human proteome are likely to form cellular condensates, establishing a robust framework for proteome-wide analysis of IDR-mediated biomolecular condensation. Notably, proteins with condensate-forming IDRs are significantly enriched in RNA processing and splicing functions and are predominantly localized to membrane-less organelles (MLOs), highlighting a central role of IDR-mediated biomolecular condensation in cellular organization and RNA biology. ",
       "funder": [],
       "identifier": "S-BIAD2260",

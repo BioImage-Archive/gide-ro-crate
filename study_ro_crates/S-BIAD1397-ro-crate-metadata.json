@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-08"
+      },
       "description": "This submission holds the raw data and processed images for a high-content live-cell multiplex screen. The screen is used for chemogenomic compound annotation, i.e. the evaluation of e.g. cytotoxic effects. This submission is about a set of >200 chemogenomic candidate compounds, tested in a pre-screen and a primary screen. Further information about the EUbOPEN project, from which this set and experiment originated can be found in the links section.",
       "funder": [],
       "identifier": "S-BIAD1397",

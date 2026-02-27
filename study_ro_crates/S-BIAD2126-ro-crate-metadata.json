@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-02",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-02"
+      },
       "description": "Integration of scRNA-seq data from millions of cells revealed a high diversity of cell types in the healthy and diseased human lung. In a large and complex organ, constantly exposed to external agents, it is crucial to understand the influence of lung tissue topography or external factors on gene expression variability within cell types. Here, we applied three spatial transcriptomics approaches, to: (i) localize the majority of lung cell types, including rare epithelial cells within the tissue topography, (ii) describe consistent anatomical and regional gene expression variability within and across cell types, and (iii) reveal distinct cellular neighborhoods in specific anatomical regions and examine gene expression variations in them. We thus provide a spatially resolved tissue reference atlas in three representative regions of the healthy human lung. We further demonstrate its utility by defining previously unknown imbalances of epithelial cell type compositions in stage II COPD tissues. Our topographic atlas enables a precise description of characteristic regional cellular responses upon experimental perturbations or during disease progression.",
       "funder": [],
       "identifier": "S-BIAD2126",

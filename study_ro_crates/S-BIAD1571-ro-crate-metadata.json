@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -73,10 +78,10 @@
           "@id": "#1e986859-23d1-44c9-b7c9-88806263b04d"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000255"
         },
         {
-          "@id": "obo:FBbi_00000255"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -384,7 +389,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-09"
+      },
       "description": "This manuscript shows that in mouse embryos Tgfbr1 signaling also controls the remodeling of the lateral plate mesoderm (LPM) and of the embryonic endoderm associated with the trunk to tail transition. In the absence of Tgfbr1 the two LPM layers do not converge at the end of the trunk, extending instead as separate layers enclosing the celomic cavity until the caudal embryonic extremity, and failing to activate markers of primordia for the hindlimb and external genitalia. However, this extended LPM, does not exhibit the molecular signatures characteristic of this tissue in the trunk. The vascular remodeling involving the dorsal aorta and the umbilical artery leading to the connection between embryonic and extraembryonic circulation was also affected in the Tgfbr1 mutant embryos. Similar alterations in the LPM and vascular system were also observed in Isl1 null mutants, indicating that this factor acts in the regulatory cascade downstream of Tgfbr1 in LPM-derived tissues. In addition, in the absence of Tgfbr1 the embryonic endoderm fails to expand to form the endodermal cloaca and to extend posteriorly to generate the tail gut. These data, together with previously reported observations, place Tgfbr1 at the top of the regulatory processes controlling the trunk to tail transition.",
       "funder": [],
       "identifier": "S-BIAD1571",

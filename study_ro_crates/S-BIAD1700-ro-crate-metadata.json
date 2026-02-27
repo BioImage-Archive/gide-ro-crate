@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -192,7 +197,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-01"
+      },
       "description": "We performed in vitro perturbations of glioblastoma organoids (GBOs) derived from four glioblastoma patients in order to study wound response (WR) transcriptional states. Given the expression of hypoxia and hemostasis-related genes in WR states, we selected hypoxia and blood plasma as two candidates for perturbations. We subjected GBOs to either condition, or a combination of both, for 72 hours to test the inducibility of WR state, and reverted to regular media and normoxia for another 72 hours to assess the reversibility of WR state activation, performing Xenium spatial transcriptomics analysis at several timepoints.\n",
       "funder": [],
       "identifier": "S-BIAD1700",

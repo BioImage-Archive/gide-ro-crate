@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,7 +81,10 @@
           "@id": "#461edb57-99b6-4752-8b3d-14655c0f150a"
         }
       ],
-      "datePublished": "2025-11-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      },
       "description": "Figure 6 Raw Data",
       "funder": [],
       "identifier": "S-BIAD2432",
@@ -134,7 +142,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Remote sensing of endogenous pigmentation by inducible synthetic circuits in grasses"
     },
     {

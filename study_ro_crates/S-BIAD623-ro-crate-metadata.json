@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-09"
+      },
       "description": "The DrugMatrix® database is a unique toxicogenomic reference database that contains data on over 600 drugs, chemicals, toxicants, and biochemical reagents. These compounds have been extensively curated and profiled using large-scale gene expression analysis as well as pharmacologic activity (MDS Pharma assays) and in-life evaluations, including haematology, clinical chemistry and histopathology. This is the dataset of histopathology images with links to ChEMBL DrugMatrix entries.",
       "funder": [],
       "identifier": "S-BIAD623",

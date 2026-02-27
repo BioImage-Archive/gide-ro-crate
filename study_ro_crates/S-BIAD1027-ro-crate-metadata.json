@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-29"
+      },
       "description": "During asymmetric cell division, cell polarity is coordinated with the cell cycle to allow proper inheritance of cell fate determinants and generation of cellular diversity. In the Caenorhabditis elegans (C. elegans) zygote, polarity is governed by evolutionarily conserved Partitioning (PAR) proteins that segregate to opposing cortical domains to specify asymmetric cell fates. Timely establishment of PAR domains requires a cell cycle kinase, Aurora A (AIR-1 in C. elegans). Aurora A depletion by RNAi causes a spectrum of phenotypes including reversed polarity,  excess posterior domains, and no posterior domain. How depletion of a single kinase can cause seemingly opposite phenotypes remains obscure. Using an auxin-inducible degradation system and drug treatments, we found that AIR-1 regulates polarity differently at different times of the cell cycle. During meiosis I, AIR-1 acts to prevent later formation of bipolar domains, while in meiosis II, AIR-1 is necessary to recruit PAR-2 onto the membrane. Together these data clarify the origin of multiple polarization phenotypes in RNAi experiments and reveal multiple roles of AIR-1 in coordinating PAR protein localization with cell cycle progression. ",
       "funder": [],
       "identifier": "S-BIAD1027",

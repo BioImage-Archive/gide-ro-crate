@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-29"
+      },
       "description": "Cell polarity involves the asymmetric distribution of cellular components such as signalling molecules and organelles within a cell, alterations in cell morphology and cell-cell contacts. Advances in fluorescence microscopy and deep learning algorithms open up a wealth of unprecedented opportunities to characterise various aspects of cell polarity, but also create new challenges for comprehensible and interpretable image data analysis workflows to fully exploit these new opportunities. Here we present Polarity-JaM, an open source package for reproducible exploratory image analysis that provides versatile methods for single cell segmentation, feature extraction and statistical analysis. We demonstrate our analysis using fluorescence image data of endothelial cells (ECs) and their collective behaviour, which has been shown to be essential for vascular development and disease. The general architecture of the software allows its application to other cell types and imaging modalities, as well as seamless integration into common image analysis workflows, see https://polarityjam.readthedocs.io. \n\nHere, we present the data used in the evaluation process of Polarity-JaM.",
       "funder": [],
       "identifier": "S-BIAD1540",

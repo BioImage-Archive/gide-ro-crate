@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -88,7 +93,10 @@
           "@id": "https://doi.org/10.1101/2025.03.24.645013"
         }
       ],
-      "datePublished": "2025-04-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-03"
+      },
       "description": "Image of stress granules in live U2OS cells (specifically, U2OS ∆∆G3BP1/2 cells stably expressing GFP-G3BP1), induced using 200mM sodium arsenite. This image is primarily intended for use as part of the worked example in the FlickerPrint documentation and is indicative of the types of images required for conducting flicker spectroscopy analysis using FlickerPrint.\nFor portability reasons, this image is slightly shorter (133 frames) than the recommended length for images used for analysis with FlickerPrint (1000 frames).",
       "funder": [],
       "identifier": "S-BIAD1763",
@@ -192,7 +200,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "FlickerPrint: An Analysis Package for Measuring Interfacial Tension and Bending Rigidity of Biomolecular Condensates and Vesicles at Scale"
     },
     {

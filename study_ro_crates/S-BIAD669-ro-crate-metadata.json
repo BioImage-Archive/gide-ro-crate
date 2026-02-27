@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-04-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-04-09"
+      },
       "description": "The conversion of STAT proteins from latent to active transcription factors is central to cytokine signalling. Triggered by their signal-induced tyrosine phosphorylation, it is the assembly of a range of cytokine-specific STAT homo- and heterodimers that marks a key step in the transition of hitherto latent proteins to transcription activators. In contrast, the constitutive self-assembly of latent STATs and how it relates to the functioning of activated STATs, is understood less well. To provide a more complete picture, we developed a co-localisation-based assay and tested all 28 possible combinations of the seven unphosphorylated STAT proteins in living cells. It led to the identification of five U-STAT homodimers ―STAT1, STAT3, STAT4, STAT5A and STAT5B― and two heterodimers ―STAT1:STAT2 and STAT5A:STAT5B― as well as semi-quantitative assessments of the forces and characterisations of binding interfaces that support them. One STAT protein ―STAT6― was found to be monomeric. This comprehensive analysis of latent STAT self-assembly lays bare considerable structural and functional diversity in the ways that link STAT dimerization before and after activation.",
       "funder": [],
       "identifier": "S-BIAD669",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-12-20",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-12-20"
+      },
       "description": "Differentiation of induced pluripotent stem cells (iPSC) towards different neuronal lineages has enabled diverse cellular models of human neurodevelopment and related disorders. However, in vitro differentiation is a variable process that frequently leads to heterogeneous cell populations that may confound disease-relevant phenotypes. To characterize the baseline and diversity of cortical neurodevelopment in vitro, we differentiated iPSC lines from multiple healthy donors to cortical neurons and profiled the transcriptomes of 60,000 single cells across three timepoints spanning 70 days. We compared the cell types observed in vitro to those seen in vivo and in organoid cultures to assess how well iPSC-derived cells recapitulate neurodevelopment in vivo. We found that over 60% of the cells resembled those seen in the fetal brain with high confidence, while 28% represented metabolically abnormal cell states and broader neuronal classes observed in organoids. Further, we used high-content imaging to quantify morphological phenotypes of the differentiating neurons across the same time points using Cell Painting. By modeling the relationship between image-based features and gene expression, we compared cell type- and donor-specific effects across the two modalities at single cell resolution. We found that while morphological features capture broader neuronal classes than scRNA-seq, they enhance our ability to quantify the biological processes that drive neuronal differentiation over time, such as mitochondrial function and cell cycle. Finally, we show that iPSC-derived cortical neurons are a relevant model for a range of brain-related complex traits. Taken together, we provide a comprehensive molecular atlas of human cortical neuron development in vitro that introduces a relevant framework for disease modeling.",
       "funder": [],
       "identifier": "S-BIAD969",

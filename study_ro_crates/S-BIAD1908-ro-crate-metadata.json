@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-08"
+      },
       "description": "Using focused ion beam-scanning electron microscopy (FIB-SEM), we volumetrically reconstructed the anterior sensory apparatus of Caenorhabditis elegans dauer larvae with unprecedented precision. (Background: At the end of the first larval stage, the nematode developing in harsh environmental conditions is able to choose an alternative developmental path called the dauer diapause.) To get a near-to-native isotropic high-resolution 3D-insight into the anterior sensory apparatus of C. elegans dauer larvae we used high-pressure freezing followed by freeze substitution, minimal resin embedding, and FIB-SEM acquisition.  In the paper we provide a detailed description of neurons, focusing on structural details that were unknown or unresolved by previously published studies: (1) dauer-specific branches of the IL2 sensory neurons project into the periphery of anterior sensilla and motor or putative sensory neurons at the sub-lateral cords. (2) ciliated endings of URX sensory neurons are supported by both ILso and AMso socket cells near the amphid openings. (3) variability in amphid sensory dendrites among dauers. (4) somatic RIP interneurons maintain their projection into the pharyngeal nervous system. Our results support the notion that dauer larvae structurally expand their sensory system to facilitate searching for more favorable environments.",
       "funder": [],
       "identifier": "S-BIAD1908",

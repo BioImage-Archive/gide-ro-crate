@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      },
       "description": "3D images in Imaris format used for cell volume measurements and signal quantification of different markers in lines expressing H1.1-RFP or H1.1-RFP mutant variants and FRAP images in TIF format for measuring the mobility of H1.1-RFP or H1.1-RFP mutant variants",
       "funder": [],
       "identifier": "S-BIAD2120",

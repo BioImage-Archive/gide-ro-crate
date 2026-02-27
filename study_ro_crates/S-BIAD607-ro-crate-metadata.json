@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-04-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-04-29"
+      },
       "description": "Proper chromosome segregation is crucial for cell division. In eukaryotes, this is achieved by the kinetochore, an evolutionarily conserved multi-protein complex that physically links the DNA to spindle microtubules and takes an active role in monitoring and correcting erroneous spindle-chromosome attachments. Our mechanistic understanding of these functions and how they ensure an error-free outcome of mitosis is still limited, partly because we lack a complete understanding of the kinetochore structure in the cell. In this study, we use single-molecule localization microscopy to visualize individual kinetochore complexes in situ in budding yeast. For major kinetochore proteins, we measured their abundance and position within the metaphase kinetochore. Based on this comprehensive dataset, we propose a quantitative model of the budding yeast kinetochore. While confirming many aspects of previous reports based on bulk imaging, our results present a unifying nanoscale model of the kinetochore in budding yeast.",
       "funder": [],
       "identifier": "S-BIAD607",

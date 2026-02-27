@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#2179b3db-dd68-4a0b-8f5c-76aa0da5e065"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-12-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-21"
+      },
       "description": "Histology and in-situ serial sections of rabbit development across gestational days (GD) 7, 8, and 9. 4-6 micron thick serial sections. Embryos are embedded in paraffin and sectioned serially spanning the entire embryo in each specimen ranging from 40 to 20 microns. RNAScope ISH's are performed on serial sections adjacent to H&E staining of the same embryos.",
       "funder": [],
       "identifier": "S-BIAD604",

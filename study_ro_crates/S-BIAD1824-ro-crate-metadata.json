@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -85,7 +90,10 @@
           "@id": "#b29033d3-40a3-44e2-83f7-c6fb9cabb2d6"
         }
       ],
-      "datePublished": "2025-09-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-29"
+      },
       "description": "To investigate phenotypic alterations in the ovaries of miR-187 knockout (KO) fish, we performed 3D imaging of wild-type and mutant ovaries at two key developmental stages: before (104 days post-fertilization, dpf) and during (211 dpf) the reproductive period. Quantitative analysis of follicle diameters was conducted on the 3D image datasets to characterize and compare follicle size distribution profiles between genotypes and time points.",
       "funder": [],
       "identifier": "S-BIAD1824",
@@ -145,7 +153,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "Unveiling the role of mir-187 in adult ovarian follicle growth and female fecundity in medaka (Oryzias latipes)"
     },
     {

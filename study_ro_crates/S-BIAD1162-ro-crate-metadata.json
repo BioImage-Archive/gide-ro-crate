@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-30"
+      },
       "description": "Imaging data set from p21-IRES-GFP and Puma-tdTomato mice associated with the manuscript EMBOJ-2023-114787\n\nInvestigating how transcription factors control complex cellular processes requires tools that enable responses to be visualised at the single-cell level and their fate to be followed over time. For example, the tumour suppressor TP53/TRP53 can initiate diverse cellular responses by transcriptional activation of its target genes: Puma to induce apoptotic cell death and p21 to induce cell cycle arrest/cell senescence. However, it is not known how these processes are regulated and initiated in different cell types. To be able to examine this, we developed triple-FLAG TRP53 knock-in mice for TRP53 pull-down and two TRP53 response reporter mice, knocking tdTomato or GFP into the Puma/Bbc3 or p21 gene loci, respectively. By crossing the reporter mice onto a TRP53-deficient background, we could show that these reporters reliably inform on TRP53-dependent and TRP53-independent initiation of the apoptotic as well as the cell cycle arrest/senescence programs in vitro and even in vivo. ",
       "funder": [],
       "identifier": "S-BIAD1162",

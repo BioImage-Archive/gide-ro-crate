@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-04"
+      },
       "description": "Time lapse analyses of ParB-HT complexes and septation in wild type and smc deletion background. Images from time lapse analysis of sporogenic development of wild type control DparAB pnatparAB-HT, KP006 strain and of Dsmc DparAB pnatparAB-HT, KP007 strain with fluorescence of ParB-HT stained with Janelia Fluor-549 (red), fluorescence of NADA green-stained septa (green), phase contrast (grey). Raw data for figure 2 and S4.",
       "funder": [],
       "identifier": "S-BIAD1807",

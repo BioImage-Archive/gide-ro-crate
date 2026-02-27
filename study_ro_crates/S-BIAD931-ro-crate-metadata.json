@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-18"
+      },
       "description": "Human rhinovirus is the most frequently isolated virus during severe exacerbations of chronic respiratory diseases, like chronic obstructive pulmonary disease. In this disease, alveolar macrophages display significantly diminished phagocytic functions that could be associated with bacterial superinfections. However, how human rhinovirus affects the functions of macrophages is largely unknown. Macrophages treated with HRV16 demonstrated deficient bacteria killing activity, impaired phagolysosome biogenesis and altered intracellular compartments. Using RNA sequencing, we identified the small GTPase ARL5b to be upregulated by the virus in primary human macrophages. Importantly, depletion of ARL5b rescued bacterial clearance and localization of endosomal markers in macrophages upon HRV16 exposure. In permissive cells, depletion of ARL5b increased the secretion of HRV16 virions. Thus, we identify ARL5b as a novel regulator of intracellular trafficking dynamics and phagolysosomal biogenesis in macrophages and as a restriction factor of HRV16 in permissive cells. ",
       "funder": [],
       "identifier": "S-BIAD931",

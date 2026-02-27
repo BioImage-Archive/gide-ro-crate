@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-10"
+      },
       "description": "Accurate 3D reconstruction is essential for high-throughput plant phenotyping, particularly for studying complex structures such as root systems. While photogrammetry and Structure from Motion (SfM) techniques have become widely used for 3D root imaging, the impact of camera calibration on model accuracy remains largely underexplored in plant science. In this study, we systematically evaluate the effects of focus, aperture, exposure time, and gain settings on the quality of 3D root models generated using a multi-camera scanning system. Through a series of experiments, we demonstrate that calibration significantly improves model quality, with focus misalignment and shallow depth of field (DoF) being the most critical factors affecting reconstruction accuracy. Our results further show that proper calibration has a greater effect on reducing noise than filtering noise during post-processing, emphasizing the importance of optimizing image acquisition rather than relying solely on computational corrections. By providing practical calibration guidelines, this work enhances the reproducibility and accuracy of 3D root phenotyping, ultimately improving trait quantification for applications in plant breeding and crop research.",
       "funder": [],
       "identifier": "S-BIAD1690",

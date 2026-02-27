@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#c5e329bf-d85b-4b75-bbbc-1f7c306b9339"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -162,7 +167,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-26"
+      },
       "description": "Precision medicine for paediatric and adult cancers that incorporates drug sensitivity profiling can identify effective therapies for individual patients. However, obtaining adequate biopsy samples for high-throughput (HTP) screening remains challenging, as tumours need to be expanded in culture or patient-derived xenografts – this is time-consuming and often unsuccessful. Herein, we have developed paediatric patient-derived tumour models using an engineered extracellular matrix (ECM) tissue mimic hydrogel system and HTP 3D bioprinting. Gene expression analysis from a neuroblastoma and sarcoma paediatric patient cohort identified key components of the ECM in these tumour types. Engineered hydrogels with ECM-mimic peptides were used to bioprint and create patient-specific tumouroids using patient-derived cells from xenograft models and the approach was further confirmed on direct patient tumour samples. Bioprinted tumouroids from the PDX models recapitulated the genetic and phenotypic characteristics of the original tumours and retained tumourigenicity. HTP drug screening of these models identified individualised drug sensitivities. Our approach offers a timely and clinically relevant technology platform for precision medicine in paediatric cancers, potentially transforming preclinical testing across multiple cancer types.",
       "funder": [],
       "identifier": "S-BIAD2130",

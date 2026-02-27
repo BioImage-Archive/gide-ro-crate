@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-31"
+      },
       "description": "RTX toxins (Repeat in ToXins) are pore-forming toxins secreted by gram-negative bacteria. They are known for their ability to disrupt host cell membranes, among which various human cells. The acylation of specific lysine residues in these toxins is crucial for their hemolytic activity, but the precise mechanisms underlying this enhancement remain unclear. By comparing the lytic activities of acylated MbxA and its non-acylated form, we explored the role of acylation in the pore-forming behaviour of this RTX toxin. Our findings demonstrate that acylation specific interactions of MbxA with cholesterol promote membrane disruption, both in vitro and in living cells. More specifically, acylation is not necessary for initial membrane binding, but markedly enhances pore formation. Overall, our results provide detailed insights into the molecular determinants that regulate MbxA toxin activity. We highlight a complex interplay between lipid composition (sterols), acylation, and membrane disruption, thereby advancing our general understanding of RTX toxin pathogenesis.",
       "funder": [],
       "identifier": "S-BIAD2240",

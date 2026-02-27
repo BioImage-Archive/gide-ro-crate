@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,13 +80,13 @@
           "@id": "#9e599859-07d0-4115-ac6c-ad44e221760f"
         },
         {
+          "@id": "obo:NCBITaxon_1126"
+        },
+        {
           "@id": "obo:NCBITaxon_1160"
         },
         {
           "@id": "obo:NCBITaxon_1143"
-        },
-        {
-          "@id": "obo:NCBITaxon_1126"
         }
       ],
       "author": [
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-09-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-29"
+      },
       "description": "The cyanoHAB forming cyanobacteria Microcystis and Planktothrix frequently produce high intracellular amounts of microcystins (MCs) or anabaenopeptins (APs). In this study, chemically modified MCs and APs have been localized on a subcellular level in Microcystis and Planktothrix applying copper-catalyzed alkyne-azide cycloaddition (CuACC). For this purpose, three different non-natural amino acids carrying alkyne or azide moieties were fed to individual P. agardhii strains No371/1 and CYA126/8 as well as to M. aeruginosa strain Hofbauer showing promiscuous incorporation of various amino acid substrates during non-ribosomal peptide synthesis (NRPS). Moreover, CYA126/8 peptide knock-out mutants and non-toxic strain Synechocystis PCC6803 were processed under identical conditions. Simultaneous labelling of modified peptides with ALEXA405 and ALEXA488 and lipid staining with BODIPY 505/515 were performed to investigate the intracellular location of the modified peptides. Pearson correlation coefficients (PCC) obtained from confocal images were calculated between the different fluorophores and the natural autofluorescence (AF), and between labelled modified peptides and dyed lipids to investigate the spatial overlap between peptides and the photosynthetic complex, and between peptides and lipids. Overall, labelling of modified MCs (M. aeruginosa) and APs (P. agardhii) using both fluorophores revealed in-creased intensity in MC/AP producing strains. For Synechocystis lacking NRPS, no labelling using either ALEXA405 or ALEXA488 was observed. Lipid staining in M. aeruginosa and Synechocystis was intense while in Planktothrix it was more variable. When compared with AF, both modified peptides and lipids showed a heterologous distribution. In comparison, the correlation between stained lipids and labelled peptides was not increased suggesting a reduced spatial overlap.",
       "funder": [],
       "identifier": "S-BIAD1292",

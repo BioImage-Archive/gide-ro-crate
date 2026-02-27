@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-26"
+      },
       "description": "Healthy brain development hinges on proper myelination. Disruptions in this process result in a variety of neurological disorders. Myelin basic protein (MBP) immunohistochemistry is a key method for studying myelination and myelin-related disorders. Despite MBP studies dating back to the 1980s, there has been a surprising lack of detailed accounts of normal MBP progression across the developing mouse brain. This study presents a detailed spatiotemporal view of MBP distribution across 12 developmental ages from postnatal day 2 to 60. We used an optimized immunohistochemistry protocol to overcome the challenges of myelin's unique lipid-rich composition, enabling more consistent staining across diverse brain structures and developmental stages. ",
       "funder": [],
       "identifier": "S-BIAD1483",

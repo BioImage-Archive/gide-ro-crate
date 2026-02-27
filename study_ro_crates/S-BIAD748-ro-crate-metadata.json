@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -74,14 +79,17 @@
           "@id": "https://orcid.org/0000-0003-4612-6752"
         },
         {
-          "@id": "#abc474b6-0593-4daf-9d2f-4bd9a14fe444"
+          "@id": "#f8254b30-b962-4f48-9658-29decfeb81e5"
         },
         {
           "@id": "https://orcid.org/0000-0002-9548-7709"
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-16"
+      },
       "description": "Primary cilia are essential signaling organelles that protrude from most cells in the body. Heterodimeric kinesin-2 (KIF3A/KIF3B/KAP3) powers several intracellular transport processes, including intraflagellar transport (IFT), essential for ciliogenesis. A long-standing question is how a motor protein is differentially regulated for specific cargos. Since phosphorylation of the KIF3A tail domain was suggested to regulate the activity of kinesin-2 for ciliogenesis, similarly as for the cytosolic cargo N-Cadherin, we set out to map the phosphosites involved in this regulation. Using well-characterized Kif3a-/-; Kif3b-/- mouse embryonic fibroblasts, we perform ciliogenesis rescue assays with a library of phosphomimetic mutants comprising all predicted phosphosites in the KIF3A tail domain. In contrast to previous reports, we find that KIF3A tail domain phosphorylation is dispensable for ciliogenesis in mammals. Thus, mammalian kinesin-2 is differently regulated for IFT than currently thought, consistent with the idea of differential regulation for ciliary and cytosolic cargo.",
       "funder": [],
       "identifier": "S-BIAD748",
@@ -106,7 +114,7 @@
       ]
     },
     {
-      "@id": "#abc474b6-0593-4daf-9d2f-4bd9a14fe444",
+      "@id": "#f8254b30-b962-4f48-9658-29decfeb81e5",
       "@type": [
         "Person"
       ],

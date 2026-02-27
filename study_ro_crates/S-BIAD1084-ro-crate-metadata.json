@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-15"
+      },
       "description": "Polarized vesicular trafficking directs specific receptors and ion channels to cilia, but the underlying mechanisms are poorly understood. Here we describe a role for DLG1, a core component of the Scribble polarity complex, in regulating ciliary protein trafficking in kidney epithelial cells. Conditional knockout of Dlg1 in mouse kidney caused ciliary elongation and cystogenesis, and cell-based proximity labelling proteomics and fluorescence microscopy showed alterations in the ciliary proteome upon loss of DLG1. Specifically, the retromer-associated protein SDCCAG3, IFT20 and polycystin-2 (PC2) were reduced in cilia of DLG1 deficient cells compared to control cells. This phenotype was recapitulated in vivo and rescuable by re-expression of wildtype DLG1, but not a Congenital Anomalies of the Kidney and Urinary Tract (CAKUT)-associated DLG1 variant, p.T489R. Finally, biochemical approaches and Alpha Fold modelling suggested that SDCCAG3 and IFT20 form a complex that associates, at least indirectly, with DLG1. Our work identifies a key role for DLG1 in regulating ciliary protein composition and suggests that ciliary dysfunction of the p.T489R DLG1 variant may contribute to CAKUT.  ",
       "funder": [],
       "identifier": "S-BIAD1084",

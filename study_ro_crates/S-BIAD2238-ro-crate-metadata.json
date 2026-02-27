@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-22"
+      },
       "description": "It is widely believed that the gliogenic switch during rodent embryonic development is governed by the orchestrated crosstalk between a cohort of genes and extracellular cues. Here we report that ectopic expression of the single bHLH factor, pancreas transcription factor 1α (PTF1A), is sufficient to drive radial glial progenitors (RGPs)—regardless of progenitor heterogeneity and developmental stage—to differentiate into glial cells. Ptf1a-expressing RGPs exhibit progenitor behaviors indicative of a neurogenic-to-gliogenic fate transition, resembling endogenous progenitors at the late stages of embryonic development, and preferentially produce OLIG2+ oligodendrocytes in vivo, some of which are positive for PDGFRα or CC1. This robust gliogenic competency depends on the dosage of stable Ptf1a expression in RGPs. RNAseq reveals ‘the glial transcriptome’, including upregulated expression of several notch signaling components and the endothelin receptors in Ptf1a RGPs. We further identify Ednrb as one of the downstream targets of Ptf1a that directs RGPs toward gliogenesis. In summary, our study uncovers a novel and robust role for Ptf1a in glial fate specification, offering a potential strategy for generating human oligodendrocytes in vitro.",
       "funder": [],
       "identifier": "S-BIAD2238",

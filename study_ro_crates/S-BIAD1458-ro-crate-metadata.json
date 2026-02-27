@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-03"
+      },
       "description": "The deformability of red blood cells (RBCs) is a critical factor in understanding cardiovascular diseases and serves as a key determinant of RBC lifespan. Red blood cells with different deformities were observed to exhibit significant differences in their morphological characteristics. To further investigate this relationship, we propose a deep learning-based approach to explore the correlation between RBC deformability and its morphological features. We utilize a dielectrophoretic microfluidic approach to assess deformability and capture microscopic images of erythrocytes. These images are then classified according to the deformability of the cells.\nBased on the above research, this study contains three datasets. We characterize the deformability of RBCs using the strain of RBCs under the same dielectrophoretic force with the strain formula ε = (a−a0)/a0, where a is the length of the long axis of the RBCs stretched by the dielectrophoretic force and a0 is the original length of the RBCs. the strain between 0~0.3 is called hard, between 0.3~0.6 is called deformable, and the rest is called soft.",
       "funder": [],
       "identifier": "S-BIAD1458",

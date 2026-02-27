@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-08"
+      },
       "description": "Candida albicans is an emerging multidrug-resistant opportunistic pathogen representing an important source of invasive disease in humans and generating high healthcare costs worldwide. The development of a rapid and simple antifungal susceptibility test (AFST) could limit the spread of this disease, increase the efficiency of treatment, and lower the risk of developing resistant strains. We developed a microfluidic chip containing an array of microwells that were designed to trap the cells and perform rapid antifungal susceptibility tests using optical nanomotion detection (ONMD). Yeast cell entrapment in a microwell allows for a very rapid exchange of growth medium with the antifungal, which enables performing single-cell ONMD measurements on the same cell before and after antifungal treatment. The exposure to a low concentration of the antifungal caspofungin or flucanozole induced a significant decrease in the nanomotion signal, demonstrating the high sensitivity of this technique. We used this chip to quantify the real-time response of individual C. albicans cells to the antifungal treatment in as fast as 10 min. This simple and label-free technique could be further developed into a simple-to-use device that allows the performance of fast AFST as part of a routine hospital procedure in developed and also eventually developing world countries.",
       "funder": [],
       "identifier": "S-BIAD2230",

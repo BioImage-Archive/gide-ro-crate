@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,14 +76,17 @@
       ],
       "author": [
         {
-          "@id": "#678454c3-c567-49bf-8483-5bdd38574fe6"
+          "@id": "#61b8b64c-f580-44af-a23f-5e95958d6584"
         },
         {
-          "@id": "#d2413b79-9401-4e25-bd0c-a7a136eeaff5"
+          "@id": "#76a080e0-eb60-46e8-b6a7-cff48902d311"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-28"
+      },
       "description": "Representative raw images acquired for all fusion oncoproteins and controls included in the manuscript. All files consist of multiple Z-stacks ranging at least 10 μm and two channels. C0 files refer to the 405 channel (Hoechst DNA) and C1 files refer to the 488 channel (mEGFP-protein). ",
       "funder": [],
       "identifier": "S-BIAD863",
@@ -106,7 +114,7 @@
       ]
     },
     {
-      "@id": "#678454c3-c567-49bf-8483-5bdd38574fe6",
+      "@id": "#61b8b64c-f580-44af-a23f-5e95958d6584",
       "@type": [
         "Person"
       ],
@@ -119,7 +127,7 @@
       "name": "Hazheen Shirnekhi"
     },
     {
-      "@id": "#d2413b79-9401-4e25-bd0c-a7a136eeaff5",
+      "@id": "#76a080e0-eb60-46e8-b6a7-cff48902d311",
       "@type": [
         "Person"
       ],

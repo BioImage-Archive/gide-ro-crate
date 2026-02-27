@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-25"
+      },
       "description": "The CLP model was used to study polymicrobial sepsis, with sham as a control. Mice were subjected to sham or CLP procedure, and 6h, 24h and 48h later, livers were isolated for immunohistochemisty. As a control, wildtype control (Hnf4aflfl) and liver-specific HNF4a knockout (Hnf4aLiver-i-KO) mice were included, all of which were injected with tamoxifen for 5 consecutive days. Livers were isolated for immunohistochemistry 3 days after the last tamoxifen injection. The images were stained with DAPI (nuclei - blue) and an HNF4a antibody (red) and visualized with Axioscan.Z1 Slide scanner (Zeiss), using a Plan-Apochromat 10x/0.45 M27 objective lens at a pixel size of 0.650 µm.",
       "funder": [],
       "identifier": "S-BIAD1239",

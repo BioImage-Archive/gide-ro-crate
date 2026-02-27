@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -80,14 +85,17 @@
           "@id": "https://orcid.org/0000-0002-2119-2190"
         },
         {
-          "@id": "#286ee3c1-0eec-4484-9ec8-81074570a05c"
+          "@id": "#4b636c5e-c696-4b79-892e-138646a77890"
         },
         {
-          "@id": "#d0f1ee22-35bf-4e86-b179-6106a80d721b"
+          "@id": "#92a24c08-ca81-4f4e-9b43-765a99d6d86f"
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-30"
+      },
       "description": "Having observed the accumulation of SRSF7 at nuclear speckles upon CLKs inhibitor T-025 treatment, we further investigated the effect of T-025 on the mobility of SRSF7. We performed fluorescence recovery after photobleaching (FRAP) and fluorescence loss in photobleaching (FLIP) using established BAC-Hs578T-SRSF7-GFP and BAC-MDA-MB-231-SRSF7-GFP reporter cell lines treated with 1 µM T-025. Cells were seeded in glass-bottom Sensoplate 96-well imaging plate coated with 20 mg/ml rat tail collagen I in PBS, and treated with 1 µM T-025 the following day. After 24 hours, cells were stained with Hoechst-33342 and imaged at 37 °C using a PlanApo VC 60×/1.40 NA Oil objective on Nikon A1 confocal microscope equipped with a humidified 5% CO2 incubator. The imaging and photobleaching were conducted using NIS-Elements software. Following photobleaching of SRSF7-GFP in one-half of the nuclei, the fluorescence recovery in the bleached area and the loss of fluorescence in the unbleached area were measured every 5 seconds over 2.5 minutes. Next, we hypothesized that the recovery of SRSF7-GFP in the bleached area was preferentially and mostly coming from the SRSF7-GFP in the nucleoplasm of unbleached area. To demonstrate this, following photobleaching of SRSF7-GFP in one-half of the nuclei, we not only measured the fluorescence recovery in the bleached area but also the loss of fluorescence at SRSF7 accumulated sites (speckles) and the nearby nucleoplasm, instead of the entire unbleached area. ",
       "funder": [],
       "identifier": "S-BIAD1501",
@@ -116,7 +124,7 @@
       ]
     },
     {
-      "@id": "#286ee3c1-0eec-4484-9ec8-81074570a05c",
+      "@id": "#4b636c5e-c696-4b79-892e-138646a77890",
       "@type": [
         "Person"
       ],
@@ -129,7 +137,7 @@
       "name": "Bob van de Water"
     },
     {
-      "@id": "#d0f1ee22-35bf-4e86-b179-6106a80d721b",
+      "@id": "#92a24c08-ca81-4f4e-9b43-765a99d6d86f",
       "@type": [
         "Person"
       ],

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -123,7 +128,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-29"
+      },
       "description": "Neurons and astrocytes play critical yet divergent roles in brain physiology and neurological conditions. Intracellular organelles are integral to cellular function. However, an in-depth characterization of organelles in live neural cells has not been performed. Here, we used multispectral imaging to simultaneously visualize six organelles – endoplasmic reticulum (ER), lysosomes, mitochondria, peroxisomes, Golgi, and lipid droplets – in live primary rodent neurons and astrocytes. We generated a dataset of 173 Z-stack and 99 time-lapse images accompanied by quantitative analysis of 1418 metrics (“the organelle signature”). Comparative analysis revealed clear cell-type specificity in organelle morphology and interactions. Neurons were characterized by prominent mitochondrial composition and interactions, while astrocytes contained more lysosomes and lipid droplet interactions. Additionally, neurons displayed a more robust organelle response than astrocytes to acute oxidative or ER stress. Our data provide a systems-level characterization of neuron and astrocyte organelles that can be a reference for understanding cell-type-specific physiology and disease.",
       "funder": [],
       "identifier": "S-BIAD1445",

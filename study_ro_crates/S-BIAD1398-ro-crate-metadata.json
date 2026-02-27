@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-11"
+      },
       "description": "The human blastocyst contains the pluripotent epiblast, from which human embryonic stem cells (hESCs) can be derived. ACTIVIN/NODAL signalling maintains expression of the transcription factor NANOG and in vitro propagation of hESCs. It is unknown whether this reflects a functional requirement for epiblast development in human embryos. Here, we characterised NODAL signalling activity during pre-implantation human development. We showed that NANOG is an early molecular marker restricted to the nascent human pluripotent epiblast and was initiated prior to the onset of NODAL signalling. We further demonstrated that expression of pluripotency-associated transcription factors NANOG, SOX2, OCT4, and KLF17 were maintained in the epiblast in the absence of NODAL signalling activity. Genome-wide transcriptional analysis showed that NODAL signalling inhibition did not impact on NANOG transcription or the wider pluripotency-associated gene regulatory network. These data suggest differences in the signalling requirements regulating pluripotency in the pre-implantation human epiblast compared to existing hESC culture.",
       "funder": [],
       "identifier": "S-BIAD1398",

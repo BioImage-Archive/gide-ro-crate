@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-26"
+      },
       "description": "Haloperidol is used to manage psychotic symptoms in several neurological disorders through mechanisms that involve antagonism of dopamine D2Rs that are highly expressed in the striatum. Significant side effects of haloperidol, known as extrapyramidal symptoms, lead to motor deficits similar to those seen in Parkinson's disease and present a major challenge in clinical settings. The underlying molecular mechanisms responsible for these side effects remain poorly understood. Parkinson's disease associated LRRK2 kinase has a critical role in striatal physiology and a known link to D2R signaling. Here, we systematically explore convergent signaling of haloperidol and LRRK2 through pharmacological or genetic inhibition of LRRK2 kinase, as well as knock-in mouse models expressing pathogenic mutant LRRK2 with increased kinase activity. Behavioral assays show that LRRK2 kinase inhibition ameliorates haloperidol-induced motor changes in mice. A combination of electrophysiological and anatomical approaches reveals that LRRK2 kinase inhibition interferes with haloperidol-induced changes, specifically in striatal neurons of the indirect pathway. Proteomic studies and targeted intracellular pathway analyses demonstrate that haloperidol induces a similar pattern of intracellular signaling as increased LRRK2 kinase activity. Our study suggests that LRRK2 kinase plays a key role in striatal D2R signaling underlying the undesirable motor side effects of haloperidol. This work opens up new therapeutic avenues for dopamine-related disorders, such as psychosis, also furthering our understanding of Parkinson's disease pathophysiology.",
       "funder": [],
       "identifier": "S-BIAD1740",

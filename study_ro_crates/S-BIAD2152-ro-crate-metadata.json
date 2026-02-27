@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#e6b04dcb-4bb9-4d3f-afb4-86a7e64e92c7"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-12"
+      },
       "description": "DNA-damaging antibiotics like ciprofloxacin induce extensive double-strand breaks in Escherichia coli, triggering the SOS response and leading to DNA supercompaction. To uncover genes involved in this process beyond the previously identified core factors of recN and recA, we conducted a genome-wide screening using high-content imaging and machine learning-assisted image classification on nearly 4,000 E. coli strains, including the Keio collection’s single-gene deletion strains and additional in-house strains. Our investigation revealed novel genes contributing to supercompaction, with effects varying by genetic background. DNA supercompaction was consistently observed across eight clinical isolates from diverse bacterial species, underscoring the conservation of this cellular response. Our findings confirm RecN and RecA as primary drivers of DNA supercompaction. Additionally, we identified repair genes and novel genes that contribute to the response, especially in clinical E. coli strains. Notably, select hit gene deletions, including those for the membrane-associated proteins Hfq and YaiW, reduced RecN colocalization with the nucleoid, indicating a potential mechanism by which these genes impair supercompaction. Altogether, this work demonstrates that high-content imaging combined with automated analysis provides a powerful approach to explore population-level nucleoid dynamics and DNA damage responses, opening new avenues for understanding cellular processes and combating bacterial infections.",
       "funder": [],
       "identifier": "S-BIAD2152",

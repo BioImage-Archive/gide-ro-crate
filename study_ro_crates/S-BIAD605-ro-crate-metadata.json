@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-12-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-25"
+      },
       "description": "We provide a dataset of 10 whole slide images of clear cell renal cell carcinoma tissue sections that were counterstained with Hoechst 33342, Cy3 and Cy5. The fluorescent images were captured using Zeiss Axio Scan Z1. We used three different fluorescent channels (Hoechst 33342, Cy3 and Cy5) simultaneously to capture individual channel images under 20x object magnification with respective exposure times of 10 ms, 20 ms and 30 ms.\nWe also provide clinical data including age at surgery, gender, disease free months, nuclear grade, and Leibovich score.\nAlongside the WSIs, we provide pre-processed and normalised patches (each 256x256 pixels) from the WSIs in a format that can be readily ingested by deep learning models for their training. For each patch, we provide normalised Hoechst, CD3, and CD8 images, as well as cell masks identified using the StarDist algorithm. Each cell is annotated as CD3, CD8 (a subset of CD3), or neither.",
       "funder": [],
       "identifier": "S-BIAD605",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -82,7 +87,10 @@
           "@id": "https://doi.org/10.1091/mbc.e24-11-0519"
         }
       ],
-      "datePublished": "2026-01-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-16"
+      },
       "description": "Electron microscopy is an important technique for the study of synaptic morphology and its relation to synaptic function. The data analysis for this task requires the segmentation of the relevant synaptic structures, such as synaptic vesicles (SV), active zones, mitochondria, presynaptic densities, synaptic ribbons, and synaptic compartments. Previous studies were predominantly based on manual segmentation, which is very time-consuming and prevented the systematic analysis of large datasets. Here, we introduce SynapseNet, a tool for the automatic segmentation and analysis of synapses in electron micrographs. It can reliably segment SVs and other synaptic structures in a wide range of electron microscopy approaches, thanks to a large annotated dataset, which we assembled, and domain adaptation functionality we developed. We demonstrated its capability for (semi-)automatic biological analysis in two applications and made it available as an easy-to-use tool to enable novel data-driven insights into synapse organization and function.",
       "funder": [],
       "identifier": "S-BIAD2534",
@@ -148,7 +156,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "SynapseNet: Deep learning for automatic synapse reconstruction"
     },
     {

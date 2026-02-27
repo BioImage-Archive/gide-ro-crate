@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-17"
+      },
       "description": "After peripheral nerve injuries, successful axonal growth and functional recovery requires the reprogramming of Schwann cells into a reparative phenotype, a process dependent on the activation of the transcription factor c-Jun. Nevertheless, axonal regeneration is greatly impaired in aged organisms or after chronic denervation leading to important clinical problems. This regenerative failure has been associated to a diminished c-Jun expression by Schwann cells, but whether the inability of these cells to maintain a repair state is associated to the transition into a phenotype inhibitory for axonal growth, has not been evaluated so far. We find that repair Schwann cells transitions into a senescent phenotype, characterized by diminished c-Jun expression and secretion of factor inhibitory for axonal regeneration in both aging and chronic denervation. In both conditions, elimination of senescent Schwann cells by systemic senolytic drug treatment or genetic targeting improves nerve regeneration and functional recovery in aging and chronic denervation, associated with an upregulation of c-Jun expression and a decrease in nerve inflammation. This work provides the first characterization of senescent Schwann cells and their impact over axonal regeneration in aging and chronic denervation, opening new avenues for enhancing regeneration, and functional recovery after peripheral nerve injuries.",
       "funder": [],
       "identifier": "S-BIAD652",

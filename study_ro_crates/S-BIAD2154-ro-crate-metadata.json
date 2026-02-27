@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -123,7 +128,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      },
       "description": "The size and complexity of the neocortex are determined during development by radial glial progenitors (RGPs) through neurogenesis. However, how direct and indirect neurogenesis of RGPs generate the appropriate neocortical size and cell-type composition remains unknown. Here, we developed a combined retrovirus and FlashTag (Rv-FlashTag) labeling technique that allows clonal tracking of sequential RGP division patterns and identification of progeny identities in vivo. Using this approach, we found that the neurogenic (N), neurogenic intermediate progenitor (IP) and proliferative IP (IPP) divisions of RGPs tend to generate similar numbers of pyramidal neurons. In the early neuronal outputs of RGPs, the distribution of neurons produced by the N, IP, and IPP divisions follows an “inside-out” pattern in the neocortex. Clonal analysis and mathematical modeling indicate that RGPs initially give rise to neurons, IPs, and IPPs in a stochastic manner, followed by relatively stable transition probabilities between direct and indirect neurogenesis across successive generations. These findings provide a comprehensive and novel understanding of the dynamics of cortical neurogenesis. ",
       "funder": [],
       "identifier": "S-BIAD2154",

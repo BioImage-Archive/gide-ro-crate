@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#a6eda8a6-e04b-4f9d-bee1-a6f7df683766"
         },
         {
-          "@id": "FBbi:00000257"
+          "@id": "FBbi:00050000"
         },
         {
-          "@id": "FBbi:00050000"
+          "@id": "FBbi:00000257"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-02-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-02-03"
+      },
       "description": "2D and 3D instance segmentation of nuclei from array tomography (AT) and FIB-SEM datasets, respectively. In this deposition, 10 AT and 2 FIB-SEM datasets and paired annotations are included. Note: in several datasets, partial annotations of nuclei at image edges have been deleted. These are indicated in the annotation metadata.",
       "funder": [],
       "identifier": "S-BIAD2822",

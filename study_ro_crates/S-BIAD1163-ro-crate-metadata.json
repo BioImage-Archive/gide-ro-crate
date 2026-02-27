@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-12"
+      },
       "description": "Cerebral palsy (CP) is a prevalent neurological disorder that imposes a significant burden on children, families, and society worldwide. Recently, the RhoB p.S73F mutation was identified as a de novo mutation associated with CP. However, the mechanism by which the RhoB p.S73F mutation causes CP is currently unclear. In this study, rabbit models were generated to mimic the human RhoB p.S73F mutation using the SpG-BE4max system, and exhibited the typical symptoms of human CP, such as periventricular leukomalacia and spastic-dystonic diplegia. Further investigation revealed that the RhoB p.S73F mutation could activate ACAT1 through the LYN pathway, and the subsequently altered lipid levels may lead to neuronal and white matter damage resulting in the development of CP. This study presented the first mammalian model of genetic CP that accurately replicates RhoB p.S73F mutation in humans, provided further insights between RhoB and lipid metabolism, and novel therapeutic targets for human CP.",
       "funder": [],
       "identifier": "S-BIAD1163",

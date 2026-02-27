@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#ed9d2658-bb83-464f-9a9c-f65717a2ccd3"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000380"
         },
         {
-          "@id": "obo:FBbi_00000380"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-24",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-24"
+      },
       "description": "The effect of pancreatic exocrine cell damage on beta cell stress dynamically imaged in zebrafish larvae",
       "funder": [],
       "identifier": "S-BIAD1479",

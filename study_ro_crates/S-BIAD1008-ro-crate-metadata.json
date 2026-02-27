@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-29"
+      },
       "description": "In Drosophila male gonads, niche-derived Decapentaplegic (Dpp) has a role in maintaining stem cells in close proximity but the range of Dpp diffusion and its role has never been tested in the differentiating cells spaced one-cell layer away. Here, using genetically encoded nanobodies called Morphotraps, we physically block Dpp diffusion without interfering with niche-stem cell signaling and find that a diffusible fraction of Dpp is required to ensure differentiation of GSC daughter cells, opposite of its role in maintenance of GSC in the niche. Our work provides an example in which a soluble niche ligand induces opposed cellular responses in stem cells versus differentiating descendants to ensure spatial control of the niche, which may be a common mechanism to regulate tissue homeostasis.",
       "funder": [],
       "identifier": "S-BIAD1008",

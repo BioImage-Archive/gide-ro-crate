@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-08"
+      },
       "description": "The fast emergence of multi-resistant pathogenic yeasts is caused by the extensive—and sometimes unnecessary—use of broad-spectrum antimicrobial drugs. To rationalise the use of broad-spectrum antifungals, it is essential to have a rapid and sensitive system to identify the most appropriate drug. Here, we developed a microfluidic chip to apply the recently developed optical nanomotion detection (ONMD) method as a rapid antifungal susceptibility test. The microfluidic chip contains no-flow yeast imaging chambers in which the growth medium can be replaced by an antifungal solution without disturbing the nanomotion of the cells in the imaging chamber. This allows for recording the cellular nanomotion of the same cells at regular time intervals of a few minutes before and throughout the treatment with an antifungal. Hence, the real-time response of individual cells to a killing compound can be quantified. In this way, this killing rate provides a new measure to rapidly assess the susceptibility of a specific antifungal. It also permits the determination of the ratio of antifungal resistant versus sensitive cells in a population.",
       "funder": [],
       "identifier": "S-BIAD2229",

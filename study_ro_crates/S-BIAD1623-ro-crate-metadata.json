@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-06"
+      },
       "description": "Remoscope is a label-free imaging cytometer which was developed at the CZ Biohub SF and has been field-deployed in Tororo, Uganda to assess its efficacy at detecting Plasmodium falciparum parasites in whole human blood. Remoscope images blood without fixation or staining, i.e using a label-free imaging modality. This dataset comprises ~14TB of image data collected on Remoscope.\n\nThe image data consists of:\n1. Clinical data from Tororo, Uganda. This includes data from healthy participants and participants with parasite loads varying from below 1 parasite/uL up to ~600,000 parasites/uL.\n2. Cultured Plasmodium falciparum data (including a titration series, images of CQ treated parasites, and a life stage time course)\n3. Known healthy donor samples from a non-endemic region\n4. Synthetic images generated using combinations of thumbnails taken from the above three sets\n\nAdditionally, human annotation of cultured and clinical parasites were done to a train an object detection model. These annotation labels are provided as well (under the `labels` and `synthetic_data` folders). These labels follow YOLO-format. There are an additional set of identical labels under folders called `labels_plus` which have one additional column at the end, denoting whether the given label was machine-generated (using the result from the object detection model after it had been trained) or whether that label was human-verified.",
       "funder": [],
       "identifier": "S-BIAD1623",

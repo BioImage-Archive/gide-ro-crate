@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -111,7 +116,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-02",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-02"
+      },
       "description": "Single-molecule imaging and tracking (SMT) of proteins in live cells provides robust quantification of the biophysical parameters of protein dynamics. Fission yeast Schizosaccharomyces pombe is extensively used as a model system in cell and molecular biology research, however, SMT was not optimized for this model system. Here, we have optimized SMT for tracking protein dynamics in live cells of the yeast S. pombe. For SMT data analysis and to differentiate between bound and unbound molecules, it is essential to quantify the dynamic behavior of chromatin-bound proteins (histones) and free protein (GFP) in the nucleus to benchmark the diffusion parameters. In this dataset, we have provided the time-lapse movies for tracking histone H3 (Hht1) in live and fixed cells. Histone H3 gene (hht1) was endogenously fused with -HaloTag and fluorescently labeled with a HaloTag Ligand (JF646-HTL). For tracking free GFP in the nucleus, it was N-terminally fused with NLS(Nuclear Localization Signal)-HaloTag and expressed from a plasmid under the NMT1 promoter. Time-lapse movies were acquired with two imaging regimes: 1) fast imaging (15 ms time interval) to quantify the diffusion parameters (mean squared displacements, diffusion coefficient, fraction of bound and unbound molecules, jump angles, jump distances), 2) slow imaging (200 ms time interval) to quantify the residence time. This dataset stands as a valuable resource for researchers aiming to quantify the dynamics of any other protein in S. pombe using SMT. Additionally, this dataset can be used as a training dataset for machine learning-based automated tracking and also for validating the performance of various tracking software/algorithms. ",
       "funder": [],
       "identifier": "S-BIAD1137",

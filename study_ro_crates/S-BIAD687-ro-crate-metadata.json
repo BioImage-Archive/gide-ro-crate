@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-05-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-05-09"
+      },
       "description": "The antiviral restriction factor, tetherin, blocks the release of several different families of enveloped viruses, including the Coronaviridae. Tetherin is an interferon-induced protein that forms parallel homodimers between the host cell and viral particles, linking viruses to the surface of infected cells and inhibiting their release. We demonstrated that SARS-CoV-2 infection causes tetherin downregulation, and that tetherin depletion from cells enhances SARS-CoV-2 viral titres. We investigated the potential viral proteins involved in abrogating tetherin function and found that SARS-CoV-2 ORF3a reduces tetherin localisation within biosynthetic organelles via reduced retrograde recycling and increases tetherin localisation to late endocytic organelles. By removing tetherin from the Coronavirus budding compartments, ORF3a enhances virus release. We also found expression of Spike protein caused a reduction in cellular tetherin levels. Our results confirm that tetherin acts as a host restriction factor for SARS-CoV-2 and highlight the multiple distinct mechanisms by which SARS-CoV-2 subverts tetherin function.",
       "funder": [],
       "identifier": "S-BIAD687",

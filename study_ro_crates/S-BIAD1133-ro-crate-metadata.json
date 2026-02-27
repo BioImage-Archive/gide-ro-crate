@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-30"
+      },
       "description": "Astrocytic dysfunction has been previously described in Parkinson's, but the role of astrocytic gap junctional networks has not been explored. Connexin 43 is the major protein linking astrocytes in networks across the brain. In the present dataset, images from three cortical areas (parietal, frontal, and insular) and basal ganglia (putamen, globus pallidus, caudate, midbrain substantia nigra) were collected from 20 people with Parkinson's and 20 age-matched controls to reveal downregulation in connexin 43 punctate staining in Parkinson's. Punctate pattern was specifically affected in disease, which may indicate dysfunction in gap junctional coupling.",
       "funder": [],
       "identifier": "S-BIAD1133",

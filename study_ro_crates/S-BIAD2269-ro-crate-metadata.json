@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -132,10 +137,13 @@
           "@id": "#2e202e92-1a87-4d67-8f74-de79ddce334a"
         },
         {
-          "@id": "obo:NCBITaxon_5270"
+          "@id": "obo:NCBITaxon_4577"
         },
         {
           "@id": "obo:NCBITaxon_9606"
+        },
+        {
+          "@id": "obo:NCBITaxon_5270"
         },
         {
           "@id": "obo:NCBITaxon_4513"
@@ -145,9 +153,6 @@
         },
         {
           "@id": "obo:NCBITaxon_78475"
-        },
-        {
-          "@id": "obo:NCBITaxon_4577"
         }
       ],
       "author": [
@@ -277,7 +282,10 @@
           "@id": "https://doi.org/10.1101/2024.07.04.602038"
         }
       ],
-      "datePublished": "2025-09-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-15"
+      },
       "description": "Our calendar goes into a second round!\nAfter having a first edition of the NFDI4BIOIMAGE calendar in 2024, we were eager to assemble an improved version for 2025. This time, we invited also other consortia of the National Research Data Infrastructure (NFDI) to contribute with the aim to extend our calendar to a consortium spanning edition. In this year’s calendar we present very different types of images, taken by mobile phones, cameras, drones, and microscopes, representing the work of our colleagues from the various consortia of NFDI.\n\nAs you may know, biological images often include additional information in the form of technical metadata, detailing the conditions under which the image was captured. Ideally, this technical data is paired with biological metadata, which explains the specimen depicted and how it was prepared. This year, we also requested that authors submit their images with complete accompanying metadata – a \"full package\". In bioimaging, the use of metadata standards, specifically the Recommended Metadata for Biological Images (REMBI) guideline (https://doi.org/10.1038/s41592-021-01166-8), has become increasingly common. Many of the submissions for this calendar adhere to REMBI guidelines with comprehensive metadata annotations alongside the bioimage data, as you can observe on the right accompanying our cover image.\n\nHowever, for images captured with other tools, such as mobile phones or drones – images not typically classified as biological – the required metadata differs to accurately convey what is shown and why the image was created. Through this calendar, we step outside the bioimaging sphere to explore how metadata for other types of images might be structured.\n\nWe hope you will find it as exciting as we do to see all the different contributions and the plethora of information that will teach you more about the respective images.\n\nNFDI4BIOMAGE – who we are and what we are aiming for\nThe NFDI4BIOIMAGE consortium started its work in March 2023 as one of the third round applicants within the NFDI, funded by the Federal Ministry for Education and Research (BMBF) and the Länder. Our consortium is working on solutions for bioimage data management along the bioimage life cycle.\n\nBioimaging is an indispensable tool within life and medical sciences. But bioimaging data is also a very divers type of data that is present in numerous proprietary file types, is usually of large size and covers many different imaging modalities. Due to this heterogeneity, storage and interaction with bioimaging data is not trivial and is handled very differently within the research community. Our aim is to find solutions for appropriate bioimage storage, data handling, data analysis, data publication, and to provide overarching standards and support for bioimage data management for the scientific community. Our final goal is to enable researchers to make their bioimaging data Findable, Accessible, Interoperable, and Reusable (FAIR).\n\nIf you need help or advise on how to handle your bioimaging data, NFDI4BIOIMAGE Data Stewards are here to provide support. Beginning of 2024 we have set up a Help Desk to get in contact with our Data Steward team. You can use the help request form (https://nfdi4bioimage.de/help-desk/) or write an e-mail to helpdesk@nfdi4bioimage.de.\nFor further information you can also get in contact with our project office via e-mail (office@nfdi4bioimage.de) or visit our webpage https://nfdi4bioimage.de.",
       "funder": [],
       "identifier": "S-BIAD2269",
@@ -916,7 +924,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2024",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024"
+      },
       "name": "Glioma-associated tertiary lymphoid structures are sites of lymphocyte clonal expansion and plasma cell formation"
     },
     {
@@ -924,7 +935,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2023",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023"
+      },
       "name": "A pilot study to estimate the population size of endangered Galápagos marine iguanas using drones."
     },
     {
@@ -932,7 +946,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Comparison of spatial transcriptomics technologies using tumor cryosections."
     },
     {
@@ -940,7 +957,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2017",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017"
+      },
       "name": "BIIGLE 2.0 - Browsing and Annotating Large Marine Image Collections"
     },
     {
@@ -948,7 +968,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2021",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021"
+      },
       "name": "Current Trends and Future Directions of Large Scale Image and Video Annotation: Observations From Four Years of BIIGLE 2.0"
     },
     {
@@ -956,7 +979,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "BIIGLE"
     },
     {

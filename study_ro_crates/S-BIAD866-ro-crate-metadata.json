@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#e53f96a2-eb2c-437b-b1f7-34883ea445bd"
+          "@id": "#a9ba7a0a-abc2-4b10-979c-767d0fdbdeee"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-30"
+      },
       "description": "OME-NGFF converted study from idr0011.  Kinetochores serve both a structural role linking chromosomes to the mitotic spindle and a regulatory role, controlling the timing of mitosis via the spindle assembly checkpoint. To identify proteins that regulate the kinetochore we used a genome-wide fluorescence microscopy approach. We combined an array of mutants of either non-essential gene deletions or essential temperature-sensitive alleles with fluorescently tagged spindle pole bodies (centrosome) and outer kinetochores. Quantitative and qualitative analysis revealed mutants that affect the levels and distribution of kinetochores respectively. These mutants are enriched for those involved in mRNA processing, chromatin organization, DNA replication/repair and mitosis. Our data show that the Pkc1 kinase maintains the kinetochore focus via its ability to prevent cell stress and this phenotype is rescued by an osmotic stabilizer. These data support the notion that kinetochore and microtubule homeostasis are perturbed by the stress response pathways. Hence this observation provides a candidate mechanism for extracellular stress leading to chromosome segregation defects.",
       "funder": [],
       "identifier": "S-BIAD866",
@@ -99,7 +107,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#e53f96a2-eb2c-437b-b1f7-34883ea445bd",
+      "@id": "#a9ba7a0a-abc2-4b10-979c-767d0fdbdeee",
       "@type": [
         "Person"
       ],

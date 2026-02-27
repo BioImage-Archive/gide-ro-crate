@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-10"
+      },
       "description": "The dedifferentiation of somatic cells into a pluripotent state by cellular reprogramming coincides with a reversal of age-associated molecular hallmarks. Although transcription factor induced cellular reprogramming has been shown to ameliorate these aging phenotypes in human cells and extend health and lifespan in mice, translational applications of this approach are still limited. More recently, chemical reprogramming via small molecule cocktails have demonstrated a similar ability to induce pluripotency in vitro, however, its potential impact on aging is unknown. Here, we demonstrated that chemical-induced partial reprogramming can improve key drivers of aging including genomic instability and epigenetic alterations in aged human cells. Moreover, we identified an optimized combination of two reprogramming molecules sufficient to induce the amelioration of additional aging phenotypes including cellular senescence and oxidative stress. Importantly, in vivo application of this two-chemical combination significantly extended C. elegans lifespan and healthspan. Together, these data demonstrate that improvement of key drivers of aging and lifespan extension is possible via chemical-induced partial reprogramming, opening a path towards future translational applications.",
       "funder": [],
       "identifier": "S-BIAD2006",

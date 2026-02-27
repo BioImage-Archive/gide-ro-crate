@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#9bf8ab1c-2695-42b3-b62a-d533cab77ecb"
+          "@id": "#895cd69f-0448-4347-9746-5aa3312f3327"
         }
       ],
       "citation": [],
-      "datePublished": "2023-09-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-09-05"
+      },
       "description": "OME-NGFF converted study from idr0090.  Drug resistance threatens the effective prevention and treatment of an ever-increasing range of human infections. This highlights an urgent need for new and improved drugs with novel mechanisms of action to avoid cross-resistance. Current cell-based drug screens are, however, restricted to binary live/dead readouts with no provision for mechanism of action prediction. Machine learning methods are increasingly being used to improve information extraction from imaging data. Such methods, however, work poorly with heterogeneous cellular phenotypes and generally require time-consuming human-led training. We have developed a semi-supervised machine learning approach, combining human- and machine-labelled training data from mixed human malaria parasite cultures. Designed for high-throughput and high-resolution screening, our semi-supervised approach is robust to natural parasite morphological heterogeneity and correctly orders parasite developmental stages. Our approach also reproducibly detects and clusters drug-induced morphological outliers by mechanism of action, demonstrating the potential power of machine learning for accelerating cell-based drug discovery.",
       "funder": [],
       "identifier": "S-BIAD882",
@@ -103,7 +111,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#9bf8ab1c-2695-42b3-b62a-d533cab77ecb",
+      "@id": "#895cd69f-0448-4347-9746-5aa3312f3327",
       "@type": [
         "Person"
       ],

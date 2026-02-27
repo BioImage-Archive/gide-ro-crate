@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-28"
+      },
       "description": "This dataset accompanies our paper titled \"Deep Learning Imaging Analysis to Identify Bacterial Metabolic States Associated with Carcinogen Production,\" which was accepted by Discover Imaging on 17 February 2025.\n\nOur dataset comprises light microscopy images of cultured Clostridium scindens captured at 100× magnification using the TissueFAX system. \n",
       "funder": [],
       "identifier": "S-BIAD1671",

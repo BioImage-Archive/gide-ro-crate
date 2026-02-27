@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-01-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-12"
+      },
       "description": "Prostate cancer (PCa)-related deaths are mainly due to metastasis. The increase in de novo metastatic hormone-naïve prostate cancers (mHNPCs) highlights the urgent need for biomarkers and treatment strategies for PCa dissemination. We report in a cohort of French patients that the levels of vitamin D and of prostate-specific antigen, the progression biomarker used clinically and secreted by prostatic epithelial cells (PECs), are negatively associated. However, the impact of vitamin D receptor (VDR) signaling in PECs on prostate tumorigenesis remains unclear. We show that VDR inactivation in PECs from Pten(i)pe−/− mice, a relevant preclinical model of PCa, promotes tumor aggressiveness. We demonstrate that VDR loss induces oxidative stress that in turn enhances PECs proliferation. Moreover, CXCL5 secretion by PTEN- and VDR-deficient PECs promotes neutrophil infiltration. Importantly, our data highlight elevated circulating neutrophil levels as a biomarker for PCa dissemination and show the potency of targeting neutrophil chemotaxis to reduce liver micrometastases. Overall, this work provides major insight on how vitamin D signaling slows down tumorigenesis and suggests new therapeutic and diagnostic strategies for mHNPC.",
       "funder": [],
       "identifier": "S-BIAD2776",

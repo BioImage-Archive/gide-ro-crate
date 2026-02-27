@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-13"
+      },
       "description": "Images of 5 wood disk surfaces acquired with the Gigapixel Woodbot.\n\nSoftware for building your own Gigapixel Woodbot can be found on https://doi.org/10.5281/zenodo.14637832.\n\nReleases of software for analysis of the images can be found on https://doi.org/10.5281/zenodo.14637855.\n\nThe training datasets and trained YOLOv8 model needed to run the analysis, can be found on https://doi.org/10.5281/zenodo.14604996. \n\nThe increment core datasets accompanying these full disk images, can be found on https://doi.org/10.5281/zenodo.14627909. \n\nThis is part of an entire sample preparation, imaging and analysis pipeline available in the paper \"Enabling high-throughput quantitative wood anatomy through a dedicated pipeline\" in Plant Methods by Van den Bulcke and co-authors: https://doi.org/10.1186/s13007-025-01330-7.\n\nPlease cite our work when using these data.\n\nAlso acknowledge the following collections: The five beech discs used as in this paper were collected by the Institute for Nature and Forest Research (INBO: https://ror.org/00j54wy13) as part of the Intensive Monitoring Forest Ecosystems Measurement Network (International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests level II). These discs (Tw81397, Tw81403, Tw81405, Tw81408, Tw81410) are part of the Tervuren xylarium, the wood collection curated at the Royal Museum for Central Africa, Belgium (https://ror.org/001805t51).",
       "funder": [],
       "identifier": "S-BIAD1574",

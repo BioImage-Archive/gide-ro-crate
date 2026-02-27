@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-10"
+      },
       "description": "This dataset provides a comprehensive, time-resolved view of autophagy regulation across thousands of genetic backgrounds, enabling deep learning, feature extraction, and predictive modeling of autophagy dynamics. It serves as a valuable resource for exploring genome-wide influences on autophagy, identifying novel regulatory mechanisms, and enhancing our understanding of cellular responses to nutrient fluctuations.\n\nThis dataset consists of high-content fluorescence microscopy images capturing the genome-wide regulation of autophagy in Saccharomyces cerevisiae. The dataset includes an arrayed library of 4,760 deletion mutants and 1,159 Decreased Abundance by mRNA Perturbation (DAmP) mutants, all expressing the autophagosome marker mNeonGreen-Atg8 and the vacuole-resident protease Pep4-mCherry. Mutants were grown to log-phase in nitrogen-containing medium (+N) and imaged every hour for 12 hours during nitrogen starvation (-N), followed by 7 hours after nitrogen replenishment (+N), resulting in a total of 20 time points per mutant. The dataset is systematically organized into libraries: KO, DAmP, Mix, Rec, Rep and Val plates, each serving specific experimental needs such as validation, reproducibility, and treatment response variation.\n\nEach image in the dataset is categorized by well position (row + column), time point (starvation or replenishment), and image within the well (s1, s2, s3). Additionally, images are captured across three channels: w1 for brightfield (BF), w2 for green fluorescence (mNeonGreen-Atg8), and w3 for red fluorescence (Pep4-mCherry). Each array includes triplicate control wells of wild-type (WT) cells and atg1Δ mutants, which are deficient in autophagy induction, and vam6Δ which display defects in Gtr1-dependent TORC1 activation and vacuole fusion, leading to an accumulation of uncleared autophagosomes.\n\nThe corresponding plate maps detailing strain distributions are provided in DRYAD.\n\nThis dataset provides a comprehensive, time-resolved view of autophagy regulation across thousands of genetic backgrounds, enabling deep learning, feature extraction, and predictive modeling of autophagy dynamics. It serves as a valuable resource for exploring genome-wide influences on autophagy, identifying novel regulatory mechanisms, and enhancing our understanding of cellular responses to nutrient fluctuations.",
       "funder": [],
       "identifier": "S-BIAD2338",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-05"
+      },
       "description": "The abscission of floral organs and emergence of lateral roots in Arabidopsis is regulated by the peptide ligand INFLORESCENCE DEFICIENT IN ABSCISSION (IDA) and the receptor protein kinases HAESA (HAE) and HAESA-LIKE 2 (HSL2). During these cell separation processes, the plant induces defense-associated genes to protect against pathogen invasion. However, the molecular coordination between abscission and immunity has not been thoroughly explored. Here we show that IDA induces a release of cytosolic calcium ions (Ca2+) and apoplastic production of reactive oxygen species, which are signatures of early defense responses. In addition, we find that IDA promotes late defense responses by the transcriptional upregulation of genes known to be involved in immunity. When comparing the IDA induced early immune responses to known immune responses, such as those elicited by flagellin22 treatment, we observe both similarities and differences. We propose a molecular mechanism by which IDA promotes signatures of an immune response in cells destined for separation to guard them from pathogen attack.",
       "funder": [],
       "identifier": "S-BIAD1102",

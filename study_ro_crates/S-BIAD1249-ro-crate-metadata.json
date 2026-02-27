@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-25"
+      },
       "description": "Multivalent protein-chromatin interactions facilitated by higher-order protein assemblies are emerging as a crucial theme in eukaryotic gene regulation. However, understanding the underlying mechanisms in their functional context in vivo remains challenging. Arabidopsis VEL proteins assemble biomolecular condensates by head-to-tail polymerization. Here, we dissect the role of the VEL polymerization domains in conferring the epigenetic switch to Polycomb Repressive Complex 2 (PRC2) silencing at Arabidopsis FLOWERING LOCUS C (FLC). We show that VIN3 VEL polymerization produces higher order nuclear VIN3 assemblies in vivo, which promote multivalent chromatin association and efficient H3K27me3 nucleation. VRN5 VEL polymerization, however, is not required unless a third homolog VEL1 is absent. The VRN5 VEL domain has different polymerization properties and is functionally unable to replace VIN3 VEL, but it is required to physically connect VIN3 with PRC2. This work reveals the combinatorial roles of VEL-polymerization domains in maintaining the chromatin association of Polycomb proteins for the switch to epigenetic silencing.",
       "funder": [],
       "identifier": "S-BIAD1249",

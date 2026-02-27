@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-14"
+      },
       "description": "During preimplantation development, mouse embryos form a fluid-filled lumen, which sets their first axis of symmetry1,2. Pressurized fluid breaks open cell-cell contacts and accumulates into pockets, which gradually coarsen into a single lumen3–5. During coarsening, cellular adhesive and contractile properties are thought to guide intercellular fluid (IF) but what cell behavior may control fluid movements is unknown. Here, we report large fluid-filled spherical membrane intrusions called inverse blebs6,7 growing into cells at adhesive contacts. At the onset of lumen coarsening, we observed hundreds of inverse blebs throughout the embryo, each dynamically filling with IF and retracting within a minute. We find that inverse blebs grow due to pressure build-up resulting from luminal fluid accumulation and cell-cell adhesion, which locally confines fluid. Inverse blebs then retract due to actomyosin contraction, which effectively redistributes fluid within the intercellular space. Importantly, inverse blebs show topological specificity and mostly occur at contacts between two cells, rarely at contacts formed by multiple cells, which essentially serve as fluid sinks. Manipulating the topology of the embryo reveals that, in the absence of sinks, inverse blebs pump fluid into one another in a futile cycle. We propose that inverse blebs operate as hydraulic pumps to promote luminal coarsening, thereby constituting an instrument used by cells to control fluid movement.",
       "funder": [],
       "identifier": "S-BIAD1193",

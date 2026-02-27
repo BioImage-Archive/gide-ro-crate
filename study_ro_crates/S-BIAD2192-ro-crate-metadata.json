@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-25"
+      },
       "description": "Fluorescent proteins and peptide tags are essential tools in cellular biology, but can alter the biochemical and physiological behavior of target proteins. Biomolecular condensates, which have emerged as key principles of cellular organization, are suggested to provide robustness to cells, yet they can also respond sensitively to small changes in environmental conditions including tags. Here, we investigated the effects of over twenty widely used tags on condensate formation in vitro, in cells, in various model organisms and by computational modelling. We find that tagging strongly influenced condensation for some proteins, while others remained unaffected. Effects varied, with some tags enhancing and others decreasing condensation, all  depended on the protein being tagged. Coarse-grained simulations suggest that the charge of the fluorescent protein tags is a critical factor modulating condensation behavior. Together, our results underscore the need to tag with caution, highlighting the importance of rigorous experimental design and interpretation, especially in condensate experiments.",
       "funder": [],
       "identifier": "S-BIAD2192",

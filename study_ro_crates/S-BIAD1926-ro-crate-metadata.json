@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -82,7 +87,10 @@
           "@id": "https://doi.org/10.1101/2025.04.08.647723"
         }
       ],
-      "datePublished": "2025-05-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-09"
+      },
       "description": "This dataset accompanies the preprint \"LimbLab: Pipeline for 3D Analysis and Visualisation of Limb Bud Gene Expression\". It contains 3D lightsheet images of cleared tissue labeled with HCR probes for Sox9, Hoxa11, and Hoxa13.",
       "funder": [],
       "identifier": "S-BIAD1926",
@@ -168,7 +176,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "LimbLab: Pipeline for 3D Analysis and Visualisation of Limb Bud Gene Expression"
     },
     {

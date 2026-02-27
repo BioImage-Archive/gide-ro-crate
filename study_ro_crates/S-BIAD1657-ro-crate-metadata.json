@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#e9d63075-086f-4e8a-8d42-191fb4570558"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-19"
+      },
       "description": "Across the evolutionary spectrum, sexual interactions can significantly influence the physiology and somatic aging in various species. In Caenorhabditis, male pheromones, sperm, and seminal fluid shorten the lifespan of hermaphrodites through different mechanisms. However, it is unclear whether the male seminal fluid protein is involved in this post-mating regulation. Here, we identified that SFP-1 is a seminal fluid protein required for physiological changes in mated hermaphrodites. SFP-1, packaged into secretory vesicles via the phospholipid scramblases ANOH-1 and ANOH-2 in male seminal vesicles, is endocytosed by intestinal cells after mating. Within the intestine, the NTF2-like domain of SFP-1 assists interaction with the transcription factors SKN-1 and DAF-16, triggering post-mating somatic fat depletion and lifespan reduction.  Our results provide insight into how the male seminal fluid protein SFP-1 triggers mating-induced physiological changes in sexual interactions.",
       "funder": [],
       "identifier": "S-BIAD1657",

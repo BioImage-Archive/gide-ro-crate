@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -183,7 +188,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-02-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-02-04"
+      },
       "description": "We developed a pipeline to generate bioprinted tumor organoids linked to label-free, time-resolved imaging via high-speed live cell interferometry (HSLCI) and machine learning-based quantitation of individual organoids. Bioprinting cells gives rise to 3D organoid structures that preserve tumor histology and gene expression. HSLCI imaging in tandem with machine learning-based image segmentation and organoid classification tools enables accurate, label-free parallel mass measurements for thousands of bioprinted organoids. We demonstrate that this strategy identifies organoid transiently or persistently sensitive or resistant to specific therapies, providing detailed, actionable information to guide rapid therapy selection.\nThe imaging files uploaded are the unwrapped phase images for each imaging position stored in .mat files. We have also uploaded the .xcf files used to manually create the segmentation masks used to train the neural network to segment the organoids.",
       "funder": [],
       "identifier": "S-BIAD616",

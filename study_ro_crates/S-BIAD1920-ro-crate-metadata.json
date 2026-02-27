@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-09"
+      },
       "description": "This study investigates how the aorta grows after birth—a process that is crucial for matching the size and function of the vascular system to a growing body. Our study reveals how the aorta grows after birth, showing that its expansion follows specific biological rules and scales with the spine—not body weight. Using a combination of high-resolution imaging, single-cell RNA sequencing, and mathematical modeling, we show that aortic growth occurs in two distinct waves of cell proliferation that follow the direction of blood flow, which are spatially stochastic, yet temporally coordinated. Each wave exhibits unique cell cycle kinetics and properties, with the first wave exhibiting cell cycle durations as fast as 6 hours. As cells grow, they also shift their metabolism, particularly in fatty acid usage. Mathematical modeling and experiments indicated endothelial cell extrusion is essential to prevent overcrowding and maintain proper tissue structure.  In a genetic model of achondroplasia, the aorta achieves proper scaling through enhanced cell extrusion while maintaining normal proliferation dynamics. Overall, this study provides a multiscale blueprint for how the aorta grows and maintains balance, relying on differentiated cell proliferation rather than resident stem cells.",
       "funder": [],
       "identifier": "S-BIAD1920",

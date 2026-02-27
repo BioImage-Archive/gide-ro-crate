@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-03"
+      },
       "description": "The highly multiplexed immunofluorescence dataset was generated using 46-oligonucleotide-barcoded antibodies (pre-conjugated antibodies by the vendor Akoya Biosciences) in the PhenoCycler Fusion system. The antibody panel was applied to Tissue MicroArray (TMA) samples from normal tissues on microscope slides. TMAs were generated in accordance with strategies used in the Human Protein Atlas and we followed the tissue sample preparation protocol described by Danielsson et al. Tissue samples were handled  in accordance with Swedish laws and regulations and obtained from the Department of Pathology, Uppsala University Hospital, Sweden, as part of the sample collection governed  by the Uppsala Biobank. ",
       "funder": [],
       "identifier": "S-BIAD2132",

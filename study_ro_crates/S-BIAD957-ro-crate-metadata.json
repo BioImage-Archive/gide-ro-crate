@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-17"
+      },
       "description": "We present a 3D digital atlas of Cardamine hirsuta ovule development with cellular resolution. The atlas covers all stages from early primordium outgrowth (stage 1-I) to the mature pre-fertilization ovule (stage 3-VI). The atlas provides information about the number of cells, their tissue classification, and about characteristics of cellular morphology, such as cell size and shape, for nearly all cells of the ovule. The complete stagewise ovule dataset is organized by developmental stage. Each developmental stage dataset includes at least 10 samples and each ovule sample possesses a unique sample ID. Sample IDs correspond to 3D z-stacks. Each sample dataset includes raw cell boundaries stack (cell boundaries marked by the cell wall stain SR2200) and nuclei stain stack (TO-PRO3 iodide) obtained from confocal microscopy, neural network-based cell boundary predictions from PlantSeg (https://github.com/hci-unihd/plant-seg), 3D segmented cells stack from the cell boundary predictions using GASP, the annotated 3D cell meshes along with their annotated parent labels in csv format, and the associated cell attribute files in csv format. The 3D mesh files can be opened in the open source software MorphoGraphX (MGX) (www.morphographx.org), the mesh file can be reconverted to obj, stl, ply or any other format of interest in MGX. The high-quality dataset includes 145 wild-type Cardamine hirsuta 3D digital ovules comprising stages 1-I to 3-VI. The file list below includes the sample IDs and their corresponding stages. We also provide the sample-specific cell attributes extracted from 3D cell meshes in MGX. \n\nNomenclature of ovule IDs\n\nA few image stacks comprise multiple ovules attached to the same pistil fragment. In such instances for stages 2-III to 3-VI, the format \"xxxx_A\" represents one ovule of an image stack with more than one ovule attached to the same pistil fragment. For further analysis with the mesh, individual ovules were classified as \"xxxx_A\", \"xxxx_B\", \"xxxx_C\" etc. For example, the dataset \"1785\" encompasses 2 ovules attached to the same pistil fragment. Ovules \"1785A\", \"1785B\" etc represent the individual ovules. One can open the 1785_A mesh and enable the parents to display the labels annotated to the cells in the mesh. The labels are integer values that represent tissue IDs. In general, we follow a pattern of 1-10 tissue labels, except for stages 1-I to 2-II. In case of primordia sample IDs containing mutliple ovules, one can open the ID_cellmesh and enable the parents to display the labels annotated to the radial layers. In this case, the labels are integer values that represent radial layers of each primordium for example, in the same sample ID of primordia, parent labels \"1-3\" represent \"ID_A\" or ovule \"A\", \"11-13\" represent \"ID_B\", \"21-23\" represent \"ID_C\" and so on.\n\nDownload of latest version of MorphoGraphX\n\nTo obtain the latest version of MorphoGraphX please visit the MorphoGraphX website (www.mpipz.mpg.de/MorphoGraphX) or contact Richard Smith by email (Richard.Smith@jic.ac.uk)\n\nOrganism- Cardamine hirsuta\nxxxx_cellboundary Z stack of raw confocal images of cell walls stained with SR2200\nxxxx_nstain Z stack of raw confocal images of nuclei stained with To-Pro-3 iodide\nxxxx_cellboundary_prediction Z stack of neural network based cell boundary predictions obtained from PlantSeg using the raw cell boundary stack.\nxxxx_segmentation Z stack of cells segmented in 3D generated from the cell boundary predictions\nxxxx_cellmesh Cell mesh generated from the segmented stack. The mesh is further processed and cell types within the organ is labelled inside the mesh and is available for visualisation in MGX.\nxxxx_parents Annotated tissue (parent) labels for the encompassed cell IDs in the 3D cell mesh\nxxxx_cellattributes Includes the attributes extracted from the 3D cell mesh dataset\nxxxx \"xxxx\" indicates the ovule sample identity code used in the study",
       "funder": [],
       "identifier": "S-BIAD957",

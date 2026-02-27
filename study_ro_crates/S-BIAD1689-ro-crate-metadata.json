@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-15"
+      },
       "description": "Tissue deformations during morphogenesis can be active, driven by internal processes, or passive, resulting from stresses applied at their boundaries. Here, we introduce the Drosophila hindgut primordium as a model for studying boundary-driven tissue morphogenesis. We characterize its deformations and show that its complex shape changes can be a passive consequence of the deformations of the active regions of the embryo that surround it. First, we find an intermediate characteristic triangular shape in the 3D deformations of the hindgut. We construct a minimal model of the hindgut primordium as an elastic ring deformed by active midgut invagination and germ band extension on an ellipsoidal surface, which robustly captures the symmetry-breaking into this triangular shape. We then quantify the 3D kinematics of the tissue by a set of contours and discover that the hindgut deforms in two stages: an initial translation on the curved embryo surface followed by a rapid breaking of shape symmetry. We extend our model to show that the contour kinematics in both stages are consistent with our passive picture. Our results suggest that the role of in-plane deformations during hindgut morphogenesis is to translate the tissue to a region with anisotropic embryonic curvature and show that uniform boundary conditions are sufficient to generate the observed nonuniform shape change. Our work thus provides a possible explanation for the various characteristic shapes of blastopore-equivalents in different organisms and a framework for the mechanical emergence of global morphologies in complex developmental systems.",
       "funder": [],
       "identifier": "S-BIAD1689",

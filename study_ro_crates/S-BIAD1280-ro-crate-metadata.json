@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -114,7 +119,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-07",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-07"
+      },
       "description": "A semi-volatile polychlorinated biphenyl (PCB) congener, PCB52, is present in the indoor air of schools; however, the effects of inhaled PCB52 on the brain have not been investigated. This study exposed male Sprague-Dawley rats at 39 days of age and female rats at 42 days of age to PCB52 for 4 hours per day over 28 consecutive days through nose-only inhalation. Neurobehavioral tests were conducted during the last 5 days of exposure. The total estimated PCB52 exposures after 28 days were 1080±20 µg/kg BW for male rats and 1140 ± 10 µg/kg BW for female rats. PCB52 and its metabolites were detected by gas chromatography-tandem mass spectrometry in the brain, lung, and serum, with the lung showing the highest concentrations. PCB52 levels were higher in the brains of females than males. Males showed increased activity and exploratory behavior, whereas females exhibited decreased activity and exploratory behavior in the same tests. PCB52 exposure did not impact locomotor activity or working memory. Gene expression and pathway analysis in the striatum and cerebellum suggest that PCB52 inhalation causes mitochondrial dysfunction. No significant differences were observed by immunohistochemical evaluation in the density and percent area of total cells, astrocytes, or microglia in the striatum and cerebellar cortex. Our results indicate multilevel effects of inhaled PCB52 on the rat brain, from gene expression to behavioral effects. ",
       "funder": [],
       "identifier": "S-BIAD1280",

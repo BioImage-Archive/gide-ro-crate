@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-14"
+      },
       "description": "Loss of pluripotency is an essential step in postimplantation development that facilitates the emergence of somatic cell identities essential for gastrulation. Before implantation, pluripotent cell identity is governed by a gene regulatory network that includes the key transcription factors SOX2 and NANOG. However, it is unclear how the pluripotency gene regulatory network is dissolved to enable lineage restriction. Here we show that SOX2 is required for postimplantation pluripotent identity and cells that lose SOX2 expression in the posterior epiblast are no longer pluripotent. Using in vitro and in vivo analyses we demonstrate anticorrelated expression of Nanog and Sox2 preceding gastrulation, culminating in an early disappearance of pluripotent identity from posterior NANOGhigh/SOX2low epiblast. Surprisingly, Sox2 expression is repressed by NANOG and embryos with post-implantation deletion of Nanog maintain posterior SOX2 expression. Our results demonstrate that the distinctive features of post-implantation pluripotency are underpinned by altered functionality of pluripotency transcription factors, ensuring correct spatio-temporal loss of embryonic pluripotency. ",
       "funder": [],
       "identifier": "S-BIAD2236",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-01-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-21"
+      },
       "description": "This dataset contains high-content, live-cell, time-lapse imaging of HeLa cells undergoing apoptosis across a 10-point dose response to the apoptosis inducer staurosporine. Using the ChromaLIVE™ Live Cell Painting assay, cells were imaged every 30 minutes over a six-hour period on the Yokogawa CellVoyager CQ1 spinning-disk confocal platform, capturing multiplexed fluorescence signals (Hoechst, ChromaLIVE 488_yellow, ChromaLIVE 488_red, and ChromaLIVE 561) across three z-planes at four fields of view per well. After live imaging, cells were fixed and stained with AnnexinV to provide a single-cell ground-truth readout of apoptosis.\n\nThe dataset includes raw and illumination-corrected images, cell segmentation masks, single-cell tracking outputs, and extracted morphological features generated using CellProfiler and scDINO deep-learning embeddings. In total, the dataset comprises over 188,000 single-cell observations and 20,677 cell tracks across time, with 2,336 curated morphology features per cell. These measurements quantify the dynamic morphological signatures preceding apoptosis and capture dose- and time-dependent phenotypic trajectories.\n\nThis resource enables the study of temporal morphology changes, benchmarking of image-based profiling pipelines, development of machine-learning models for early apoptosis prediction, and exploration of dynamic cell-state transitions. It supports future work such as profiling additional forms of regulated cell death and constructing temporal morphology atlases.\n",
       "funder": [],
       "identifier": "S-BIAD2515",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-29"
+      },
       "description": "We present computational tools that allow versatile and accurate 3D nuclear segmentation in plant organs, enable the analysis of cell-nucleus geometric relationships, and improve the accuracy of 3D cell segmentation. This biostudies submission includes Arabidopsis ovule model training dataset used in the study. The training dataset is composed of strong and weak nuclei image channels, corresponding ground truth segmentation, cell wall image and associated cell segmentation mentioned in the study. Trained models from the study, a total of 47 trained models are made available from this study. This included 15 initial models, 30 gold models, and 2 platinum models. Models were trained using PlantSeg, Stardist and Cellpose. All image datasets and its segmentation as part of the figures in this study is also available as separate zip files. This includes  image dataset from different species and organs as listed below. \n\n1- Arabidopsis thaliana -Shoot apical meristem\n2- Cardamine hirsuta- Leaf\n3- Antirrhinum majus- Ovule\n4-Arabidopsis thaliana- Ovule\n5-Arabidopsis thaliana- Sepal\n6-Mouse-Blastocyst/ Embryo\n7-Arabidopsis thaliana- Mature leaf\n\nThe method to apply the models is available as a github repository- GoNuclear (https://github.com/kreshuklab/go-nuclear)",
       "funder": [],
       "identifier": "S-BIAD1026",

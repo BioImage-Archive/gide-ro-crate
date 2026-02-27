@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-26"
+      },
       "description": "We identified DIDO3 and RNAPII colocalization on kinetochores with two different anti-DIDO3 antibodies: one recognizing DIDO common amino terminus combined with RNAPII and autoimmune serum CREST; which recognizes a range of centromeric and kinetochore proteins (Moroi et al., 1980); and a specific anti-DIDO3 antibody together with anti-RNAPII. Also, overexpressed HA-tagged DIDO3 (HA-DIDO3) in WT MEF colocalized with active RNAPIIS2.",
       "funder": [],
       "identifier": "S-BIAD1390",

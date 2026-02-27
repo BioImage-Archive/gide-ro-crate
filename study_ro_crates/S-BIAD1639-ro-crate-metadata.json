@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-13"
+      },
       "description": "Sepsis is defined as life-threatening organ dysfunction caused by a dysregulated host response to infection. However, how this dysregulation occurs remains to be elucidated. In this study, we used single-cell RNA sequencing (scRNA-seq) and conventional RNA-seq to analyze the immune landscape of sepsis, and observed that adaptive immunity was acutely and strongly suppressed. This systemic immunosuppression occurred not only in the peripheral blood but also in all other immune compartments, including the spleen, lymph nodes, and bone marrow. Clinical data showed that these adaptive immunity-related genes may be used to distinguish patients with sepsis from those with common infections. CD47 was found to play a pivotal role in this immunosuppression by inducing the production of amyloid-β (Aβ), which interacted with CD74 on B cells, leading to B-cell suppression and subsequent adaptive immunosuppression. Blocking CD47-Aβ signaling significantly reduced organ injury and improved the survival rate of septic mice by restoring phagocytic cell functions and alleviating B-cell suppression and adaptive immunosuppression. Our study may provide translational opportunities for the design of immunotherapy for sepsis.",
       "funder": [],
       "identifier": "S-BIAD1639",

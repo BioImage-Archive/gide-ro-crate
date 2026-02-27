@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-13"
+      },
       "description": "Immunofluorescence images from 640 Jump-In T-REx HEK293 cell lines (RRID:CVCL_YL74), each containing an inducible Strep-HA tagged, codon-optimized SLC gene. Transgene expression was induced via doxycycline treatment. The overall signal of SLC-HA channel as well as its distribution within the cells provides insights on the success of overexpressing the targeted SLC. Using various markers, a detection of an overlap or similarity of patterns between SLC-HA signal and any of the stained cellular compartments provides insights on the subcellular localization of the overexpressed target protein.",
       "funder": [],
       "identifier": "S-BIAD1630",

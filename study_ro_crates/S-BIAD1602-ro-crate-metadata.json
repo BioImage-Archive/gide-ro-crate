@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-30"
+      },
       "description": "A prominent feature of eukaryotic chromosomes are centromeres, which are specialized regions\nof repetitive DNA required for faithful chromosome segregation during cell division. In interphase\ncells centromeres are non-randomly positioned in the three-dimensional space of the nucleus in a\ncell-type specific manner. The functional relevance and the cellular mechanisms underlying this\nobservation are unknown, and quantitative methods to measure distribution patterns of\ncentromeres in 3D space are needed. Here we have developed an analytical framework that\ncombines robust clustering metrics and advanced modeling techniques for the quantitative analysis\nof centromere distributions at the single cell level. To identify a robust quantitative measure for\ncentromere clustering, we benchmarked six metrics for their ability to sensitively detect changes\nin centromere distribution patterns from high-throughput imaging data of human cells, both under\nnormal conditions and upon experimental perturbation of centromere distribution. We find that\nRipley’s K Score has the highest accuracy with minimal sensitivity to variations in centromeres\nnumber, making it the most suitable metric for measuring centromere distributions. As a\ncomplementary approach, we also developed and validated spatial models to replicate centromere\ndistribution patterns, and we show that a radially shifted Gaussian distribution best represents the\ncentromere patterns seen in human cells. Our approach creates tools for the quantitative\ncharacterization of spatial centromere distributions with applications in both targeted studies of\ncentromere organization as well as in unbiased screening approaches.",
       "funder": [],
       "identifier": "S-BIAD1602",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-21"
+      },
       "description": "The gastrointestinal (GI) tract consists of connected organs, from the oral cavity to rectum, which function to ensure efficient nutrient uptake and barrier immunity. Diseases of the GI tract affect millions worldwide and as such there are now over 25 published single cell RNA-sequencing (scRNAseq) datasets surveying the GI tract, profiling specific anatomical regions, cell lineages, ages and diseases. To consolidate these efforts, we harmonised and integrated scRNAseq datasets across the whole GI tract from developing and adult human tissues, as well as newly generated data from preterm gut. We uniformly processed 385 samples from 189 healthy controls using a newly developed automated QC approach (scAutoQC). In total, our healthy reference contains ~1.1 million cells which we annotated to a total of 136 fine-grained cell states. We anchor 11 published and 1 unpublished GI disease datasets covering gastric and colorectal (CRC) cancers, celiac disease, ulcerative colitis (UC) and Crohn’s disease (CD) to this reference, taking our atlas to a total of 1.6 million cells. Utilising this valuable resource (available at gutcellatlas.org), we discover epithelial cell metaplasia originating from stem cells in intestinal inflammatory diseases (celiac, UC and CD) with transcriptional similarity to cells found in gastric and Brunner’s glands. Whilst previously linked to mucosal healing, we now implicate these metaplastic cells in inflammation through recruitment of immune cells including T cells and neutrophils. Overall, we describe a paradigm shift where inflammation-induced changes in stem cells lead to altered mucosal tissue architecture, which in turn contributes to ongoing inflammation. These findings highlight that in addition to barrier function, epithelial cells actively contribute to progression of inflammation which may be a concept applicable to other tissues and diseases. ",
       "funder": [],
       "identifier": "S-BIAD1139",

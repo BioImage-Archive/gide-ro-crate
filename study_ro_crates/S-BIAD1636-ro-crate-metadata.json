@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -67,16 +72,16 @@
           "@id": "#db4bfe9a-fda0-4616-8ed3-9c5f1b0b8124"
         },
         {
-          "@id": "obo:FBbi_00000251"
-        },
-        {
           "@id": "obo:FBbi_00000368"
         },
         {
-          "@id": "obo:FBbi_00000367"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000246"
+        },
+        {
+          "@id": "obo:FBbi_00000367"
         }
       ],
       "about": [
@@ -108,7 +113,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-19"
+      },
       "description": "In Arabidopsis thaliana the root stem cell niche (SCN) is maintained by a complex regulatory network crucial for growth and developmental plasticity. However, many aspects of this network, particularly concerning stem cell quiescence and replenishment, remain unclear. Here, we investigate the interactions of key transcription factors (TFs) BRASSINOSTEROID AT VASCULAR AND ORGANIZING CENTRE (BRAVO), PLETHORA 3 (PLT3) and WUSCHEL-RELATED HOMEOBOX 5 (WOX5) in SCN maintenance. Analysis of mutants reveals their combinatorial regulation of cell fates and divisions in the SCN. Additionally, studies using Fluorescence Resonance Energy Transfer Fluorescence Lifetime Imaging Microscopy (FRET-FLIM) in combination with novel analysis methods enable us to quantify protein-protein interaction (PPI) affinities and higher-order complex formation among these TFs. Our finding were integrated into a computational model, indicating that cell type specific protein complex profiles and formations, influenced by prion-like domains in PLT3, play an important role in regulating the SCN. We propose that these unique protein complex signatures may serve as indicators of cell specificity, enriching the regulatory network that governs stem cell maintenance and replenishment in the Arabidopsis root.",
       "funder": [],
       "identifier": "S-BIAD1636",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-19"
+      },
       "description": "Activation of innate immunity at the single-cell level is a heterogenous process, yet the origins of this variability – fundamentally linked to the control of immune responses – remain poorly understood. Here, we combine classical fluctuation tests with genomic and high-content microscopy approaches to investigate the heritability of single-cell gene-expression patterns in the evolutionarily conserved toll-like receptor (TLR) system. Using population-level and single-cell RNA-seq, we show that a subset of TLR4-dependent genes, approximately 7% overall and 15% among upregulated genes, including key cytokines and immune effectors, retained transcriptional memory across more than 25 cell divisions in clonal populations of immortalised murine macrophages. High-content microscopy of selected immune-relevant proteins from these RNA-seq analyses, including the TNF-alfa and IL1-beta cytokines, across thousands of clonal populations for up to ~10 cell divisions, revealed that transcriptional heritability remains strong over multiple generations but is ultimately transient and shaped by environmental and population context. Among these, CD36, a scavenger receptor involved in bacterial recognition, showed strong heritability, and we demonstrated that CD36-positive clones were more susceptible to Listeria monocytogenes infection, directly linking transcriptional heritability to infection outcome. Together, these findings demonstrate widespread, long-term TLR-mediated transcriptional heritability and provide a conceptual framework for understanding how variability in heritable transcriptional traits shapes immune function.",
       "funder": [],
       "identifier": "S-BIAD2517",

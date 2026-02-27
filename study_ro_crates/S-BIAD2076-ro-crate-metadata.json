@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-14"
+      },
       "description": "The spatial organization of structures within cells constitutes a key level of functional regulation. Pooled CRISPR-Cas9 screens have emerged as powerful functional genomic tools, yet they often rely on aggregate-level outputs, such as bulk selection or sequencing, thereby limiting their capacity to capture finer-grained, spatially resolved phenotypes. Here, we developed spatial phenotype analysis of CRISPR-Cas9 screens (spaCR): a broadly applicable Python-based software package for analyzing pooled CRISPR-Cas9 imaging screens. spaCR provides a flexible toolkit to extract single-cell images and measurements from high content cell painting experiments, train deep-learning/ machine-learning models to classify subcellular phenotypes, map sequencing data, and correlate genotypes to phenotypes. Using spaCR, we integrated well-level genotype annotation with single-cell phenotype data from host cells infected by CRISPR-Cas9 Toxoplasma mutants to determine how the parasite recruits host TSG101 to its intracellular niche. By applying multiple linear regression to estimate the effect size of each genotype on TSG101 recruitment, we uncovered both an established and a previously uncharacterized genetic determinant of this spatial phenotype.",
       "funder": [],
       "identifier": "S-BIAD2076",

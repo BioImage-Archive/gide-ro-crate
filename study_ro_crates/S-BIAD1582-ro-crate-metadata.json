@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-17"
+      },
       "description": "Confocal timelapse imaging stacks of live, organotypic SCN brain slices expressing endogenous circadian clock protein fluorescent fusions. There are 30 minutes between each frame. The Green channel represents mVenus fluorescence from either PER2::Venus or Venus::BMAL1. The red channel represents CRY1::mRuby3. Images were acquired on a Zeiss LSM880 using a 10x Apochromat objective.",
       "funder": [],
       "identifier": "S-BIAD1582",

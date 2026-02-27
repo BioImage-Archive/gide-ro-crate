@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -109,7 +114,10 @@
           "@id": "#c73f0c80-0838-442e-9592-df14637ed8f2"
         }
       ],
-      "datePublished": "2025-04-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-28"
+      },
       "description": "Use of precision-cut tumor tissue slices prepared from human high grade serous ovarian carcinoma (HGSOC) patient material to study the interactions of the tumor microenvironment  with FOLR1-targeted chimeric antigen receptor (CAR) T cells",
       "funder": [],
       "identifier": "S-BIAD1879",
@@ -291,7 +299,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "Precision-cut tumor tissue slices, a novel tool to study the tumor microenvironment interactions with chimeric antigen receptor (CAR) T cells"
     },
     {
@@ -299,7 +310,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "Precision-cut tumor tissue slices, a novel tool to study the tumor microenvironment interactions with chimeric antigen receptor (CAR) T cells"
     },
     {

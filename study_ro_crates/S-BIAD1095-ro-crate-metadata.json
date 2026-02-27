@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-04"
+      },
       "description": "Although mitochondrial morphology changes have been consistently associated with hematopoietic stem cells (HSCs) ageing, the specific molecular and cellular mechanisms at play have remained somewhat obscure. Using a live-cell super-resolution (SR) microscopy technique, we have been able to identify different HSCs subsets that feature mitochondria of distinct morphologies and spatial distributions. Integrating SR microscopy with single-cell RNA sequencing enabled us to classify approximately two hundred HSCs from both young and aged mice into five discrete clusters. These clusters show molecular profiles that mirror the varying states of mitochondria. Our integrated approach of RNA biomarker analysis and potential regulon assessment has unveiled hitherto unrecognized functions of GDF15 in mediating mitochondrial signals and morphologies that direct HSCs fate. Therefore, the combination of SR imaging with bioinformatics pipeline offers a notably effective method for the identification of critical molecular players in specific phases of cellular transition, utilizing a relatively small dataset. ",
       "funder": [],
       "identifier": "S-BIAD1095",

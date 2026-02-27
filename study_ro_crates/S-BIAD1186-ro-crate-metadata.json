@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#ea27f902-a770-424f-ba29-45629337a15d"
         },
         {
-          "@id": "obo:FBbi_00001004"
+          "@id": "obo:FBbi_00000254"
         },
         {
-          "@id": "obo:FBbi_00000254"
+          "@id": "obo:FBbi_00001004"
         }
       ],
       "about": [
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-27"
+      },
       "description": "3D detection of GFP-Salmonella in spleen of infected mice before and after antimicrobial treatment ",
       "funder": [],
       "identifier": "S-BIAD1186",

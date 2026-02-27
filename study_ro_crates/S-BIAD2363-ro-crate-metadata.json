@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-31"
+      },
       "description": "Cancer-associated fibroblasts (CAFs) are critical components of the tumor microenvironment (TME), yet their spatial and functional heterogeneity remains incompletely defined. Here, we constructed a comprehensive pan-cancer single-cell and spatial proteomic atlas integrating 461 patient-derived single-cell transcriptomes and 72 CODEX/PhenoCycler-Fusion–imaged tumor samples across eight solid cancer types. Using spatial multiplex imaging, we mapped the localization and immune interactions of distinct CAF subtypes, including myeloid-associated and T cell–associated inflammatory CAFs (iCAFs). Our data reveal that Mac2_iCAFs co-localize with M2 macrophages in hypoxic niches, while Tem_iCAFs associate with cytotoxic T cells in immune-enriched regions. These spatially resolved datasets provide mechanistic insight into fibroblast–immune crosstalk and serve as a resource for investigating stromal remodeling across human cancers.",
       "funder": [],
       "identifier": "S-BIAD2363",

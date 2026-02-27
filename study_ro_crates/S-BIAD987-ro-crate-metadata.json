@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-01"
+      },
       "description": "Morphological modifications and shifts in organelle relationships are hallmarks of dormancy in eukaryotic cells. Communications between altered mitochondria and nuclei are associated with metabolic quiescence of cancer cells that can survive chemotherapy. In plants, changes in the pathways between nuclei, mitochondria, and chloroplasts are associated with cold stress and bud dormancy. Plasmodium falciparum parasites, the deadliest agent of malaria in humans, contain a chloroplast-like organelle (apicoplast) derived from an ancient photosynthetic symbiont. Antimalarial treatments can fail because a small fraction of the blood stage parasites enter dormancy and recrudesce after drug exposure. Altered mitochondrial-nuclear interactions in these persisters have been described for P. falciparum, but interactions of the apicoplast remained to be characterized. In the present study, we examined the apicoplasts of dormant persisters obtained after exposure to dihydroartemisinin (a first-line antimalarial drug) followed by sorbitol treatment, or after exposure to sorbitol treatment alone. As previously observed, the mitochondrion of persisters was consistently enlarged and in close association with the nucleus. In contrast, the apicoplast varied from compact and oblate, like those of active ring stage parasites, to enlarged and irregularly shaped. Enlarged apicoplasts became more prevalent later in dormancy, but regular size apicoplasts subsequently predominated when actively replicating parasites recrudesced. All three organelles, nucleus, mitochondrion, and apicoplast, became closer during dormancy. Understanding their relationships in erythrocytic-stage persisters may lead to new strategies to prevent recrudescences and protect the future of malaria chemotherapy.",
       "funder": [],
       "identifier": "S-BIAD987",

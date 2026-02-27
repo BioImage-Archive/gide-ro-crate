@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -136,16 +141,16 @@
           "@id": "obo:FBbi_00000245"
         },
         {
-          "@id": "obo:FBbi_00000251"
-        },
-        {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000247"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
+        },
+        {
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -300,7 +305,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      },
       "description": "We present the Light My Cells Challenge Database, a large-scale open-access collection of 56,981 microscopy images designed to support the development of machine learning models for fluorescence prediction from transmitted light images. Acquired across 30 independent studies from 8 national imaging centers, the dataset captures a wide diversity of biological samples, imaging modalities, and acquisition systems. Each transmitted light image—recorded in bright-field, phase contrast, or differential interference contrast—is paired with at least one fluorescence image labeling key subcellular structures: nucleus, mitochondria, tubulin, or actin. All images are standardized in the OME-TIFF format and annotated with rich metadata following the REMBI guidelines. A dedicated preprocessing pipeline ensures dimensional harmonization, best-focus plane selection, and consistent file naming. The database reflects the variability encountered in real-life microscopy experiments, making it ideally suited for training and benchmarking generalizable deep learning models. It is accessible via the BioImage Archive and supports a range of downstream applications, including in silico labeling, segmentation, and cell profiling from label-free imaging.",
       "funder": [],
       "identifier": "S-BIAD1047",

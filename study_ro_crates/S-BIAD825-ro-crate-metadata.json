@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -77,13 +82,13 @@
       ],
       "author": [
         {
-          "@id": "#f00b0ab8-be62-4c62-b09b-1052b452005c"
+          "@id": "#de2476a8-1b11-42a8-9ae1-7a4e5ce5d88f"
         },
         {
-          "@id": "#ab41bde9-fdf7-4414-9618-cf7475fe1a72"
+          "@id": "#c768e864-0f0b-440a-8d82-77a05023e2d1"
         },
         {
-          "@id": "#f27f5cd8-50ef-4b47-8897-09cb5c911c75"
+          "@id": "#83a9b974-770a-49bd-ba58-2272ee654523"
         },
         {
           "@id": "#e8379c30-2af3-4d0b-8c8a-ad5f9beace75"
@@ -113,10 +118,10 @@
           "@id": "#20deda94-ff80-4665-a852-bea7a3133b95"
         },
         {
-          "@id": "#3c631545-04a0-4bae-8f55-4b482e0cf4ab"
+          "@id": "#14fe7ef2-ccd5-4374-875a-b6a5c69bf017"
         },
         {
-          "@id": "#f2841b1d-f5e8-4969-b3ad-c8e416b60fd9"
+          "@id": "#bade68cf-c414-4a98-b301-6e4803f5a4cd"
         },
         {
           "@id": "#eb667610-3d58-496d-8640-a35c8f35dcff"
@@ -152,11 +157,14 @@
           "@id": "#7fb5cb36-12b2-4609-bf60-56f256e7f537"
         },
         {
-          "@id": "#82db5a4a-ad17-4bf4-8fb3-5c6d8a2523e1"
+          "@id": "#a359d3e1-a79e-459e-9b01-dc2005ff8dd3"
         }
       ],
       "citation": [],
-      "datePublished": "2023-10-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-10-26"
+      },
       "description": "Dataset with raw and processed Molecular Cartography data from the study \"Compartments in medulloblastoma with extensive nodularity are connected through differentiation along the granular precursor lineage\"",
       "funder": [],
       "identifier": "S-BIAD825",
@@ -196,6 +204,18 @@
       "name": "Ahmet S. Rifaioglu"
     },
     {
+      "@id": "#14fe7ef2-ccd5-4374-875a-b6a5c69bf017",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#38ca0f4c-774b-4599-827c-be363051e3fb"
+        }
+      ],
+      "name": "Sabrina Schumacher"
+    },
+    {
       "@id": "#20deda94-ff80-4665-a852-bea7a3133b95",
       "@type": [
         "Person"
@@ -206,18 +226,6 @@
         }
       ],
       "name": "Katharina Bauer"
-    },
-    {
-      "@id": "#3c631545-04a0-4bae-8f55-4b482e0cf4ab",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#38ca0f4c-774b-4599-827c-be363051e3fb"
-        }
-      ],
-      "name": "Sabrina Schumacher"
     },
     {
       "@id": "#77bc15af-f482-4f44-8cf7-6349385aabff",
@@ -257,17 +265,16 @@
       "name": "Stefan M. Pfister"
     },
     {
-      "@id": "#82db5a4a-ad17-4bf4-8fb3-5c6d8a2523e1",
+      "@id": "#83a9b974-770a-49bd-ba58-2272ee654523",
       "@type": [
         "Person"
       ],
       "affiliation": [
         {
-          "@id": "#b7009a95-008d-4d5f-b314-a47487ab5f6e"
+          "@id": "#38ca0f4c-774b-4599-827c-be363051e3fb"
         }
       ],
-      "email": "k.pajtler@kitz-heidelberg.de",
-      "name": "Kristian W. Pajtler"
+      "name": "Anne Rademacher"
     },
     {
       "@id": "#9041c94f-98b5-4ba4-9124-17f5f1123b88",
@@ -294,6 +301,19 @@
       "name": "Julia Sundheimer"
     },
     {
+      "@id": "#a359d3e1-a79e-459e-9b01-dc2005ff8dd3",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b7009a95-008d-4d5f-b314-a47487ab5f6e"
+        }
+      ],
+      "email": "k.pajtler@kitz-heidelberg.de",
+      "name": "Kristian W. Pajtler"
+    },
+    {
       "@id": "#a40e9f09-0da3-4322-b7ef-3a4a0e8d62ac",
       "@type": [
         "Person"
@@ -316,18 +336,6 @@
         }
       ],
       "name": " Daisuke Kawauchi"
-    },
-    {
-      "@id": "#ab41bde9-fdf7-4414-9618-cf7475fe1a72",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#bf7459b4-80c9-4deb-b44a-3169638d4eeb"
-        }
-      ],
-      "name": "Konstantin Okonechnikov"
     },
     {
       "@id": "#ad770674-c248-42cd-915a-4bde12fb65e9",
@@ -367,6 +375,18 @@
       "name": "Andrey Korshunov"
     },
     {
+      "@id": "#bade68cf-c414-4a98-b301-6e4803f5a4cd",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#9a522c8e-4483-41f7-986c-b3a217022c22"
+        }
+      ],
+      "name": "Michele Bortolomeazzi"
+    },
+    {
       "@id": "#bbbbd60d-299c-4507-a4e4-0ff9ea4b379b",
       "@type": [
         "Person"
@@ -379,6 +399,18 @@
       "name": "Karsten Rippe"
     },
     {
+      "@id": "#c768e864-0f0b-440a-8d82-77a05023e2d1",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#bf7459b4-80c9-4deb-b44a-3169638d4eeb"
+        }
+      ],
+      "name": "Konstantin Okonechnikov"
+    },
+    {
       "@id": "#d8cb124a-6a15-40de-acaa-eab9bf2f779c",
       "@type": [
         "Person"
@@ -389,6 +421,18 @@
         }
       ],
       "name": "Hanna Schumacher"
+    },
+    {
+      "@id": "#de2476a8-1b11-42a8-9ae1-7a4e5ce5d88f",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#b7009a95-008d-4d5f-b314-a47487ab5f6e"
+        }
+      ],
+      "name": "David R. Ghasemi"
     },
     {
       "@id": "#e3fd0e0a-1ba8-4e6c-86e5-a3192e2d8885",
@@ -449,42 +493,6 @@
         }
       ],
       "name": "Maxwell P. Gold"
-    },
-    {
-      "@id": "#f00b0ab8-be62-4c62-b09b-1052b452005c",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#b7009a95-008d-4d5f-b314-a47487ab5f6e"
-        }
-      ],
-      "name": "David R. Ghasemi"
-    },
-    {
-      "@id": "#f27f5cd8-50ef-4b47-8897-09cb5c911c75",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#38ca0f4c-774b-4599-827c-be363051e3fb"
-        }
-      ],
-      "name": "Anne Rademacher"
-    },
-    {
-      "@id": "#f2841b1d-f5e8-4969-b3ad-c8e416b60fd9",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#9a522c8e-4483-41f7-986c-b3a217022c22"
-        }
-      ],
-      "name": "Michele Bortolomeazzi"
     },
     {
       "@id": "#ff4ce491-8c8a-48db-b260-c2c4d779b4f9",

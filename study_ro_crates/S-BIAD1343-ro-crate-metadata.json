@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-29"
+      },
       "description": "The dataset is composed of 100 cases of whole slide images (WSIs) of renal cell carcinoma, a type of kidney cancer. These images are stained using Haematoxylin and Eosin (H&E), a common staining technique in histopathology that highlights different tissue components, allowing for detailed examination of the cellular structure and morphology.\nEach of these WSIs has been captured using various high-resolution scanners, including but not limited to the Zeiss Axio Z1, Hamamatsu, Philips, and Leica scanners. These scanners represent different data acquisition domains, meaning that the images might have subtle differences in color, contrast, resolution, and other imaging characteristics depending on the scanner used. These variations can introduce inconsistencies, which can make it challenging to directly compare or analyze images across different scanning devices.\nDue to these variations, it becomes crucial to develop algorithms that can effectively translate and normalize these WSIs. The goal of such an algorithm would be to standardize the images, making them more consistent regardless of the scanner used. This normalization process is essential for ensuring that any subsequent analysis, such as cancer diagnosis or grading using automated tools, is accurate and reliable across different datasets.\nThe dataset will be instrumental in the development of these normalization algorithms. Researchers can use these images to train, test, and validate models designed to minimize scanner-related variations, leading to more robust and generalized image analysis systems. This work is particularly significant in the context of digital pathology, where reliable and consistent image processing is key to supporting clinical decision-making.",
       "funder": [],
       "identifier": "S-BIAD1343",

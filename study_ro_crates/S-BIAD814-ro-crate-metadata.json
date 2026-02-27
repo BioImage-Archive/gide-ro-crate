@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-07-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-07-11"
+      },
       "description": "Molecular subtyping of lung squamous cell carcinoma (LUSC) has been performed at the genomic, transcriptomic, and proteomic level. However, LUSC stratification based on tissue metabolomics is still lacking. Combining high-mass-resolution imaging mass spectrometry with consensus clustering, four tumor- and four stroma-specific subtypes with distinct metabolite patterns were identified in 330 LUSC patients. The first tumor subtype T1 negatively correlated with DNA damage and immunological features including CD3, CD8, and PD-L1. The same features positively correlated with the tumor subtype T2. Tumor subtype T4 was associated with high PD-L1 expression. Compared with the status of subtypes T1 and T4, patients with subtype T3 had improved prognosis, and T3 was an independent prognostic factor with regard to UICC stage. Similarly, stroma subtypes were linked to distinct immunological features and metabolic pathways. Stroma subtype S4 had a better prognosis than S2. Subsequently, analyses based on an independent LUSC cohort treated by neoadjuvant therapy revealed that the S2 stroma subtype was associated with chemotherapy resistance. Clinically relevant patient subtypes as determined by tissue-based spatial metabolomics are a valuable addition to existing molecular classification systems. Metabolic differences among the subtypes and their associations with immunological features may contribute to the improvement of personalized therapy.",
       "funder": [],
       "identifier": "S-BIAD814",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -117,7 +122,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-19"
+      },
       "description": "Subcellular structures, like podosomes, focal adhesions, and stress granules, are highly dynamic and exist in a continuous state of formation, movement, and turnover. Traditional tracking methods often focus on single-particle tracking or bulk intensity changes, missing the spatial relationships between structures. To fill this gap, we developed ARCOS.px, an open-source Python-based software package, and an interactive napari image viewer plugin to identify and track spatial clusters in microscopy movies. ARCOS.px tracks objects’ spatial relationships, coordination, and lineage over time rather than just individual objects. It can be applied to a wide range of problems where the goal is to track discontinuous but dynamically associated regions in time-lapse images. The method is demonstrated on several subcellular, dynamic events where it tracks podosome-like structures, and RhoA activity waves induced by growth factors or optogenetics. We use it to uncover how different drugs alter the stability, mobility, and interactions of podosome-like structures in REF52 cells. We also found that actin waves in REF52 cells are trailed by active RhoA and Myosin, suggesting the presence of feedback mechanisms that recruit active RhoA at their trailing edge.",
       "funder": [],
       "identifier": "S-BIAD1683",

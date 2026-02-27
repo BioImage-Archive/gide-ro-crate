@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#d9ae112a-ba62-4baf-a773-909e9b8a097b"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -88,7 +93,10 @@
           "@id": "#45059074-7358-4902-bcea-f6a54f78df5f"
         }
       ],
-      "datePublished": "2025-12-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-22"
+      },
       "description": "Activation of PLK1, a master mitotic kinase, requires phosphorylation of its activation segment on Thr210, within a basic consensus sequence for Aurora kinases. Aurora B-dependent phosphorylation of Thr210 has been reported, but other evidence identified a strict requirement for the Aurora A partner Bora for Thr210 phosphorylation. Here, we investigate the elusive mechanistic basis for this requirement. We show that Aurora A:Bora phosphorylates Thr210 of PLK1 in vitro. On the contrary, T210 was not phosphorylated by isolated Aurora A, additional Aurora A:activator complexes, or Aurora B:INCENP, even when used at high kinase/substrate ratios. A transient interaction of Bora and PLK1, identified by structural modelling and probed mutationally, is uniquely required for Thr210 phosphorylation. Dependency on Bora for Thr210 phosphorylation is eliminated after mutating Lys208, in the Aurora consensus, into arginine. This conservative mutation turns PLK1 into a substrate of nearly all tested active Aurora kinases, including Aurora B. Collectively, these results shine a new light on the specificity of the PLK1 activation mechanism. ",
       "funder": [],
       "identifier": "S-BIAD2516",
@@ -175,7 +183,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Molecular requirements for PLK1 activation by T-loop phosphorylation"
     },
     {

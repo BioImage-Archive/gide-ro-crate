@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#38f7bfe1-6b26-4625-9147-0839a11a5bed"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-29"
+      },
       "description": "The dataset is composed of 9 whole slide images (WSIs) of clear cell renal cell carcinoma (ccRCC), a type of kidney cancer. These WSIs are mass spectrometry imaging (DESI-MSI) raw data files, haematoxylin and eosin (H&E) and multiplex immunofluorescent (mIF) images. The dataset comprises 3 different samples that were analysed by DESI-MSI and H&E and mIF were performed on the same slide. \nDESI-MSI images were acquired in the range of m/z 50-1200 Da with parameters set for sensitive detection of lipids, specially in the range m/z 600-900 Da. H&E images allow the identification of structurual features of the tissue. mIF images have been labeled using a pannel of protein markers to allow simultaneous visualisation of multiple targets withing the same tissue sample. Panel includes markers Ki67, CD45 and CD8 with a DNA counterstain (NucBlue). These markers enable the identification of proliferative and immune cells within cancer. This dataset will be expected to be highly valuable in the development of tools and methods aimed at characterising the metabolic heterogeneity in kidney cancer and identification of possible links of metabolic features with immune cells and proliferative cells. As DESI-MSI, H&E and mIF images were acquired from the same tissue slide a direct and unbiased correlation can be made between the results provided by each technique`s results. Furthermore, images can be used to develop and/or improve algorithms for alignment and co-registration of different imaging modalities. The integration of data from these different imaging modalities can help researchers gain deeper insights into the biochemical processes involved in the pathophisiology of renal cell carcinoma by capturing the metabolic heterogeneity of cell types in the tumour microenvironment. ",
       "funder": [],
       "identifier": "S-BIAD1346",

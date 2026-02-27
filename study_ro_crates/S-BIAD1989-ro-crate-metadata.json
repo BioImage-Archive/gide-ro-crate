@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-28"
+      },
       "description": "The ColoPola dataset is a collection of colorectal cancer polarimetric images. It consists of 572 tissue slices (specimens), including 288 healthy samples and 284 malignant samples. In total, the dataset contains 20,592 polarimetric images, with 10,368 images corresponding to healthy samples and 10,224 images representing malignant samples.\nFor each tissue slice, 36 polarimetric images are provided, corresponding to different polarization states. These states include HH, HV, HP, HM, HR, HL, VH, VV, VP, VM, VR, VL, PH, PV, PP, PM, MH, MV, MP, MR, ML, MM, RH, RV, RP, RM, RR, RL, LH, LV, LP, LM, LR, and LL. The six polarization states used for measurement purposes are horizontal linear (H), vertical linear (V), 45-degree linear (P), 135-degree linear (M), right circular (R), and left circular (L).\nEach folder in the ColoPola dataset contains 36 polarimetric images, all formatted in TIF and sized at 1280 × 1024 pixels (e.g., HH.tif, HV.tif, …, LL.tif).",
       "funder": [],
       "identifier": "S-BIAD1989",

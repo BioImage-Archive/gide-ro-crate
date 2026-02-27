@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-31"
+      },
       "description": "Cancer metastasis involves a complex cascade of events, where cancer cells migrate from their site of origin to secondary sites via the lymphatic and circulatory system. Mouse models of advanced metastatic breast cancer are usually established orthotopically in the mammary fat pad (MFP) or by intravenous (IV) injection of cell lines (e.g. MDA-MB-231) or via patient-derived xenografts (PDX). These models of metastatic disease are critical for understanding the drivers of clonal diversity and drug resistance, as intra-tumoral heterogeneity is a characteristic of poor clinical outcomes. To understand the growth of metastatic tumours in tissue microenvironments, we adapted and optimised a method based on lentiviral-gene ontology optical barcoding known as LeGO for 3-dimensional imaging of wholemount tissues and organs using light sheet microscopy. This data showed that polychromatic metastases occurred less frequently than monochromatic metastases and were more likely to be located nearer to blood vessels in both spontaneous (i.e. mammary fat pad injections) and experimental (i.e. tail vein injections) mouse assays of metastasis. The LeGO-3D pipeline can provide unique insights about metastatic heterogeneity and dynamics, and represents a new avenue for studying therapeutic response across large volumes of lung tissue.",
       "funder": [],
       "identifier": "S-BIAD2145",

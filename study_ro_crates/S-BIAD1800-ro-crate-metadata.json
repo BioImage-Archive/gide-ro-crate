@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-27"
+      },
       "description": "The large variety of inflorescence architectures evolved in grasses depends on shape, longevity and determinacy of meristems directing growth of the main and lateral axes. The CLAVATA pathway is known to regulate meristem size and inflorescence architecture in grasses. However, how individual meristem activities are determined and integrated to generate specific inflorescences is not yet understood. We found that activity of distinct meristems in the barley inflorescence is controlled by a signalling pathway comprising the receptor-like kinase Hordeum vulgare CLAVATA1 (HvCLV1) and the secreted CLAVATA3/EMBRYO-SURROUNDING REGION RELATED (CLE)-family peptide FON2-LIKE CLE PROTEIN1 (HvFCP1). HvFCP1 and HvCLV1 interact to promote spikelet formation, but restrict inflorescence meristem and rachilla proliferation. Hvfcp1 or Hvclv1 mutants generate additional rows of spikelets and supernumerary florets from extended rachilla activity. HvFCP1/HvCLV1 signalling coordinates meristem activity through regulation of trehalose-6-phosphate levels. Our discoveries outline a path to engineer inflorescence architecture via specific regulation of distinct meristem activities. ",
       "funder": [],
       "identifier": "S-BIAD1800",

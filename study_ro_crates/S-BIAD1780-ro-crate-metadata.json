@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -64,16 +69,16 @@
           "@id": "#d7a7936b-a16b-4a6d-add3-4e2c34c81cf3"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000249"
+        },
+        {
+          "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000247"
         },
         {
-          "@id": "obo:FBbi_00000249"
-        },
-        {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000253"
@@ -117,7 +122,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-01"
+      },
       "description": "Fluoroquinolones induce double-strand breaks in bacterial DNA, triggering the SOS response, a major DNA damage response that ensures the expression of repair proteins but also promotes the emergence and spread of antibiotic resistance. Fluoroquinolone resistance, particularly in Escherichia coli, is a growing global health concern. Understanding bacterial responses to these antibiotics is critical for developing preventive strategies and novel treatments to combat resistance development. This study investigates DNA morphology in E. coli following exposure to ciprofloxacin, a fluoroquinolone antibiotic. We show that ciprofloxacin induces a stepwise DNA reorganization, culminating in a highly dense nucleoid structure at midcell — a process we term DNA supercompaction. This phenomenon was also observed with other genotoxic agents. Live cell imaging revealed that RecN, a structural maintenance of chromosomes (SMC)-like protein, is required for DNA supercompaction, and that RecN’s dynamics and activity in this response depend on RecA. Additionally, RecN and RecA frequently colocalized at nucleoid-associated positions. We suggest that RecN and RecA play active roles in DNA supercompaction following severe DNA damage, that their interplay is part of a prompt universal survival response to DNA double-strand breaks in E. coli, and that the extent of the compaction response depends on the DNA damage severity. ",
       "funder": [],
       "identifier": "S-BIAD1780",

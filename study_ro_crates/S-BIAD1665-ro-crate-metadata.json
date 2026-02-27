@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-26"
+      },
       "description": "Widespread control of gene expression through translation has emerged as a key level of spatiotemporal protein expression regulation. Internal ribosomal entry sites (IRESes) provide a prominent mechanism by which ribosomes can confer greater gene regulation. However, their rigorous functional characterization remains difficult. Here we present a set of technologies in embryos and cells including IRES-mediated translation of circular RNA (circRNA) reporters, single-molecule messenger (m)RNA isoform imaging, PacBio long-read sequencing, and isoform-sensitive mRNA quantification along polysome profiles as a new guideline to understand IRES regulation. We investigate a broad range of cellular IRES RNA elements. We show IRES-dependent translation in circRNAs and the relative expression, localization and translation of an IRES-containing mRNA isoform in specific embryonic tissues. We thereby provide a new resource of technologies to elucidate the roles of versatile IRES elements in gene regulation and embryonic development.",
       "funder": [],
       "identifier": "S-BIAD1665",

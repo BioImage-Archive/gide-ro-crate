@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-31"
+      },
       "description": "Background Radiomics has significantly advanced radiation oncology by providing quantitative, objective metrics to predict therapeutic efficacy. The ability of radiomics to quantify intricate tumor characteristics enhances its potential role in precision oncology, particularly in predicting tumor response to treatments. However, these methods have not been applied to\nthree-dimensional, multicellular tumor spheroids, which are the preferred in vitro model for pre-animal, pre-clinical selection of novel, future-oriented treatment modalities as they mimic the pathophysiological milieu of tumor microareas or micrometastases.\nResults: In this study, we implement an AI-driven predictive modeling workflow using radiomics data from early post-treatment imaging of spheroids of two human cancer cell lines subjected to radiation therapy and hyperthermia. The objective is to predict long-term tumor spheroid relapse from early post-treatment observations. For this purpose, we utilize a comprehensive dataset comprising image time series data from two distinct spheroid types across two independent experiments. We consider three post-treatment observation ranges - short, mid, and long - from which the treatment response is predicted. Our approach integrates\nmultiple feature selection methods and machine learning algorithms for optimal classification performance. Our findings demonstrate that radiomics significantly improves the early prediction of tumor spheroid relapse. A detailed evaluation of the model performance reveals a time gain by early prediction of 2-14 days, while cases of late relapse remain challenging. Conclusions The presented radiomics-based approach potentially reduces the resource-intensive demands associated with prolonged experimental monitoring in a state-of-the-art spheroid assays and allows accurate prediction for up to three days beyond the observation horizon.",
       "funder": [],
       "identifier": "S-BIAD2312",

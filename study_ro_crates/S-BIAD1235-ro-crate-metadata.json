@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-17"
+      },
       "description": "2D EM images from cultured kidney cells for teaching mitochondria morphology in microscopy courses. \nAim: Teach morphological details of cell organelles at subcellular resolution. Focus on mitochondria morphology under control and treated conditions (mitochondria swellings after Deferasirox treatment).\nThese images are part of the publication: “The iron chelator Deferasirox causes severe mitochondrial swelling without depolarization due to a specific effect on inner membrane permeability.”\nhttps://www.nature.com/articles/s41598-020-58386-9#Sec13\nhttps://doi.org/10.1038/s41598-020-58386-9\n\n",
       "funder": [],
       "identifier": "S-BIAD1235",

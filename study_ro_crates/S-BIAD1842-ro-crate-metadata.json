@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#6ffc0616-bedb-4326-997b-1655e0c65778"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-16"
+      },
       "description": "The ability of a single protein to trigger different functions is an assumed key feature of cell signaling, yet there are very few examples demonstrating it. Here, using an optogenetic tool to control membrane localization of RhoA nucleotide exchange factors (GEFs), we present a case where the same protein can trigger both protrusion and retraction when recruited to the plasma membrane, polarizing the cell in two opposite directions. We show that the basal concentration of the GEF prior to activation predicts the resulting phenotype. A low concentration leads to retraction, whereas a high concentration triggers protrusion. This unexpected protruding behavior arises from the simultaneous activation of Cdc42 by the GEF and sequestration of active RhoA by the GEF PH domain at high concentrations. We propose a minimal model that recapitulates the phenotypic switch, and we use its predictions to control the two phenotypes within selected cells by adjusting the frequency of light pulses. Our work exemplifies a unique case of control of antagonist phenotypes by a single protein that switches its function based on its concentration or dynamics of activity. It raises numerous open questions about the link between signaling protein and function, particularly in contexts where proteins are highly overexpressed, as often observed in cancer.",
       "funder": [],
       "identifier": "S-BIAD1842",

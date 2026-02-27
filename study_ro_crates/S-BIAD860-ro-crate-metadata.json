@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#9c928c0b-0417-4fce-bfad-419b2531b47c"
+          "@id": "#f6d90af4-1537-445d-98a7-be3b8bd3fec3"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-23",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-23"
+      },
       "description": "OME-NGFF converted study from idr0026.  Cancer immunotherapy is undergoing significant progress due to recent clinical successes by refined adoptive T-cell transfer and immunostimulatory monoclonal Ab (mAbs). B16F10-derived OVA-expressing mouse melanomas resist curative immunotherapy with either adoptive transfer of activated anti-OVA OT1 CTLs or agonist anti-CD137 (4-1BB) mAb. However, when acting in synergistic combination, these treatments consistently achieve tumor eradication. Tumor-infiltrating lymphocytes that accomplish tumor rejection exhibit enhanced effector functions in both transferred OT-1 and endogenous cytotoxic T lymphocytes (CTLs). This is consistent with higher levels of expression of eomesodermin in transferred and endogenous CTLs and with intravital live-cell two-photon microscopy evidence for more efficacious CTL-mediated tumor cell killing. Anti-CD137 mAb treatment resulted in prolonged intratumor persistence of the OT1 CTL-effector cells and improved function with focused and confined interaction kinetics of OT-1 CTL with target cells and increased apoptosis induction lasting up to six days postadoptive transfer. The synergy of adoptive T-cell therapy and agonist anti-CD137 mAb thus results from in vivo enhancement and sustainment of effector functions.",
       "funder": [],
       "identifier": "S-BIAD860",
@@ -101,7 +109,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#9c928c0b-0417-4fce-bfad-419b2531b47c",
+      "@id": "#f6d90af4-1537-445d-98a7-be3b8bd3fec3",
       "@type": [
         "Person"
       ],

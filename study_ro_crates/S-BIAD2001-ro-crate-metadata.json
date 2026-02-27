@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-04"
+      },
       "description": "RASA2KO and WT TCR T cells co-cultured with A375 melanoma cell line. The A375 cells express RFP which has the highest intensity in the nucleus. The TCR T cells are engineered to target the NY-ESO-1 antigen that is expressed by the A375 cells. Each well is imaged once every 2hrs using the automated Incucyte Zoom live-cell imaging machine. Phase and red channels are collected for each image. Spatial resolution is 4.975 μm/pixel. Plate maps of RASA2KO vs WT titrations and E:T ratios can be found here: https://github.com/bee-hive/sflcba/tree/main. ",
       "funder": [],
       "identifier": "S-BIAD2001",

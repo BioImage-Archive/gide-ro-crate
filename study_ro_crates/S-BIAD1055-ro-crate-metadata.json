@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,13 +86,13 @@
           "@id": "#5d896206-8d1b-4bac-b139-5d7e61509553"
         },
         {
-          "@id": "obo:NCBITaxon_4097"
-        },
-        {
           "@id": "obo:NCBITaxon_9606"
         },
         {
           "@id": "obo:NCBITaxon_10090"
+        },
+        {
+          "@id": "obo:NCBITaxon_4097"
         }
       ],
       "author": [
@@ -147,7 +152,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-25"
+      },
       "description": "Data and code in support of the upcoming manuscript \"Three-dimensional spatio-angular fluorescence microscopy with a polarized dual-view inverted selective-plane illumination microscope (pol-diSPIM)\"\n\nEdit 2025-02-21: Now published in PNAS as \"Volumetric imaging of the 3D orientation of cellular structures with a polarized fluorescence light-sheet microscope\" https://doi.org/10.1073/pnas.240667912",
       "funder": [],
       "identifier": "S-BIAD1055",

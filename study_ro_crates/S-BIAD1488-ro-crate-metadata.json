@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,16 +63,16 @@
           "@id": "#5636acd9-6201-4cad-8d21-b4ce782d1eac"
         },
         {
-          "@id": "obo:FBbi_00000251"
-        },
-        {
           "@id": "obo:FBbi_00000369"
         },
         {
-          "@id": "obo:FBbi_00000345"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000241"
+        },
+        {
+          "@id": "obo:FBbi_00000345"
         }
       ],
       "about": [
@@ -138,7 +143,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-08"
+      },
       "description": "To extend the resolution of optical microscopy towards that achievable by electron microscopy, whilst allowing multi-color visualization of tissues in 3D, we have developed a potassium (poly)acrylate-based expansion microscopy (ExM) platform, compatible with strong fixation reagents such as GA for better preserving transgenic fluorescence proteins, with an axicon-based Bessel lightsheet microscope equipped with long-working distance objectives and long travelling distance voice-coil stages. The good mechanical strength of our hydrogels could be mounted and translated in 3D for sample scanning via lightsheet imaging. At a tile scanning speed of ~1 min/mm3 with 1012 pixels over 14 hours, we imaged the centimeter-sized fly brain at an effective resolution comparable to electron microscopy.",
       "funder": [],
       "identifier": "S-BIAD1488",

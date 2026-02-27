@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -79,7 +84,10 @@
           "@id": "https://doi.org/10.1126/science.1261605"
         }
       ],
-      "datePublished": "2022-12-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-12-12"
+      },
       "description": "Tara Expeditions are global scientific voyages that probe morphological and molecular diversity, evolution and ecology of marine plankton to explore how they are impacted by changes in the Earth's climate. The first expeditions collected samples of marine plankton containing viruses, bacteria, archaea, protists and planktonic metazoans living in the photic layer of the world's oceans. These expeditions, the first taking place between 2009 and 2013, include Tara Oceans: a global view, and Tara Oceans Polar Circle, both of which followed the same sampling protocol. This dataset represents expert taxonomic annotations of the Environmental High-Content Fluorescent Microscopy (eHCFM) images data upon Tara Oceans samples in the vicinity of the Marquesas islands (Pacific Ocean).",
       "funder": [],
       "identifier": "S-BIAD595",
@@ -141,7 +149,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2015",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2015"
+      },
       "name": "Ocean plankton. Eukaryotic plankton diversity in the sunlit ocean."
     },
     {
@@ -149,7 +160,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2017",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017"
+      },
       "name": "Quantitative 3D-imaging for cell biology and ecology of environmental microbial eukaryotes. "
     },
     {

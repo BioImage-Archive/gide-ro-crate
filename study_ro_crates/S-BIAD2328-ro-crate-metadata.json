@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-11"
+      },
       "description": "This project contains four complementary datasets supporting Zhang et al. (2025). Dataset 1: Common Stocks (Welch Lab). Dataset 2: Shimkets Lab pretraining dataset. Dataset 3: Shimkets LS3934 nitrate experiments. Dataset 4: WT replicate dataset for aggregation fate analysis. Together these datasets cover the training, validation, and application phases of our deep learning framework for phenotypic quantification.",
       "funder": [],
       "identifier": "S-BIAD2328",

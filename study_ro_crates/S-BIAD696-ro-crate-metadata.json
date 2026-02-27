@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,13 +63,13 @@
           "@id": "#86c0dfa5-41c9-4666-9c82-d125b7c45ae3"
         },
         {
-          "@id": "obo:FBbi_00000243"
-        },
-        {
           "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000241"
+        },
+        {
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-05-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-05-10"
+      },
       "description": "Even amongst genetically identical cancer cells, therapy resistance often only emerges from a very small subset of those cells. Much effort has gone into uncovering the molecular differences in rare individual cells in the initial population that may allow certain cells to become therapy resistant; however, comparatively little is known about variability in the resistant outcomes themselves. Here, we develop and apply FateMap, a framework that combines DNA barcoding with single-cell RNA sequencing to reveal the fates of hundreds of thousands of clones exposed to anti-cancer therapies. We show that resistant clones emerging from single-cell-derived cancer cells adopt molecularly, morphologically, and functionally distinct fate types. These different resistant types are largely predetermined by molecular differences between cells before addition of drug and not by extrinsic cell-specific microenvironmental factors. Changes in dose and kind of drug can, however, switch the resistant fate type of an initial cell, even resulting in the generation and elimination of certain fate types. Diversity in resistant fates was observed across several single-cell-derived cancer cell lines and types treated with a variety of drugs. Cell fate diversity as a result of variability in intrinsic cell states may be a generic feature of response to external cues.",
       "funder": [],
       "identifier": "S-BIAD696",

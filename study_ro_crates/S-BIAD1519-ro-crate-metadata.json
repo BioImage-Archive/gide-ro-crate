@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#80b4850d-c1e7-4ad2-86b2-770b4cd5b171"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -330,7 +335,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-14"
+      },
       "description": "Immunofluorescence and H&E images of whole tumor sections for 34 different PDAC patients from 3 different facilities. We identified combinations of glycans which were strongly associated to PDAC cells and determined that different combinations are distinct subpopulations and linked heterogeneity of these subpopulations to outcome.",
       "funder": [],
       "identifier": "S-BIAD1519",

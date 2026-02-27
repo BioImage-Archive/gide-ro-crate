@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-20",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-20"
+      },
       "description": "Protein aggregates arise naturally under normal physiological conditions, but their formation is accelerated by age or stress-induced protein misfolding. When the stressful event dissolves, these aggregates are removed by mechanisms, such as aggrephagy, chaperone-mediated autophagy, refolding attempts, or the proteasome. It was recently shown that mitochondria in yeast cells may support these primarily cytosolic processes. Protein aggregates attach to mitochondria, and misfolded proteins are transported into the matrix and degraded by mitochondria-specific proteases. Using a proximity labeling method and colocalization with an established stress granule (SG) marker, we were able to show that these mitochondria-localized aggregates that harbor the “super aggregator” Ola1p are, in fact, SGs. Our in vivo and in vitro studies have revealed that Ola1p can be transferred from mitochondria to lipid droplets (LDs). This “mitochondria to LD” aggregate transfer dampens proteotoxic effects. The LD-based protein aggregate removal system gains importance when other proteolytic systems fail. Furthermore, we were able to show that the distribution of SGs is drastically altered in LD-deficient yeast cells, demonstrating that LDs play a role in the SG life cycle.",
       "funder": [],
       "identifier": "S-BIAD1425",

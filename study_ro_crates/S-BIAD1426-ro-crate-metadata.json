@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -114,7 +119,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-28"
+      },
       "description": "Combining molecular profiling with imaging techniques has advanced the field of spatial biology, offering new insights into complex biological processes. Focusing on diffuse IDH-mutated low-grade glioma, this study presents a workflow for Spatial Multi-omics Integration, SMINT, specifically combining spatial transcriptomics and spatial metabolomics. Our workflow incorporates both existing and custom-developed computational tools to enable cell segmentation and registration of spatial coordinates from both modalities to a common coordinate framework. During our investigation of cell segmentation strategies, we found that nuclei-only segmentation, while containing only 40% of segmented cell transcripts, enables accurate cell type annotation, but does not account for multinucleated cells. Our integrative workflow including cell-morphology segmentation identified distinct cellular neighborhoods at the infiltrating edge of gliomas, which were enriched in multinucleated and oligodendrocyte-lineage tumor cells, that may drive tumor invasion into the normal cortical layers of the brain.",
       "funder": [],
       "identifier": "S-BIAD1426",

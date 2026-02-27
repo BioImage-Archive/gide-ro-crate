@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -70,10 +75,10 @@
           "@id": "#41f7ee25-820f-45e1-9a8e-f7c486030fba"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -87,10 +92,10 @@
           "@id": "#40e46919-9b4b-4c71-8f42-9b4d03a4a582"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
+          "@id": "obo:NCBITaxon_7955"
         },
         {
-          "@id": "obo:NCBITaxon_7955"
+          "@id": "obo:NCBITaxon_9606"
         }
       ],
       "author": [
@@ -156,7 +161,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-16"
+      },
       "description": "Correlative live cell imaging of landmark organelles — such as nuclei, nucleoli, cell membranes, nuclear envelope and lipid droplets — is critical for systems cell biology and drug discovery. However, achieving this with molecular labels is challenging. Virtual staining of multiple organelles and cell states from label-free images with deep neural networks is an emerging solution. This approach frees the light spectrum for imaging molecular sensors, photomanipulation, or other tasks. Current methods for virtual staining of landmark organelles often fail in the presence of nuisance variations in imaging, culture conditions, and cell types. We report training protocols and a flexible convolutional architecture, UNeXt2, that enable robust virtual staining of nuclei and membranes across diverse imaging parameters, cell states, and types. The strategies include self-supervised and supervised pre-training, improving robustness for multiple cell types — including human cell lines, zebrafish neuromasts, stem cells (iPSCs), and iPSC-derived neurons (iNeurons) — under a range of imaging conditions. We assess models using intensity, segmentation, and application-specific measurements obtained from virtually and experimentally stained nuclei and membranes. These models rescue missing labels, correct non-uniform expression, and mitigate photobleaching. We share three pre-trained models and a PyTorch-based pipeline (VisCy) for training, inference, and deployment. ",
       "funder": [],
       "identifier": "S-BIAD1702",

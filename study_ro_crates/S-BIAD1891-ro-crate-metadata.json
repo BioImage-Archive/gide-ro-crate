@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -225,7 +230,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-01"
+      },
       "description": "The subcellular localization of a protein is important for its function, and its mislocalization is linked to numerous diseases. Existing datasets capture limited pairs of proteins and cell lines, and existing protein localization prediction models either miss cell-type specificity or cannot generalize to unseen proteins. Here we present a method for Prediction of Unseen Proteins’ Subcellular localization (PUPS). PUPS combines a protein language model and an image inpainting model to utilize both protein sequence and cellular images. We demonstrate that the protein sequence input enables generalization to unseen proteins, and the cellular image input captures single-cell variability, enabling cell-type-specific predictions. Experimental validation shows that PUPS can predict protein localization in newly performed experiments outside of the Human Protein Atlas used for training. Collectively, PUPS provides a framework for predicting differential protein localization across cell lines and single cells within a cell line, including changes in protein localization driven by mutations.\nThis dataset provide the immunofluorescence images acquired during this study for the experimentally validation of PUPS. Cells of 5 cell lines were stained with antibody targeting a-tubulin, ER, and one kind of proteins out of 9 proteins that PUPS predicted, then imaged with 60x confocal with Z-stacks.",
       "funder": [],
       "identifier": "S-BIAD1891",

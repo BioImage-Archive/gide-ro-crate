@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-18"
+      },
       "description": "This data descriptor reports a new dataset that includes the ankle joint kinematics/kinetics, associated muscle surface electromyography, and ultrafast ultrasound images with various annotations, such as pennation angle, fascicle length, tissue displacements, echogenicity, and muscle thickness, of ten healthy participants when performing volitional isometric, isokinetic, and dynamic ankle joint functions (walking at multiple treadmill speeds, including  0.50 m/s, 0.75 m/s, 1.00 m/s, 1.25 m/s, and 1.50 m/s). Data were recorded by a research-use ultrasound machine, a self-designed ankle testbed, an inertia measurement unit system, a Vicon motion capture system, a surface electromyography system, and an instrumented treadmill. The descriptor in this work presents the results of a data curation or collection exercise from previous works, rather than describing a novel primary/experimental data collection.",
       "funder": [],
       "identifier": "S-BIAD1482",

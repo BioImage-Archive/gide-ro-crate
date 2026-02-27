@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#4d7b0981-17a3-4278-87d0-c81671bf5906"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000255"
         },
         {
-          "@id": "obo:FBbi_00000255"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -123,7 +128,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-03"
+      },
       "description": "A prevailing hypothesis is that neurofibrillary tangles play a causal role in driving cognitive decline in Alzheimer’s disease because tangles correlate anatomically with areas that undergo neuronal loss. We used two photon longitudinal imaging to directly test this hypothesis and observed the fate of individual neurons in two mouse models. At any timepoint, neurons without tangles died at >3 times the rate as neurons with tangles. Additionally, prior to dying, they became >20% more distant from neighboring neurons across imaging sessions. Similar microstructural changes were evident in a population of non-tangle-bearing neurons in Alzheimer’s donor tissues. ",
       "funder": [],
       "identifier": "S-BIAD1251",

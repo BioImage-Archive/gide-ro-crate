@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      },
       "description": "Conserved signaling cascades monitor protein-folding homeostasis to ensure proper cellular function. One of these evolutionary conserved key players is IRE1, which maintains endoplasmic reticulum (ER) homeostasis through the unfolded protein response (UPR). Upon accumulation of misfolded proteins in the ER, IRE1 forms clusters on the ER membrane to initiate UPR signaling. What regulates IRE1 cluster formation remains largely unknown. Here we show that the ER lumenal domain (LD) of human IRE1α forms biomolecular condensates in vitro. Tethering IRE1α LD to model membranes and its binding to unfolded polypeptides stabilized IRE1α LD condensates suggesting their role in assembling IRE1α into signaling-competent stable clusters. Molecular dynamics simulations indicated that weak multivalent interactions drive IRE1α LD clustering. Mutagenesis experiments identified disordered regions in IRE1α LD to control its clustering in vitro and in cells. Importantly, dysregulated clustering of IRE1α mutants led to defects in IRE1α signaling. Our results revealed that disordered regions in IRE1α LD control its clustering and suggest their role as a common strategy in regulating protein assembly on membranes. ",
       "funder": [],
       "identifier": "S-BIAD1023",

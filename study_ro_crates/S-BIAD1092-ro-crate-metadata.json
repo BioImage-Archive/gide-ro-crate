@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -132,7 +137,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-11"
+      },
       "description": "Multiple myeloma involves early dissemination of malignant plasma cells across the bone marrow; however, the initial steps of dissemination remain unclear. Human bone marrow-derived mesenchymal stromal cells (hMSCs) stimulate myeloma cell expansion (e.g., IL-6) and simultaneously retain myeloma cells via chemokines (e.g., CXCL12) and adhesion factors. Hence, we hypothesized that the imbalance between cell division and retention drives dissemination. \nWe present an in vitro model using primary hMSCs co-cultured with INA-6 myeloma cells. Time-lapse microscopy revealed proliferation and attachment/detachment dynamics. Separation techniques (V-well adhesion assay and well plate sandwich centrifugation) were established to isolate MSC-interacting myeloma subpopulations that were characterized by RNAseq, cell viability and apoptosis. Results were correlated with gene expression data (n=837) and survival of myeloma patients (n=536). \nOn dispersed hMSCs, INA-6 saturate hMSC-surface before proliferating into large homotypic aggregates, from which single cells detached completely. On confluent hMSCs, aggregates were replaced by strong heterotypic hMSC-INA-6 interactions, which modulated apoptosis time-dependently. Only INA-6 daughter cells (nMA-INA6) detached from hMSCs by cell division but sustained adherence to hMSC-adhering mother cells (MA-INA6).\nIsolated nMA-INA6 indicated hMSC-autonomy through superior viability after IL­6 withdrawal and upregulation of proliferation-related genes. MA-INA6 upregulated adhesion and retention factors (CXCL12), that, intriguingly, were highly expressed in myeloma samples from patients with longer overall and progression-free survival, but their expression decreased in relapsed myeloma samples. \nAltogether, in vitro dissemination of INA-6 is driven by detaching daughter cells after a cycle of hMSC-(re)attachment and proliferation, involving adhesion factors that represent a bone marrow-retentive phenotype with potential clinical relevance.",
       "funder": [],
       "identifier": "S-BIAD1092",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-10"
+      },
       "description": "Active mtDNA elimination during spermatogenesis has emerged as a conserved mechanism ensuring the uniparental mitochondrial inheritance in animals. However, given the existence of post-fertilization processes degrading sperm mitochondria, the physiological significance of sperm mtDNA removal is not clear. Here we show that mtDNA clearance is indispensable for sperm development and activity. We uncover a novel mitochondrial exonuclease, Poldip2, that is specially expressed in late spermatogenesis and required for sperm mtDNA elimination in Drosophila. Loss of Poldip2 impairs mtDNA clearance in elongated spermatids and impedes the progression of individualization complexes that strip away cytoplasmic materials and organelles. Over time, poldip2 mutant sperm exhibit marked nuclear genome fragmentation and the flies become completely sterile. Notably, these phenotypes were rescued by expressing a mitochondrially targeted bacterial exonuclease, which ectopically removes mtDNA. Our work illustrates the developmental necessity of mtDNA clearance for effective cytoplasm removal at the end of spermatid morphogenesis and to prevent potential nuclear-mito imbalance in mature sperm, in which nuclear genome activity is shut down. ",
       "funder": [],
       "identifier": "S-BIAD1506",

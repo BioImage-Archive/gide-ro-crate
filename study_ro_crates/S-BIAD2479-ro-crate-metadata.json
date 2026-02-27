@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-06"
+      },
       "description": "Glioblastomas function as intricate cellular networks that extend into the surrounding brain tissue facilitating long distance communication. This malignant connectivity spans from the tumor core to remote infiltration zones, supporting the concept of glioblastoma as a whole-brain disease. With growing ethical concerns in biomedical research and the inherent limitations of animal models in recapitulating human glioblastoma biology, there is an increasing demand for human ex vivo platforms capable of capturing the full infiltration spectrum from the tumor core to single-cell dispersion.\nHere, we present a three-dimensional (3D), fully human ex vivo glioblastoma model (”Core2Edge”) that replicates this extensive infiltration range while preserving the intratumoral heterogeneity of the original tumor. This model involves implanting fluorescently labeled human glioblastoma organoids (GBOs) into organotypic human brain slices, maintaining the genetic integrity and cytoarchitecture of both brain and tumor. By combining tissue expansion with light-sheet fluorescence microscopy, we achieve super-resolution, 3D imaging of the entire GBO-brain slice model. This approach allows for the study of initial infiltration steps, in-depth analysis of the invasive front, exploration of cell-cell interactions between tumor cells and the tumor microenvironment, and offers a platform for drug screening and testing, reducing the need for animal models.\nOnce GBOs are prepared, the protocol takes approximately 7-12 days. Key steps include brain slice preparation (~4-6 h, depending on quantity), one day for initial culture before GBO staining and transplantation, a variable culture period (up to 10 days), and fixation (~8 h). Additional time is required for downstream analyses, including imaging, sequencing, and proteomics.\n",
       "funder": [],
       "identifier": "S-BIAD2479",

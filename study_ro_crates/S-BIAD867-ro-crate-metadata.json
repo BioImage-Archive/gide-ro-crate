@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#895cd69f-0448-4347-9746-5aa3312f3327"
+          "@id": "#e53f96a2-eb2c-437b-b1f7-34883ea445bd"
         }
       ],
       "citation": [],
-      "datePublished": "2023-09-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-09-01"
+      },
       "description": "OME-NGFF converted study from idr0004.  To investigate the DNA damage response, we undertook a genome-wide study in Saccharomyces cerevisiae and identified 86 gene deletions that lead to increased levels of spontaneous Rad52 foci in proliferating diploid cells. More than half of the genes are conserved across species ranging from yeast to humans. Along with genes involved in DNA replication, repair, and chromatin remodeling, we found 22 previously uncharacterized open reading frames. Analysis of recombination rates and synthetic genetic interactions with rad52Delta suggests that multiple mechanisms are responsible for elevated levels of spontaneous Rad52 foci, including increased production of recombinogenic lesions, sister chromatid recombination defects, and improper focus assembly/disassembly. Our cell biological approach demonstrates the diversity of processes that converge on homologous recombination, protect against spontaneous DNA damage, and facilitate efficient repair.",
       "funder": [],
       "identifier": "S-BIAD867",
@@ -100,7 +108,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#895cd69f-0448-4347-9746-5aa3312f3327",
+      "@id": "#e53f96a2-eb2c-437b-b1f7-34883ea445bd",
       "@type": [
         "Person"
       ],

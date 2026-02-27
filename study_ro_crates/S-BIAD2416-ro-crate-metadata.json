@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-21"
+      },
       "description": "Eukaryotic chromosome segregation requires attachment of chromosomes to microtubules through the kinetochore so that chromosomes can align and move in mitosis. Kinetochores assemble on the centromere which is epigenetically defined by the histone H3 variant CENtromere Protein A (CENP-A). During DNA replication CENP-A is equally divided between replicated chromatids and new CENP-A nucleosomes are re-assembled during the subsequent G1 phase. How cells regulate the cell cycle timing of CENP-A assembly is a central question in the epigenetic maintenance of centromeres. CENP-A nucleosome assembly requires the Mis18 complex (Mis18α, Mis18β, and M18BP1) which is regulated in its localization to centromeres between metaphase and G1. Here, we define a new regulatory mechanism that works through phosphorylation of Xenopus laevis M18BP1 between metaphase and interphase. This switch disrupts binding of M18BP1 to CENP-A nucleosomes in metaphase, and when relieved enables M18BP1 binding to CENP-A nucleosomes in interphase. We show that this phosphorylation dependent mechanism regulates CENP-A nucleosome assembly. We propose that the phospho-regulated binding of M18BP1 to CENP-A nucleosomes restricts new CENP-A assembly to interphase. \n",
       "funder": [],
       "identifier": "S-BIAD2416",

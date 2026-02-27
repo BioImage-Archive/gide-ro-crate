@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-30"
+      },
       "description": "To ensure the accurate segregation of homologous chromosomes and enhance the genetic diversity in the progeny, meiosis depends on the formation of crossovers between homologous chromosomes. The number and distribution of these crossovers\nmust be precisely regulated through crossover assurance and interference to prevent chromosome missegregation and genomic instability. Here we show that the regulation of crossovers depends on a disordered and conserved domain within the synaptonemal complex. This domain is located at the C-terminus of the central element protein SYP-4 in Caenorhabditis elegans. While not necessary for synapsis, the C-terminus of SYP-4 is crucial for both crossover assurance and interference. Although the SYP-4 C-terminus contains many potential phosphorylation sites, we found that phosphorylation is not the primary regulator of crossover events. Instead, we discovered that nine conserved phenylalanines are required to recruit a pro-crossover factor predicted to be an E3 ligase and regulate the physical properties of the synaptonemal complex. We propose that this conserved and disordered domain plays a crucial role in maintaining the synaptonemal complex in a state that allows for the transmission of signals to regulate crossover formation. While the underlying mechanisms remain to be fully understood, our findings align with existing models suggesting that the synaptonemal complex  plays a critical role in determining the number and distribution of crossovers along  chromosomes, thereby safeguarding the genome for future generations.",
       "funder": [],
       "identifier": "S-BIAD1599",

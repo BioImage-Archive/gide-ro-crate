@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-23",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-23"
+      },
       "description": "Upregulation of Epidermal Growth Factor Receptor is evident in most cases of cervical cancer and is usually associated with a poor prognosis. At the same time, therapies directed against EGFR are generally not successful in this type of cancer, which suggests that therapeutic inactivation of EGFR can be easily overcome. In order to evaluate mechanisms by which cervical cancers with alterations in EGFR signaling thrive, we have generated several EGFR mutant clones by CRISPR/Cas9 genome editing. This work details the approach used to generate EGFR mutant cells and describes changes in cell characteristics associated with decreased quantity and altered subcellular distribution of EGFR.    ",
       "funder": [],
       "identifier": "S-BIAD1687",

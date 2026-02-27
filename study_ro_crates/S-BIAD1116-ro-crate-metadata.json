@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-21"
+      },
       "description": "Deciphering the intricate tumor-immune interactions within the microenvironment is crucial for advancing cancer immunotherapy. Here, we developed a novel approach integrating highly multiplexed imaging, laser microdissection, and deep visual proteomics to spatially profile the proteomes of 21 distinct cell populations in human colorectal and tonsil cancers with high sensitivity. In colorectal tumors, we uncovered an immunosuppressive macrophage barrier impeding T cell infiltration and regionally altering lymphocyte proteomes. Spatial proteomic analysis revealed distinct functional states of T cells in different tumor compartments. ",
       "funder": [],
       "identifier": "S-BIAD1116",

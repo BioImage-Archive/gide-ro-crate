@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-08"
+      },
       "description": "In most somatic cells, heterochromatin localizes at the nuclear periphery while euchromatin is broadly distributed within the nucleus. However, the nuclear pore vicinity is devoid of heterochromatin, forming striking exclusion zones within the peripheral heterochromatin layer. Whether and how these exclusion zones affect global chromatin organization is unknown. Here we demonstrate that the main nuclear pore basket component, Translocated Promoter Region (TPR), forms biomolecular condensates which are necessary and sufficient to exclude heterochromatin. We further demonstrate that this mechanism controls chromatin organization locally, at nuclear pores, and regulates heterochromatin positioning in the entire nucleus. Our study therefore highlights a new mechanism of global chromatin organization through condensate-mediated mechanical exclusion of heterochromatin at nuclear pore baskets.",
       "funder": [],
       "identifier": "S-BIAD2248",

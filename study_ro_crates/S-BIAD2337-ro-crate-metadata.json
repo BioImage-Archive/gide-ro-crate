@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,7 +81,10 @@
           "@id": "https://doi.org/10.1371/journal.pgen.1011731"
         }
       ],
-      "datePublished": "2025-10-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-10"
+      },
       "description": "Protein Phosphatase 1 (PP1) activity is thought to be spatiotemporally defined by hundreds of different regulatory subunits, but their mechanisms of action are largely unknown. The Ankyrin repeat, SH3-domain, and Proline-rich region containing Proteins (ASPPs) bind and localize PP1 to cell-cell junctions. Here, we show ASPPs bind superstoichiometric amounts of PP1. Missense mutations in the ankyrin repeats of ASPPs, that were previously isolated from a forward genetic screen in Caenorhabditis elegans, reduce the stoichiometry of PP1 binding. Forcing PP1 oligomerization restores mutant ASPP function in vivo. We propose that ASPPs multimerize PP1 to establish a concentrated hub of phosphatase activity at cell-cell junctions.",
       "funder": [],
       "identifier": "S-BIAD2337",
@@ -133,7 +141,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "ASPPs multimerize protein phosphatase 1"
     },
     {

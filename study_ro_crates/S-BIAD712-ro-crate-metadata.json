@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-05-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-05-26"
+      },
       "description": "Live undifferentiated KOLF2.1J human iPSCs were labelled with 7 organelle markers targeted to the nucleus, endoplasmic reticulum (ER), Golgi, mitochondria, peroxisomes, lysosomes, and lipid droplets. Complete z-stack and timelapse images were acquired in lambda mode (410-695 nm, 8.9 nm resolution) and subsequently linear unmixed into 8 different channels (channel 1 to 7 correspond to organelles, while channel 8 is the residual of the unmixing).",
       "funder": [],
       "identifier": "S-BIAD712",

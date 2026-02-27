@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-01-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-09"
+      },
       "description": "This dataset contains multichannel fluorescence images from an adapted Cell Painting assay applied to 3D colorectal cancer spheroids. Spheroids were generated in ultra-low attachment microplates, cleared to improve optical transparency, and imaged across multiple channels to capture morphological variation throughout the spheroid volume. The image analysis pipeline includes automated spheroid detection, cell segmentation, and feature extraction, with outputs normalized across plates and imaging depths. It provides a resource for scalable, image-based profiling in physiologically relevant 3D spheroid models.",
       "funder": [],
       "identifier": "S-BIAD2254",

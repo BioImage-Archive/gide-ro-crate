@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -67,10 +72,10 @@
           "@id": "#a2ef733e-b194-4be1-a068-bad0ce81a563"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-11"
+      },
       "description": "This study created a detailed single-cell and spatial multi-omic atlas of the human reproductive tract during prenatal development. It uncovered key regulators of sexual dimorphism, including novel genes linked to penile urethral development and hypospadias. The research also refined understanding of how reproductive organs are regionalised, highlighting early establishment of features in the fallopian tube and epididymis, while uterocervical canal development occurs later. We showed that fetal uterine epithelium is sensitive to estrogen-mimicking endocrine disruptors using organoid models. Overall, our findings provide new insights into the development and disorders of the human reproductive system.",
       "funder": [],
       "identifier": "S-BIAD2224",

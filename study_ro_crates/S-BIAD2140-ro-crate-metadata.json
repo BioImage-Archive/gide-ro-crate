@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -64,10 +69,10 @@
           "@id": "#6fad545d-410d-4ce2-91c0-9d157cb62bcc"
         },
         {
-          "@id": "obo:FBbi_00000345"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000345"
         },
         {
           "@id": "obo:FBbi_00000253"
@@ -84,10 +89,10 @@
           "@id": "#215cd4d6-78e2-4c86-85a9-07f1b66e0af8"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_10116"
         },
         {
-          "@id": "obo:NCBITaxon_10116"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-06"
+      },
       "description": "During sensitive postnatal periods, brain neural circuits undergo significant refinement coincident with widespread occurrence of neuronal alternative splicing events in which hundreds of genes alter splice site selection to generate isoforms essential for synaptic plasticity. Here, we reveal that neuronal activity-dependent serine119 phosphorylation of paxillin (p-PaxillinS119) acts as a molecular switch in the nucleus to modulate alternative splicing during this period. We report that following NMDA receptor activation, nuclear p-PaxillinS119 is recruited to nuclear speckles, where it interacts with U2AFs and splicing factors. Neuronal paxillin expression is required for timely alternative splicing of synaptic factors, including Snap25. Consequently, young mice lacking paxillin S119 phosphorylation exhibit significantly reduced levels of Snap25-5b isoforms, impaired presynaptic function at hippocampal Schaffer collateral-CA1 synapses, and deficits in short-term learning and memory. These findings support the idea that nuclear p-Paxillin S119 is a critical mediator of alternative splicing programs in postnatal neurons during a sensitive period essential for neural plasticity.",
       "funder": [],
       "identifier": "S-BIAD2140",

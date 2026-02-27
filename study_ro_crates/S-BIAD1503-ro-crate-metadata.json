@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-30"
+      },
       "description": "The endosomal pathway is essential for regulating cell signaling and cellular homeostasis. Rab5-positive early endosomes receive proteins from the plasma membrane. Dependent on a ubiquitin mark on the protein, they will be either recycled or sorted into intraluminal vesicles (ILVs) by ESCRT. During endosome maturation Rab5 will be replaced by Rab7 on endosomes that are able to fuse with lysosomes to form endolysosomes. Whether ESCRT-driven ILV formation and Rab5-to-Rab7 conversion are coordinated remains unknown. Here we show that loss of early ESCRTs leads to enlarged Rab5-positive endosomes and prohibit Rab conversion. Reduction of ubiquitinated cargo alleviated this phenotype. Moreover, ubiquitinated proteins on the endosomal limiting membrane prevented the displacement of the Rab5GEF RABX-5 by the Rab7GEF SAND-1/CCZ-1. Overexpression of Rab7 could partially overcome this block, even in the absence of SAND-1 or Ccz1, suggesting the presence of a second Rab7GEF. Our data reveal a hierarchy of events in which cargo corralling by ESCRTs is upstream of Rab conversion and thereby ESCRT-0 and ubiquitinated cargo could act as timers determining the onset of Rab conversion.",
       "funder": [],
       "identifier": "S-BIAD1503",

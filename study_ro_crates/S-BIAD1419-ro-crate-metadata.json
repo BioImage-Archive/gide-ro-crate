@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-15"
+      },
       "description": "Associated with Rappe et al. (2024) Longitudinal autophagy profiling of the mammalian brain reveals sustained mitophagy throughout healthy aging. EMBO Journal\nhttps://www.embopress.org/doi/full/10.1038/s44318-024-00241-y\n\nRaw data image files and source data spreadsheets. ",
       "funder": [],
       "identifier": "S-BIAD1419",

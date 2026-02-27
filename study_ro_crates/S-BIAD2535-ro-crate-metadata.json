@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-24",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-24"
+      },
       "description": "Background: Beta-thalassemia is among the most common monogenic disorders, posing a major global health challenge. Editing of genetic modifiers, such as BCL11A erythroid enhancer and HBG promoters, enhances fetal hemoglobin expression and confers major therapeutic potential. Double-strand-break (DSB)-independent genome editing tools, such as base editors (BE), are potentially safer and better suited for multiplexed application than DSB-dependent CRISPR/Cas technology. However, harmful on- and off-target events remain a concern and must be excluded before clinical application, including chromosomal rearrangements invisible to standard detection technologies.\nResults: Using primary patient-derived CD34+ cells from three donors, we investigate simplex and duplex BE-based disruption of the BCL11A erythroid enhancer and the BCL11A binding site (-115 bp) on the HBG promoter for DNA-level and functional studies at the RNA, protein, and morphological level. Analyses include direct comparison to DSB-based editing, the current clinically applied standard, and CAST-seq to assess recombination events, allowing wider inferences on relative safety. RNA-seq analyses for clones of primary CD34+ cells across all treatments confirm peak HBG induction for duplex BE and comparable effects on apoptotic and immune response signatures. Overall, duplex BE produces robust γ-globin and fetal hemoglobin induction, improves functional correction over simplex editing and results in low incidence of genomic alterations in both target loci.\nConclusions: Duplex BE targeting both BCL11A erythroid enhancer and HBG promoter enables functional correction and genome integrity. Our study highlights the efficacy, safety, and therapeutic potential of the present duplex BE approach.\n",
       "funder": [],
       "identifier": "S-BIAD2535",

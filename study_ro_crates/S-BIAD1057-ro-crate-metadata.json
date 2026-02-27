@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-04-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-04-01"
+      },
       "description": "Compaction is the first morphogenetic movement of the eutherian mammals and involves a developmentally regulated adhesion process. Previous studies investigated cellular and mechanical aspects of compaction. During mouse and human compaction, cells spread onto each other as a result of a contractility-mediated increase in surface tension pulling at the edges of their cell-cell contacts. However, how compaction may affect the mechanical stability of cell-cell contacts remains unknown. Here, we used a dual pipette aspiration assay on cell doublets to quantitatively analyze the mechanical stability of compacting mouse embryos. We measured increased mechanical stability of contacts with rupture forces growing from 40 to 70 nN, which was highly correlated with cell-cell contact expansion. Analyzing the dynamic molecular reorganization of cell-cell contacts, we find minimal recruitment of the cell-cell adhesion molecule Cdh1 (also known as E-cadherin) to contacts but we observe its reorganization into a peripheral adhesive ring. However, this reorganization is not associated with increased effective bond density, contrary to previous reports in other adhesive systems. Using genetics, we reduce the levels of Cdh1 or replace it with a chimeric adhesion molecule composed of the extracellular domain of Cdh1 and the intracellular domain of Cdh2 (also known as N-cadherin). We find that reducing the levels of Cdh1 impairs the mechanical stability of cell-cell contacts due to reduced contact growth, which nevertheless show higher effective bond density than WT contacts of similar size. On the other hand, chimeric adhesion molecules cannot form large or strong contacts indicating that the intracellular domain of Cdh2 is unable to reorganize contacts and/or is mechanically weaker than the one of Cdh1 in mouse embryos. Together, we find that mouse embryo compaction mechanically strengthens cell-cell adhesion via the expansion of Cdh1 adhesive rings that maintain pre-compaction levels of effective bond density. ",
       "funder": [],
       "identifier": "S-BIAD1057",

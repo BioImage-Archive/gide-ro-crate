@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-19"
+      },
       "description": "Optical multifrequency time-harmonic elastography (OMTHE) was used for rapid mechanical characterization of extra-cellular matrix-derived collagen networks at micrometer resolution. OMTHE was optimized for point-wise shear wave excitation in small sample volumes and compared to tabletop magnetic resonance elastography (ttMRE) and optical intensity changes. Dynamic stiffening due to the fluid-gel transition during collagen polymerization and chemical crosslinking using glutaraldehyde was tracked by shear waves speed (SWS) at vibration frequencies between 3 and 10 kHz and frame rates up to 4 kHz. During collagen polymerization, after an initial lag phase, SWS increased on average 6 ± 3 min earlier than optical density, suggesting that a load-bearing percolating fiber network was established before fibril thickening enhanced light scattering. In contrast, chemical crosslinking showed a lag-free, diffusion-driven SWS increase from 1.7 ± 0.4 m/s to 2.5 ± 0.5 m/s, matching the relative SWS change from ground-truth ttMRE. In conclusion, OMTHE provides a unique research tool that quantifies biomechanical property changes in small biological samples with spatiotemporal resolutions of micrometers and seconds.",
       "funder": [],
       "identifier": "S-BIAD2524",

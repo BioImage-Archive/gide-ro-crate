@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#43eb0f89-deb4-4f36-9195-0c6e49a0f600"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-27"
+      },
       "description": "This dataset consists of a paired primary–metastatic cohort comprising 62 patients with clear-cell renal cell carcinoma (ccRCC), yielding a total of 124 formalin-fixed, paraffin-embedded (FFPE) tumour samples. Each patient contributed both a primary and a metastatic sample. Haematoxylin and eosin (H&E) slides were prepared for all 124 samples, and multiplex immunofluorescence (mIF) was successfully performed for 88 of them where tissue was available for study. The mIF panel targeted key cell-cycle and microenvironmental markers — p21^CDKN1A, MCM2, and CD105 (endoglin) — with nuclear counterstaining using Hoechst 33342. Whole-slide images (WSIs) were captured using a Zeiss Axio Scan.Z1 scanner, generating high-resolution CZI files. The dataset includes all H&E and corresponding multi-channel mIF WSIs, along with derived single-cell phenotype data and de-identified clinical metadata.\n\nQuantitative outputs for each slide include the proportions of p21⁺/MCM2⁻ and CD105⁺/p21⁺/MCM2⁺ cells, as well as average cellular and nuclear morphometric parameters. The accompanying clinical CSV file provides patient-level variables including follow-up end date, survival status, follow-up duration, overall survival (OS), and progression-free survival (PFS). This cohort represents advanced-stage cases exhibiting vascular invasion or distant metastases at diagnosis. Ethical approval was granted by the Lothian Regional Ethics Committee (Refs 08/S1101/41 and 10/S1402/33). All images, quantitative data, and metadata are distributed under a CC0 license, allowing unrestricted public reuse.",
       "funder": [],
       "identifier": "S-BIAD2455",

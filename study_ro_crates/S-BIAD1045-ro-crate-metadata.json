@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -117,7 +122,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-27"
+      },
       "description": "Accurate placenta pathology assessment is essential for managing maternal and newborn health, but the placenta's heterogeneity and temporal variability pose challenges for histology analysis. To address this issue, we developed the ‘Histology Analysis Pipeline.PY’ (HAPPY), a deep learning hierarchical method for quantifying the variability of cells and micro-anatomical tissue structures across placenta histology whole slide images. HAPPY differs from patch-based features or segmentation approaches by following an interpretable biological hierarchy, representing cells and cellular communities within tissues at a single-cell resolution across whole slide images. We present a set of quantitative metrics from healthy term placentas as a baseline for future assessments of placenta health and we show how these metrics deviate in placentas with clinically significant placental infarction. HAPPY’s cell and tissue predictions closely replicate those from independent clinical experts and placental biology literature.",
       "funder": [],
       "identifier": "S-BIAD1045",

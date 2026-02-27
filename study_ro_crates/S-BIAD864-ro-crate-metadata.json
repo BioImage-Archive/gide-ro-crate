@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -77,11 +82,14 @@
           "@id": "https://orcid.org/0000-0002-9821-3578"
         },
         {
-          "@id": "#220c6074-5034-416d-b525-a5eb59a0ab7a"
+          "@id": "#103e4685-61da-4b49-b177-45dd77ed3e1a"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-28",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-28"
+      },
       "description": "CalR-KDEL tagged with HaloTag7 was measured using point accumulation in nanoscale topography (PAINT) in living U-2 OS cells in total internal reflection (TIRF) microscopy. JF635-S5, one of the exchangeable HaloTag Ligands (xHTLs) which targeting HaloTag7 was used to label the ER structure.   ",
       "funder": [],
       "identifier": "S-BIAD864",
@@ -107,7 +115,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#220c6074-5034-416d-b525-a5eb59a0ab7a",
+      "@id": "#103e4685-61da-4b49-b177-45dd77ed3e1a",
       "@type": [
         "Person"
       ],

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-01"
+      },
       "description": "Lysosomes are essential for neuronal homeostasis, providing degradation and recycling functions necessary to support neurons’ complex operations and long lifespans. However, the regulation of lysosomal degradative capacity in healthy neurons is poorly understood. Here, we investigate the role of HLH-30, the sole Caenorhabditis elegans homolog of Transcription Factor EB (TFEB), a master regulator of lysosome biogenesis and autophagy that is thought to predominantly function in the context of starvation or stress. We demonstrate that HLH-30 is dispensable for neuronal development but acts cell-intrinsically to expand lysosomal degradative capacity during early adulthood. Loss of HLH-30 leads to lysosomal dysfunction and delayed turnover of synaptic vesicle proteins from the synapse. Notably, we show that basal HLH-30 activity is sufficient to expand neuronal lysosomal capacity without nuclear enrichment, in contrast to the nuclear translocation associated with starvation- and stress-induced activation of TFEB and HLH-30. Furthermore, we show that neuronal lysosomal function declines with age in wild-type animals, and this corresponds to a decrease in basal HLH-30-mediated transcription. We further demonstrate that basal HLH-30 activity is crucial for neuron maintenance: lysosomal dysfunction due to inadequate HLH-30 activity leads to dendrite degeneration and aberrant outgrowths. In summary, our study establishes a critical role for HLH-30/TFEB in promoting lysosomal capacity to preserve neuronal homeostasis and structural integrity of mature neurons in vivo.",
       "funder": [],
       "identifier": "S-BIAD2252",

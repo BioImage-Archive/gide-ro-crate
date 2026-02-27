@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -123,7 +128,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-04-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-04-30"
+      },
       "description": "Dynamic measurements of molecular machines can provide invaluable insights into their mechanism, but have been challenging in living cells. Here, we developed live-cell tracking of single fluorophores with nanometer spatial and millisecond temporal resolution in 2D and 3D using the recently introduced super-resolution technique MINFLUX. This allowed us to resolve the precise stepping motion of the motor protein kinesin-1 as it walks on microtubules in living cells. In addition, nanoscopic tracking of motors walking on the microtubules of fixed cells enabled us to resolve the architecture of the microtubule cytoskeleton with protofilament resolution. Our approach will enable future in vivo studies of motor protein kinetics in complex environments and super-resolution mapping of dense microtubule arrays, and paves the way towards monitoring functional conformational changes of protein machines at high spatiotemporal resolution in living systems.",
       "funder": [],
       "identifier": "S-BIAD608",

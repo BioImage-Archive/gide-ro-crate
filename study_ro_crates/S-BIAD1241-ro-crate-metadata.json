@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-07-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-07-04"
+      },
       "description": "Small GTPases function by conformational switching ability between GDP- and GTP-bound states in rapid cell signaling events. The ADP-ribosylation factor (ARF) family is involved in vesicle trafficking. Though evolutionarily well conserved, little is known about ARF and ARF-like GTPases in plants. Here, we characterized biochemical properties and cellular localization of the essential small ARF-like GTPase TITAN 5/HALLIMASCH/ARL2/ARLC1 (hereafter termed TTN5) from Arabidopsis thaliana. Two TTN5 variants were included in the study with point mutations at conserved residues, suspected to be functional for nucleotide exchange and GTP hydrolysis, TTN5T30N and TTN5Q70L. We found that TTN5 had a very rapid intrinsic nucleotide exchange capacity with a conserved nucleotide switching mechanism. TTN5 acted as a non-classical small GTPase with a remarkably low GTP hydrolysis activity, suggesting it is likely present in GTP-loaded active form in the cell. We analyzed signals from yellow fluorescent protein (YFP)-tagged TTN5 and from in situ immunolocalization of hemagglutine-tagged HA3-TTN5 in Arabidopsis seedlings and in a transient expression system. Together with colocalization using endomembrane markers and pharmacological treatments the microscopic analysis suggests that TTN5 can be present at the plasma membrane and dynamically associated with membranes of vesicles, Golgi stacks and multivesicular bodies. While the TTN5Q70L variant showed similar GTPase activities and localization behavior as wild-type TTN5, the TTN5T30N mutant differed in some aspects. \nHence, the unusual capacity of rapid nucleotide exchange activity of TTN5 is linked with cell membrane dynamics, likely associated with vesicle transport pathways in the endomembrane system.\n",
       "funder": [],
       "identifier": "S-BIAD1241",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-21"
+      },
       "description": "Motivation: Boldness-shyness is considered a fundamental axis of behavioural variation in humans and other species, with obvious adaptive causes and evolutionary implications. Besides an individual’s own genetics, this phenotype is also affected by the genetic makeup of peers in the individual’s social environment. To identify genetic determinants of variation along the bold-shy behavioural axis, a reliable experimental and analytical setup able to highlight direct and indirect genetic effects is needed.\nResults: We describe a custom assay designed to detect bold-shy behaviours in medaka fish, combining an open-field and novel-object component. We use this assay to explore direct and social genetic effects on the behaviours of 307 pairs of fish from five inbred medaka strains. Applying a Hidden Markov Model (HMM) to classify behavioural modes, we find that direct genetic effects influence the proportions of time the five strains spent in slow-moving states, explaining up to 29.7% of the variance in time spent in those states. We also found that an individual’s behaviour is influenced by the genetics of its tank partner, explaining up to 8.64% of the variance in the time spent in slow-moving states. Our behavioural assay in combination with the HMM analysis is applicable to follow-up genetic linkage studies of genetic variants involved in direct behavioural effects and indirect social genetic effects. A suitable genetic resource for such studies, the Medaka Inbred Kiyosu-Karlsruhe panel (MIKK) has recently been established.",
       "funder": [],
       "identifier": "S-BIAD1421",

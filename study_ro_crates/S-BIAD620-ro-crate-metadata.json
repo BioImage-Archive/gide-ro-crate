@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-02-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-02-08"
+      },
       "description": "Bacteria encounter polymeric nutrient sources that need to be processed to support growth. Bacillus subtilis is a bacterium known for its adaptability and resilience within the rhizosphere and broader soil environment. Here we explore the role that a suite of extracellular proteases plays in supporting growth of B. subtilis when an extracellular heterologous protein (BSA) provides an abundant, but polymeric, food source. We confirm the essential role of extracellular proteases in this context and note the influence of the polymeric nutrient concentration on the yield of growth, but not on the relative level of extracellular proteases. We demonstrate the collective action of the extracellular proteases in supporting B. subtilis growth and evidence their use as a shared public good. Furthermore, we show that B. subtilis is subjected to a public good dilemma, but only in the context of using a polymeric food source. Using mathematical simulations, we uncover that this dilemma is driven by the relative cost of producing the public good. Collectively, our findings reveal how B. subtilis can survive in environments that vary significantly in terms of immediate nutrient accessibility. This information should inform steps to improve its efficacy as a biofertilizer in agricultural settings.",
       "funder": [],
       "identifier": "S-BIAD620",

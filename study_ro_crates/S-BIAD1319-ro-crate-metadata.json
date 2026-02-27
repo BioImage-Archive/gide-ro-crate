@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-15"
+      },
       "description": "High-throughput phenotypic screens leveraging biochemical perturbations and high-content readouts are\npoised to advance therapeutic discovery, yet they remain constrained by limitations of scale. To address\n2\nthis, we establish a method of pooling exogenous perturbations followed by computational deconvolution\nto compress a screen’s required sample, labor, and financial input. We benchmark the approach with a\nbioactive small molecule library and a high-content imaging readout, demonstrating the feasibility and\nincreased efficiency of compressed experimental designs compared to conventional approaches. To prove\ngeneralizability, we apply compressed screening in two different biological discovery campaigns. In the\nfirst, we use early-passage pancreatic cancer organoids to map transcriptional responses to a library\nof tumor-microenvironment recombinant protein ligands. We uncover reproducible phenotypic shifts\ninduced by specific ligands that are distinct from canonical reference signatures and uniquely correlate with\nclinical outcome. In the second, we examine the modulatory effects of a known mechanism of action\nchemical compound library on primary human peripheral blood mononuclear cell immune responses.\nThrough contrastive analyses, we identify molecules that potentiate and/or inhibit cell-type specific\ntranscriptional features, uncover pleiotropic effects for individual compounds across diverse cell types, and\nrealize a systems-level view of drug responses. In sum, our approach empowers phenotypic screens with\ninformation-rich readouts to advance drug discovery efforts as well as basic biological inquiry.",
       "funder": [],
       "identifier": "S-BIAD1319",

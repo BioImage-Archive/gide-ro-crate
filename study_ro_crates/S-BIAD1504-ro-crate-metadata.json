@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -111,7 +116,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-31"
+      },
       "description": "Lepidoptera, i.e. butterflies and moths, are vital components of the global ecosystem. Project Psyche is a scientific research project established to sequence the genomes of all butterflies and moths of Europe; helping to conserve, protect and drive innovation.",
       "funder": [],
       "identifier": "S-BIAD1504",

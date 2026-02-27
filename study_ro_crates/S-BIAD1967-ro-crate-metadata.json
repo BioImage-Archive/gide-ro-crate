@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -108,7 +113,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-18"
+      },
       "description": "Fluorescence lifetime imaging microscopy (FLIM) translates the duration of excited states of fluorophores into lifetime information as additional source of contrast in images of biological samples. This offers the possibility to separate fluorophores particularly beneficial in case of similar excitation spectra. Here, we demonstrate the distinction of fluorescent molecules based on FLIM phasor analysis, called lifetime separation, in live-cell imaging using open-source software for analysis. We showcase two applications using Caenorhabditis elegans as a model system. First, we separated the highly spectrally overlapping fluorophores mCherry and mKate2 to distinctively track tagged proteins in six-dimensional datasets to investigate cell division in the developing early embryo. Second, we separated fluorescence of tagged proteins of interest from masking natural autofluorescence in adult hermaphrodites. For FLIM data handling and workflow implementation, we developed the open-source plugin napari-FLIM-phasor-plotter to implement conversion, visualization, analysis and reuse of FLIM data of different formats. Our work thus advances technical applications and bioimage data management and analysis in FLIM microscopy for life science research.",
       "funder": [],
       "identifier": "S-BIAD1967",

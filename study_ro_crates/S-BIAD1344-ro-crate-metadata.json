@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -90,7 +95,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-29"
+      },
       "description": "The dataset is composed of 98 whole slide images (WSIs) of renal cell carcinoma, a type of kidney cancer. These WSIs are multiplex immunofluorescent (mIF) images. They have been labeled using tow distinct panels of protein markers to allow simultaneous visualisation of multiple targets withing the same tissue sample.\nPanel 1 includes markers TIM-3, PD1, PD-L1, and CD8 with a DNA counterstain (Hoechst). These markers are often associated with immune response and are crucial in understanding how the immune system interacts with cancer cells. Panel 2 includes OCT4a, ZEB1, Snail, and CD44, also combined with Hoechst for DNA visualisation. These markers are particularly important because they are linked to cancer stem cells (CSC) and the epithelial-to-mesenchymal transition (EMT), processes that play significant roles in cancer progression and metastasis.\nThis dataset will be expected to be highly valuable in the development of tools and methods aimed at characterising the differences between primary renal cancer and its metastatic forms. By analyzing these images, researchers can gain deeper insights into how renal cancer evolves and spreads, potentially leading to improved prognostic tools and personalised treatment strategies for patients.",
       "funder": [],
       "identifier": "S-BIAD1344",

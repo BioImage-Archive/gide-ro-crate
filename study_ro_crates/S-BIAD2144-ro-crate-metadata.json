@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -67,10 +72,10 @@
           "@id": "#e69b6f3c-bd54-41e7-b659-4bac3a90b772"
         },
         {
-          "@id": "obo:FBbi_00000244"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000244"
         },
         {
           "@id": "obo:FBbi_00000253"
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-06"
+      },
       "description": "Drosophila germ granules are enriched with mRNAs critical for development. Within them, mRNAs cluster through intermolecular interactions that may involve base pairing. Here we apply in silico, in vitro and in vivo approaches to examine the type and prevalence of these interactions. We show that RNA clustering can occur without extended sequence complementarity (stretches of six or more continuous complementary bases) and that mRNAs display similar level of foldedness within germ granules as outside. Our simulations predict that clustering is driven by scattered, surface-exposed bases, enabling intermolecular base pairing. Notably, engineered germ granule mRNAs containing exposed GC-rich complementary sequences within stem loops located in the 3′ untranslated region promote intermolecular interactions. However, these mRNAs are also expressed at lower levels, leading to developmental defects. Although germ granule mRNAs contain numerous GC-rich complementary sequences, RNA folding renders them inaccessible for intermolecular base pairing. We propose that RNA folding restricts intermolecular base pairing to maintain proper mRNA function within germ granules.",
       "funder": [],
       "identifier": "S-BIAD2144",

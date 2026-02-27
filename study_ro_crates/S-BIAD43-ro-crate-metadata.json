@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2022-01-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-01-01"
+      },
       "description": "\"This dataset comprises processed images and class labels of UV microscopy images of human red blood cells infected with malaria at various degrees of parasitemia. The microscope used to caputure the images is a custom-built UV microscope employing a quartz Zeiss Ultrafluar 100x/0.85 finite conjugate objective. The cells are imaged at either one wavelength in deep UV (285 nm) or three simultaneous wavelengths (285 nm, 365 nm, 565 nm). Each condition contains many fields of view, extensive z-stacks, and a single time point. The directory structure is organized first by category: 'Training and validation', or 'Titration 2020-06-20'. Training and Validation is a collection of time-stamped data collection sessions acquired during development of the method. 'Titration 2020-06-20' is an experiment whereby a high parasitemia malaria culture was diluted serially into healthy red blood cells. Each dilution point was imaged and resides in a time-stamped directory.\"",
       "funder": [],
       "identifier": "S-BIAD43",

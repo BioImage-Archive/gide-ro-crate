@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-21"
+      },
       "description": "During brain development, neural progenitor cells (NPCs) undergo rapid division, necessitating efficient ribosomal biogenesis for proliferation. Yet, the regulatory mechanisms remain largely elusive. Here, we report that the DNA binding protein Kin17 exhibits development-dependent expression and plays a vital role in embryonic development. Complete loss of Kin17 in mice leads to embryonic lethality, while Kin17 depletion specifically in NPCs allows embryonic survival but results in reduced brain size and cortical lamination defects. Our findings demonstrate that these cortical malformation stems from impaired NPC proliferation and differentiation. Mechanistically, we show that Kin17 binds to the promoter region of rDNA, sequentially recruiting NCL and Polr1a, thereby promoting rDNA transcription. Consequently, Kin17 facilitates ribosome biogenesis and protein translation in NPCs. This study underscores a critical role of Kin17 in promoting rDNA transcription and ribosomal biogenesis in NPCs during brain development, which is essential for proper cortical lamination.",
       "funder": [],
       "identifier": "S-BIAD2101",

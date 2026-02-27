@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-13",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-13"
+      },
       "description": "The nucleolus is a biomolecular condensate essential for ribosome biogenesis and cellular stress response, and it is a key target for many DNA viruses. However, little is known about how autonomous parvovirus infection impacts nucleolar structure and function. Here, we used advanced imaging techniques, including ten-fold robust expansion microscopy (TREx), cryo soft X-ray tomography (Cryo-SXT), and interactomics and biochemical approaches, to study nucleolar remodeling during canine parvovirus infection. Infection led to redistribution of nucleolar upstream binding transcription factor 1 (inner core), fibrillarin (middle layer), and Ki-67 (outer rim). In contrast, peripheral nucleolar proteins (nucleolin and nucleophosmin) and precursor ribosomal RNAs (pre-rRNAs) remain in  spherical structures. TREx and Cryo-SXT microscopy revealed profound nucleolar structural changes, including thickened perinucleolar chromatin and enlarged nucleolar low-protein density channels. BioID identified interactions between viral NS2 and nucleolar proteins involved in ribosome biogenesis. Northern blotting demonstrated a slowdown in ribosome biogenesis during infection. Collectively, these findings provide novel insights into how parvoviruses remodel nucleolar structure and function. ",
       "funder": [],
       "identifier": "S-BIAD2342",

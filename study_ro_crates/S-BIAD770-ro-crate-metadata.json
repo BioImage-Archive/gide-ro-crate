@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -111,7 +116,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-06-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-06-30"
+      },
       "description": "Glioblastoma (GBM) remains the most malignant primary brain tumor, with a median survival rarely exceeding 2 years. Tumor heterogeneity and an immunosuppressive microenvironment are key factors contributing to the poor response rates of current therapeutic approaches. GBM-associated macrophages (GAMs) often exhibit immunosuppressive features that promote tumor progression. However, their dynamic interactions with GBM tumor cells remain poorly understood. Here, we used patient-derived GBM stem cell cultures and combined single-cell RNA sequencing of GAM-GBM co-cultures and real-time in vivo monitoring of GAM-GBM interactions in orthotopic zebrafish xenograft models to provide insight into the cellular, molecular, and spatial heterogeneity. Our analyses revealed substantial heterogeneity across GBM patients in GBM-induced GAM polarization and the ability to attract and activate GAMs – features that correlated with patient survival. Differential gene expression analysis, immunohistochemistry on original tumor samples, and knock-out experiments in zebrafish subsequently identified LGALS1 as a primary regulator of immunosuppression. Overall, our work highlights that GAM-GBM interactions can be studied in a clinically relevant way using co-cultures and avatar models, while offering new opportunities to identify promising immune-modulating targets.",
       "funder": [],
       "identifier": "S-BIAD770",

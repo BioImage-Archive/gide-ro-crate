@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -64,13 +69,13 @@
           "@id": "#1b1eceb3-e5a7-40ed-8adb-024aeafc4886"
         },
         {
+          "@id": "obo:FBbi_00000246"
+        },
+        {
           "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000243"
-        },
-        {
-          "@id": "obo:FBbi_00000246"
         }
       ],
       "about": [
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-05"
+      },
       "description": "Microscopy data for manuscript: \"Palmitoylated Importin Alpha Regulates Mitotic Spindle Orientation Through Interaction NuMA\". A study elucidating a novel role of the nuclear transport protein importin alpha in astral microtubule anchoring.",
       "funder": [],
       "identifier": "S-BIAD1801",

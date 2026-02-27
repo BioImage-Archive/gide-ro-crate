@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -117,7 +122,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-01"
+      },
       "description": "Polychlorinated biphenyls (PCBs) remain an environmental and public concern due to their persistence and ongoing release from legacy and emerging sources. 2,2',5,5'-Tetrachlorobiphenyl (PCB52), a PCB congener frequently detected in the environment and human blood, is oxidized to 2,2',5,5'-tetrachlorobiphenyl-4-ol (4-52). The neurotoxicity of this hydroxylated (OH-PCB) metabolite remains poorly understood. In this study, we exposed 4-week-old male Sprague Dawley rats to 4-52 via a polymeric implant drug delivery system grafted in the subcutaneous cavity at 4-52 concentrations of 0%, 1%, 5%, and 10% in the implant (w/w) for 28 days. Metabolomic analyses were performed in the serum. RNA sequencing, immunofluorescence, and dopamine measurement with electrochemical detection were used to characterize 4-52 effects on the striatum and cerebellum, brain regions implicated in PCB neurotoxicity. Serum metabolomic analysis revealed disruptions in the \"arginine biosynthesis\" pathway following 4-52 exposure. Exposure to 4-52 caused moderate transcriptomic changes in pathways related to \"oxidative phosphorylation\" and \"neuroactive ligand-receptor interactions.\" Immunofluorescence showed no significant alterations in microglial, astrocytic, or apoptotic biomarkers. In the medium dose group, the levels of the dopamine metabolite DOPAL (3,4-dihydroxyphenylacetaldehyde) were significantly reduced in the striatum. Subsequent multi-omics network analysis identified interactions among OH-PCBs, endogenous metabolites, and the transcriptome. For example, levels of glutamic acid, aspartic acid, choline, and glycerophosphocholine negatively correlated with 4-52 in the striatum. Expression levels of heat shock protein (HSP) family genes, Hsp90b1, Hspa8, and Hspa5, positively correlated with serum metabolites, including proline, 1-methylguanidine, and methionine sulfoxide. These findings identify novel biomarkers and targets of 4-52-induced neurotoxicity. ",
       "funder": [],
       "identifier": "S-BIAD1581",

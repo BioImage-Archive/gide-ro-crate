@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-08"
+      },
       "description": "We present a novel optical nanomotion-based rapid antibiotic and antifungal susceptibility test. The technique consisted of studying the effects of antibiotics or antifungals on the nanometric scale displacements of bacteria or yeasts to assess their sensitivity or resistance to drugs. The technique relies on a traditional optical microscope, a video camera, and custom-made image analysis software. It provides reliable results in a time frame of 2-4 h and can be applied to motile, non-motile, fast, and slowly growing microorganisms. Due to its extreme simplicity and low cost, the technique can be easily implemented in laboratories and medical centers in developing countries.",
       "funder": [],
       "identifier": "S-BIAD2227",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-03"
+      },
       "description": "The term polymethine dye (PMD) has been intimately linked to the dinuclear scaffold–two heterocycles linked together by a polymethine chain of varying length. Dinuclear PMDs have been a successful scaffold for non-invasive in vivo imaging in the biologically advantageous near infrared (NIR) and shortwave infrared (SWIR) regions of the electromagnetic spectrum. Trinuclear polymethine dyes, resulting from the addition of a third heterocycle into the polymethine chain, possess the same photophysical properties that make dinuclear dyes excellent fluorescent probes, but have yet to be investigated for in vivo imaging. Herein, we expand upon the dinuclear and trinuclear heptamethine scaffold by taking advantage of the increased reactivity of a cyclopentenyl linker and synthesize flavylium- and chromenylium-based SWIR-emitting fluorophores. The trinuclear scaffold instills the fluorophores with increased steric bulk, leading to beneficial photophysical properties in micelles and outperforming their classic dinuclear counterparts. In this work, we apply trinuclear PMDs for in vivo SWIR imaging in mice and find them to be particularly efficient at lymph node labeling upon intravenous administration.",
       "funder": [],
       "identifier": "S-BIAD2360",

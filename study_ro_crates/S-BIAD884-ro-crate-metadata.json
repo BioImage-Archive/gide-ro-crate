@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-10-31"
+      },
       "description": "Modelling chronic cortical demyelination allows to study long-lasting pathological changes ob-served in multiple sclerosis such as failure of remyelination, chronically disturbed functions of oligodendrocytes, neurons and astrocytes, brain atrophy and cognitive impairments. We aimed at generating an animal model for studying the consequences of chronic cortical demyelination and meningeal inflammation. To induce long-lasting cortical demyelination and chronic meningeal inflammation, we immunized female Lewis rats against myelin oligodendrocyte glycoprotein (MOG) and injected lentiviruses for continuing overexpression of the cytokines TNFα and IFNγ in the cortical brain parenchyma. Immunization with MOG and overexpression of TNF and IFN led to widespread subpial demyelination and meningeal inflammation stable for at least 10 weeks. We demonstrate here that immunization with MOG is necessary for acute as well as chronic cortical demyelination. In addition, long-lasting overexpression of TNF and IFN in the brain paren-chyma is sufficient to induce chronic meningeal inflammation. Our model simulates key features of chronic cortical demyelination and inflammation, reminiscent of human multiple sclerosis pathology. This will allow molecular, cellular and functional investigations for a better under-standing of the adaptation mechanisms of the cerebral cortex in multiple sclerosis.",
       "funder": [],
       "identifier": "S-BIAD884",

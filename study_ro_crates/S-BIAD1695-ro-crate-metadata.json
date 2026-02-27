@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-12"
+      },
       "description": "To test the predominant role of the non-vesicular route for retrograde transport in U-2 OS cells, we inhibited vesicular trafficking using Brefeldin A, which blocks COPI coat formation at Golgi membranes and Wortmannin, which broadly affects endosome formation and trafficking and quantified transport of SM(Y), PE(18:1/Y), PC(Y:16:0), PC(Y/20:4) using the lipid imaging pipeline.\n\nPaper: Iglesias-Artola et al. Quantitative imaging of lipid transport in mammalian cells. Nature (2025). https://doi.org/10.1038/s41586-025-09432-x",
       "funder": [],
       "identifier": "S-BIAD1695",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-01-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-15"
+      },
       "description": "Mitochondrial dysfunction is a critical early driver of retinal ganglion cell (RGC) loss in optic nerve injury. We evaluated whether HDAP2, a mitochondria-targeted aromatic peptide designed to support mitochondrial membrane integrity, could preserve neuronal structure after optic nerve crush (ONC) in C57BL/6 mice (both sexes, n=31). Systemically administered HDAP2 penetrated the blood–retinal barrier and localized to RGCs and mitochondrial-rich retinal layers. Daily treatment significantly improved RGC survival compared to saline-treated ONC animals. RGC densities increased across central, midperipheral, and peripheral regions.\nTransmission electron microscopy revealed that HDAP2 substantially reduced mitochondrial loss within crushed optic nerve axons. Mitochondrial density in HDAP2-treated nerves approached levels observed in uninjured controls and was nearly 3-fold higher than untreated ONC nerves. Mitochondrial morphology was similar across groups, indicating that HDAP2 prevents mitochondrial loss rather than rescuing damaged organelles. HDAP2-treated nerves also exhibited a numerically higher density of structurally intact axons, consistent with reduced ultrastructural degeneration.\nThese findings demonstrate that HDAP2 limits mitochondrial loss and attenuates neuronal degeneration after ONC. Together, the results support HDAP2 as a promising therapeutic candidate for protecting CNS projection neurons by maintaining mitochondrial stability after axonal injury.\n",
       "funder": [],
       "identifier": "S-BIAD2789",

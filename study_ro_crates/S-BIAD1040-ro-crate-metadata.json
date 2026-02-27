@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-31"
+      },
       "description": "Protein synthesis is a core cellular process, necessary throughout the complex lifecycle of Plasmodium parasites, thus specific translation inhibitors would be a valuable class of antimalarial drugs, capable of both treating symptomatic infections in the blood and providing chemoprotection by targeting the initial parasite population in the liver, preventing both human disease and parasite transmission back to the mosquito host. As increasing numbers of antiplasmodial compounds are identified that converge mechanistically at inhibition of cytoplasmic translation, regardless of molecular target or mechanism, it would be useful to gain deeper understanding of how their effectiveness as liver stage translation inhibitors relates to their chemoprotective potential. Here, we probed that relationship using the P. berghei-HepG2 liver stage infection model. Using o-propargyl puromycin-based labeling of the nascent proteome in P. berghei-infected HepG2 monolayers coupled with automated confocal feedback microscopy to generate unbiased, single parasite image sets of P. berghei liver stage translation, we determined translation inhibition EC50s for five compounds, encompassing parasite-specific aminoacyl tRNA synthetase inhibitors, compounds targeting the ribosome in both host and parasite, as well as DDD107498, which targets Plasmodium eEF2, and is a leading antimalarial candidate compound being clinically developed as cabamiquine. Compounds were then tested at equivalent effective concentrations to compare the parasite response to, and recovery from, a brief period of translation inhibition in early schizogony.",
       "funder": [],
       "identifier": "S-BIAD1040",

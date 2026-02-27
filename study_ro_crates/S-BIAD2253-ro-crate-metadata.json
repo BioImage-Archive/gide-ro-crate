@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-30"
+      },
       "description": "Liquid–liquid phase separation (LLPS) and subsequent liquid–gel/solid transition are considered common aggregation mechanisms of proteins linked to neurodegenerative diseases. aSynuclein (aSyn), the main component of Parkinson’s disease pathology, has been reported to undergo LLPS, thereby accelerating aggregate formation. However, the precise molecular events involved in the early stages of aSyn aggregation remain controversial. In this study, we show that aSyn aggregation is promoted by droplets formed by ubiquilin-2 (UBQLN2), rather than by aSyn LLPS itself. During the liquid–gel/solid transition of UBQLN2 droplets, aSyn within the droplets transformed into pathogenic fibrils both in vitro and in cells. Immunohistochemistry of brain sections from sporadic Parkinson’s disease patients revealed UBQLN2 in substantia nigra Lewy bodies, implicating UBQLN2 in aSyn aggregation in vivo. Furthermore, the small compound SO286 inhibited both UBQLN2 self-association and its interaction with aSyn by binding to the STI1 domain, thereby suppressing aSyn aggregation. These findings demonstrate that UBQLN2 droplets catalyze aSyn fibrillization and suggest that small molecules targeting fibril-catalyzing proteins such as UBQLN2 may represent a novel therapeutic approach for neurodegenerative diseases.",
       "funder": [],
       "identifier": "S-BIAD2253",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -85,7 +90,10 @@
           "@id": "#4db28204-57cf-4f67-a425-e05db7d9b8bd"
         }
       ],
-      "datePublished": "2025-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-31"
+      },
       "description": "Screening of a comprehensive collection of 1,920 S. aureus mutants (Nebraska transposon mutant library) in epithelial cells across five timepoints (0.5, 1.5, 3, 6 and 48 hours post-infection) using a fluorescence microscopy-based infection assay.",
       "funder": [],
       "identifier": "S-BIAD2374",
@@ -163,7 +171,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "None",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "None"
+      },
       "name": "Systematic identification of bacterial factors driving Staphylococcus aureus intracellular lifestyle in non-professional phagocytes"
     },
     {

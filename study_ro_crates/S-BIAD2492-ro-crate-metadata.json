@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-16"
+      },
       "description": "The main source of circulating erythropoietin (Epo) in the adult are kidney Norn cells, a recently identified interstitial cell type capable of becoming renal Epo-producing (REP) cells following a local decrease in tissue oxygenation. REP cells are restricted to small clusters in the cortico-medullary border region, suggesting that their microenvironment is relevant for cell differentiation and/or proper regulation of Epo production. Possibly for the same reason, REP cells cease to produce Epo in injured kidneys, which is rapidly reverted by stabilizers of the hypoxia-inducible factor (HIF). To shed new light on the mechanisms governing Epo production, we combined spatial transcriptomics, mRNA-FISH and sequential immunofluorescence, enabling the characterization of the direct neighbourhood of active REP cells. While in the hypoxic mouse kidney REP cells were closest to proximal tubule (PT) segments (S) S1 to S2/3 and endothelial cells, Epo was reinduced by HIF-stabilizers in injured kidneys in the vicinity of damaged PT cells that expressed high levels of injury markers. In contrast, the Norn and endothelial cell profiles remained normal. The REP cell microenvironment switched from pathways involved in energy metabolism under hypoxic conditions to inflammatory and fibrotic pathways under injury conditions. In summary, these data demonstrate that in the diseased kidney HIF-stabilizers reinduce Epo expression in REP cells with a metabolically inactive PT neighbourhood, consistent with a causal role of tubular cells during the loss of Epo expression.",
       "funder": [],
       "identifier": "S-BIAD2492",

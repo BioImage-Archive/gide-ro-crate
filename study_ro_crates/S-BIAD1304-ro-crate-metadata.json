@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-30"
+      },
       "description": "Mycosis fungoides (MF), a type of cutaneous T-cell lymphoma, presents with diverse clinical manifestations and lacks definitive early diagnostic markers. This study applies CD30-positive large cell transformation as a model to identify tumor cell-specific early diagnostic indicators in MF by comparing malignant T cells (MT) with reactive T cells (RT). Utilizing Deep Visual Proteomics (DVP) technique, including immunohistochemistry, single-cell laser microdissection, and mass spectrometry-based proteomics, we elucidated molecular differences associated with disease progression and epidermotropism. Key findings revealed significant upregulation of cell cycle-related proteins (MCM2-7, PCNA) and chromatin remodeling factors in MT cells. Conversely, downregulated proteins (CMA1, KREMEN2) in MT cells were linked to reduced inflammatory response and cytoskeletal changes. Longitudinal analysis pinpointed proteins and pathways upregulated in advanced-stage MF, particularly those involved in DNA replication, chromatin modification, and stress response. Spatial analysis identified proteins related to cell adhesion and cytoskeletal dynamics contributing to epidermotropism. Our findings uncover novel tumor-specific biomarkers and critical molecular pathways involved in MF progression. The upregulation of proteins associated with cell proliferation, chromatin remodeling, and epidermal adhesion provides promising targets for early diagnosis and therapeutic intervention. This study enhances our understanding of MF pathogenesis and offers insights for developing improved diagnostic and treatment strategies.",
       "funder": [],
       "identifier": "S-BIAD1304",

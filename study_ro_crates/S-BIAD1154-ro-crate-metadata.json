@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-20",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-20"
+      },
       "description": "Our understanding of the functional requirements underpinning biomolecular condensation in vivo is still relatively poor. The Arabidopsis RNA binding protein FCA is found in liquid-like nuclear condensates that function in transcription termination, promoting proximal polyadenylation at many targets in the Arabidopsis genome. To further understand the properties of these condensates in vivo we used single particle tracking experiments on FCA reporters stably expressed at endogenous levels in plant nuclei. These revealed FCA forms a core oligomer of ~4 molecules that multimerizes into higher-order particles. This assembles into macromolecular condensates through the function of the coiled-coil protein FLL2, which is genetically required for FCA function. FLL2 predominately co-localizes with FCA in larger sized condensates. A missense mutation in the FCA RRM domain, also genetically required for FCA function, reduced both average FCA particle and condensate size but did not perturb the core oligomer. Our work points to a modular structure for FCA condensates involving multimerization of core oligomers that assemble into functional macromolecular condensates via associated RNA and FLL2 interactions.",
       "funder": [],
       "identifier": "S-BIAD1154",

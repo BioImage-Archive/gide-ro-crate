@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -82,7 +87,10 @@
           "@id": "https://doi.org/10.1101/2025.02.05.635468"
         }
       ],
-      "datePublished": "2026-01-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-16"
+      },
       "description": "Essential for eukaryotes, multiple copies of the exocyst complex tether each secretory vesicle to\nthe plasma membrane (PM) in constitutive exocytosis. The exocyst higher-order structure\n(ExHOS) that coordinates the action of these multiple exocysts remains unexplored. We integrated particle tracking, super-resolution microscopy and cryo-electron tomography to time-\nresolve the continuum conformational landscape of the ExHOS and to functionally annotate its\ndifferent conformations. We found that 7 exocysts form flexible ring-shaped ExHOS that tether 2\nvesicles at <45 nm from the PM. The ExHOS rapidly expands while it pulls the vesicle towards the\nPM in a stepwise mechanism comprising three metastable states at 27, 18 and 5 nm from the\nPM. After fusion, Sec18 mediates the disassembly of the stationary ExHOS, an emergent function\nthat controls the rate of exocytosis. By resolving the biophysical principles of tethering we\nbridged the gap between static isolated structures and the dynamic and multimeric nature of\nexocytosis.\n\nThis datset contains in particular the correlative light and electorn microscopy images of lamellae that were subsequently used to target tomogram acqusition. ",
       "funder": [],
       "identifier": "S-BIAD2259",
@@ -165,7 +173,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Continuum architecture dynamics of vesicle tethering in exocytosis"
     },
     {

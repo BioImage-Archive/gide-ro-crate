@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-18"
+      },
       "description": "Equal cell division relies upon astral microtubule-based centering\nmechanisms, yet how the interplay between mitotic entry, cortical\nforce generation and long astral microtubules leads to symmetric cell\ndivision is not resolved.We report that a cortically located sperm aster\ndisplaying long astral microtubules that penetrate the whole zygote\ndoes not undergo centration until mitotic entry. At mitotic entry, we\nfind that microtubule-based cortical pulling is lost. Quantitative\nmeasurements of cortical pulling and cytoplasmic pulling together\nwith physical simulations suggested that a wavelike loss of cortical\npulling at mitotic entry leads to aster centration based on cytoplasmic\npulling. Cortical actin is lost from the cortex at mitotic entry coincident\nwith a fall in cortical tension from ∼300pN/μm to ∼100pN/μm.\nFollowing the loss of cortical force generators at mitotic entry, long\nmicrotubule-based cytoplasmic pulling is sufficient to displace the\naster towards the cell center. These data reveal how mitotic aster\ncentration is coordinated with mitotic entry in chordate zygotes.",
       "funder": [],
       "identifier": "S-BIAD1167",

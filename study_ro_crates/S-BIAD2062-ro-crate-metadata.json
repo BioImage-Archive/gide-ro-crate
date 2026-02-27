@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-30"
+      },
       "description": "In this study, we investigated the effects of maternal hyperglycemia on the deposition patterns of extracellular matrix (ECM) proteins in the fetal endocrine pancreas. The ECM plays a critical role in the proper organization and function of endocrine pancreatic cells. We observed that hyperglycemia altered the deposition pattern of key ECM proteins. These changes were accompanied by an increased presence of immature islets of Langerhans and a disrupted distribution of endocrine cell types. Additionally, we noted abnormalities in the expression of specific transcription factor proteins that regulate gene expression involved in endocrine cell proliferation and maturation. Together, these findings suggest that ECM alterations contribute to the dysfunction of the endocrine pancreas induced by maternal hyperglycemia, with potential long-term effects on the metabolic health of the offspring.",
       "funder": [],
       "identifier": "S-BIAD2062",

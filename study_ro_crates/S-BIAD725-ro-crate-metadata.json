@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-07-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-07-09"
+      },
       "description": "Cell fragmentation is commonly observed in human preimplantation embryos and is associated with poor prognosis during assisted reproductive technology (ART) procedures. However, the mechanisms leading to cell fragmentation remain largely unknown. Here, light sheet microscopy imaging of mouse embryos reveals that inefficient chromosome separation due to spindle defects, caused by dysfunctional molecular motors Myo1c or dynein, leads to fragmentation during mitosis. Extended exposure of the cell cortex to chromosomes locally triggers actomyosin contractility and pinches off cell fragments. This process is reminiscent of meiosis, during which small GTPase-mediated signals from chromosomes coordinate polar body extrusion (PBE) by actomyosin contraction. By interfering with the signals driving PBE, we find that this meiotic signaling pathway remains active during cleavage stages and is both required and sufficient to trigger fragmentation. Together, we find that fragmentation happens in mitosis after ectopic activation of actomyosin contractility by signals emanating from DNA, similar to those observed during meiosis. Our study uncovers the mechanisms underlying fragmentation in preimplantation embryos and, more generally, offers insight into the regulation of mitosis during the maternal-zygotic transition.",
       "funder": [],
       "identifier": "S-BIAD725",

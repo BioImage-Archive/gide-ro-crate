@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#dea7a2ab-ac10-4fa1-80eb-a2eba1699781"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -94,7 +99,10 @@
           "@id": "https://doi.org/10.1038/nbt.4225"
         }
       ],
-      "datePublished": "2025-11-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-26"
+      },
       "description": "Reprocessed images from LINCS image dataset and Human Protein Atlas for training deep learning models. ",
       "funder": [],
       "identifier": "S-BIAD2443",
@@ -183,7 +191,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2022",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022"
+      },
       "name": "Morphology and gene expression profiling provide complementary information for mapping cell state."
     },
     {
@@ -191,7 +202,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2018",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018"
+      },
       "name": "Deep learning is combined with massive-scale citizen science to improve large-scale image classification."
     },
     {

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -89,14 +94,17 @@
           "@id": "#5fa7f451-c1f3-4f07-9e6d-05b335aa1f8e"
         },
         {
-          "@id": "#5b491e14-d4cc-4100-8454-40e2bd5ee230"
+          "@id": "#02528736-dd99-4656-bfc4-6d7cb14fea96"
         },
         {
           "@id": "#3164c207-5d04-4563-acce-6be8f32bbbc9"
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-08"
+      },
       "description": "The published datasets contain images which were used for the analysis of photoreceptor outer segments on light and electron microscopy images. Both states, postnatal development and degeneration of POS, were analysed in both datasets. The corresponding code can be found in an associated github repository. ",
       "funder": [],
       "identifier": "S-BIAD1078",
@@ -130,6 +138,18 @@
       ]
     },
     {
+      "@id": "#02528736-dd99-4656-bfc4-6d7cb14fea96",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#83222234-de1f-4691-ad5b-bb96cbb8cc38"
+        }
+      ],
+      "name": "Robert Haase"
+    },
+    {
       "@id": "#2e11be17-9e48-4358-a607-bf046df10822",
       "@type": [
         "Person"
@@ -153,18 +173,6 @@
       ],
       "email": "marius.ader@tu-dresden.de",
       "name": "Marius Ader"
-    },
-    {
-      "@id": "#5b491e14-d4cc-4100-8454-40e2bd5ee230",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#83222234-de1f-4691-ad5b-bb96cbb8cc38"
-        }
-      ],
-      "name": "Robert Haase"
     },
     {
       "@id": "#5fa7f451-c1f3-4f07-9e6d-05b335aa1f8e",

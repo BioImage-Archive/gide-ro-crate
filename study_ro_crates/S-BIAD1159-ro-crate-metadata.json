@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#eba77a84-4374-4bc6-88a1-6fc958d0b9f1"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-05-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-06"
+      },
       "description": "The zebrafish Danio rerio has become a popular model host to explore disease pathology caused by infectious agents. A main advantage is its transparency at an early age, which enables live imaging of infection dynamics. While multispecies infections are common in patients, the zebrafish model is rarely used to study them, although the model would be ideal for investigating pathogen-pathogen and pathogen-host interactions. This may be due to the absence of an established multispecies infection protocol for a defined organ and the lack of suitable image analysis pipelines for automated image processing. To address these issues, we developed a protocol for establishing and tracking single and multispecies bacterial infections in the inner ear structure (otic vesicle) of the zebrafish by imaging. Subsequently, we generated an image analysis pipeline that involved deep learning for the automated segmentation of the otic vesicle, and scripts for the quantification of pathogen frequencies through fluorescence intensity measures. We used Pseudomonas aeruginosa, Acinetobacter baumannii, and Klebsiella pneumoniae, three of the difficult-to-treat ESKAPE pathogens, to show that our infection protocol and image analysis pipeline work both for single pathogens and pairwise pathogen combinations. Thus, our protocols provide a comprehensive toolbox for studying single and multispecies infections in real-time in zebrafish.",
       "funder": [],
       "identifier": "S-BIAD1159",

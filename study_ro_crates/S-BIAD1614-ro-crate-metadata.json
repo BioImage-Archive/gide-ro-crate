@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-05"
+      },
       "description": "This repository contains Transmission Electron Microscopy (TEM) datasets of mosquito larval midgut tissues, focusing on the brush border membrane (BBM) and midgut lumen regions in control larvae without toxin treatment. Samples were prepared using standard protocols for fixation, dehydration, and embedding, with larvae reared under controlled conditions prior to dissection. Ultra-thin sections (60 nm) were obtained using an ultramicrotome and stained with uranyl acetate and lead citrate to enhance contrast. Imaging was performed using a ZEISS Libra 120 Plus electron microscope operated at 80 kV, capturing ultrastructural details at magnifications ranging from 1500× to 5000×, with micrographs acquired via a GATAN UltraScan 1000 CCD camera.",
       "funder": [],
       "identifier": "S-BIAD1614",

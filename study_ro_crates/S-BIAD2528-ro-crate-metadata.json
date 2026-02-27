@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -85,7 +90,10 @@
           "@id": "https://doi.org/10.7554/elife.105575"
         }
       ],
-      "datePublished": "2025-12-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-21"
+      },
       "description": "Neurons use cell-adhesion molecules (CAMs) to interact with other neurons and the extracellular environment: the combination of CAMs specifies migration patterns, neuronal morphologies, and synaptic connections across diverse neuron types. Yet little is known regarding the intracellular signaling cascade mediating the CAM recognitions at the cell surface across different neuron types. Using mouse genetics and viral labeling, we investigated the neural developmental role of Afadin​, a cytosolic adapter protein that connects multiple CAM families to intracellular F-actin. We introduced the conditional Afadin mouse mutant  to an embryonic retinal Cre, Six3Cre. We reported that the mouse mutants lead to the scrambled retinal neuron distribution, including Bipolar Cells (BCs), Amacrine Cells (ACs), and retinal ganglion cells (RGCs), across three cellular layers of the retina. This scrambled pattern was first reported here at neuron-type resolution. Importantly, the mutants do not display deficits for BCs, ACs, or RGCs in terms of neural fate specifications or survival. Additionally, the displayed RGC types still maintain synaptic partners with putative AC types, indicating that other molecular determinants instruct synaptic choices independent of Afadin. Lastly, there is a significant decline in visual function and mis-targeting of RGC axons to incorrect zones of the superior colliculus, one of the major retinorecipient areas.  Collectively, our study uncovers a unique cellular role of Afadin in sorting retinal neuron types into proper cellular layers as the structural basis for orderly visual processing.  ",
       "funder": [],
       "identifier": "S-BIAD2528",
@@ -159,7 +167,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Afadin Sorts Different Retinal Neuron Types into Accurate Cellular Layers"
     },
     {

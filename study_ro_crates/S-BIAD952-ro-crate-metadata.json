@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-11-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-11-30"
+      },
       "description": "GABARAP, like other ATG8 proteins, is a ubiquitin-like modifier and its C-terminal lipid conjugation enables association with cellular membranes. To prevent interference with the lipidation process, N-terminal fluorescent protein (FP) tagging strategies have become the standard for studying ATG8 localization and function in living cells, significantly contributing to our understanding of this protein family's multifaceted roles. \nWe employed live cell imaging with particular emphasis on a GABARAP split-tandem construct, GABARAP(G116A)-mTagBFP2-GABARAP (G-B-G), which retains both a free N-terminus and a lipidation-competent C-terminus, while bivalence creates a gain in affinity conferred by avidity. Notably, reminiscent of early in vitro studies demonstrating an interaction of GABARAP and tubulin, our results revealed a robust association of G-B-G with the microtubule network in living cells. We show that the presence of several basic residues in the amino-terminal helical subdomain of GABARAP and avidity emerged as essential for robust MT association, whereas lipidation ability was not decisive. Interestingly, while the position of the FP-tag had little influence on the result, the nature of the FP itself was crucial, with mTagBFP2 being required for tracking GABARAP tandems in the vicinity of MTs. Though artificial effects cannot be excluded, we assume that G-B-G, with its increased avidity, can give visibility to processes that are based on inherently weak interactions, and thus can help elucidate potential roles of GABARAP e.g. in microtubule-associated processes that are integral to autophagy-related and -unrelated cellular transport. \n",
       "funder": [],
       "identifier": "S-BIAD952",

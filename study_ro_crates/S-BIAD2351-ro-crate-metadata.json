@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-24",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-24"
+      },
       "description": "Type 2 inflammation at barrier surfaces is an evolutionarily conserved response that promotes immunity to parasites, allergic inflammation, and tissue repair. Direct sensing of environmental triggers by epithelial cells initiates type 2 inflammation, and signals derived from neurons can modulate immune responses. However, how diverse sensory inputs from epithelial, neuronal, and immune cells are coordinated and integrated remains unclear. Here we identify that TRPV1+ pain-sensing nociceptors co-opt chemosensory epithelial tuft cells to initiate a cascade of tissue responses that drive type 2 inflammation. Chemogenetic silencing or chemical ablation of TRPV1+ nociceptors resulted in a significant reduction in intestinal tuft cells and defective anti-helminth type 2 immunity. In contrast, chemogenetic activation of TRPV1+ nociceptors was associated with remodeling of CGRP+ nerve fibers, significantly elevated levels of CGRP, enhanced tuft cell accumulation, and protective anti-helminth type 2 immunity. Spatial transcriptomic and scRNA-sequencing analysis revealed that nociceptor activation promoted rapid epithelial progenitor cell proliferation and differentiation. Mechanistically, intestinal epithelial cell– and tuft cell–intrinsic expression of CGRP receptor subunits were required for tuft cell responses and type 2 immunity to helminth infection. Together, these results identify sensory convergence of a neuronal-epithelial tuft cell circuit as a critical upstream determinant of type 2 immunity and tissue adaptation.\t\t\t\t\t\t\t",
       "funder": [],
       "identifier": "S-BIAD2351",

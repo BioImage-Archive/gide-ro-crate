@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-30"
+      },
       "description": "Over the recent years, fluorescence microscopy has seen substantial progress, transitioning from primarily qualitative analysis to a profoundly quantitative methodology, yet limitations in imaging depth and data quality persist due to tissue opacity. Tissue optical clearing (TOC) methodologies were implemented to overcome this hurdle, enabling the imaging and quantitative analysis of large tissue samples, such, e.g., complete murine organs. Further advancements such as Expansion Microscopy (ExM) merges TOC benefits with improved imaging resolution, converting cells and tissues into tissue-gel hybrids. Yet, its intricate protocols lead to a remarkable, ~10-20× tissue volume expansion, making the acquisition of even thin sections exceedingly challenging in terms of time, labor, and data handling. Here we present a novel solution, ISEE (Improved Segmentation by gEntle Expansion), for both TOC and gentle (0.6-0.7×) tissue expansion for significantly improved precision of fluorescent signal segmentation, while maintaining tolerable increase during data acquisition in everyday laboratory practice. When applied to thick ~40-200 µm tissue slices, ISEE renders them transparent and ultimately expanded within minutes, in a simple, one-step process compatible with immunohistochemistry as well as with all major murine organs.",
       "funder": [],
       "identifier": "S-BIAD1101",

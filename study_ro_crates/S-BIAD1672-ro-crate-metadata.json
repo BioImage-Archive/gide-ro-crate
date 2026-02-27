@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -102,7 +107,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-31"
+      },
       "description": "Disruption of the circadian clock has been shown to associate with the development of inflammatory bowel disease (IBD), but the underlying mechanisms remain unclear. Here, we observed that the mice in the early active phase (Zeitgeber time 12, ZT12) of the circadian clock were more tolerant to dextran sodium sulfate (DSS)-induced colitis, compared to those in the early resting phase (ZT0). The expression of circadian gene Bmal1 displayed a high level in the early resting phase and a low in the early active phase. Bmal1 knockout in the intestinal epithelium reduced DSS-induced inflammatory symptoms. Mechanistically, BMAL1 promoted apoptosis by binding to the apoptosis-related genes, such as Bax, p53 and Bak1, and transcriptionally activating their expression. Intriguingly, cell apoptosis also exhibited a circadian rhythm in homeostatic intestinal epithelium, while Bmal1 deletion reduced cell apoptosis. Consistently, reducing Bmal1 expression by the REV-ERBα agonist SR9009 had the best therapeutic efficacy against DSS-induced colitis at ZT0. Collectively, our results reveal that the Bmal1-centered circadian clock is involved in intestinal injury repair. Targeting Bmal1 function may be a promising approach to treat inflammation-related gastrointestinal tract diseases. ",
       "funder": [],
       "identifier": "S-BIAD1672",

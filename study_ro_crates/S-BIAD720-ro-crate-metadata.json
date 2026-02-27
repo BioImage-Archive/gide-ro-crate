@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-06-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-06-15"
+      },
       "description": "Hepatocytes form bile canaliculi that dynamically respond to the signalling activity of bile acids and bile flow. Little is known about their responses to intraluminal pressure. During embryonic development, hepatocytes assemble apical bulkheads that increase the canalicular resistance to intraluminal pressure. Here, we investigated if they may also protect bile canaliculi against elevated pressure upon impaired bile flow in adult liver. Apical bulkheads accumulate upon bile flow obstruction in mouse models and patients with primary sclerosing cholangitis (PSC). Their loss under these conditions leads to abnormally dilated canaliculi, resembling liver cell rosettes described in other hepatic diseases. 3D reconstruction revealed that these structures are sections of cysts and tubes formed by hepatocytes. Mathematical modelling established that they positively correlate with canalicular pressure and occur early in PSC. Using primary hepatocytes and 3D organoids, we demonstrated that excessive canalicular pressure causes the loss of apical bulkheads and formation of rosettes. Our results suggest that apical bulkheads are a protective mechanism of hepatocytes against impaired bile flow, highlighting the role of canalicular pressure in liver diseases.",
       "funder": [],
       "identifier": "S-BIAD720",

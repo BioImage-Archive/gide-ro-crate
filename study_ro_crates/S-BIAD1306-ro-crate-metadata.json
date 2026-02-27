@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#40e47d4b-f6e4-4ca9-a278-58df2ee6e55e"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000256"
         },
         {
-          "@id": "obo:FBbi_00000256"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00050000"
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-09",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-09"
+      },
       "description": "This dataset includes microscopy and sequence data related to the study and used in the figures. It includes light and electron microscopy images. The sample preparation, image acquisition and analysis protocols are described in the methods. ",
       "funder": [],
       "identifier": "S-BIAD1306",

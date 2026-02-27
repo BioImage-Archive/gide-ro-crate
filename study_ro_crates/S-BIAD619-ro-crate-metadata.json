@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-02-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-02-01"
+      },
       "description": "Mitophagy is a form of selective autophagy that disposes of superfluous and potentially damage-inducing organelles in a tightly controlled manner. While the machinery involved in mitophagy induction is well known, the regulation of the components is less clear. Here, we demonstrate that TNIP1 knock out accelerates mitophagy rates, and that ectopic TNIP1 negatively regulates the rate of mitophagy. These functions of TNIP1 depend on an evolutionarily conserved LIR motif as well as an AHD3 domain, which are required for binding to the LC3/GABARAP family of proteins and the autophagy receptor TAX1BP1, respectively. We further show that phosphorylation appears to regulate its association with the ULK1 complex member FIP200, allowing TNIP1 to compete with autophagy receptors, providing a molecular rationale for its inhibitory function during mitophagy. Taken together, our findings identify a novel negative regulator of mitophagy that acts at the early steps of autophagosome biogenesis. ",
       "funder": [],
       "identifier": "S-BIAD619",

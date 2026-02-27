@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-08-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-04"
+      },
       "description": "Spatial profiling of colorectal cancer (CRC) tissue samples for the single-cell CRC atlas. This dataset includes Xenium spatial transcriptomics data of 15 patients including tumor cores, invasive margins and adjacent normal tissue sections, and imaging mass cytometry (IMC) data of tumor cores and invasive margins of 29 patients.",
       "funder": [],
       "identifier": "S-BIAD2208",

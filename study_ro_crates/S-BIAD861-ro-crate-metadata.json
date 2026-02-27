@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#219be871-3e2a-45b6-82dc-d046ea2900b2"
+          "@id": "#9c928c0b-0417-4fce-bfad-419b2531b47c"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-25"
+      },
       "description": "OME-NGFF converted study from idr0015.  We present a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. It entails high-content feature extraction that permits accurate automated taxonomic classification and quantitative data about organism ultrastructures and interactions. Using plankton samples from the Tara Oceans expeditions, we validate its applicability to taxonomic profiling and ecosystem analyses, and discuss its potential for future integration of eukaryotic cell biology into evolutionary and ecological studies. This study is subject to the data release policy described here: http://www.embl.de/tara-oceans/start/Tara-Oceans-Data-Release-Policy.pdf",
       "funder": [],
       "identifier": "S-BIAD861",
@@ -103,7 +111,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#219be871-3e2a-45b6-82dc-d046ea2900b2",
+      "@id": "#9c928c0b-0417-4fce-bfad-419b2531b47c",
       "@type": [
         "Person"
       ],

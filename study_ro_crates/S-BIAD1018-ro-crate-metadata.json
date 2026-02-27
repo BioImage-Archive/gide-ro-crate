@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -108,7 +113,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-02-23",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-02-23"
+      },
       "description": "The functional importance of nuclear protein condensation remains often unclear. The bHLH FER-LIKE IRON DEFICIENCY-INDUCED TRANSCRIPTION FACTOR (FIT) controls iron acquisition and growth in plants. Previously described C-terminal serine residues allow FIT to interact and form active transcription factor complexes with subgroup Ib bHLH factors such as bHLH039. FIT has lower nuclear mobility than mutant FITmSS271AA. Here, we show that FIT undergoes a light-inducible subnuclear partitioning into FIT nuclear bodies (NBs). Using quantitative and qualitative microscopy-based approaches, we characterized FIT NBs as condensates that were reversible and likely formed by liquid-liquid phase separation. FIT accumulated preferentially in NBs versus nucleoplasm when engaged in protein complexes with itself and with bHLH039. FITmSS271AA, instead, localized to NBs with different dynamics. FIT colocalized with splicing and light signaling NB markers. The NB-inducing light conditions were linked with active FIT and elevated FIT target gene expression in roots. FIT condensation may affect nuclear mobility and be relevant for integrating environmental and Fe nutrition signals.",
       "funder": [],
       "identifier": "S-BIAD1018",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -129,7 +134,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-12-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-12-31"
+      },
       "description": "We used the 10x Genomics Visium platform to define the spatial topography of gene expression in the six-layered human dorsolateral prefrontal cortex. We identified extensive layer-enriched expression signatures and refined associations to previous laminar markers. We overlaid our laminar expression signatures on large-scale single nucleus RNA-sequencing data, enhancing spatial annotation of expression-driven clusters. By integrating neuropsychiatric disorder gene sets, we showed differential layer-enriched expression of genes associated with schizophrenia and autism spectrum disorder, highlighting the clinical relevance of spatially defined expression. We then developed a data-driven framework to define unsupervised clusters in spatial transcriptomics data, which can be applied to other tissues or brain regions in which morphological architecture is not as well defined as cortical laminae. Last, we created a web application for the scientific community to explore these raw and summarized data to augment ongoing neuroscience and spatial transcriptomics research (http://research.libd.org/spatialLIBD).",
       "funder": [],
       "identifier": "S-BIAD986",

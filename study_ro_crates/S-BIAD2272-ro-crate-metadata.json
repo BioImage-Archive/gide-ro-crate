@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-08",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-08"
+      },
       "description": "Chromosome conformation within the nucleus is essential for genome function. These have primarily been studied at the scale of loops and compartments, or at lower spatial resolution using traditional in situ hybridization in chemically fixed samples. However, the mesoscale organization of single chromosomes in vivo, shaped by the interplay between chromatin architectural proteins and histone modifications, remains partially understood. In this study, we interrogated the mesoscale conformations of interphase chromosomes in live human osteoblasts and transformed osteosarcoma cells, focusing on chromosome 19.",
       "funder": [],
       "identifier": "S-BIAD2272",

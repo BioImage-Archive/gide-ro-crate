@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -61,10 +66,10 @@
           "@id": "#1d7606c5-bdc8-44a8-99af-446f60b83852"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000366"
         },
         {
-          "@id": "obo:FBbi_00000366"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-01-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-01-22"
+      },
       "description": "Raw and processed imaging data associated with this study of DNMT3B function.",
       "funder": [],
       "identifier": "S-BIAD967",

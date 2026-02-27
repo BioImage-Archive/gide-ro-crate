@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-18"
+      },
       "description": "The rise of antimicrobial resistant pathogens calls for novel ways to kill and damage bacteria. A rich source for bacterial cell-damaging proteins is periplasmic predatory bacterium Bdellovibrio bacteriovorus, which invades, kills and subsequently exits the Gram-negative prey cell. An increased understanding of predatory protein function can be achieved by analyzing their relative abundance at key stages of predation. Here, we present the first quantitative proteome covering the complete predatory life cycle of the bacterial predator B. bacteriovorus killing Escherichia coli, quantifying 2195 predator proteins. From these proteins, nine protein clusters sharing similar expression patterns were identified. Towards the end of the life cycle when the predator exits prey remnants, we identified significant amounts of protease Bd2269. Gene knockout and heterologous expression experiments revealed that Bd2269 is involved in the prey exit process and damages E. coli from within. This quantitative predator proteome is a valuable resource to unravel bacterial predator-prey interactions and advances the search for novel antimicrobial enzymes.",
       "funder": [],
       "identifier": "S-BIAD1580",

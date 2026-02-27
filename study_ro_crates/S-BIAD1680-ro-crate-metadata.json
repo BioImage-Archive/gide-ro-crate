@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,13 +81,13 @@
           "@id": "#4587a76c-6eea-46f2-9e2f-6dc91acf9642"
         },
         {
+          "@id": "obo:FBbi_00000366"
+        },
+        {
           "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000249"
-        },
-        {
-          "@id": "obo:FBbi_00000366"
         },
         {
           "@id": "obo:FBbi_00000253"
@@ -108,7 +113,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-04",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-04"
+      },
       "description": "Mitotic spindles are dynamically intertwined with the cytoplasm they assemble in. How the physicochemical properties of the cytoplasm affect spindle architecture and size remains largely unknown. Using quantitative biochemistry in combination with adaptive feedback microscopy, we investigated mitotic cell and spindle morphology during neural differentiation of embryonic stem cells. While tubulin biochemistry and microtubule dynamics remained unchanged, spindles changed their scaling behaviour: in differentiating cells, spindles were significantly smaller than those in equally-sized undifferentiated stem cells. Integrating quantitative phase imaging, biophysical perturbations and theory, we found that as cells differentiated, their cytoplasm became more dilute. The concomitant decrease in free tubulin activated CPAP (centrosomal P4.1-associated protein) to enhance the centrosomal nucleation capacity. As a consequence, in differentiating cells, microtubule mass shifted towards spindle poles at the expense of the spindle bulk, explaining the differentiation-associated switch in spindle architecture. This study shows that cell state-specific cytoplasmic density tunes mitotic spindle architecture. Thus, we reveal physical properties of the cytoplasm as a major determinant in organelle size control.",
       "funder": [],
       "identifier": "S-BIAD1680",

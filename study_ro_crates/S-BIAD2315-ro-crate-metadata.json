@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-26"
+      },
       "description": "High-grade serous ovarian cancer (HGSOC) is a devastating disease that is frequently detected at an incurable stage. Advances in ultrasensitive mass spectrometry-based spatial proteomics have provided a unique opportunity to uncover early molecular events in tumorigenesis and common dysregulated pathways with high therapeutic potential. Here, we present a comprehensive proteomic analysis of serous tubal intraepithelial carcinoma (STIC), the HGSOC precursor lesion, covering more than 10,000 proteins. We found that STICs and concurrent invasive carcinomas were indistinguishable at the global proteomic level, revealing a similar level of molecular heterogeneity. Using cell-type-resolved tissue proteomics, we revealed strong cell-of-origin signatures preserved in STICs and invasive tumors and identified early dysregulated pathways of therapeutic relevance, such as an onco-metabolic increase in cholesterol biosynthesis. Finally, we uncovered substantial remodeling of the co-evolving tumor microenvironment, affecting approximately one-third of the stromal proteome, and derived a common signature associated with progressive immunosuppression and extracellular matrix restructuring. In summary, our study highlights the power of spatially resolved quantitative proteomics to dissect the molecular underpinnings of early carcinogenesis and provides a rich proteomic resource for future biomarker and drug target research in ovarian cancer.",
       "funder": [],
       "identifier": "S-BIAD2315",

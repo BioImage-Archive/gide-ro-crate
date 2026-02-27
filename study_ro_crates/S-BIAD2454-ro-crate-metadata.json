@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#a2f43237-f9e7-4355-a2a5-1f43123b7c0a"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-27"
+      },
       "description": "This entry describes a retrospective cohort of clear-cell renal cell carcinoma (ccRCC) patients from Edinburgh (NHS Lothian). A total of 120 archival nephrectomy specimens from patients with no previous treatment were included. Digital whole-slide images are available for all 120 cases stained with haematoxylin and eosin (H&E) and for 88 cases stained using multiplex immunofluorescence (mIF). The mIF panel comprised p21^CDKN1A, MCM2, and Lamin B1, with Hoechst nuclear counterstain. All slides were scanned at 20× magnification using a Zeiss Axio Scan.Z1, generating high-resolution bright-field and fluorescence images in CZI format. The dataset includes the H&E and multi-channel mIF images, derived single-cell phenotype tables, and a de-identified clinical data file.\nImage analysis was performed using HALO® software with AI-assisted nuclear segmentation. For each cell, fluorescence intensities of p21, MCM2, and Lamin B1 were quantified, allowing classification into proliferative (MCM2⁺) or cell-cycle arrested (p21⁺) phenotypes. Output data for each image include the proportion of p21⁺/MCM2⁻ cells and average morphological measurements such as cell and nuclear size. Quantitative results are provided in CSV format.\nThe accompanying clinical metadata file contains pathological stage (pT), recurrence status, Fuhrman nuclear grade, ISUP grade, tumour size, nodal status, presence or absence of necrosis, derived Leibovich scores based on Fuhrman and ISUP grading (Lscore_Fuhrman and Lscore_ISUP), and disease-free survival (DFS). All data in this cohort are released under a CC0 license to permit unrestricted reuse.",
       "funder": [],
       "identifier": "S-BIAD2454",

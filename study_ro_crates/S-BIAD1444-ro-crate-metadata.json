@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-31"
+      },
       "description": "TRAPP (transport protein particle) tethering complexes are known for their function as Rab-GTPase exchange factors (GEFs). In yeast and animal cells, TRAPPIII is an activator the Rab1 family (RabD in plants) which regulates ER-to-Golgi trafficking and autophagy. In Arabidopsis thaliana, the TRAPPIII complex has been identified and its subunit composition established, but little is known about its functions. We study here the TRAPPC8 subunit of the Arabidopsis thaliana TRAPPIII complex. The purpose of this experiment was to establish whether a loss-of-function mutation of TRAPPC8 causes changes in ER or Golgi morphology in Arabidopsis thaliana. Methodology described in detail in accompanying preprint (BioRxiv): doi: https://doi.org/10.1101/2024.01.11.575191.",
       "funder": [],
       "identifier": "S-BIAD1444",

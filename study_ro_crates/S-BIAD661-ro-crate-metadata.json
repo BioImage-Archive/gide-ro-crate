@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-03-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-03-17"
+      },
       "description": "FAM3C/ILEI is an important cytokine for tumor progression and metastasis. However, its involvement in inflammation remains elusive. Here, we show that ILEI protein is highly expressed in psoriatic lesions. Inducible keratinocyte-specific ILEI overexpression in mice (K5-ILEIind) recapitulates many aspects of psoriasis following TPA challenge, primarily manifested by impaired epidermal differentiation and increased neutrophil recruitment. Mechanistically, ILEI triggers Erk and Akt signaling, which then activate STAT3 via Ser727 phosphorylation. Keratinocyte-specific ILEI deletion ameliorates TPA-induced skin inflammation. A transcriptomic ILEI signature obtained from the K5-ILEIind model shows enrichment in several signaling pathways also found in psoriasis and identifies urokinase as a targetable enzyme to counteract ILEI activity. Pharmacological inhibition of urokinase in TPA-induced K5-ILEIind mice results in significant improvement of psoriasiform symptoms by reducing ILEI secretion. The ILEI signature distinguishes psoriasis from healthy skin with uPA ranking among the top “separator” genes. Our study identifies ILEI as a key driver in psoriasis, indicates the relevance of ILEI-regulated genes for disease manifestation and shows the clinical impact of ILEI and urokinase as novel potential therapeutic targets in psoriasis.",
       "funder": [],
       "identifier": "S-BIAD661",

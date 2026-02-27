@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-10-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-10-01"
+      },
       "description": "During embryonic development, oriented cell divisions are important for patterned tissue growth and cell fate specification. Cell division orientation is controlled in part by asymmetrically localized polarity proteins, which establish functional domains of the cell membrane and interact with microtubule regulators to position the mitotic spindle. For example, in the 8-cell mouse embryo, apical polarity proteins form caps on the outside, contact-free surface of the embryo that position the mitotic spindle to execute asymmetric cell division. A similar radial or “inside-outside” polarity is established at an early stage in many other animal embryos, but in most cases it remains unclear how inside-outside polarity is established and how it influences downstream cell behaviors. Here, we explore inside-outside polarity in C. elegans somatic blastomeres using spatiotemporally controlled protein degradation and live embryo imaging. We show that PAR polarity proteins, which form apical caps at the center of the contact free membrane, localize dynamically during the cell cycle and contribute to spindle orientation and proper cell positioning. Surprisingly, isolated single blastomeres lacking cell contacts are able to break symmetry and form PAR-3/aPKC caps. Polarity caps form independently of actomyosin flows and microtubules, and can regulate spindle orientation in cooperation with the key polarity kinase aPKC. Together, our results reveal a role for apical polarity caps in regulating spindle orientation in symmetrically dividing cells and provide novel insights into how these structures are formed.",
       "funder": [],
       "identifier": "S-BIAD842",

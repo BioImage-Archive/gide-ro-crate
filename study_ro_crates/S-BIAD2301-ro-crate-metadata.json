@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -70,10 +75,10 @@
           "@id": "#4dc4023f-bf9b-464d-abf2-264979aced09"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-11-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-11-01"
+      },
       "description": "Lung cancer is the leading cause of cancer-related deaths worldwide. Existing therapeutic options have limited efficacy, particularly for lung squamous cell carcinoma (LUSC), underscoring the critical need for the identification of new therapeutic targets. We previously demonstrated that the Transmembrane Serine Protease TMPRSS11B promotes transformation of human bronchial epithelial cells and enhances lactate export from LUSC cells. To determine the impact of TMPRSS11B activity on the host immune system and the tumor microenvironment (TME), we evaluated the effect of Tmprss11b depletion in a syngeneic mouse model. Tmprss11b depletion significantly reduced tumor burden in immunocompetent mice and triggered an infiltration of immune cells. RNA FISH analysis and spatial transcriptomics in the autochthonous Rosa26-Sox2-Ires-GfpLSL/LSL; Nkx2-1fl/fl; Lkb1fl/fl (SNL) model revealed an enrichment of Tmprss11b expression in LUSC tumors, specifically in Krt13+ hillock-like cells. Ultra-pH sensitive nanoparticle imaging and metabolite analysis identified regions of acidification, elevated lactate, and enrichment of immunosuppressive (M2-like) macrophages in LUSC tumors. These results demonstrate that TMPRSS11B promotes an acidified and immunosuppressive TME and nominate this enzyme as a therapeutic target in LUSC. ",
       "funder": [],
       "identifier": "S-BIAD2301",

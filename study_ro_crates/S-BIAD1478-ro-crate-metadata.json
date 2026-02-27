@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -156,7 +161,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-12",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-12"
+      },
       "description": "This dataset contains 18,104 images of mosquito wings collected from 10,500 mosquito specimens, representing 72 distinct taxa. Each image is accompanied by extensive metadata, accessible in the 00_metadata.* files. The dataset aims to facilitate research in wing geometric morphometry and support the development of machine learning models for advancing vector surveillance and research. It is a retrospective collection, harmonizing contributions from 22 research projects conducted between 2008 and 2024.\n\nThe detailed metadata on each sample and image is available in the 00_metadata.*. This table below will provide an overview of the scope and range of the collected metadata. Due to the retrospective nature of the dataset, images may vary significantly in aspects such as lighting, background, and capture conditions across different projects. Although extensive efforts were made to ensure comprehensive metadata, some entries remain incomplete. Missing metadata entries are marked as \"MISSING VALUE,\" while fields intentionally left blank are indicated with \"-\". For the full description of the dataset we refer to the associated publication: https://www.biorxiv.org/content/10.1101/2024.11.13.623340v1\n\nThe dataset will be regularly updated with new image data as additional mosquito and dipteran wing images become available. Contributions from the scientific community are welcome to further enrich this collection. Interested researchers are encouraged to contact the authors to discuss potential collaboration.\n\nTo download the complete dataset we advice you to use ftp as the size of the dataset does make it unfeasible to download via browser. To download the complete dataset via terminal please follow the instructions below. \n\nFor Mac Users:\n1. Install wget (if not installed)  \nOpen the Terminal and run: brew install wget\nIf you don't have Homebrew installed, first install it using:  \n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n2. Download the dataset  \nRun the following command in the Terminal:  \nwget -r -np -nH --cut-dirs=5 --ftp-user=anonymous --ftp-password=anonymous -P ~/Documents/WingImages ftp://ftp.ebi.ac.uk/biostudies/fire/S-BIAD/478/S-BIAD1478/Files/Wings/Zipped/\nThis will download the dataset to the `WingImages` folder in your Documents.\n\nFor Windows Users:\n1. Install `wget`  \nDownload and install GnuWin32 wget: http://gnuwin32.sourceforge.net/packages/wget.htm  \n\n2. Download the dataset  \nOpen Command Prompt (Press `Win + R`, type `cmd`, and press Enter).\nRun the following command:  \nwget -r -np -nH --cut-dirs=5 --ftp-user=anonymous --ftp-password=anonymous -P C:\\Users\\YourUsername\\Documents\\MosquitoWingImages ftp://ftp.ebi.ac.uk/biostudies/fire/S-BIAD/478/S-BIAD1478/Files/ Wings/Zipped/\nReplace `YourUsername` with your actual Windows username.\n\nThis will download the dataset to\nC:\\Users\\YourUsername\\Documents\\WingImages",
       "funder": [],
       "identifier": "S-BIAD1478",

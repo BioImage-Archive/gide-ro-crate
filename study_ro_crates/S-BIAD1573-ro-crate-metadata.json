@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#dbece14c-2a91-44a2-a7ee-9f97bd6952d5"
         },
         {
-          "@id": "obo:FBbi_00000247"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000247"
         }
       ],
       "about": [
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-11",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-11"
+      },
       "description": "The spirochete Borrelia burgdorferi causes Lyme disease. In some patients, an excessive, dysregulated proinflammatory immune response can develop in joints leading to persistent arthritis. In such patients, persistence of antigenic B. burgdorferi peptidoglycan (PGBb) fragments within joint tissues may contribute to the immunopatho-genesis, even after appropriate antibiotic treatment. In live B. burgdorferi cells, the outer membrane shields the polymeric PGBb sacculus from exposure to the immune system. However, unlike most diderm bacteria, B. burgdorferi releases PGBb turnover products into its environment due to the absence of recycling activity. In this study, we identified the released PGBb fragments using a mass spectrometry-based approach. By characterizing the L,D-carboxypeptidase activity of B. burgdorferi protein BB0605 (renamed DacA), we found that PGBb turnover largely occurs at sites of PGBb synthesis. In parallel, we demonstrated that the lytic transglycosylase activity associated with BB0259 (renamed MltS) releases PGBb fragments with 1,6-anhydro bond on their N-acetylmuramyl residues. Stimulation of human cell lines with various synthetic PGBb fragments revealed that 1,6-anhydromuramyl-containing PGBb fragments are poor inducers of a NOD2-dependent immune response relative to their hydrated counterparts. We also showed that the activity of the human N -acetylmuramyl-L-alanine amidase PGLYRP2, which reduces the immunogenicity of PGBb material, is low in joint (synovial) fluids relative to serum. Altogether, our findings suggest that MltS activity helps B. burgdorferi evade PG-based immune detection by NOD2 during growth despite shedding PGBb fragments and that PGBb-induced immunopathology likely results from host sensing of PGBb material from dead (lysed) spirochetes. Additionally, our results suggest the possibility that natural variation in PGLYRP2 activity may contribute to differences in susceptibility to PG-induced inflammation across tissues and individuals.",
       "funder": [],
       "identifier": "S-BIAD1573",

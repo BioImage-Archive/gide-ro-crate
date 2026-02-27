@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -58,10 +63,10 @@
           "@id": "#7dc0014a-9584-4274-add7-7b3d3a9be50d"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-22"
+      },
       "description": "The dataset consists of 27 brightfield and 27 immunofluorescent images of clear cell renal cell carcinoma (ccRCC), a type of kidney cancer, along with patient-derived tumoroids. The brightfield images include 18 haematoxylin and eosin (H&E)-stained samples from eight patient tissues and their corresponding tumoroids, as well as seven ICOS immunohistochemical-stained sections from three patients, analysed as part of an immune panel to characterize tumoroids. Additionally, the dataset contains multiplex immunofluorescence (mIF) images to identify key features such as cell proliferation (KI67), endothelial cells (CD105), heterogeneity (PCK), and immune cell presence (CD45). Further analysis was conducted to investigate immune subtypes using a high-plex panel. This panel involved four consecutive staining cycles on the same tissue section to detect proteins including CD56, CD20, CD68, CD3, PCK, and CD11b, with Hoechst used as a nuclear counterstain. Tumoroids are a 3D model system that serve as an innovative model derived from primary cancer tissue, maintaining critical components of the tumour microenvironment. The tumoroid system presents a novel approach to studying Renal Cell Carcinoma (RCC), offering a valuable platform to investigate tumor heterogeneity and immune cell interactions within the tumor microenvironment. Its diverse cellular composition makes it particularly useful for exploring key histological characteristics.\nA second part of the dataset includes 11 whole slide images of snap-frozen ccRCC tumoroids and 1 WSI of ccRCC tissue. These WSIs are desorption electrospray ionization mass spectrometry imaging (DESI-MSI) raw data files, haematoxylin and eosin (H&E) and multiplex immunofluorescent (mIF) images. The dataset comprises 5 different patient samples that were analysed by DESI-MSI and H&E and mIF were performed on the same slide. DESI-MSI images were acquired in the range of m/z 50-1200 Da with parameters set for sensitive detection of lipids, specially in the range m/z 600-900 Da. H&E images allow the identification of structurual features of the tissue. mIF images have been labeled using a pannel of protein markers to allow simultaneous visualisation of multiple targets withing the same tissue sample. Panel includes markers Ki67, CD45, CD105 and PanCK with a DNA counterstain (NucBlue). These markers enable the identification of proliferative, immune cells, endothelial and stem-cell like cancer cells, and epithelial cells within cancer. This dataset is expected to be highly valuabe for characterising the metabolic, lipidomic and phenotypical features of 3D-cultured models of ccRCC. Since DESI-MSI, H&E and mIF images were acquired from the same tumoroid a direct and unbiased correlation can be established between the results of each technique. The integration of data from these different imaging modalities can help researchers gain deeper insights into the metabolic phenotype of cancer cells within the tumour microenvironment of ccRCC.\n",
       "funder": [],
       "identifier": "S-BIAD1661",

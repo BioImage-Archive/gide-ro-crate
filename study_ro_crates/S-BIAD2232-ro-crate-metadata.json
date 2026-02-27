@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,10 +89,10 @@
           "@id": "#d9064f67-444d-477b-a441-eb90d5452b38"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
+          "@id": "obo:NCBITaxon_10090"
         }
       ],
       "author": [
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-07",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-07"
+      },
       "description": "This dataset contains paired virtual whole-slide images (WSIs) and their corresponding chemically stained WSIs. Virtual staining uses deep learning to digitally reproduce the appearance of histochemical stains from label-free images, offering a non-destructive alternative to conventional staining that preserves tissue for additional analysis. In this dataset, the virtual WSIs were generated from label-free dual-excitation Photon Absorption Remote Sensing (PARS) microscopy data using the RegGAN image-to-image translation framework. Stain types include hematoxylin & eosin (H&E), Masson’s trichrome, periodic acid–Schiff (PAS), and Jones silver, spanning diverse healthy and pathological human and murine tissues. The dataset enables quantitative and qualitative evaluation of virtual staining performance, providing pixel-aligned comparisons between AI-generated stains and their real histochemical counterparts.",
       "funder": [],
       "identifier": "S-BIAD2232",

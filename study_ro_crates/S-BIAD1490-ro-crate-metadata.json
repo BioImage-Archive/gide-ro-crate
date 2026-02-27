@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-11-22",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-11-22"
+      },
       "description": "Cytonemes are signaling filopodia that facilitate long-range cell-cell communication by forming synapses between cells. Initially discovered in Drosophila for transporting morphogens during embryogenesis, they have since been identified in mammalian cells and implicated in carcinogenesis. Despite their importance, mechanisms controlling cytoneme biogenesis remain elusive. Here, we demonstrate that the Ser/Thr kinase Slik\ndrives remote cell proliferation by promoting cytoneme formation. This function depends on the coiled-coil domain of Slik (SlikCCD), which directly sculpts membranes into tubules. Importantly, Slik plays itsparadoxical roles in cytoneme biogenesis: membrane-sculpting activity promotes cytoneme formation, but this is counteracted by its kinase activity, enhancing actin association with the plasma membrane via Moesin phosphorylation. In vivo, SlikCCD enhances cytoneme formation in one epithelial layer of the wing disc to promote cell proliferation in an adjacent layer. Finally, this function relies on the STRIPAK complex, which controls cytoneme formation and governs proliferation at a distance by regulating Slik association with the plasma membrane. Our study unveils the first family of kinases that sculpts membranes, crucial for cytoneme- mediated control of cell proliferation.",
       "funder": [],
       "identifier": "S-BIAD1490",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2026-01-21",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-01-21"
+      },
       "description": "Plasma membrane calcium ATPases (PMCAs) are believed to function exclusively at the plasma membrane where they expel calcium from the cytosol. We have unexpectedly identified a splice variant-dependent localisation of the PMCA isoform PMCA2 to the lysosome, where it forms an evolutionarily conserved complex with NPC1, the lysosomal membrane protein defective in the rare lysosomal storage disease Niemann-Pick disease type C (NPC). This interaction is required for lysosomal Ca2+ homeostasis and implicates PMCA2 as a mediator of Ca2+ uptake into lysosomes. Disruption of the NPC1-PMCA2 complex contributes to the pathophysiology of both Niemann-Pick disease type C and Parkinson’s disease, revealing an unrecognised intracellular function for PMCA2 and a shared mechanism linking lysosomal Ca2+ and lipid regulation in neurodegeneration. ",
       "funder": [],
       "identifier": "S-BIAD2807",

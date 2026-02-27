@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-30"
+      },
       "description": "Segmenting multi-dimensional microscopy data requires high accuracy across many images (e.g. timepoints) and is thus a labour-intensive part of biological image processing pipelines. We present ReSCU-Nets, recurrent convolutional neural networks that use the segmentation results from the previous frame as a prompt to segment the current frame. We demonstrate that ReSCU-Nets outperform state-of-the-art image segmentation models in different segmentation tasks on time-lapse microscopy sequences. \n\nThis study contains three datasets containing timelapse fluorescence microscopy videos of cell migration processes during Drosophila embryonic development, with accompanying ground truth segmentations. The first dataset shows the nuclei of cardioblasts as they migrate to form the early heart tube. The second and third datasets show epithelial cell outlines during embryonic wound healing. The second dataset provides ground truth segmentations of the wound itself, while the third dataset contains ground truth segmentations of cell areas around the wound.",
       "funder": [],
       "identifier": "S-BIAD1410",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -64,10 +69,10 @@
           "@id": "#32904e3a-4f99-4de3-866e-7bbbc1ea5920"
         },
         {
-          "@id": "obo:FBbi_00000247"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000247"
         }
       ],
       "about": [
@@ -111,7 +116,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-06",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-06"
+      },
       "description": "During growth, cells need to synthesize and expand their envelope, a process that requires careful regulation. Here, we show that the GTPase ObgE of E. coli contributes to the regulation of lipopolysaccharide (LPS) synthesis, an essential component of the Gram-negative outer membrane. Using a dominant-negative mutant (named ‘ObgE*’), we show a direct interaction between ObgE and LpxA, which catalyzes the first step in LPS synthesis. This interaction is enhanced by the mutation in ObgE* which, when bound to GTP, leads to inhibition of LpxA, decreased LPS synthesis, and cell death. Although wild-type ObgE does not exert the same strong effects as ObgE* on LpxA or LPS synthesis, our data indicate that ObgE participates in the regulation of cell envelope synthesis in E. coli. Because ObgE also influences other cellular functions (i.e., ribosome assembly, DNA replication, etc.), it seems increasingly plausible that this GTPase coordinates several processes to finetune cell growth.",
       "funder": [],
       "identifier": "S-BIAD1002",

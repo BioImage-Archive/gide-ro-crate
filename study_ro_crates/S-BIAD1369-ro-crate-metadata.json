@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-09-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-19"
+      },
       "description": "The diffusion properties of the membrane proteins CD86 and CTLA4 were measured at 25 °C using single-particle tracking (SPT) in U 2-OS cells stably expressing CD86-HT7, CD86-dHT7, CTLA4-HT7, or CTLA4-dHT7. For imaging of the proteins of interest for 20 s, the covalent HaloTag Ligand SiR-HTL, or the exchangeable HaloTag Ligands (xHTLs) SiR-S5, SiR-Hy5, JF585-S5, JF585-Hy4 were used at a concentration of 1 nM. The proteins of interest were also measured for 20 min using SiR-HTL, SiR-S5, or SiR-Hy5 at the same concentration. The diffusion properties of the membrane receptor EGFR were measured at 25 °C using SPT in U-2 OS cells transiently expressing the EGFR-HT7 fusion protein. The ligand SiR-S5 was used for imaging the protein of interest for 20 s or 30 min at 1 nM concentration. The diffusion of calreticulin (CalR)-HT7-KDEL was measured in U-2 OS cells stably expressing the protein of interest and targeted with 0.5 nM SiR-HTL or SiR-S5 for 20 min. ",
       "funder": [],
       "identifier": "S-BIAD1369",

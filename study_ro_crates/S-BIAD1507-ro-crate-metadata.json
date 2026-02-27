@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-17"
+      },
       "description": "While recent innovations in spatial biology have driven new insights into how tissue organization is altered in disease, interpreting these datasets in a generalized and scalable fashion remains a challenge. Computational workflows for discovering condition-specific differences in tissue organization typically rely on pairwise comparisons or unsupervised clustering. In many cases, these approaches are computationally expensive, lack statistical rigor, and are insensitive to low-prevalence cellular niches that are nevertheless highly discriminative and predictive of patient outcomes. Here, we present QUICHE - an automated, scalable, and statistically robust method that can be used to discover cellular niches differentially enriched in spatial regions, longitudinal samples, or patient groups. In contrast to existing methods, QUICHE combines local niche detection with interpretable statistical modeling using graph neighborhoods to detect differentially enriched cellular niches, even at low prevalence. Using in silico models and spatial proteomic imaging of human tissues, we demonstrate that QUICHE can accurately detect condition-specific cellular niches occurring at a frequency of 0.5% in fewer than 20% of patient samples, outperforming the next best method which required a patient prevalence of 60% for detection. To validate our approach and understand how tumor structure influences recurrence risk in triple negative breast cancer (TNBC), we used QUICHE to comprehensively profile the tumor microenvironment in a  multi-center, spatial proteomics cohort consisting of primary surgical resections, analyzing over 2 million cells from 314 patients across 5 medical centers. We discovered cellular niches that were consistently enriched in key regions of the tumor microenvironment, including the tumor-immune border and extracellular matrix remodeling regions, as well as niches statistically-associated with patient outcomes, including recurrence status and recurrence-free survival. The majority of differential niches (74.2%) were specific to patients that did not relapse and formed a robust interconnected network enriched in monocytes, macrophages, APCs, and CD8T cells with tumor and stromal cells. In contrast, the interaction network for patients that relapsed was notably sparse and enriched in B cells, CD68 macrophages and neutrophils. We validated these findings using two independent cohorts, observing similar cellular interactions and predictive power. Collectively, these results suggest that salient, generalized profiles of productive anti-tumor immune responses are defined by a network of structural engagement between innate and adaptive immunity with tumor and stromal cells, rather than by any single specific cell population. ",
       "funder": [],
       "identifier": "S-BIAD1507",

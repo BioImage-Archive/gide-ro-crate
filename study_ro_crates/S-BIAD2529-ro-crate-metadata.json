@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-27"
+      },
       "description": "Understanding protein distribution patterns across tissue architecture is crucial for deciphering organ function in health and disease. Here, we show the application of single-cell Deep Visual Proteomics to perform spatially-resolved proteome analysis of individual cells in native liver tissue. We built a robust framework comprising strategic cell selection and continuous protein gradient mapping, allowing the investigation of larger clinical cohorts. We generated a comprehensive spatial map of the human hepatic proteome by analyzing hundreds of isolated hepatocytes from 18 individuals. Among the 2,500 proteins identified per cell, about half exhibited zonated expression patterns. Cross-species comparison with male mice revealed conserved metabolic functions and human-specific features of liver zonation. Analysis of samples with disrupted liver architecture demonstrated widespread loss of protein zonation, with pericentral proteins being particularly susceptible. Our study provides a comprehensive and open-access resource of human liver organization while establishing a broadly applicable framework for spatial proteomics analyses along tissue gradients.",
       "funder": [],
       "identifier": "S-BIAD2529",

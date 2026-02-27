@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -108,7 +113,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-19",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-19"
+      },
       "description": "Rift Valley fever virus (RVFV) is an encephalitic bunyavirus that can infect neurons in the brain. There are no approved therapeutics that can protect from RVFV encephalitis. Innate immunity, the first line of defense against infection, canonically antagonizes viruses through interferon signaling. We found that interferons did not efficiently protect primary cortical neurons from RVFV, unlike other cell types. To identify alternative neuronal antiviral pathways, we screened innate immune ligands and discovered that the TLR2 ligand Pam3CSK4 inhibited RVFV infection, and other bunyaviruses. Mechanistically, we found that Pam3CSK4 blocks viral fusion, independent of TLR2. In a mouse model of RVFV encephalitis, Pam3CSK4 treatment protected animals from infection and mortality. Overall, Pam3CSK4 is a bunyavirus fusion inhibitor active in primary neurons and the brain, representing a new approach toward the development of treatments for encephalitic bunyavirus infections.",
       "funder": [],
       "identifier": "S-BIAD1183",

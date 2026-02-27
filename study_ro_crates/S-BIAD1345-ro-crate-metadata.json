@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -123,7 +128,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-09-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-09-15"
+      },
       "description": "This study deposits all immunofluorescent images (spinning disk confocal, super-resolution, deconvolution, etc) of endothelial cells (HUVECs, HAECs) stained for cell shape and microtubule dynamics under conditions where there are chemical and genetic perturbations of microtubule acetylation.",
       "funder": [],
       "identifier": "S-BIAD1345",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,10 +77,10 @@
           "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_9483"
+          "@id": "obo:NCBITaxon_9541"
         },
         {
-          "@id": "obo:NCBITaxon_9541"
+          "@id": "obo:NCBITaxon_9483"
         }
       ],
       "author": [
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-05-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-05-05"
+      },
       "description": "This study details a new optical tissue clearing technique, a novel toolbox for studying intact testicular tissues, PT-CLEAR3D, that stands for primate testis – whole mount staining, tissue clearing and three-dimensional imaging. Intact testicular tissues from humans (transgender model), common marmosets and macaques underwent antibody labelling, clearing with organic solvents, and three-dimensional imaging using light sheet fluorescence microscopy. Marker specificity was confirmed by immunofluorescence staining of 3 and 25 µm testicular sections, followed by imaging with confocal. The testicular structure was evaluated using several markers: spermatogonia (melanoma-associated antigen 4), least differentiated spermatogonia (Piwi-like protein 4), Sertoli cells (vimentin and SRY-Box transcription Factor 9), peritubular myoid cells and vasculature (alpha-smooth muscle actin), and NucSpot as a nuclear dye. This study presents a pioneering three-dimensional visualization of intact testicular samples of up to 50 mm3 in size and imaging depth of up to 4.5 mm across three primate species. This will enable visualization of the primate testes' tubular and interstitial compartments. Remarkably, PT-CLEAR3D revealed critical details at both tissue and cellular levels such as the spatial distribution of germ and somatic cells, cellular bridges, and vasculature. PT-CLEAR3D enabled three-dimensional reconstructions that effectively reduce confirmation bias enhancing our observation of spermatogonial clones organized as single cells, pairs, and quartets. This technological development offers a versatile toolbox with benefits such as applicability across multiple species, fluorophore multiplexing, compatibility with different fixatives and deep tissue volumetric imaging with cellular resolution. ",
       "funder": [],
       "identifier": "S-BIAD1898",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-27",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-27"
+      },
       "description": "SUMMARY. Here, we provide the image datasets supporting the development of CellCycleNet, a cell cycle stage classifier tool. We imaged thousands of fixed interphase mouse fibroblast cells containing a Fluorescent Ubiquitination-based Cell Cycle Indicator-2a (Fucci-2a) transgene, stained with DAPI, from two common fluorescent microscope modalities: widefield epifluorescence and spinning-disk confocal microscopy.\n\nABSTRACT. The cell cycle governs proliferation of all eukaryotic cells. Profiling cell cycle dynamics is therefore central to basic and biomedical research. However, current approaches to cell cycle profiling involve complex interventions that may confound experimental interpretation. We developed CellCycleNet, a machine learning (ML) workflow, to simplify cell cycle staging from fluorescent microscopy data with minimal experimenter intervention and cost. CellCycleNet accurately predicts cell cycle phase using only a fluorescent nuclear stain (DAPI) in fixed interphase cells. Using the Fucci2a cell cycle reporter system as ground truth, we collected two benchmarking image datasets and trained 2D and 3D ML models—of support vector machine (SVM) and deep neural network architecture—to classify nuclei in the G1 or S/G2 phases. Our results show that 3D CellCycleNet outperforms SVM models on each dataset. When trained on two image datasets simultaneously, CellCycleNet achieves the highest classification accuracy (AUROC of 0.94-0.95). Overall, we found that using 3D features, rather than 2D features alone, significantly improves classification performance for all model architectures. We released our image data, models, and software as a community resource.",
       "funder": [],
       "identifier": "S-BIAD1752",

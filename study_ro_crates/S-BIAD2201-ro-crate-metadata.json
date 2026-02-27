@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -69,7 +74,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-30"
+      },
       "description": "Stem cell-derived embryo models could greatly facilitate our understanding of embryonic development. Here we developed an in vitro culture system supporting stem cell-derived monkey blastoid developing to day 25 (D25). Morphological and transcriptomic analyses showed that these monkey embryoids underwent gastrulation and largely recapitulated key developmental events of the late gastrulation stage observed in vivo, with the appearance of neural plate, hematopoietic system, allantois, primitive gut, primordial germ cells, yolk sac structures, and progenitors of other organs, excluding extraembryonic tissues. This primate stem cell-derived embryo model provides a valuable platform for dissecting the mechanisms of primate embryonic development from blastocyst to late gastrulation stage. ",
       "funder": [],
       "identifier": "S-BIAD2201",

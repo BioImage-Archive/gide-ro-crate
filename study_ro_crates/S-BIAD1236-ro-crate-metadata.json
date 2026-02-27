@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-06-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-06-17"
+      },
       "description": "This is an image of a human tonsil collected on the Rarecyte Orion. This is a widefield spectral-unmixing microscope with a 20x (0.75) dry objective. The slide was stained with 15 antibodies, Hoechst, and autofluorescence was calculated (AF1) . The channels are:\n\n01 Hoechst\n02 AF1\n03 CD31_Argo515\n04 CD11c_Argo555L\n05 CD68_Argo535\n06 CD163_Argo580L\n07 CD20_Argo660L\n08 CD4_Argo572\n09 CD8a_Argo602\n10 CD45RO_Argo624\n11 PD-L1_Argo662\n12 FOXP3_Argo686\n13 LAG3_Argo730\n14 PD-1_Argo760\n15 Ki-67_Argo784\n16 CD45_Argo810 \n17 S100_Argo845",
       "funder": [],
       "identifier": "S-BIAD1236",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -76,7 +81,10 @@
           "@id": "https://doi.org/10.1101/2025.07.29.667395"
         }
       ],
-      "datePublished": "2025-12-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-05"
+      },
       "description": "Radiation damage remains a fundamental limitation in cryo-electron microscopy (cryo-EM), constraining the total electron dose that can be used and thus hindering high-resolution imaging of biological specimens. Recent studies have proposed that temporally structured or pulsed electron beams could reduce radiation damage by allowing time for energy dissipation between individual electron interactions. To evaluate this hypothesis, we conducted a systematic investigation using a radio-frequency (RF) driven 300 kV Titan Krios microscope equipped with cold field emission gun (c-FEG) to generate highly regular pulsed electron beams for specimens under cryogenic conditions. We compared radiation damage in three representative samples: paraffin 2D crystals, bacteriorhodopsin (purple membrane) 2D crystals, and plunge-frozen tobacco mosaic virus (TMV) in vitreous ice, under both pulsed and conventional random illumination, while keeping all other imaging conditions constant. Radiation damage was quantified by tracking the decay of computed diffraction intensities to determine the critical dose (Ne). We observed no statistically significant difference in critical dose between pulsed and random illumination across all 3 samples. Our findings provide a critical reference point for future development and evaluation of temporally modulated electron sources in cryo-EM instrumentation.",
       "funder": [],
       "identifier": "S-BIAD2466",
@@ -135,7 +143,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "Pulsed-electron illumination does not reduce beam damage for imaging biological macromolecules"
     },
     {

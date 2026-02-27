@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-06-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-06-30"
+      },
       "description": "Plants have the remarkable ability to regenerate whole organisms through formation of pluripotent cell masses from somatic cells. Cellular programs leading to fate change of somatic to pluripotent cells resemble lateral root (LR) formation and both are chiefly regulated by auxin. Brassinosteroid signalling also plays an important role during LR formation, but little is known about the direct link between auxin and brassinosteroid components, such as BZR1 and BES1, in relation to pluripotency acquisition. Here we show that gain-of-function mutants bzr1-D and bes1-D exhibit altered callus formation, yet disruption of these transcription factors does not produce major changes to callus formation or de novo organogenesis. Moreover, our data reveals that BZR1 displays enhanced expression in callus tissue and directly binds to the promoters of ARF7 and ARF19, two master pluripotency regulators, leading to their enhanced transcription. Remarkably, we see abrogation of callus formation in bzr1-D upon disruption of ARF7 and ARF19, emphasizing that BZR1 callus phenotype is dependent on these two auxin-signalling components. In conclusion, we depict a link between ARF7, ARF19 and BZR1 in the promotion of pluripotency acquisition, portraying BZR1 as a major supporting factor in callus formation.",
       "funder": [],
       "identifier": "S-BIAD1610",

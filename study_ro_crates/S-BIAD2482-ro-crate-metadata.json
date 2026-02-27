@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -88,7 +93,10 @@
           "@id": "https://doi.org/10.1038/s41587-025-02905-4"
         }
       ],
-      "datePublished": "2025-12-10",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-10"
+      },
       "description": "Understanding the molecular anatomy and neural connectivity of the brain requires imaging technologies that can map the 3D nanoscale distribution of specific proteins in the context of brain ultrastructure. Light and electron microscopy (EM) visualize either specific labels or anatomical ultrastructure but combining molecular specificity with anatomical context is challenging. Here, we present pan-Expansion Microscopy of tissue (pan-ExM-t), an all-optical imaging method that combines ~16-24-fold linear expansion with fluorescent pan-stainings of proteins and lipids (providing EM-like ultrastructural context), and immunolabeling (for molecular imaging). We demonstrate the versatility of this approach by imaging synaptic and cell-specific antibodies in the ultrastructural 3D context of pre and postsynaptic densities, neuropil nanoarchitecture, and cellular organelles in dissociated neuron cultures and mouse brain tissue sections. Furthermore, we demonstrate tracing of neuronal circuitry from pan-ExM-t image volumes, suggesting that any laboratory with access to a confocal microscope can now localize specific molecules within nanoscale cellular and circuit contexts. ",
       "funder": [],
       "identifier": "S-BIAD2482",
@@ -196,7 +204,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2025",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025"
+      },
       "name": "All-optical visualization of specific molecules in the ultrastructural context of brain tissue"
     },
     {

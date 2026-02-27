@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -67,10 +72,10 @@
           "@id": "#f95bcd77-6838-43a2-86fe-175e6682d71d"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -126,7 +131,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-30"
+      },
       "description": "The cGAS-STING signalling pathway acts as gatekeeper in the innate immune response towards extrinsic and intrinsic sources of cytoplasmic double stranded DNA (dsDNA). At the core of this pathway is the cGAS-dependent production of the intra- and extra-cellular messenger 2’3’-cyclic GMP-AMP (cGAMP), which activates STING and leads to IRF3-dependent expression of cytokines and interferon. Despite its relevance to monitor viral and bacterial infections, cell death, and genome instability, the lack of specific live reporters has precluded spatio-temporal analyses of cGAS-STING signalling. Here, we generate a fluorescent biosensor by engineering the functional interaction of activated STING and IRF3 at the Golgi, which we termed SIRF (STING-IRF3). We show that cells encoding for the SIRF biosensor react within 45 minutes, and in a time- and concentration-dependent manner to STING agonists and cGAMP. We demonstrate that this biosensor is suitable for single cell characterisation of the dynamics of Herpes Simplex Virus 1 infection, mtDNA release upon apoptosis, and other sources of cytoplasmic dsDNA. Intriguingly, we show that STING signalling is not activated by ruptured micronuclei, suggesting that other cytosolic pattern recognition receptors underlie the interferon response upon chromosomal instability. Furthermore, we demonstrate that the biosensor sensitivity is sufficient to report microenvironmental cGAMP, allowing to analyse how STING signalling spreads across neighbouring cells, including upon viral infection. Taken together, we provide a tool to easily monitor the activation cGAS-STING signalling pathway by live cell imaging or immunofluorescence analyses; and to capture the spatio-temporal and heterogenous dynamics of the response to cGAMP.",
       "funder": [],
       "identifier": "S-BIAD1536",

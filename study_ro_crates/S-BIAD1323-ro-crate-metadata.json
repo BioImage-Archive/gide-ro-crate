@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-08-17",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-08-17"
+      },
       "description": "Widefield fluorescence microscopy images of various clonal populations of human lung epithelial A549 cancer cells infected with the fluorescent reporter adenovirus AdV-C5-E1A-FS2A-GFP. Cells were fixed at 24 hours post infection, stained with DAPI, and imaged in the DAPI (channel 1) and GFP (channel 2) channels with either 10x or 20x magnification.",
       "funder": [],
       "identifier": "S-BIAD1323",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -97,16 +102,16 @@
           "@id": "#1392c3fb-987a-43d0-8aa5-1da6ae4450c2"
         },
         {
-          "@id": "obo:FBbi_00000243"
-        },
-        {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000366"
         },
         {
           "@id": "obo:FBbi_00000259"
         },
         {
-          "@id": "obo:FBbi_00000366"
+          "@id": "obo:FBbi_00000249"
+        },
+        {
+          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -234,7 +239,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-05",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-05"
+      },
       "description": "Bacteria often experience nutrient limitation. While exponential and stationary growth phases are well characterized in the model bacterium Escherichia coli, little is known about what transpires inside individual cells during the transition between these two phases. Through quantitative cell imaging, we found that the positions of nucleoids and cell division sites become increasingly asymmetric during transition phase. These asymmetries were coupled with spatial reorganization of proteins, ribosomes, and RNAs to nucleoid-centric localizations. Results from live-cell imaging experiments, complemented with genetic and 13C whole-cell nuclear magnetic resonance spectroscopy studies, show that preferential accumulation of the storage polymer glycogen at the old cell pole leads to the observed rearrangements and asymmetric divisions. Live-cell atomic force microscopy analysis, along with in vitro biochemical experiments, suggests that these phenotypes are due to the propensity of glycogen to phase separate into soft condensates in the crowded cytoplasm. Glycogen-associated differences in cell sizes between strains and future daughter cells suggest that glycogen phase separation allows cells to store large glucose reserves without counting them as cytoplasmic space.",
       "funder": [],
       "identifier": "S-BIAD2088",

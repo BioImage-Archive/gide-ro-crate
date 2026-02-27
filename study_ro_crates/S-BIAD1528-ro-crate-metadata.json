@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -105,7 +110,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-12-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-12-18"
+      },
       "description": "This dataset is associated with an article that has not yet been published.\nAbstract: Neuronal energy regulation is increasingly recognized as a critical factor underlying brain functions and their pathological alterations, yet the metabolic dynamics that accompany cognitive processes remain poorly understood. As a label-free and minimally invasive technique, fluorescence lifetime imaging (FLIM) of coenzymes NADH and NADPH (collectively referred to as NAD(P)H) offers the possibility to resolve cellular metabolic profiles with high spatial precision. However, NAD(P)H FLIM’s capacity to detect subtle changes in neuronal metabolism associated with cognition has not been demonstrated. In this study, we applied NAD(P)H FLIM to map the metabolic profiles of Drosophila neurons in vivo across multiple scales, focusing on the primary centers for associative memory: the mushroom bodies (MBs). At a broad scale, we obtained an overview of the metabolic signatures of the main brain tissue and identified a marked difference between neuropil and cortex areas. At a finer scale, our findings revealed notable heterogeneity in the basal metabolic profiles of distinct MB neuron subtypes. Measurements performed after associative olfactory learning also uncovered a subtype-specific metabolic shift associated with memory formation, demonstrating the utility of NAD(P)H FLIM in detecting physiology-driven changes linked to brain function. These results establish a promising framework for studying cerebral energy dynamics in vivo.",
       "funder": [],
       "identifier": "S-BIAD1528",

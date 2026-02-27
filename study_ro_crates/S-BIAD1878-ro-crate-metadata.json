@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -84,7 +89,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-04-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-04-29"
+      },
       "description": "Thiol-ene click chemistry is a powerful tool for designing permissive hydrogel matrices that mimic the mechanical and biochemical properties of 3D cellular microenvironments. The high selectivity of thiol-norbornene step-growth polymerization enables precise control of crosslinking mechanism, circumventing the alkene homopolymerization present in other systems that prevents encapsu-lated cell spreading. Limited stress relaxation of a dynamically-crosslinked norbornene-modified hyaluronic acid (NorHA) hydro-gel employing a thiol-norbornene photoclick reaction led us to investigate the prevalence of norbornene homopolymerization in this supposed click reaction. Norbornene conversion was quantified in multiple norbornene-modified polymer+thiol system permuta-tions, revealing higher norbornene conversion than that expected from a 1:1 thiol-ene addition. We showed that decreasing the number of norbornenes per NorHA chain (f) mitigated elastic network formation via these undesired ene-ene crosslinks. Dynamic hydrogels fabricated with NorHA of f = 8 (Nor8HA) exhibited 93.0±1.6% relaxation, while those fabricated with NorHA of f = 40 (Nor40HA) achieved only 42.3±0.1% relaxation. As early as day 3 of culture, Nor8HA hydrogels facilitated spreading of encap-sulated human mesenchymal stromal cells (hMSCs) into a spindle-like morphology (aspect ratio: 2.95±0.38), while Nor40HA hy-drogels appeared to constrain cells into a spherical or compact star morphology (aspect ratio: 1.22±0.01). Inference of a single-cell morphological space derived from a shape-matching distance metric validated the two distinct hMSC morphological phenotypes primarily associated with polymer f. Despite its widespread use as a click reaction, radical-mediated thiol-norbornene polymeriza-tion was found to not be stoichiometric in dilute aqueous conditions. Altering network topology through polymer f enabled the rescue of the hydrogel’s dynamic behavior despite the presence of norbornene homopolymerization, highlighting the need to con-sider network-level properties when designing engineered cellular microenvironments.",
       "funder": [],
       "identifier": "S-BIAD1878",

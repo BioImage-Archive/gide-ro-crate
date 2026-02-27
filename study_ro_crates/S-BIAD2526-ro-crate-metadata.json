@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-12-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-12-31"
+      },
       "description": "Fluorescence imaging across the near-infrared (NIR, 700–1000 nm) and shortwave infrared (SWIR, 1000–2000 nm) regions offers significant advantages for biomedical applications, yet photophysical enhancements achieved with NIR and SWIR chromophores observed in solution often fail to translate to complex biological environments. Fluorous-soluble fluorophores, fluorofluorophores, face additional challenges, exhibiting poor brightness and photostability when dissolved in perfluorocarbons (PFCs) due to unfavorable interactions with the fluorous phase. Here, we report counterion exchange as a strategy to enhance the photophysical properties of two heptamethine cyanine fluorofluorophore for NIR and SWIR imaging. Exchanging the small chloride counterion with a large, fluorinated aryl borate counterions significantly improved the brightness (10-fold) and photostability (57-fold) in PFCs. These enhancements were successfully translated across multiple biological systems from macrophage cells to NIR imaging zebrafish retinal tissue and finally to SWIR imaging in mice. These results demonstrate that strategic counterion modification provides a straightforward approach to optimize fluorofluorophores, with solution-phase improvements that translate to in vivo NIR and SWIR imaging.",
       "funder": [],
       "identifier": "S-BIAD2526",

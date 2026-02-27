@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-14",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-14"
+      },
       "description": "Cancer cells often display centrosome amplification, requiring the kinesin KIFC1/HSET for centrosome clustering to prevent multipolar spindles and cell death.  In parallel siRNA screens of deubiquitinase enzymes, we identify OTUD6B as a positive regulator of KIFC1 expression that is required for centrosome clustering in triple-negative breast cancer (TNBC) cells.  OTUD6B can localise to centrosomes and the mitotic spindle and interacts with KIFC1.  In OTUD6B-deficient cells, we see increased KIFC1 poly-ubiquitination and premature KIFC1 degradation during mitosis.  Depletion of OTUD6B increases multipolar spindles without inducing centrosome amplification.  Phenotypic rescue is dependent on OTUD6B catalytic activity and evident upon KIFC1 overexpression.  OTUD6B is commonly overexpressed in breast cancer, correlating with KIFC1 protein expression and worse patient survival.  TNBC cells with centrosome amplification, but not normal breast epithelial cells, depend on OTUD6B to proliferate.  Indeed CRISPR-Cas9 editing resulted in only OTUD6B-/+ TNBC cells which failed to divide and died. As a deubiquitinase that supports KIFC1 expression, allowing pseudo-bipolar cell division and survival of cancer cells with centrosome amplification, OTUD6B has potential as a novel target for cancer-specific therapies.",
       "funder": [],
       "identifier": "S-BIAD1417",

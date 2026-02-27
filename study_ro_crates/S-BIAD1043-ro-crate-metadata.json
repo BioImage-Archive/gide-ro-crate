@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -92,7 +97,7 @@
       ],
       "author": [
         {
-          "@id": "#178cfa90-f10f-4df7-a50c-9fb57b062e57"
+          "@id": "#8d0a417e-b071-4674-9101-ab51131dda36"
         },
         {
           "@id": "#2151b4e1-a1b9-4975-adb6-7eae6e01231d"
@@ -104,19 +109,19 @@
           "@id": "#a0413301-6ec3-4c7b-a26e-3bd7f996cc66"
         },
         {
-          "@id": "#aa2e4069-0949-43bb-9550-2e120ca3f599"
+          "@id": "#822bc1bc-7929-4454-9885-ba0a392ea52c"
         },
         {
           "@id": "#d0f8b988-bfaf-4b22-bb5e-b8be131ac28c"
         },
         {
-          "@id": "#2c3cc9f0-0ffe-4b13-93ac-50d6c5c3d67c"
+          "@id": "#1ffd73ad-0b0c-4f9e-82cc-ac6d7edccbac"
         },
         {
           "@id": "#a3901eba-6b24-45ef-bcce-53df10358c7a"
         },
         {
-          "@id": "#d18cf14a-a1ed-45fa-b4d0-92aef5f23c07"
+          "@id": "#514b3ac4-ed96-4592-b4b9-18cc962275dd"
         }
       ],
       "citation": [
@@ -124,7 +129,10 @@
           "@id": "https://doi.org/10.1038/s41598-024-66600-1"
         }
       ],
-      "datePublished": "2024-03-01",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-01"
+      },
       "description": "High-throughput imaging (HTI) generates complex imaging datasets from a large number of\nexperimental perturbations. Commercial HTI software for image analysis workflows does not\nallow full customization and adoption of new image processing algorithms in the analysis modules.\nWhile open-source HTI analysis platforms provide individual modules in the workflow, like nuclei\nsegmentation, spot detection, or cell tracking, they are often limited in integrating novel analysis\nmodules or algorithms. Here, we introduce the High-Throughput Image Processing Software\n(HiTIPS) to expand the range and customization of existing HTI analysis capabilities. HiTIPS\nincorporates advanced image processing and machine learning algorithms for automated cell and\nnuclei segmentation, spot signal detection, nucleus tracking, spot tracking, and quantification of\nspot signal intensity. Furthermore, HiTIPS features a graphical user interface that is open to\nintegration of new algorithms for existing analysis pipelines and to adding new analysis pipelines\nthrough separate plugins. To demonstrate the utility of HiTIPS, we present three examples of\nimage analysis workflows for high-throughput DNA FISH, immunofluorescence (IF), and live-\ncell imaging of transcription in single cells. Altogether, we demonstrate that HiTIPS is a user-\nfriendly, flexible, and open-source HTI analysis platform for a variety of cell biology applications",
       "funder": [],
       "identifier": "S-BIAD1043",
@@ -149,7 +157,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#178cfa90-f10f-4df7-a50c-9fb57b062e57",
+      "@id": "#1ffd73ad-0b0c-4f9e-82cc-ac6d7edccbac",
       "@type": [
         "Person"
       ],
@@ -158,8 +166,7 @@
           "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
         }
       ],
-      "email": "adib.keikhosravi@nih.gov",
-      "name": "Adib Keikhosravi"
+      "name": "Tom Misteli"
     },
     {
       "@id": "#2151b4e1-a1b9-4975-adb6-7eae6e01231d",
@@ -174,7 +181,7 @@
       "name": "Faisal Almansour"
     },
     {
-      "@id": "#2c3cc9f0-0ffe-4b13-93ac-50d6c5c3d67c",
+      "@id": "#514b3ac4-ed96-4592-b4b9-18cc962275dd",
       "@type": [
         "Person"
       ],
@@ -183,7 +190,8 @@
           "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
         }
       ],
-      "name": "Tom Misteli"
+      "email": "gianluca.pegoraro@nih.gov",
+      "name": "Gianluca Pegoraro"
     },
     {
       "@id": "#810efb37-991e-41a6-820c-70ffb76c4882",
@@ -196,6 +204,31 @@
         }
       ],
       "name": "Christopher H. Bohrer"
+    },
+    {
+      "@id": "#822bc1bc-7929-4454-9885-ba0a392ea52c",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
+        }
+      ],
+      "name": "Krishnendu Guin"
+    },
+    {
+      "@id": "#8d0a417e-b071-4674-9101-ab51131dda36",
+      "@type": [
+        "Person"
+      ],
+      "affiliation": [
+        {
+          "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
+        }
+      ],
+      "email": "adib.keikhosravi@nih.gov",
+      "name": "Adib Keikhosravi"
     },
     {
       "@id": "#a0413301-6ec3-4c7b-a26e-3bd7f996cc66",
@@ -222,18 +255,6 @@
       "name": "Daniel R. Larson"
     },
     {
-      "@id": "#aa2e4069-0949-43bb-9550-2e120ca3f599",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
-        }
-      ],
-      "name": "Krishnendu Guin"
-    },
-    {
       "@id": "#d0f8b988-bfaf-4b22-bb5e-b8be131ac28c",
       "@type": [
         "Person"
@@ -244,19 +265,6 @@
         }
       ],
       "name": "Varun Sood"
-    },
-    {
-      "@id": "#d18cf14a-a1ed-45fa-b4d0-92aef5f23c07",
-      "@type": [
-        "Person"
-      ],
-      "affiliation": [
-        {
-          "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb"
-        }
-      ],
-      "email": "gianluca.pegoraro@nih.gov",
-      "name": "Gianluca Pegoraro"
     },
     {
       "@id": "#aa048e23-fd03-48a0-929a-26ab8c57f3bb",
@@ -277,7 +285,10 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": "2024",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024"
+      },
       "name": "HiTIPS: High-Throughput Image Processing Software for the Study of Nuclear Architecture and Gene Expression"
     },
     {

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -87,7 +92,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-06-15",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-06-15"
+      },
       "description": "Cilia are cellular projections that perform sensory and motile functions in eukaryotic cells. A defining feature of cilia is that they are evolutionarily ancient yet not universally conserved. In this study we have used the resulting presence and absence pattern in the genomes of diverse eukaryotes to identify a set of 386 human genes associated with cilium assembly or motility. Comprehensive tissue-specific RNAi in Drosophila and mutant analysis in C. elegans revealed signature ciliary defects for 70-80% of novel genes, a percentage similar to that for known genes within the cluster. Further characterization identified different phenotypic classes, including a set of genes related to the cartwheel component Bld10/CEP135 and two highly conserved regulators of cilium biogenesis. We propose this dataset defines the core set of genes required for cilium assembly and motility across eukaryotes, an invaluable resource for future studies of cilium biology and associated disorders.",
       "funder": [],
       "identifier": "S-BIAD681",

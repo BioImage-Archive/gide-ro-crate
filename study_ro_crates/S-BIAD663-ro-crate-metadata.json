@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -99,7 +104,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2023-04-03",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-04-03"
+      },
       "description": "The neglected tropical disease schistosomiasis impacts over 700 million people globally. Schistosoma mansoni, the trematode parasite that causes the most common type of schistosomiasis, requires planorbid pond snails of the genus Biomphalaria to support its larval development and transformation to the cercarial form that can infect humans.  A greater understanding of neural signaling systems that are specific to the Biomphalaria intermediate host could lead to novel strategies for parasite or snail control.  This study examined a Biomphalaria glabrata neural channel that is gated by the neuropeptide FMRF-NH2. The Biomphalaria glabrata FMRF-NH2 gated sodium channel (Bgl-FaNaC) amino acid sequence was highly conserved with FaNaCs found in related gastropods, especially the planorbid Planorbella trivolvis (91% sequence identity). In common with the P. trivolvis FaNaC, the B. glabrata channel exhibited a low affinity (EC50: 3 x 10-4 M) and high specificity for the FMRF-NH2 agonist. Its expression in the central nervous system, detected with immunohistochemistry and in situ hybridization, was widespread, with the protein localized mainly to neuronal fibers and the mRNA confined to cell bodies. Colocalization of the Bgl-FaNaC message with its FMRF-NH2 agonist precursor occurred in some neurons associated with male mating behavior.  At the mRNA level, Bgl-FaNaC expression was decreased at 20 and 35 days post infection (dpi) by S. mansoni.  Increased expression of the transcript encoding the FMRF-NH2 agonist at 35 dpi was proposed to reflect a compensatory response to decreased receptor levels. Altered FMRF-NH2 signaling could be vital for parasite proliferation in its intermediate host and may therefore present innovative opportunities for snail control. ",
       "funder": [],
       "identifier": "S-BIAD663",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -96,7 +101,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-02-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-02-18"
+      },
       "description": "Protein misfolding diseases, including alpha-1 antitrypsin deficiency (AATD), pose significant health challenges, with their cellular progression still poorly understood. We utilize spatial proteomics by mass spectrometry and machine learning to map AATD in human liver tissue. Combining Deep Visual Proteomics (DVP) with single-cell analysis, we probe intact patient biopsies to resolve molecular events during hepatocyte stress in pseudo-time across fibrosis stages. We achieve unprecedented proteome depth of up to 4,300 proteins from a third of a single cell in formalin-fixed, paraffin-embedded (FFPE) tissue. This dataset revealed a potentially clinically actionable peroxisomal upregulation that precedes the canonical unfolded protein response. Our single-cell proteomics data show alpha-1 antitrypsin accumulation is largely cell-intrinsic, with minimal stress propagation between hepatocytes. We integrated proteomic data with AI-guided image-based phenotyping across multiple disease stages, revealing a late-stage hepatocyte phenotype characterized by globular protein aggregates and distinct proteomic signatures, notably including elevated TNFSF10/TRAIL levels. This phenotype may represent a critical disease progression stage. Our study offers novel insights into AATD pathogenesis and introduces a powerful methodology for high-resolution, in situ proteomic analysis of complex tissues. This approach holds potential to unravel molecular mechanisms in various protein misfolding disorders, setting a new standard for understanding disease progression at the single-cell level in human tissue.",
       "funder": [],
       "identifier": "S-BIAD1523",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -93,7 +98,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-07-18",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-07-18"
+      },
       "description": "Ribosomes are huge ribonucleoprotein particles that mediate protein synthesis in all organisms. The synthesis of ribosomes is a complex process that involves hundreds of supporting factors in mammalian cells, including proto-oncogenes and tumor suppressors. Dysregulation of ribosome biogenesis can contribute to tumorigenesis and the increased production of ribosomes in cancer cells is known to promote proliferative cell growth. Therefore, ribosome biogenesis represents an attractive vulnerability of cancer cells that ought to be exploited for the development of anti-cancer drugs. Despite the large number of trans-acting factors promoting in ribosome assembly including potentially druggable enzymes, only few chemical inhibitors that act on ribosome biogenesis, especially downstream of pre-rRNA transcription, have been identified to date. \nWe have established a pipeline to perform single-cell, imaging-based screening campaigns using four different readouts, including fluorescent ribosomal protein reporters (RPS2-YFP, RPL29-GFP) and immunofluorescence analyses of the ribosome biogenesis factor ENP1(BYSL), in HeLa cells, a human cancer line. This dataset contains the raw data and segmentation analysis of our pilot screen, using a library comprising more than 1000 FDA-approved drugs with known targets in other pathways. This pilot screen obtained excellent quality scores and identified altogether ten compounds as hits. ",
       "funder": [],
       "identifier": "S-BIAD2153",

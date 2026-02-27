@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-09-30",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-09-30"
+      },
       "description": "In vitro human organoid models have become transformative tools for studying organogenesis, for example, spinal cord organoids (SCOs) mimic aspects of spinal cord biology. However, current models do not produce spinal motor neurons (spMNs) with a wide range of axial identities along spinal cord segments within a single structure, limiting their utility in understanding human neural axial specification and the selective vulnerability of spMN subpopulations in motor neuron diseases. Here, we present a novel approach to enhance spMN axial heterogeneity in an advanced SCO model derived from neural stem cells (NSCs) and retinoic acid (RA)-primed neuromesodermal progenitors (NMPs). RA priming directed NMP differentiation into caudal neural progenitors, yielding SCOs enriched in spMNs with posterior axial identities. To further spMN axial diversity, we developed a novel, differentiation protocol, that combines NSCs with RA-primed NMPs, generating comprehensive axial SCOs (CASCOs) containing spMNs with segmental identities spanning cervical to lumbar regions, which self-organized into spatially distinct domains. CASCOs were electrophysiologically active, and the incorporation of either an endothelial-like network or skeletal muscle cells enhanced physiological complexity, neural maturation and overall organoid viability. This comprehensive approach provides a robust platform for studying human spMN specification and modeling neurodegenerative disease mechanisms.\n\nContained in this repository are raw images for Figures 6A-C, 8C, and 8E. All other raw image data can be found on the publishers website.",
       "funder": [],
       "identifier": "S-BIAD2281",

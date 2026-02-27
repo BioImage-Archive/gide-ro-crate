@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -81,7 +86,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-10-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-10-31"
+      },
       "description": "The CLK family plays a crucial role in regulating the phosphorylation of SR proteins. Therefore, to explore the dynamic effect of T-025 on the subnuclear localization of SRSF7 in triple-negative breast cancer cells, we performed time-lapse live cell imaging over 24 hours, with a 30-minute imaging interval. This was done using an established bacteria artificial chromosome (BAC) green fluorescent protein (GFP) Hs578T cell line that expressed SRSF7-GFP fusion product under the control of the endogenous promoter. BAC-Hs578T-SRSF7-GFP reporter cells were seeded with the seeding density of 15,000/well in glass-bottom Sensoplate 96-well imaging plate coated with 20 mg/ml rat tail collagen I in PBS. The following day, cells were stained with Hoechst-33342 and treated with 1 µM T-025. Live cell imaging was performed using a 20x objective (0.75 NA, 1.00 WD) on a Nikon Eclipse Ti microscope, equipped with a humidified 37 °C incubation chamber and 5% CO2 flow.  Images were captured with a DS-Qi1MC CCD camera at 30-minute intervals for 25 hours, with 4 positions per well being recorded using NIS-Elements software.",
       "funder": [],
       "identifier": "S-BIAD1498",

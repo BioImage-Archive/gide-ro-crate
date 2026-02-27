@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -75,7 +80,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-03-25",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-03-25"
+      },
       "description": "Nodal B-cell non-Hodgkin lymphomas (B-NHL) are a clinically diverse set of cancers thought to originate from distinct stages of B-cell maturation. To spatially profile intratumor heterogeneity across B-NHL entities, we performed co-detection by indexing (CODEX), a highly multiplexed immunohistochemistry technique imaging 54 markers, on FFPE tissue sections from 19 patient lymph nodes (two 4.5 mm cores per lymph node) including 5 mantle cell lymphoma (MCL), 5 follicular lymphoma (FL), 5 diffuse large B-cell lymphoma (DLBCL), and 2 marginal zone lymphoma (MZL) tumors, in addition to 4 reactive lymph nodes (rLN).",
       "funder": [],
       "identifier": "S-BIAD1090",

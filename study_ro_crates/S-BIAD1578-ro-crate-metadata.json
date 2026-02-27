@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -72,7 +77,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-01-16",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-01-16"
+      },
       "description": "Imaging in the shortwave infrared (SWIR) region offers high-resolution visualization of in vivo targets in a multiplexed manner. These methods require bright, bathochromically-shifted fluorescent dyes with sufficient emission at SWIR wave-lengths, ideally above 1400 nm for high resolution images. Polymethine dyes are an ideal class of contrast agents due to their excellent molecular absorption and high degree of modularity. In this work, we push flavylium and chromenylium dyes further into the SWIR region through polymethine chain extension. This panel of nonamethine dyes boasts absorbances as red as 1149 nm and tail emission beyond 1500 nm. These dyes are the brightest fluorophores at their respective bandgaps to date, with εmax ~105 M-1 cm-1 and ΦF up to 0.5%. We showcased two nonamethine dyes for multiplexed imaging with all SWIR excitation (1060, 1150 nm) and detection at the preferred SWIR wavelengths of 1500–1700 nm, enhancing the depths and resolutions able to be obtained in multicolor SWIR imaging with small molecule contrast agents.",
       "funder": [],
       "identifier": "S-BIAD1578",

@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2025-03-31",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-31"
+      },
       "description": "Image files and Tracking data underlying the study “Early coordination of Cell migration and Cardiac fate Determination during Mammalian Gastrulation” by Abukar et. al. Using light sheet imaging of live mouse embryos between gastrulation and heart tube formation, we tracked mesodermal cells and reconstructed lineage trees and 3D migration paths for up to five cell divisions. We found independent progenitors emerging at specific times, contributing exclusively to left ventricle/atrioventricular canal (LV/AVC) or atrial myocytes. LV/AVC progenitors differentiated early to form the cardiac crescent while atrial progenitors later generated the heart tube’s inflow tract during morphogenesis. We also identified short-lived multi-potent progenitors with broad potential, illustrating early developmental plasticity. Multi-potent progenitors’ descendants displayed greater dispersion and more diverse migratory trajectories within the anterior mesoderm than uni-fated progenitor’s descendants. Progenitors contributing to extraembryonic mesoderm (ExEm) exhibited the fastest and most dispersed migrations. In contrast, those giving rise to endocardial, LV/AVC, and pericardial cells showed a more gradual divergence, with late-stage behavioural shifts: endocardial cells increased in speed, while pericardial cells slowed relative to LV/AVC cells. Together the data reveal the regulation of individual cell directionality and cardiac fate allocation within the seemingly unorganised migratory pattern of mesoderm cells.",
       "funder": [],
       "identifier": "S-BIAD1682",

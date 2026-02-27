@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -71,11 +76,14 @@
       ],
       "author": [
         {
-          "@id": "#a9ba7a0a-abc2-4b10-979c-767d0fdbdeee"
+          "@id": "#219be871-3e2a-45b6-82dc-d046ea2900b2"
         }
       ],
       "citation": [],
-      "datePublished": "2023-08-29",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-08-29"
+      },
       "description": "OME-NGFF converted study from idr0013.  Despite our rapidly growing knowledge about the human genome, we do not know all of the genes required for some of the most basic functions of life. To start to fill this gap we developed a high-throughput phenotypic screening platform combining potent gene silencing by RNA interference, time-lapse microscopy and computational image processing. We carried out a genome-wide phenotypic profiling of each of the approximately 21,000 human protein-coding genes by two-day live imaging of fluorescently labelled chromosomes. Phenotypes were scored quantitatively by computational image processing, which allowed us to identify hundreds of human genes involved in diverse biological functions including cell division, migration and survival. As part of the Mitocheck consortium, this study provides an in-depth analysis of cell division phenotypes and makes the entire high-content data set available as a resource to the community.",
       "funder": [],
       "identifier": "S-BIAD865",
@@ -100,7 +108,7 @@
       "thumbnailUrl": []
     },
     {
-      "@id": "#a9ba7a0a-abc2-4b10-979c-767d0fdbdeee",
+      "@id": "#219be871-3e2a-45b6-82dc-d046ea2900b2",
       "@type": [
         "Person"
       ],

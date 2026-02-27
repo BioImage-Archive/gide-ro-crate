@@ -7,6 +7,7 @@
       "dwc": "http://rs.tdwg.org/dwc/terms/",
       "dwciri": "http://rs.tdwg.org/dwc/iri/",
       "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "vernacularName": {
         "@id": "dwc:vernacularName"
       },
@@ -30,6 +31,10 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
+      },
+      "datePublished": {
+        "@id": "http://schema.org/datePublished",
+        "@type": "xsd:date"
       }
     }
   ],
@@ -78,7 +83,10 @@
         }
       ],
       "citation": [],
-      "datePublished": "2024-10-26",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-10-26"
+      },
       "description": "Skeletal muscle wasting results from numerous conditions, such as sarcopenia, glucocorticoid therapy or intensive care. It prevents independent living in the elderly, predisposes to secondary diseases, and ultimately reduces lifespan. There is no approved drug therapy and the major causative mechanisms are not fully understood. Dual specificity phosphatase 22 (DUSP22) is a pleiotropic signaling molecule that plays important roles in immunity and cancer. However, the role of DUSP22 in skeletal muscle wasting is unknown. In this study, DUSP22 was found to be upregulated in sarcopenia patients and models of skeletal muscle wasting. DUSP22 knockdown or pharmacological inhibition with BML-260 prevented multiple forms of muscle wasting. Mechanistically, targeting DUSP22 suppressed FOXO3a, a master regulator of skeletal muscle wasting, via downregulation of the stress-activated kinase JNK, which occurred independently of aberrant Akt activation. DUSP22 targeting was also effective in human skeletal muscle cells undergoing atrophy. In conclusion, phosphatase DUSP22 is a novel target for preventing skeletal muscle wasting and BML-260 is a therapeutically effective small molecule inhibitor. The DUSP22-JNK-FOXO3a axis could be exploited to treat sarcopenia or related aging disorders",
       "funder": [],
       "identifier": "S-BIAD1435",
