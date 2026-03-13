@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1235-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1235"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1235"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1235",
@@ -131,10 +123,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-06-17"
-      },
+      "datePublished": "2024-06-17",
       "description": "2D EM images from cultured kidney cells for teaching mitochondria morphology in microscopy courses. \nAim: Teach morphological details of cell organelles at subcellular resolution. Focus on mitochondria morphology under control and treated conditions (mitochondria swellings after Deferasirox treatment).\nThese images are part of the publication: “The iron chelator Deferasirox causes severe mitochondrial swelling without depolarization due to a specific effect on inner membrane permeability.”\nhttps://www.nature.com/articles/s41598-020-58386-9#Sec13\nhttps://doi.org/10.1038/s41598-020-58386-9\n\n",
       "funder": [],
       "identifier": "S-BIAD1235",

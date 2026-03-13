@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2534-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2534"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2534"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2534",
@@ -87,10 +79,7 @@
           "@id": "https://doi.org/10.1091/mbc.e24-11-0519"
         }
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-01-16"
-      },
+      "datePublished": "2026-01-16",
       "description": "Electron microscopy is an important technique for the study of synaptic morphology and its relation to synaptic function. The data analysis for this task requires the segmentation of the relevant synaptic structures, such as synaptic vesicles (SV), active zones, mitochondria, presynaptic densities, synaptic ribbons, and synaptic compartments. Previous studies were predominantly based on manual segmentation, which is very time-consuming and prevented the systematic analysis of large datasets. Here, we introduce SynapseNet, a tool for the automatic segmentation and analysis of synapses in electron micrographs. It can reliably segment SVs and other synaptic structures in a wide range of electron microscopy approaches, thanks to a large annotated dataset, which we assembled, and domain adaptation functionality we developed. We demonstrated its capability for (semi-)automatic biological analysis in two applications and made it available as an easy-to-use tool to enable novel data-driven insights into synapse organization and function.",
       "funder": [],
       "identifier": "S-BIAD2534",
@@ -156,10 +145,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "None"
-      },
+      "datePublished": "None",
       "name": "SynapseNet: Deep learning for automatic synapse reconstruction"
     },
     {

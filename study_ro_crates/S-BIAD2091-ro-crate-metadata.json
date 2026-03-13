@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2091-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2091"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2091"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2091",
@@ -101,10 +93,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-07-09"
-      },
+      "datePublished": "2025-07-09",
       "description": "Spatial omics is transforming our ability to interrogate local tissue microenvironments by enabling spatially resolved measurement of biomolecules such as transcripts, proteins, and metabolites. However, capturing the full biological complexity of tissues requires combining multiple modalities, which introduces both experimental as well as computational challenges. To address computational difficulties due to differences in resolution, noise levels, and available channels, we present MIMIC—a reproducible, semi-automated workflow that integrates Mass Spectrometry Imaging (MSI) and Imaging Mass Cytometry (IMC) for joint downstream analysis. MIMIC incorporates rigorous quality control, including registration error assessment, and supports pixel-level modeling to delineate analyte–cell type associations. We demonstrate the power of our approach with a proof-of-concept study on artificial tissue and apply it to human liver tissue affected by Metabolic dysfunction-associated steatotic liver disease (MASLD). Despite integration challenges, MIMIC provides a robust framework that successfully recovers known molecular associations and reveals novel spatial relationships across modalities.",
       "funder": [],
       "identifier": "S-BIAD2091",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1135-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1135"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1135"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1135",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-04-30"
-      },
+      "datePublished": "2024-04-30",
       "description": "This dataset shows calcium signalling waves in a MDCK epithelium. The cells stably express GCaMP6S, a GFP-based intracellular calcium sensor. Imaging data courtesy of Yasuyuki Fujita (Y. Takeuchi et al., “Calcium Wave Promotes Cell Extrusion,” Current Biology, vol. 30, no. 4. Elsevier BV, pp. 670-681.e6, Feb. 2020. doi: 10.1016/j.cub.2019.11.089). Collective event analysis has been performed using ARCOS (P. A. Gagliardi et al., “Automatic detection of spatio-temporal signaling patterns in cell collectives,” Journal of Cell Biology, vol. 222, no. 10. Rockefeller University Press, Jul. 27, 2023. doi: 10.1083/jcb.202207048). The analysis scripts and results corresponding to the raw data published here are accessible online (Maciej Dobrzynski, “ARCOS, a computational approach for automatic recognition of collective signalling.” Mendeley, Apr. 26, 2023. doi: 10.17632/8GCNCG6ZKT.3).\nAdditionally, the dataset has been used to showcase the capabilities of conv-paint, an interactive pixel classification tool for napari. \n\nData dimensions: [t,y,x] -> [300,1024,1024]\nPixel resolution: 0.86µm/px (880.64μm total)\nTime resolution: 5sec/frame (25min total)\nFiletype: TIFF ",
       "funder": [],
       "identifier": "S-BIAD1135",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1024-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1024"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1024"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1024",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-01-22"
-      },
+      "datePublished": "2024-01-22",
       "description": "Diabetes is caused by the inability of electrically coupled, functionally heterogeneous β-cells within the pancreatic islet to provide adequate insulin secretion. Functional networks have been used to represent synchronized oscillatory [Ca2+] dynamics and to study β-cell subpopulations, which play an important role in driving islet function. The mechanism by which highly synchronized β-cell subpopulations drive islet function is unclear. We used experimental and computational techniques to investigate the relationship between functional networks, structural (gap-junction) networks, and intrinsic β-cell dynamics in slow and fast oscillating islets. Highly synchronized subpopulations in the functional network were differentiated by intrinsic dynamics, including metabolic activity and KATP channel conductance, more than structural coupling. Consistent with this, intrinsic dynamics were more predictive of high synchronization in the islet functional network as compared to high levels of structural coupling. Finally, dysfunction of gap junctions, which can occur in diabetes, caused decreases in the efficiency and clustering of the functional network. These results indicate that intrinsic dynamics rather than structure drive connections in the functional network and highly synchronized subpopulations, but gap junctions are still essential for overall network efficiency. These findings deepen our interpretation of functional networks and the formation of functional sub-populations in dynamic tissues such as the islet. ",
       "funder": [],
       "identifier": "S-BIAD1024",

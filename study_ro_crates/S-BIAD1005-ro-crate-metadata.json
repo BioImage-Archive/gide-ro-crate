@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1005-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1005"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1005"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1005",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-01-10"
-      },
+      "datePublished": "2024-01-10",
       "description": "Recently, a low-level somatic mutation in the NRAS gene (c.182 A > G, Q61R) was identified in various specimens from patients with kaposiform lymphangiomatosis. However, it is unknown how these low-frequency mutated cells can affect the characterization and surrounding environment of their lesions. To understand the pathogenesis and association of these gene abnormalities, we established NRASQ61R mutated lymphatic endothelial cells transfected with lentivirus vector and undertook morphological and functional characterization, protein expression profiling, and metabolome analysis. NRASQ61R human dermal lymphatic endothelial cells showed poor tube formation, a low proliferation rate, and high migration ability with an increase in the ratio of mutated cells. An analysis of signaling pathways showed inactivation of the PIK3/AKT/mTOR pathway and hyperactivation of the RAS/MAPK/ERK pathway, which was improved by MAPK kinase (MEK) inhibitor treatment. This study shows the theoretical circumstances induced in vitro by NRASQ61R-mutated cells in the affected lesions of kaposiform lymphangiomatosis patients.",
       "funder": [],
       "identifier": "S-BIAD1005",

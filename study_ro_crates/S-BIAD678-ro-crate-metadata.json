@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD678-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD678"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD678"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD678",
@@ -63,10 +55,10 @@
           "@id": "#937b491c-c940-4034-9727-8422536caedb"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-05-14"
-      },
+      "datePublished": "2023-05-14",
       "description": "Microscopy images of EMBOJ-2022-111790R",
       "funder": [],
       "identifier": "S-BIAD678",

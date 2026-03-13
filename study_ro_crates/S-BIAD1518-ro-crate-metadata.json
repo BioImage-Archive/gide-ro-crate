@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1518-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1518"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1518"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1518",
@@ -81,10 +73,10 @@
           "@id": "#cc58099a-b03f-4e30-94c9-f6fbcb3d5157"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000254"
@@ -137,10 +129,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-12-20"
-      },
+      "datePublished": "2024-12-20",
       "description": "This submission contains a set of 3D microscopy volumes of cell nuclei from different species and tissues that have been manually segmented. We also provide synthetically generated 3D microscopy volumes that can be used for training segmentation methods.",
       "funder": [],
       "identifier": "S-BIAD1518",

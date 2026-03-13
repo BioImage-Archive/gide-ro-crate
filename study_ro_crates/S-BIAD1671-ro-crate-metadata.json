@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1671-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1671"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1671"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1671",
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-02-28"
-      },
+      "datePublished": "2025-02-28",
       "description": "This dataset accompanies our paper titled \"Deep Learning Imaging Analysis to Identify Bacterial Metabolic States Associated with Carcinogen Production,\" which was accepted by Discover Imaging on 17 February 2025.\n\nOur dataset comprises light microscopy images of cultured Clostridium scindens captured at 100× magnification using the TissueFAX system. \n",
       "funder": [],
       "identifier": "S-BIAD1671",

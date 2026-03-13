@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1737-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1737"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1737"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1737",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-03-25"
-      },
+      "datePublished": "2025-03-25",
       "description": "This datasets consists of two images of human induced Pluripotent Stem Cells (hiPSC) derived motor neuron-neurospheres, one treated with 5 µM MI132 to induce stress granule formation and the other one untreated. Channel 1 corresponds to Islet1 antibody staining, channel 2 to G3BP antibody staining and channel 3 corresponds to DAPI staining. Images have a z-stack that covers at least half the neurosphere.\n\nThis data was selected as part of the AI4Life Open Calls 2024 for image analysis consultation and deep-learning applications.",
       "funder": [],
       "identifier": "S-BIAD1737",

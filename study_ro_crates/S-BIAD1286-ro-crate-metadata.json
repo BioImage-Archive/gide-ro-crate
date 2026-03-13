@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1286-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1286"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1286"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1286",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-07-23"
-      },
+      "datePublished": "2024-07-23",
       "description": "Candida albicans is the most prevalent fungal pathogen associated with candidemia. Similar to other fungi, the complex life cycle of C. albicans has been challenging to study with high-resolution microscopy due to its small size. We employed ultrastructure expansion microscopy (U-ExM) to directly visualise sub-cellular structures at high resolution in the yeast and during its transition to hyphal growth. NHS-ester pan-labelling in combination with immunofluorescence (IF) via snapshots of various mitotic stages provided a comprehensive map of nucleolar and mitochondrial segregation dynamics and enabled the resolution of inner and outer plaque of spindle pole bodies (SPBs). Analyses of microtubules (MTs) and SPBs suggest that C. albicans displays side-by-side SPB arrangement with a short mitotic spindle and longer astral MTs (aMTs) at the pre-anaphase stage. Modifications to the established U-ExM protocol enabled the expansion of six other human fungal pathogens, revealing that the side-by-side SPB configuration is a plausible conserved feature shared by many fungal species. We highlight the power of U-ExM to investigate sub-cellular organisation at high resolution and low cost in poorly studied and medically relevant microbial pathogens.",
       "funder": [],
       "identifier": "S-BIAD1286",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1425-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1425"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1425"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1425",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-20"
-      },
+      "datePublished": "2024-10-20",
       "description": "Protein aggregates arise naturally under normal physiological conditions, but their formation is accelerated by age or stress-induced protein misfolding. When the stressful event dissolves, these aggregates are removed by mechanisms, such as aggrephagy, chaperone-mediated autophagy, refolding attempts, or the proteasome. It was recently shown that mitochondria in yeast cells may support these primarily cytosolic processes. Protein aggregates attach to mitochondria, and misfolded proteins are transported into the matrix and degraded by mitochondria-specific proteases. Using a proximity labeling method and colocalization with an established stress granule (SG) marker, we were able to show that these mitochondria-localized aggregates that harbor the “super aggregator” Ola1p are, in fact, SGs. Our in vivo and in vitro studies have revealed that Ola1p can be transferred from mitochondria to lipid droplets (LDs). This “mitochondria to LD” aggregate transfer dampens proteotoxic effects. The LD-based protein aggregate removal system gains importance when other proteolytic systems fail. Furthermore, we were able to show that the distribution of SGs is drastically altered in LD-deficient yeast cells, demonstrating that LDs play a role in the SG life cycle.",
       "funder": [],
       "identifier": "S-BIAD1425",

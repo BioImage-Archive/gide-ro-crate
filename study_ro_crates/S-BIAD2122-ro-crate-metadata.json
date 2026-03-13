@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2122-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2122"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2122"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2122",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-06-30"
-      },
+      "datePublished": "2025-06-30",
       "description": "The RNA-binding protein eIF2A is an alternative translation initiation factor shown to drive tumor formation by facilitating translation from near-cognate initiation codons. Here, we uncover a novel function for eIF2A in regulating cell migration in a manner independent of overt control of translation. Using a melanoma cell model consisting of non-tumoral melanocytic Mel-ST cells and their metastatic counterpart obtained by H-Ras transformation, we unexpectedly find minimal effects of eIF2A depletion on translation. Interactome studies identified centrosomal proteins as major binding partners of eIF2A. We found that eIF2A co-localizes with the centrosome, enhances centrosome composition and promotes centrosome orientation during cell migration. Migration requires the C-terminal disordered region of eIF2A, involved in mRNA-binding. Interaction with mRNA, however, does not require ongoing translation. These findings reveal a new role for eIF2A in centrosome dynamics beyond its traditional function in translation. ",
       "funder": [],
       "identifier": "S-BIAD2122",

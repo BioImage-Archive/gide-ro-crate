@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1181-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1181"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1181"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1181",
@@ -128,10 +120,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-05-20"
-      },
+      "datePublished": "2024-05-20",
       "description": "The centromere, defined by the enrichment of CENP-A (a Histone H3 variant) containing nucleosomes, is a specialised chromosomal locus that acts as a microtubule attachment site. To preserve centromere identity, CENP-A levels must be maintained through active CENP-A loading during the cell cycle. A central player mediating this process is the Mis18 complex (Mis18α, Mis18β and Mis18BP1), which recruits the CENP-A specific chaperone HJURP to centromeres for CENP-A deposition. Here, using a multi-pronged approach, we characterise the structure of the Mis18 complex and show that multiple hetero- and homo-oligomeric interfaces facilitate the hetero-octameric Mis18 complex assembly composed of 4 Mis18α, 2 Mis18β and 2 Mis18BP1. Evaluation of structure-guided/separation-of-function mutants reveals structural determinants essential for Mis18 complex assembly and centromere maintenance. Our results provide new mechanistic insights on centromere maintenance, highlighting that while Mis18α can associate with centromeres and deposit CENP-A independently of Mis18β the latter is indispensable for the optimal level of CENP-A loading required for preserving the centromere identity.",
       "funder": [],
       "identifier": "S-BIAD1181",

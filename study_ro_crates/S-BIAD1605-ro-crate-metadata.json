@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1605-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1605"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1605"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1605",
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-02-04"
-      },
+      "datePublished": "2025-02-04",
       "description": "To examine how bacteria achieve robust cell proliferation across diverse conditions, we developed a method that quantifies 77 cell morphological, cell cycle, and growth phenotypes of a fluorescently labeled Escherichia coli strain and >800 gene deletion derivatives under multiple nutrient conditions. This approach revealed extensive phenotypic plasticity and deviating mutant phenotypes were often nutrient dependent. From this broad phenotypic landscape emerged simple and robust unifying rules (laws) that connect DNA replication initiation, nucleoid segregation, FtsZ ring formation, and cell constriction to specific aspects of cell size (volume, length, or added length) at the population level. Furthermore, completion of cell division followed the initiation of cell constriction after a constant time delay across strains and nutrient conditions, identifying cell constriction as a key control point for cell size determination. Our work provides a population-level description of the governing principles by which E. coli integrates cell cycle processes and growth rate with cell size to achieve its robust proliferative capability.",
       "funder": [],
       "identifier": "S-BIAD1605",

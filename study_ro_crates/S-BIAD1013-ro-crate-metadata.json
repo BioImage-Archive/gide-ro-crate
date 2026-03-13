@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1013-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1013"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1013"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1013",
@@ -66,10 +58,10 @@
           "@id": "#40d2b2f4-ea11-4b4a-9df1-42556aeefdfc"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -107,10 +99,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-02-13"
-      },
+      "datePublished": "2024-02-13",
       "description": "To identify novel secreted proteins that can modulate breast cancer G0 arrest, we performed a secretome-wide, image-based screen for proteins which alter the balance between proliferation and G0 arrest. From a secretome library of 1282 purified proteins, we identified 29 candidates that promote G0 arrest in non-transformed (hTERT-HMEC) and transformed (MCF7) breast epithelial cells. ",
       "funder": [],
       "identifier": "S-BIAD1013",

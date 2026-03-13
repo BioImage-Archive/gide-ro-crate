@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "EMPIAR-12627-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/EMPIAR-12627"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/EMPIAR-12627"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/EMPIAR-12627",
@@ -74,10 +66,10 @@
           "@id": "#31f5ea70-65d3-4eae-80d1-5eadd3ee2b87"
         },
         {
-          "@id": "obo:NCBITaxon_2864"
+          "@id": "obo:NCBITaxon_33657"
         },
         {
-          "@id": "obo:NCBITaxon_33657"
+          "@id": "obo:NCBITaxon_2864"
         }
       ],
       "author": [
@@ -95,10 +87,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-22"
-      },
+      "datePublished": "2025-05-22",
       "description": "",
       "funder": [],
       "identifier": "EMPIAR-12627",

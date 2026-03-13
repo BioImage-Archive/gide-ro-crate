@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1426-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1426"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1426"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1426",
@@ -119,10 +111,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-12-28"
-      },
+      "datePublished": "2024-12-28",
       "description": "Combining molecular profiling with imaging techniques has advanced the field of spatial biology, offering new insights into complex biological processes. Focusing on diffuse IDH-mutated low-grade glioma, this study presents a workflow for Spatial Multi-omics Integration, SMINT, specifically combining spatial transcriptomics and spatial metabolomics. Our workflow incorporates both existing and custom-developed computational tools to enable cell segmentation and registration of spatial coordinates from both modalities to a common coordinate framework. During our investigation of cell segmentation strategies, we found that nuclei-only segmentation, while containing only 40% of segmented cell transcripts, enables accurate cell type annotation, but does not account for multinucleated cells. Our integrative workflow including cell-morphology segmentation identified distinct cellular neighborhoods at the infiltrating edge of gliomas, which were enriched in multinucleated and oligodendrocyte-lineage tumor cells, that may drive tumor invasion into the normal cortical layers of the brain.",
       "funder": [],
       "identifier": "S-BIAD1426",

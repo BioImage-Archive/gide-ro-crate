@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD901-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD901"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD901"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD901",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-10-13"
-      },
+      "datePublished": "2023-10-13",
       "description": "Motile cells encounter microenvironments of locally heterogeneous mechanochemical composition. Individual compositional parameters like chemokines and pore sizes are well known to provide guidance cues for pathfinding. However, motile cells face diverse cues at the same time, raising the question of how they respond to diverse and potentially competing signals on their paths. Here, we reveal that amoeboid cells require nuclear repositioning, termed nucleokinesis, for adaptive pathfinding in heterogeneous mechanochemical micro-environments. Using mammalian immune cells and the amoeba Dictyostelium discoideum, we discover that frequent, rapid and long-distance nucleokinesis is a basic component of amoeboid pathfinding, enabling cells to reorientate quickly between locally competing cues. Amoeboid nucleokinesis comprises a two-step polarity switch and is driven by myosin-II forces, readjusting the nuclear to the cellular path. Impaired nucleokinesis distorts path adaptions and causes cellular arrest in the microenvironment. Our findings establish that nucleokinesis is required for amoeboid cell navigation. Given that many immune cells, amoebae, and some cancer cells utilize an amoeboid migration strategy, these results suggest that nucleokinesis underlies cellular navigation during unicellular biology, immunity, and disease.\ndoi: https://doi.org/10.1101/2023.05.19.540965. Contains image data for Figure 1 and 4. Remaining source data are available on the journal website.",
       "funder": [],
       "identifier": "S-BIAD901",

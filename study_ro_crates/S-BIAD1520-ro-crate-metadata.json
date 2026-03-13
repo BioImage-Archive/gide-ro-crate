@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1520-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1520"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1520"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1520",
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-12-16"
-      },
+      "datePublished": "2024-12-16",
       "description": "Idiopathic pulmonary fibrosis (IPF) is a progressive and lethal disease characterized by excessive extracellular matrix (ECM) deposition. Current IPF therapies slow disease progression but do not stop or reverse it. The (myo)fibroblasts are thought to be the main cellular contributors to excessive ECM production in IPF. Here we report that fibrotic AT2 cells regulate production and crosslinking of ECM via the co-transcriptional activator YAP. YAP leads to increased expression of Lysyl oxidase (LOX) and subsequent LOX mediated crosslinking by fibrotic AT2 cells. Pharmacological YAP inhibition via verteporfin reverses fibrotic AT2 cell reprogramming and LOX expression in experimental lung fibrosis in vivo and in human fibrotic tissue ex vivo. We thus identify YAP-TEAD/LOX inhibition in AT2 cells as a promising potential new therapy for IPF patients. ",
       "funder": [],
       "identifier": "S-BIAD1520",

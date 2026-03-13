@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2432-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2432"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2432"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2432",
@@ -81,10 +73,7 @@
           "@id": "#461edb57-99b6-4752-8b3d-14655c0f150a"
         }
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-11-21"
-      },
+      "datePublished": "2025-11-21",
       "description": "Figure 6 Raw Data",
       "funder": [],
       "identifier": "S-BIAD2432",
@@ -142,10 +131,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025"
-      },
+      "datePublished": "2025",
       "name": "Remote sensing of endogenous pigmentation by inducible synthetic circuits in grasses"
     },
     {

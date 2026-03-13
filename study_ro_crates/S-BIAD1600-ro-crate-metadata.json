@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1600-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1600"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1600"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1600",
@@ -134,10 +126,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-01"
-      },
+      "datePublished": "2025-09-01",
       "description": "Two medio-lateral sagittal sections from PCW 6 and one lateral sagittal section from PCW 9.5 of the normal developing embryo whole head were analyzed using Xenium in situ gene expression analysis, with a probe set targeting 389 genes. Eight sections from seven meningiomas (six hyper-mitotic WHO grade 3 and one WHO grade 1) were also analyzed using the same probe set.",
       "funder": [],
       "identifier": "S-BIAD1600",

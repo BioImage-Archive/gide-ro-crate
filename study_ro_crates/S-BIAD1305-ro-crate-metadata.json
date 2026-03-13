@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1305-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1305"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1305"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1305",
@@ -122,10 +114,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-07-23"
-      },
+      "datePublished": "2025-07-23",
       "description": "Measuring protein turnover in individual cells and subcellular compartments has been greatly assisted by fluorescence timers (FT) whose changing spectra, expressed as the ratio of fluorescence intensities, reflect their molecular age. However, FT quantification requires highly fluorescent samples, prohibiting their use for proteins with low or non-uniform expression. Here we developed a method that utilises fluorescence lifetime, a property largely independent of intensity, of a specifically designed FT (named FLIM-timer). The fluorescence lifetime of FLIM-timer reflected protein turnover in regions of high and low brightness with equally high precision. We demonstrate the versatility of this approach with several versions of FLIM-timer in two distinct experimental systems: 1) as a readout for efficacy of pharmacological inducers of Nrf2, the master regulator of redox homeostasis, and 2) as a tool to monitor cyclin B1 degradation during mitotic exit. Overall, the FLIM-timer methodology expands the applicability of FT for visualisation and quantification of protein turnover.",
       "funder": [],
       "identifier": "S-BIAD1305",

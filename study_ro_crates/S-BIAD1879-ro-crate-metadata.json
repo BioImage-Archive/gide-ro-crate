@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1879-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1879"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1879"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1879",
@@ -114,10 +106,7 @@
           "@id": "#c73f0c80-0838-442e-9592-df14637ed8f2"
         }
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-04-28"
-      },
+      "datePublished": "2025-04-28",
       "description": "Use of precision-cut tumor tissue slices prepared from human high grade serous ovarian carcinoma (HGSOC) patient material to study the interactions of the tumor microenvironment  with FOLR1-targeted chimeric antigen receptor (CAR) T cells",
       "funder": [],
       "identifier": "S-BIAD1879",
@@ -299,10 +288,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "None"
-      },
+      "datePublished": "None",
       "name": "Precision-cut tumor tissue slices, a novel tool to study the tumor microenvironment interactions with chimeric antigen receptor (CAR) T cells"
     },
     {
@@ -310,10 +296,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "None"
-      },
+      "datePublished": "None",
       "name": "Precision-cut tumor tissue slices, a novel tool to study the tumor microenvironment interactions with chimeric antigen receptor (CAR) T cells"
     },
     {

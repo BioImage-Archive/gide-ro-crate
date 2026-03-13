@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2224-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2224"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2224"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2224",
@@ -72,10 +64,10 @@
           "@id": "#a2ef733e-b194-4be1-a068-bad0ce81a563"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -131,10 +123,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-11"
-      },
+      "datePublished": "2025-08-11",
       "description": "This study created a detailed single-cell and spatial multi-omic atlas of the human reproductive tract during prenatal development. It uncovered key regulators of sexual dimorphism, including novel genes linked to penile urethral development and hypospadias. The research also refined understanding of how reproductive organs are regionalised, highlighting early establishment of features in the fallopian tube and epididymis, while uterocervical canal development occurs later. We showed that fetal uterine epithelium is sensitive to estrogen-mimicking endocrine disruptors using organoid models. Overall, our findings provide new insights into the development and disorders of the human reproductive system.",
       "funder": [],
       "identifier": "S-BIAD2224",

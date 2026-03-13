@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1257-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1257"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1257"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1257",
@@ -72,16 +64,16 @@
           "@id": "#2b8d36a1-30ca-48a7-8310-42ac88a0f81e"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000253"
+          "@id": "obo:FBbi_00000251"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000253"
         }
       ],
       "about": [
@@ -107,10 +99,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-07-12"
-      },
+      "datePublished": "2024-07-12",
       "description": "T cells develop from circulating precursor cells, which enter the thymus and migrate through specialised sub-compartments that support their maturation and selection. In humans, this process starts in early fetal development and is highly active until thymic involution in adolescence. To map the micro-anatomical underpinnings of this process in pre- and early postnatal stages, we established a novel quantitative morphological framework for the thymus, the Cortico-Medullary Axis, and used it to perform a spatially resolved analysis. By applying this framework to a curated multimodal single-cell atlas, spatial transcriptomics, and high-resolution multiplex imaging data, we demonstrate establishment of the lobular cytokine network, canonical thymocyte trajectories and thymic epithelial cell distributions within the first trimester of fetal development. We pinpoint tissue niches of thymic epithelial cell progenitors and distinct subtypes associated with Hassall’s corpuscles and uncover divergence in the timing of medullary entry between CD4 vs. CD8 T cell lineages. These findings provide a basis for a detailed understanding of T lymphocyte development and are complemented with a holistic toolkit for cross-platform imaging data analysis, annotation, and Organ Axis construction (TissueTag), which can be applied to any tissue.",
       "funder": [],
       "identifier": "S-BIAD1257",

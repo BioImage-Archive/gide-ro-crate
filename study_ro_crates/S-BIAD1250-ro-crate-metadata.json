@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1250-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1250"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1250"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1250",
@@ -101,10 +93,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-07-02"
-      },
+      "datePublished": "2024-07-02",
       "description": "Yes-associated protein (YAP) and its homologue, transcriptional coactivator with PDZ-binding motif (TAZ), are the main transcriptional downstream effectors of the Hippo pathway. Decreased Hippo pathway activity leads to nuclear translocation of YAP/TAZ where they interact with TEAD transcription factors to induce target gene expression. Unrestrained YAP/TAZ activity can lead to excessive growth and tumor formation in a short time, underscoring the evolutionary need for tight control of these two transcriptional coactivators. \nHere, we report that the AP-1 component JUN acts as specific repressor of YAP/TAZ at joint target sites to decrease YAP/TAZ activity. This function of JUN is independent of its heterodimeric AP-1 partner FOS and the canonical AP-1 function. Since JUN is itself induced by YAP/TAZ, our work identifies a JUN-dependent negative feedback loop that buffers YAP/TAZ activity at joint sites. This negative feedback loop gets disrupted in liver cancer to unlock the full oncogenic potential of YAP/TAZ.\nOur results thus demonstrate an additional layer of control for the important interplay of YAP/TAZ and AP-1. \n",
       "funder": [],
       "identifier": "S-BIAD1250",

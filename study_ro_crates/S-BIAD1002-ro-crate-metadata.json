@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1002-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1002"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1002"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1002",
@@ -116,10 +108,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-06"
-      },
+      "datePublished": "2024-10-06",
       "description": "During growth, cells need to synthesize and expand their envelope, a process that requires careful regulation. Here, we show that the GTPase ObgE of E. coli contributes to the regulation of lipopolysaccharide (LPS) synthesis, an essential component of the Gram-negative outer membrane. Using a dominant-negative mutant (named ‘ObgE*’), we show a direct interaction between ObgE and LpxA, which catalyzes the first step in LPS synthesis. This interaction is enhanced by the mutation in ObgE* which, when bound to GTP, leads to inhibition of LpxA, decreased LPS synthesis, and cell death. Although wild-type ObgE does not exert the same strong effects as ObgE* on LpxA or LPS synthesis, our data indicate that ObgE participates in the regulation of cell envelope synthesis in E. coli. Because ObgE also influences other cellular functions (i.e., ribosome assembly, DNA replication, etc.), it seems increasingly plausible that this GTPase coordinates several processes to finetune cell growth.",
       "funder": [],
       "identifier": "S-BIAD1002",

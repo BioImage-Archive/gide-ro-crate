@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1232-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1232"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1232"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1232",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-06-13"
-      },
+      "datePublished": "2024-06-13",
       "description": "In order to test the combination of a microscope and mobile phone to take bioImages, samples of plants such as leaves, petals and seeds were collected from around the Wellcome Genome Campus in Hinxton.  Each sample was dissected into small pieces and mounted on glass slides then placed under the lens whilst a attachment that held the phone over the eyepice of the microscope was fixed in place. As the phone would automatically focus the image, it was difficult to gauge how much more focus the sample required because the auto-focus would change everytime the microscope stage was moved to focus. As a result, the auto-focus was switched off before the images were taken. The phone magnification was kept at 1x so not to affect the images and each change in magnification of the microscope was recorded. ",
       "funder": [],
       "identifier": "S-BIAD1232",

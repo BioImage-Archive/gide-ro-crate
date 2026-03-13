@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD647-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD647"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD647"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD647",
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-03-07"
-      },
+      "datePublished": "2023-03-07",
       "description": "Vaginal cytology images from adult Sprague Dawley rats for estrous tracking using Track-by-Day method. Cells are stained with H&E and full smear was imaged at 4x (tiles stitched) on a Keyence BZX700 microscope. Two sets are included in this archive: single-field smear images for four rats (Figure 6a), and full-smear images corresponding to cohort of n=12 (Figure 6b, c). These images correspond to sample dataset in Figure 6b, c in \"The Track-by-day method for monitoring the rodent estrous cycle\" (Raimondi et al., Current Protocols).",
       "funder": [],
       "identifier": "S-BIAD647",

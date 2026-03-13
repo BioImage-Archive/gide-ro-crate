@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1672-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1672"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1672"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1672",
@@ -107,10 +99,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-31"
-      },
+      "datePublished": "2025-05-31",
       "description": "Disruption of the circadian clock has been shown to associate with the development of inflammatory bowel disease (IBD), but the underlying mechanisms remain unclear. Here, we observed that the mice in the early active phase (Zeitgeber time 12, ZT12) of the circadian clock were more tolerant to dextran sodium sulfate (DSS)-induced colitis, compared to those in the early resting phase (ZT0). The expression of circadian gene Bmal1 displayed a high level in the early resting phase and a low in the early active phase. Bmal1 knockout in the intestinal epithelium reduced DSS-induced inflammatory symptoms. Mechanistically, BMAL1 promoted apoptosis by binding to the apoptosis-related genes, such as Bax, p53 and Bak1, and transcriptionally activating their expression. Intriguingly, cell apoptosis also exhibited a circadian rhythm in homeostatic intestinal epithelium, while Bmal1 deletion reduced cell apoptosis. Consistently, reducing Bmal1 expression by the REV-ERBα agonist SR9009 had the best therapeutic efficacy against DSS-induced colitis at ZT0. Collectively, our results reveal that the Bmal1-centered circadian clock is involved in intestinal injury repair. Targeting Bmal1 function may be a promising approach to treat inflammation-related gastrointestinal tract diseases. ",
       "funder": [],
       "identifier": "S-BIAD1672",

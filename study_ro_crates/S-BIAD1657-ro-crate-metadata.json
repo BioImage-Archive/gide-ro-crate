@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1657-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1657"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1657"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1657",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-02-19"
-      },
+      "datePublished": "2025-02-19",
       "description": "Across the evolutionary spectrum, sexual interactions can significantly influence the physiology and somatic aging in various species. In Caenorhabditis, male pheromones, sperm, and seminal fluid shorten the lifespan of hermaphrodites through different mechanisms. However, it is unclear whether the male seminal fluid protein is involved in this post-mating regulation. Here, we identified that SFP-1 is a seminal fluid protein required for physiological changes in mated hermaphrodites. SFP-1, packaged into secretory vesicles via the phospholipid scramblases ANOH-1 and ANOH-2 in male seminal vesicles, is endocytosed by intestinal cells after mating. Within the intestine, the NTF2-like domain of SFP-1 assists interaction with the transcription factors SKN-1 and DAF-16, triggering post-mating somatic fat depletion and lifespan reduction.  Our results provide insight into how the male seminal fluid protein SFP-1 triggers mating-induced physiological changes in sexual interactions.",
       "funder": [],
       "identifier": "S-BIAD1657",

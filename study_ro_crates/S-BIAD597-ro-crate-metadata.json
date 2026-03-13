@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD597-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD597"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD597"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD597",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2022-12-08"
-      },
+      "datePublished": "2022-12-08",
       "description": "The dynamics of the receptor tyrosine kinase HER2 were measured using universal point accumulation for imaging in nanoscale topography (uPAINT) in living HeLa cells with total internal reflection fluorescence (TIRF) microscopy. Different conditions were measured where in each the receptor was labeled with a non-activating anti-HER2 nanobody coupled to Cy3B as fluorecent probe. The conditions include a resting state without any ligand and cells stimulated with the ligands EGF, TGFα, EREG and NRGβ1 activating other receptors of the ErbB family.",
       "funder": [],
       "identifier": "S-BIAD597",

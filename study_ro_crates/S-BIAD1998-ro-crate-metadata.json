@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1998-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1998"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1998"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1998",
@@ -101,10 +93,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-30"
-      },
+      "datePublished": "2025-05-30",
       "description": "The bi-directional relationship between the kidneys and heart leads to different forms of cardiorenal syndrome (CRS) in which acute or chronic dysfunction in one organ affects the functioning of the others. This dataset was used to study fibrosis and the impact of chronic kidney disease on cardiac fibrosis in Spraque Dawley Rats, and consists of uncorrelated images from both heart and kidney tissues, in healthy and diseased rats. CRS was induced through 5/6 Nephrectomized, and the tissue samples from both healthy and diseased rats were stained via Sirius Red histology staining, and imaged in bright-field microscopy. This data was selected as part of the AI4Life Open Calls 2023 (OC1) for image analysis consultation and deep-learning applications.\n",
       "funder": [],
       "identifier": "S-BIAD1998",

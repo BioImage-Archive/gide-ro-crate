@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1483-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1483"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1483"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1483",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-11-26"
-      },
+      "datePublished": "2024-11-26",
       "description": "Healthy brain development hinges on proper myelination. Disruptions in this process result in a variety of neurological disorders. Myelin basic protein (MBP) immunohistochemistry is a key method for studying myelination and myelin-related disorders. Despite MBP studies dating back to the 1980s, there has been a surprising lack of detailed accounts of normal MBP progression across the developing mouse brain. This study presents a detailed spatiotemporal view of MBP distribution across 12 developmental ages from postnatal day 2 to 60. We used an optimized immunohistochemistry protocol to overcome the challenges of myelin's unique lipid-rich composition, enabling more consistent staining across diverse brain structures and developmental stages. ",
       "funder": [],
       "identifier": "S-BIAD1483",

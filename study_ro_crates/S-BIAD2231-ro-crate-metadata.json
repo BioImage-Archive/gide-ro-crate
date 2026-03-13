@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2231-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2231"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2231"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2231",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-08"
-      },
+      "datePublished": "2025-08-08",
       "description": "Candida albicans is an emerging pathogen that poses a significant challenge due to its multidrug-resistant nature. There are two types of antifungal agents, fungicidal and fungistatic, with distinct mechanisms of action against fungal pathogens. Fungicidal agents kill fungal pathogens, whereas fungistatic agents inhibit their growth. The growth can be restored once the agent is removed and favorable conditions are established. Recognizing this difference is crucial as it influences treatment selection and infection prognosis. We present a technique based on optical nanomotion detection (ONMD) (i.e., observing the movement of the cells using an optical microscope) to discriminate rapidly between fungicidal (caspofungin) and fungistatic (fluconazole) drugs. The technique is based on the change in a yeast cell’s nanomotion as a function of time during a two-hour treatment with the antifungal of interest followed by a one-hour growth period. The cells are entrapped in microwells in a microfluidic chip, which allows a quick exchange of growth medium and antifungal agent, enabling ONMD measurements on the same individual cells before and after treatment. This procedure permits to discriminate between fungicidal and fungistatic antifungals in less than 3 h, with single-cell resolution by observing if the nanomotion recovers after removing the treatment and reintroducing growth medium (YPD), or continues to drop. The simplicity of the approach holds promise for further development into a user-friendly device for rapid antifungal susceptibility testing (AFST), potentially being implemented in hospitals and medical centers worldwide in developed and developing countries.\n",
       "funder": [],
       "identifier": "S-BIAD2231",

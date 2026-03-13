@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1416-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1416"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1416"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1416",
@@ -116,10 +108,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-14"
-      },
+      "datePublished": "2024-10-14",
       "description": "Synchronous vascular and neural development is vital for the proper formation and function of the central nervous system (CNS). Programmed cell death receptor 1 (PD-1) has been implicated in non-immune roles in the CNS, yet its specific function on cerebral vasculature during brain development are not well defined. To investigate the mechanisms underlying the crosstalk between cerebrovascular and cortical development, we showed that endothelial PD-1 deletion leads to increased vascular density, and enhanced oligodendrocyte progenitor cell (OPC) differentiation, resulting in tight junction dysfunction and abnormal behavior. Mechanistically, the absence of PD-1 in endothelial cells suppressed the Wnt/β-catenin signaling cascade and activated the MEK1/2-ERK1/2-GLI1 signaling pathway, leading to upregulation of GREM1 expression. Elevated GREM1 secretion inhibited the BMP/SMAD1/5/SMAD4 signaling pathway in OPCs, promoting their differentiation. Our findings revealed the importance of endothelial cell-intrinsic PD-1 in regulating the oligovascular niche and suggest potential therapeutic implications for neurological disorders associated with disrupted vascular development.",
       "funder": [],
       "identifier": "S-BIAD1416",
