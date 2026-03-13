@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2197-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2197"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2197"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2197",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-12"
-      },
+      "datePublished": "2025-09-12",
       "description": "Cytotoxic T cell (CTL) dysfunction is a key feature of immune paralysis following major surgery, significantly increasing the risk of severe nosocomial infections and contributing to elevated mortality in critically ill patients. The pathomechanisms of CTL dysfunction remain unclear. We report that reactive oxygen species (ROS) release by Myeloid-Derived Suppressor Cells, which transiently and unexpectedly emerge after major surgery, drives perioperative CTL immunoparalysis. This ROS release causes a critical accumulation of ROS within CTL, overwhelming their antioxidative defenses and severely compromising mitochondrial membrane potential. Consequently, oxidative phosphorylation is impaired, and CTL effector functions are inhibited. Additionally, stress-induced mitochondrial hyperfusion occurs, which disrupts fission-dependent mitochondrial translocation to the immunological synapse, exacerbating the bioenergetic failure. These processes result in substantial mitochondrial dysfunction, which could be partially reversed by treatment with the mitochondria-targeting antioxidant MitoTEMPO. Stabilizing mitochondrial function could serve as a promising clinical strategy for preventing and treating perioperative immune dysfunction.\n",
       "funder": [],
       "identifier": "S-BIAD2197",

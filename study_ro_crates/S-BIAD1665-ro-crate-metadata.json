@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1665-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1665"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1665"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1665",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-02-26"
-      },
+      "datePublished": "2025-02-26",
       "description": "Widespread control of gene expression through translation has emerged as a key level of spatiotemporal protein expression regulation. Internal ribosomal entry sites (IRESes) provide a prominent mechanism by which ribosomes can confer greater gene regulation. However, their rigorous functional characterization remains difficult. Here we present a set of technologies in embryos and cells including IRES-mediated translation of circular RNA (circRNA) reporters, single-molecule messenger (m)RNA isoform imaging, PacBio long-read sequencing, and isoform-sensitive mRNA quantification along polysome profiles as a new guideline to understand IRES regulation. We investigate a broad range of cellular IRES RNA elements. We show IRES-dependent translation in circRNAs and the relative expression, localization and translation of an IRES-containing mRNA isoform in specific embryonic tissues. We thereby provide a new resource of technologies to elucidate the roles of versatile IRES elements in gene regulation and embryonic development.",
       "funder": [],
       "identifier": "S-BIAD1665",

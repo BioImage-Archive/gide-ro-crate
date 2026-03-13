@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1673-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1673"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1673"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1673",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-03-31"
-      },
+      "datePublished": "2025-03-31",
       "description": "Mono-ADP-ribosylation, a regulatory modification of both protein and nucleic acids, has been implicated in innate immunity. In cells, this modification is catalyzed by PARP enzymes, some of which are induced in response to type I interferons. Mono-ADP-ribosylation is fully reversible by hydrolases that include proteins with macrodomains, highly conserved protein domains found in all kingdoms of life. Macrodomains encoded by certain positive sense single-stranded RNA viruses, such as Chikungunya virus and SARS-CoV2, antagonize host MARylation to enhance viral replication and suppress the immune response. While macrodomain hydrolase activity is essential for CHIKV replication, in SARS-CoV2, it predominantly contributes to immune evasion, underscoring viral macrodomains as attractive antiviral drug targets. Efforts to develop macrodomain inhibitors have included computational modeling, crystallography-based methods, and in vitro assays. However, tools to study macrodomain activity directly in cells remain rare. In this study, we established a cell-based assay using PARP15 isoform 1, which we identified to form nuclear foci dependent on its ADP-ribosyltransferase activity. Active macrodomains dissolve these foci, providing a means to monitor hydrolase activity in living cells. Using stable cell lines, this system enables the screening of macrodomain inhibitors while simultaneously addressing cell permeability, toxicity, and physiological relevance. Adaptable to various macrodomains, this platform offers a versatile approach to study macrodomain function, analyzing mutants, and advancing drug discovery efforts.",
       "funder": [],
       "identifier": "S-BIAD1673",

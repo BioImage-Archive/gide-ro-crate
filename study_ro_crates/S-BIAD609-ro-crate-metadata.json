@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD609-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD609"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD609"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD609",
@@ -101,10 +93,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2022-12-14"
-      },
+      "datePublished": "2022-12-14",
       "description": "In this study, we found that mice lacking gut microbiota displayed increased blood-cerebrospinal fluid (CSF) barrier permeability associated with disorganized tight junctions (TJs), which can be rescued by recolonization with gut microbiota or supplementation with short-chain fatty acids (SCFAs). We further confirmed that the vagus nerve plays an important role in this process but SCFAs can also bypass the vagus nerve and affect blood-CSF barrier functionality. Strikingly, the administration of SCFAs in AppNL-G-F AD mice also improved the localization of TJs in the blood-CSF barrier. This was accompanied by a pronounced reduction in β-amyloid (Aβ) burden, which could be achieved by regulating microglial phenotype. Altogether, our results suggest that modulating the microbiota or administering SCFAs might have therapeutic potential in AD via tightening blood-CSF barrier and maintaining microglial activity.",
       "funder": [],
       "identifier": "S-BIAD609",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD866-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD866"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD866"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD866",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-08-30"
-      },
+      "datePublished": "2023-08-30",
       "description": "OME-NGFF converted study from idr0011.  Kinetochores serve both a structural role linking chromosomes to the mitotic spindle and a regulatory role, controlling the timing of mitosis via the spindle assembly checkpoint. To identify proteins that regulate the kinetochore we used a genome-wide fluorescence microscopy approach. We combined an array of mutants of either non-essential gene deletions or essential temperature-sensitive alleles with fluorescently tagged spindle pole bodies (centrosome) and outer kinetochores. Quantitative and qualitative analysis revealed mutants that affect the levels and distribution of kinetochores respectively. These mutants are enriched for those involved in mRNA processing, chromatin organization, DNA replication/repair and mitosis. Our data show that the Pkc1 kinase maintains the kinetochore focus via its ability to prevent cell stress and this phenotype is rescued by an osmotic stabilizer. These data support the notion that kinetochore and microtubule homeostasis are perturbed by the stress response pathways. Hence this observation provides a candidate mechanism for extracellular stress leading to chromosome segregation defects.",
       "funder": [],
       "identifier": "S-BIAD866",

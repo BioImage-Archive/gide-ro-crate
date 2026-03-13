@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1420-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1420"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1420"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1420",
@@ -110,10 +102,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-14"
-      },
+      "datePublished": "2024-10-14",
       "description": "Abstract\nDuring cell adhesion, integrin clusters support the transmission of mechanical forces to the substrate (mechanotransduction) and regulate biochemical signaling in response to substrate stiffness. Our current understanding of cell adhesion and mechanotransduction is based primarily on studies performed on rigid substrates. On fluid substrates such as supported lipid bilayers (SLBs), integrin ligands are mobile and, conventionally, adhesive complexes cannot serve as anchoring points to promote cell spreading. Here, we demonstrate that cells spread on SLBs coated with Invasin, a high-affinity integrin ligand. We show that, in contrast to SLBs functionalized with RGD peptides, integrin clusters grow in size and complexity on Invasin-SLBs to a similar extent as on glass. While actomyosin contraction dominates adhesion maturation on stiff substrates, we find that integrin mechanotransduction and cell spreading on fluid SLBs rely on dynein pulling forces along microtubules perpendicular to the supporting membranes and microtubules pushing on adhesive complexes, respectively. These forces, which may also occur on non-deformable surfaces, are hereby revealed in fluid substrate systems. Our findings, supported by a theoretical model, demonstrate a new mechanical role for microtubules in integrin clustering.",
       "funder": [],
       "identifier": "S-BIAD1420",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2808-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2808"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2808"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2808",
@@ -104,10 +96,10 @@
           "@id": "obo:NCBITaxon_9606"
         },
         {
-          "@id": "obo:NCBITaxon_7227"
+          "@id": "obo:NCBITaxon_10090"
         },
         {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_7227"
         }
       ],
       "author": [
@@ -116,10 +108,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-01-19"
-      },
+      "datePublished": "2026-01-19",
       "description": "We present MitoEM 2.0, a curated benchmark resource for training and evaluating three-dimensional (3D) mitochondria instance segmentation in volume electron microscopy (vEM). The collection assembles multiscale vEM datasets (FIB-SEM, SBF-SEM, and ssSEM) spanning diverse tissues and species, with expert-verified instance labels emphasizing biologically difficult scenarios, including dense mitochondrial packing, hyperfused networks, and thin filamentous connections with ambiguous boundaries.  All releases include native-resolution volumes and standardized processed versions, per-volume metadata (voxel size, modality, tissue, and data splits), and official train/validation/test partitions to enable reproducible benchmarking. Annotations follow a consistent protocol with quality checks and instance reindexing. Data are provided in NIfTI format with an nnU-Net–compatible layout, alongside machine-readable split files and checksums. MitoEM 2.0 facilitates robust model development and fair comparison across methods while supporting reuse in bioimage analysis, algorithm benchmarking, and teaching.",
       "funder": [],
       "identifier": "S-BIAD2808",

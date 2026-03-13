@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD926-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD926"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD926"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD926",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-12-19"
-      },
+      "datePublished": "2023-12-19",
       "description": "TP53-mutant acute myeloid leukemia (AML) and myelodysplastic neoplasms (MDS) are characterized by chemotherapy resistance and represent an unmet clinical need. Chimeric antigen receptor (CAR) T-cells might be a promising therapeutic option for TP53-mutant AML/MDS. However, the impact of TP53 deficiency in AML cells on the efficacy of CAR T-cells is unknown.\nWe here show that CAR T-cells engaging TP53-deficient leukemia cells exhibit a prolonged interaction time, upregulate exhaustion markers, and are inefficient to control AML cell outgrowth in vitro and in vivo compared to TP53 wildtype cells. Transcriptional profiling revealed that the mevalonate pathway is upregulated in TP53-deficient AML cells under CAR T-cell attack, while CAR T-cells engaging TP53-deficient AML cells downregulate the Wnt pathway. In vitro rational targeting of either of these pathways rescues AML cell sensitivity to CAR T-cell-mediated killing. \nWe thus demonstrate that TP53 deficiency confers resistance to CAR T-cell therapy and identify the mevalonate pathway as a therapeutic vulnerability of TP53-deficient AML cells engaged by CAR T-cells, and the Wnt pathway as a promising CAR T-cell therapy-enhancing approach for TP53-deficient AML/MDS.",
       "funder": [],
       "identifier": "S-BIAD926",

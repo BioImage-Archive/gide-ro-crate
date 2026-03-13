@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1390-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1390"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1390"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1390",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-26"
-      },
+      "datePublished": "2025-09-26",
       "description": "We identified DIDO3 and RNAPII colocalization on kinetochores with two different anti-DIDO3 antibodies: one recognizing DIDO common amino terminus combined with RNAPII and autoimmune serum CREST; which recognizes a range of centromeric and kinetochore proteins (Moroi et al., 1980); and a specific anti-DIDO3 antibody together with anti-RNAPII. Also, overexpressed HA-tagged DIDO3 (HA-DIDO3) in WT MEF colocalized with active RNAPIIS2.",
       "funder": [],
       "identifier": "S-BIAD1390",

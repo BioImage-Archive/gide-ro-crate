@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2274-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2274"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2274"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2274",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-10-01"
-      },
+      "datePublished": "2025-10-01",
       "description": "In plants with indeterminate inflorescences, the number of flowers produced is determined by \nthe activity of the inflorescence meristem. We combined quantitative imaging of the inflorescence meristem using light sheet microscopy with the manipulation of cytokinin levels and distribution to investigate how meristem activity is regulated. We further show that the duration of flowering and cytokinin signaling in the inflorescence meristem is influenced by nitrate availability. Taken together, these data suggest that cytokinin functions as a systemic signal that integrates information about ongoing reproductive effort and plant nutrient \nstatus to control flower production.",
       "funder": [],
       "identifier": "S-BIAD2274",

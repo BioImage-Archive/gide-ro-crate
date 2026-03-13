@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD829-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD829"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD829"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD829",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-08-31"
-      },
+      "datePublished": "2023-08-31",
       "description": "A high-salt diet (HSD) elicits sustained sterile inflammation and worsens tissue injury. However, how this occurs after stroke, a leading cause of morbidity and mortality, remains unknown. Here, we report that HSD impaired long-term brain recovery after intracerebral hemorrhage, a severe form of stroke, despite salt withdrawal prior to the injury. Mechanistically, HSD induced innate immune priming and training in hematopoietic stem and progenitor cells (HSPCs) by downregulation of NR4a family and mitochondrial oxidative phosphorylation. This training compromised alternative activation of monocyte-derived macrophages (MDMs) without altering the initial inflammatory responses of the stroke brain. Healthy mice transplanted with bone marrow from HSD-fed mice retained signatures of reduced MDM reparative functions, further confirming a persistent form of innate immune memory that originates in the bone marrow. Lack of NR4a1 in macrophages recapitulated HSD-induced negative impacts on stroke outcomes while gain of NR4a1 enabled stroke recovery in HSD animals. Together, we provide the first evidence that links HSD-induced innate immune memory to the acquisition of persistent dysregulated inflammatory responses and unveils NR4a1 as a potential therapeutic target.",
       "funder": [],
       "identifier": "S-BIAD829",

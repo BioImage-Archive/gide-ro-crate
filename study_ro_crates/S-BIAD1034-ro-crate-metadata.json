@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1034-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1034"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1034"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1034",
@@ -63,10 +55,10 @@
           "@id": "#eaefc524-d725-4169-8a50-505fd0f8468c"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         }
       ],
       "about": [
@@ -110,10 +102,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-02-08"
-      },
+      "datePublished": "2024-02-08",
       "description": "Using lacZ reporter mouse models, we mapped expression of the HH ligand SHH, HH receptors, and GLI transcription factors in fungiform, circumvallate and foliate taste papillae in early and late postnatal and adult stages. In adults we also studied the soft palate, and the geniculate and trigeminal ganglia, which extend afferent fibers to the anterior tongue. ",
       "funder": [],
       "identifier": "S-BIAD1034",

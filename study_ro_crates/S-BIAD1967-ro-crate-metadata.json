@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1967-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1967"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1967"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1967",
@@ -63,13 +55,13 @@
           "@id": "#0e4ed684-c10c-40ca-9087-032ad2d2ae98"
         },
         {
+          "@id": "obo:FBbi_00000249"
+        },
+        {
           "@id": "obo:FBbi_00000368"
         },
         {
           "@id": "obo:FBbi_00000251"
-        },
-        {
-          "@id": "obo:FBbi_00000249"
         }
       ],
       "about": [
@@ -113,10 +105,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-06-18"
-      },
+      "datePublished": "2025-06-18",
       "description": "Fluorescence lifetime imaging microscopy (FLIM) translates the duration of excited states of fluorophores into lifetime information as additional source of contrast in images of biological samples. This offers the possibility to separate fluorophores particularly beneficial in case of similar excitation spectra. Here, we demonstrate the distinction of fluorescent molecules based on FLIM phasor analysis, called lifetime separation, in live-cell imaging using open-source software for analysis. We showcase two applications using Caenorhabditis elegans as a model system. First, we separated the highly spectrally overlapping fluorophores mCherry and mKate2 to distinctively track tagged proteins in six-dimensional datasets to investigate cell division in the developing early embryo. Second, we separated fluorescence of tagged proteins of interest from masking natural autofluorescence in adult hermaphrodites. For FLIM data handling and workflow implementation, we developed the open-source plugin napari-FLIM-phasor-plotter to implement conversion, visualization, analysis and reuse of FLIM data of different formats. Our work thus advances technical applications and bioimage data management and analysis in FLIM microscopy for life science research.",
       "funder": [],
       "identifier": "S-BIAD1967",

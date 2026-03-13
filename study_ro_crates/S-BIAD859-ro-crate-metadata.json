@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD859-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD859"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD859"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD859",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-12-01"
-      },
+      "datePublished": "2023-12-01",
       "description": "In autoimmune Type 1 diabetes (T1D), immune cells progressively infiltrate and destroy the islets of Langerhans – islands of endocrine tissue dispersed throughout the pancreas. However, it is unclear how this process, called ‘insulitis’, develops and progresses within this organ. Here, using highly multiplexed CO-Detection by indEXing (CODEX) tissue imaging and cadaveric pancreas samples from autoantibody positive, T1D, and non-diabetic donors, we examine pseudotemporal-spatial patterns of insulitis and exocrine inflammation within large pancreatic tissue sections. ",
       "funder": [],
       "identifier": "S-BIAD859",

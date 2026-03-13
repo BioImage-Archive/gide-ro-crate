@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD748-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD748"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD748"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD748",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-02-16"
-      },
+      "datePublished": "2024-02-16",
       "description": "Primary cilia are essential signaling organelles that protrude from most cells in the body. Heterodimeric kinesin-2 (KIF3A/KIF3B/KAP3) powers several intracellular transport processes, including intraflagellar transport (IFT), essential for ciliogenesis. A long-standing question is how a motor protein is differentially regulated for specific cargos. Since phosphorylation of the KIF3A tail domain was suggested to regulate the activity of kinesin-2 for ciliogenesis, similarly as for the cytosolic cargo N-Cadherin, we set out to map the phosphosites involved in this regulation. Using well-characterized Kif3a-/-; Kif3b-/- mouse embryonic fibroblasts, we perform ciliogenesis rescue assays with a library of phosphomimetic mutants comprising all predicted phosphosites in the KIF3A tail domain. In contrast to previous reports, we find that KIF3A tail domain phosphorylation is dispensable for ciliogenesis in mammals. Thus, mammalian kinesin-2 is differently regulated for IFT than currently thought, consistent with the idea of differential regulation for ciliary and cytosolic cargo.",
       "funder": [],
       "identifier": "S-BIAD748",

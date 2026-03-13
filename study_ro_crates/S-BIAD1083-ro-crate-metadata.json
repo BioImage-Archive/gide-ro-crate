@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1083-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1083"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1083"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1083",
@@ -75,10 +67,10 @@
           "@id": "#1e967fdb-5142-44a7-bac6-06d0c38472e2"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000345"
@@ -128,10 +120,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-04-11"
-      },
+      "datePublished": "2024-04-11",
       "description": "While commensal bacteria generally respect natural barriers of the human body, pathogens are able to breach epithelia, invade deeper tissue layers and cause life-threatening infections. Pseudomonas aeruginosa, an opportunistic human pathogen, is a leading cause of severe hospital-acquired pneumonia, with mortality rates up to 50% in mechanically ventilated patients1–3. Effective colonization and breaching of lung mucosa are hallmarks of P. aeruginosa pathogenesis4. Although virulence factors and behavioral strategies of P. aeruginosa have been described5,6, it has remained unclear how this pathogen disseminates on functional mucosal surfaces, how it avoids mucociliary clearance and how it invades the tissue barrier. Using fully differentiated human lung epithelia, we demonstrate that P. aeruginosa efficiently spreads on the apical tissue surface before it breaches epithelia by preferentially invading mucus secreting goblet cells. Internalization leads to host cell death and expulsion and the formation of ruptures of the epithelial barrier. Rupture sites are rapidly colonized by extracellular bacteria through active chemotaxis, leading to increasing tissue damage and successful pathogen translocation to the unprotected basolateral side of the epithelium. We show that cell invasion is promoted by two Type-6 toxin secretion systems (T6SS), while Type-3 (T3SS) mediates cell death of infected goblet cells. T3SS mutants invade goblet cells normally, but internalized bacteria fail to trigger goblet cell expulsion and instead show unrestrained intracellular replication. While the effective shedding of infected host cells reveals potent tissue protection mechanisms, the discovery of an intracellular lifestyle of P. aeruginosa in pseudostratified human lung epithelia provides new entry points into investigating the intersection of antibiotic and immune mechanisms during lung infections. By demonstrating that P. aeruginosa uses a combination of specific virulence factors and collective behavior to invade goblet cells and breach the lung tissue barrier from within, these studies reveal novel mechanisms underlying lung infection dynamics under physiological conditions. ",
       "funder": [],
       "identifier": "S-BIAD1083",

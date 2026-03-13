@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD841-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD841"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD841"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD841",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-08-11"
-      },
+      "datePublished": "2023-08-11",
       "description": "In vivo imaging using shortwave infrared light (SWIR, 1000-2000 nm) benefits from deeper penetration and higher resolution compared to using visible and near-infrared wavelengths. However, the development of biocompatible SWIR contrast agents remains challenging. Despite recent advancements, small molecule SWIR fluorophores are often hindered by their significant hydrophobicity. We report a platform for generating a panel of soluble and functional dyes for SWIR imaging by late-stage functionalization of a versatile fluorophore intermediate, affording water-soluble dyes with bright SWIR fluorescence in serum. Specifically, a tetra-sulfonate derivative enables clear video-rate imaging of vasculature with only 0.05 nmol dye, and a tetra-ammonium dye shows strong cellular retention for tracking of tumor growth. Additionally, incorporation of phosphonate functionality enables imaging of bone in awake mice. This modular design provides insights for facile derivatization of existing SWIR fluorophores to introduce both solubility and bioactivity towards in vivo bioimaging.",
       "funder": [],
       "identifier": "S-BIAD841",

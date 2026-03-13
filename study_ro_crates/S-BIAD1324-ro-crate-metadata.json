@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1324-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1324"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1324"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1324",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-29"
-      },
+      "datePublished": "2024-10-29",
       "description": "A hallmark feature of pancreatic ductal adenocarcinoma (PDAC) is massive intratumoral fibrosis, designated as desmoplasia. Desmoplasia is characterized by the expansion of cancer-associated fibroblasts (CAFs) and a massive increase in extracellular matrix (ECM). During fibrogenesis, distinct genes become reactivated specifically in fibroblasts, e.g., the disintegrin metalloprotease, ADAM12. Previous studies have shown that immunotherapeutic ablation of ADAM12+ cells reduces fibrosis in various organs. In preclinical mouse models of PDAC, we observe ADAM12 expression in CAFs as well as in tumor cells but not in healthy mouse pancreas. Therefore, we tested prophylactic and therapeutic vaccination against ADAM12 in murine PDAC and observed delayed tumor growth along with a reduction in CAFs and tumor desmoplasia. This is furthermore associated with vascular normalization and alleviated tumor hypoxia. The ADAM12 vaccine induces a redistribution of CD8+ T cells within the tumor and cytotoxic responses against ADAM12+ cells. In summary, vaccination against the endogenous fibroblast target ADAM12 effectively depletes CAFs, reduces desmoplasia and delays the growth of murine PDACs. These results provide proof-of-principle for the development of vaccination-based immunotherapies to treat tumor desmoplasia.",
       "funder": [],
       "identifier": "S-BIAD1324",

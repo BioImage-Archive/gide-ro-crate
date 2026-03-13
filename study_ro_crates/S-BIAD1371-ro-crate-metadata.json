@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1371-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1371"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1371"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1371",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-09-23"
-      },
+      "datePublished": "2024-09-23",
       "description": "This data set includes raw confocal images used in the manuscript entitled \"Adoptive transfer of mitochondrial antigen-specific CD8+ T-cells in mice causes parkinsonism and compromises the dopamine system\" and shared previously on BioRxiv.\n\nhttps://www.biorxiv.org/content/10.1101/2024.02.26.582098v1\n\nhttps://doi.org/10.1101/2024.02.26.582098",
       "funder": [],
       "identifier": "S-BIAD1371",

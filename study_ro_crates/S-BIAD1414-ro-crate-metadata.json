@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1414-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1414"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1414"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1414",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-11"
-      },
+      "datePublished": "2024-10-11",
       "description": "This upload contains photographs taken by Eva van der Heijden at the Butterfly Genetics Group at the University of Cambridge, from a collection of Hypolimnas misippus and Danaus chrysippus wings collected across Africa between 2011 and 2019. Individual sample names can be found in the information sheet. Further Information on individual samples (and other samples from the Butterfly Genetics Group Collection) can be found on the public database, Earthcape (https://heliconius.ecdb.io/). Please contact Chris Jiggins (c.jiggins[at]zoo.cam.ac.uk) or Anna Orteu (afarreo[at[gmail.com) for further information.",
       "funder": [],
       "identifier": "S-BIAD1414",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD681-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD681"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD681"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD681",
@@ -63,10 +55,10 @@
           "@id": "#3126cb75-67a6-46d3-8459-c46439301c54"
         },
         {
-          "@id": "obo:FBbi_00000256"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000256"
         }
       ],
       "about": [
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-06-15"
-      },
+      "datePublished": "2023-06-15",
       "description": "Cilia are cellular projections that perform sensory and motile functions in eukaryotic cells. A defining feature of cilia is that they are evolutionarily ancient yet not universally conserved. In this study we have used the resulting presence and absence pattern in the genomes of diverse eukaryotes to identify a set of 386 human genes associated with cilium assembly or motility. Comprehensive tissue-specific RNAi in Drosophila and mutant analysis in C. elegans revealed signature ciliary defects for 70-80% of novel genes, a percentage similar to that for known genes within the cluster. Further characterization identified different phenotypic classes, including a set of genes related to the cartwheel component Bld10/CEP135 and two highly conserved regulators of cilium biogenesis. We propose this dataset defines the core set of genes required for cilium assembly and motility across eukaryotes, an invaluable resource for future studies of cilium biology and associated disorders.",
       "funder": [],
       "identifier": "S-BIAD681",

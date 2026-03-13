@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1325-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1325"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1325"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1325",
@@ -80,10 +72,10 @@
           "@id": "#fc86d868-fd67-4198-b8db-ff40aed2be0d"
         },
         {
-          "@id": "obo:NCBITaxon_1160"
+          "@id": "obo:NCBITaxon_1126"
         },
         {
-          "@id": "obo:NCBITaxon_1126"
+          "@id": "obo:NCBITaxon_1160"
         }
       ],
       "author": [
@@ -95,10 +87,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-11-29"
-      },
+      "datePublished": "2024-11-29",
       "description": "In this study time-lapse experiments have been performed using pulsed feeding of non-natural amino acids (non-AAs) in order to observe the build up or decline of azide- or alkyne-modified (clickable) microcystins (MCs) or anabaenopetins (APs) in M. aeruginosa and P. agardhii. Clickable MCs or APs have been subsequently labeled via Copper-catalyzed Azide-Alkyne Cycloaddition (CuAAC) with ALEXA Fluor 488 (A488) and imaged using confocal microscopy analysis ",
       "funder": [],
       "identifier": "S-BIAD1325",

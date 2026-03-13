@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1733-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1733"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1733"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1733",
@@ -72,13 +64,13 @@
           "@id": "#b6829a13-64e3-4c97-933c-fff00d239474"
         },
         {
-          "@id": "obo:FBbi_00000251"
-        },
-        {
           "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000241"
+        },
+        {
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000240"
@@ -146,10 +138,10 @@
           "@id": "#ff6e8aba-9b98-4055-8102-e0ac468a205b"
         },
         {
-          "@id": "obo:NCBITaxon_3702"
+          "@id": "obo:NCBITaxon_4100"
         },
         {
-          "@id": "obo:NCBITaxon_4100"
+          "@id": "obo:NCBITaxon_3702"
         }
       ],
       "author": [
@@ -158,10 +150,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-03-24"
-      },
+      "datePublished": "2025-03-24",
       "description": "Source data for \"Interdependence of plasma membrane nanoscale dynamics of a kinase and its cognate substrate underlies Arabidopsis response to viral infection\"",
       "funder": [],
       "identifier": "S-BIAD1733",

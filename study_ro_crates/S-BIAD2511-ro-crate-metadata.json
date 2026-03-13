@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2511-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2511"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2511"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2511",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-12-18"
-      },
+      "datePublished": "2025-12-18",
       "description": "This study integrates temporal image analysis, automated watering and weighing, and Bayesian growth modeling to dissect how 47 diverse maize inbred lines respond to drought, heat, and their combination. The results demonstrate genotype-specific effects, and that the combined stress is more closely related to heat than drought stress responses. A follow-up experiment also demonstrates that early stress impacts days to anthesis and plant area long after the stress has concluded. These findings underscore the need to evaluate maize diversity under multifactorial stress regimes to accurately identify resilient genotypes for environment-adaptive breeding.",
       "funder": [],
       "identifier": "S-BIAD2511",

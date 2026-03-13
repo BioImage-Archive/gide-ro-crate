@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1368-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1368"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1368"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1368",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-09-21"
-      },
+      "datePublished": "2024-09-21",
       "description": "Fluorescence imaging in the shortwave infrared (SWIR) region has emerged as a vital tool for studying mammals. SWIR emissive polymethine dyes are well suited to this endeavor; however, advancing in vivo imaging utility with these dyes is primarily limited by hydrophobicity and/or non-specific protein adsorption. Herein, we take a distinct approach to combine hydrophilicity and stealth behavior to construct bright, SWIR emissive chromenylium fluorophores by employing a well-defined poly(2-methyl-2-oxazoline) (POx) star polymer architecture, which we refer to as chromenylium stars, or “CStars.” Of these polymer-shielded dyes, the variant containing five POx chains (CStar30) boasts particularly enhanced aqueous solubility and SWIR brightness, enabling high resolution SWIR imaging in mice. The swift renal clearance and stealth behavior displayed in vivo also achieves improved non-invasive visualization of the lymphatic system. Further, CStar’s orthogonal biodistribution to an FDA-approved dye, indocyanine green, facilitates excitation-multiplexed SWIR imaging in two colors to achieve simultaneous visualization of both normal fluid dynamics and protein dynamics in the same animal in real time at video-rate frame counts.\t",
       "funder": [],
       "identifier": "S-BIAD1368",

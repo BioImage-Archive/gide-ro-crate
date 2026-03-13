@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2406-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2406"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2406"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2406",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-11-17"
-      },
+      "datePublished": "2025-11-17",
       "description": "This dataset comprises live-cell fluorescence resonance energy transfer (FRET) and corresponding bright-field images of A549 cells co-expressing the fluorescently tagged proteins CFP-EGFR and YFP-GRB2 under various drug treatment conditions. The data were acquired using quantitative FRET microscopy to simultaneously capture dynamic drug-target interactions and morphological changes at single-cell resolution. This resource enables the quantitative analysis of drug-induced modulation of EGFR/GRB2 interactions, the correlation between target engagement and phenotypic outcomes, and the development of computational models for drug efficacy scoring. The dataset is an essential resource for researchers in cancer biology, drug discovery, and high-content image analysis, providing a foundation for studying dynamic protein-protein interactions and functional drug responses in a live-cell context.",
       "funder": [],
       "identifier": "S-BIAD2406",

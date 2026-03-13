@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2227-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2227"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2227"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2227",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-08"
-      },
+      "datePublished": "2025-08-08",
       "description": "We present a novel optical nanomotion-based rapid antibiotic and antifungal susceptibility test. The technique consisted of studying the effects of antibiotics or antifungals on the nanometric scale displacements of bacteria or yeasts to assess their sensitivity or resistance to drugs. The technique relies on a traditional optical microscope, a video camera, and custom-made image analysis software. It provides reliable results in a time frame of 2-4 h and can be applied to motile, non-motile, fast, and slowly growing microorganisms. Due to its extreme simplicity and low cost, the technique can be easily implemented in laboratories and medical centers in developing countries.",
       "funder": [],
       "identifier": "S-BIAD2227",

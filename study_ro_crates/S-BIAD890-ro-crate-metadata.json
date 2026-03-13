@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD890-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD890"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD890"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD890",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-03-10"
-      },
+      "datePublished": "2024-03-10",
       "description": "Neurophysiology and neuropathology are mediated by the interaction of neurons and glial cells, which cannot be modelled by monocultures. However, mixed cultures are difficult to use and analyse for high-throughput screening. Here, we show the utility of compound and target screening using primary neuron-glia cultures to model inflammatory neurodegeneration alongside live-cell stains and automated classification of neurons, astrocytes or microglia using open-source analysis software. Out of 227 compounds with known bioactivities, 29 protected against lipopolysaccharide-induced neuronal loss, including drugs affecting adrenergic, steroid, inflammatory and MAP kinase signalling. The screen also identified physiological compounds, such as noradrenaline and progesterone, that protected, and identified neurotoxic compounds, such as a TLR7 agonist, that induced microglial proliferation. Thus, combining automated image analysis of complex cultures with high-throughput screening of known compounds in a cellular model of disease allows identification of important biology, as well as potential targets and drugs for treatment.",
       "funder": [],
       "identifier": "S-BIAD890",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD694-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD694"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD694"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD694",
@@ -125,10 +117,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-05-17"
-      },
+      "datePublished": "2023-05-17",
       "description": "Fluorescent protein (FP) tagging is a key method for observing protein distribution, dynamics, and interaction with other proteins in living cells. However, the typical approach using overexpression of tagged proteins can perturb cell behavior and introduce localization artifacts. To preserve native expression, fluorescent proteins can be inserted directly into endogenous genes. This approach has been widely used in yeast for decades, and more recently in invertebrate model organisms with the advent of CRISPR/Cas9. However, endogenous FP tagging has not been widely used in mammalian cells due to inefficient homology-directed repair. Recently, the CRISPaint system has utilized non-homologous end joining for efficient integration of FP tags into native loci, but it only allows C-terminal knock-ins. Here, we enhanced the CRISPaint system by introducing new universal donors for N-terminal insertion and for multicolor tagging with orthogonal selection markers. We adapted the procedure for mouse embryonic stem cells, which can be differentiated into diverse cell types. Our protocol is rapid and efficient, enabling live imaging in less than 2 weeks post-transfection. These improvements increase the versatility and applicability of FP knock-in in mammalian cells.",
       "funder": [],
       "identifier": "S-BIAD694",

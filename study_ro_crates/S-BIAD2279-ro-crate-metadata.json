@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2279-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2279"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2279"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2279",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-11"
-      },
+      "datePublished": "2025-09-11",
       "description": "• Acute otitis media (AOM) is a common\ndisease with causative organisms including\nH. influenzae and S. pneumoniae. A possible\nconsequence of AOM is chronic otitis media\n(COM), which can be caused by organisms\nincluding S. aureus and P. aeruginosa.\n• Current diagnostics cannot differentiate\nbetween bacterial and non-bacterial cases\n• ICG-maltotriose is a fluorescent probe that\nbinds specifically to the maltodextrin\ntransporter found in bacterial cells\n• This study explores the use of ICG-\nmaltotriose, which binds to bacterial cells,\ncombined with SWIR imaging to distinguish\nbetween bacterial and nonbacterial AOM in\nmurine models.",
       "funder": [],
       "identifier": "S-BIAD2279",

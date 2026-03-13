@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1204-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1204"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1204"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1204",
@@ -92,25 +84,25 @@
           "@id": "#3b39a989-b4d8-41c3-b1ec-12cdcf718029"
         },
         {
-          "@id": "obo:NCBITaxon_53005"
-        },
-        {
-          "@id": "obo:NCBITaxon_115594"
-        },
-        {
-          "@id": "obo:NCBITaxon_53011"
-        },
-        {
           "@id": "obo:NCBITaxon_184650"
         },
         {
-          "@id": "obo:NCBITaxon_95766"
+          "@id": "obo:NCBITaxon_2998295"
         },
         {
           "@id": "obo:NCBITaxon_53008"
         },
         {
-          "@id": "obo:NCBITaxon_2998295"
+          "@id": "obo:NCBITaxon_53005"
+        },
+        {
+          "@id": "obo:NCBITaxon_95766"
+        },
+        {
+          "@id": "obo:NCBITaxon_53011"
+        },
+        {
+          "@id": "obo:NCBITaxon_115594"
         }
       ],
       "author": [
@@ -119,10 +111,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-07-02"
-      },
+      "datePublished": "2024-07-02",
       "description": "The following data includes raw images, metadata, measurements and processed images as well as classifiers for image segmentations and masks created with the ImageJ/Fiji plugin Labkit to measure the leaf area. This dataset provides all acquired information for my Bachelor's thesis about leaf traits of Bryophyta related moss species. \n",
       "funder": [],
       "identifier": "S-BIAD1204",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1055-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1055"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1055"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1055",
@@ -152,10 +144,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-02-25"
-      },
+      "datePublished": "2024-02-25",
       "description": "Data and code in support of the upcoming manuscript \"Three-dimensional spatio-angular fluorescence microscopy with a polarized dual-view inverted selective-plane illumination microscope (pol-diSPIM)\"\n\nEdit 2025-02-21: Now published in PNAS as \"Volumetric imaging of the 3D orientation of cellular structures with a polarized fluorescence light-sheet microscope\" https://doi.org/10.1073/pnas.240667912",
       "funder": [],
       "identifier": "S-BIAD1055",

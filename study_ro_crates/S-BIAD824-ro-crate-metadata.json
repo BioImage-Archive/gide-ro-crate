@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD824-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD824"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD824"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD824",
@@ -63,13 +55,13 @@
           "@id": "#d6da3d5b-e364-427d-aa47-29580976830e"
         },
         {
-          "@id": "obo:FBbi_00000245"
-        },
-        {
           "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000240"
+        },
+        {
+          "@id": "obo:FBbi_00000245"
         }
       ],
       "about": [
@@ -122,43 +114,43 @@
           "@id": "#38b60910-16da-4b56-a456-d928f2db370f"
         },
         {
-          "@id": "obo:NCBITaxon_1914413"
-        },
-        {
-          "@id": "obo:NCBITaxon_2779758"
+          "@id": "obo:NCBITaxon_122636"
         },
         {
           "@id": "obo:NCBITaxon_71659"
         },
         {
-          "@id": "obo:NCBITaxon_122646"
+          "@id": "obo:NCBITaxon_2779757"
         },
         {
           "@id": "obo:NCBITaxon_122635"
         },
         {
-          "@id": "obo:NCBITaxon_37395"
-        },
-        {
-          "@id": "obo:NCBITaxon_2779757"
-        },
-        {
-          "@id": "obo:NCBITaxon_122636"
-        },
-        {
           "@id": "obo:NCBITaxon_122639"
         },
         {
-          "@id": "obo:NCBITaxon_3108177"
+          "@id": "obo:NCBITaxon_122646"
+        },
+        {
+          "@id": "obo:NCBITaxon_37395"
         },
         {
           "@id": "obo:NCBITaxon_179045"
         },
         {
+          "@id": "obo:NCBITaxon_122615"
+        },
+        {
           "@id": "obo:NCBITaxon_122620"
         },
         {
-          "@id": "obo:NCBITaxon_122615"
+          "@id": "obo:NCBITaxon_3108177"
+        },
+        {
+          "@id": "obo:NCBITaxon_1914413"
+        },
+        {
+          "@id": "obo:NCBITaxon_2779758"
         }
       ],
       "author": [
@@ -167,10 +159,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-12-31"
-      },
+      "datePublished": "2023-12-31",
       "description": "A reference dataset containing macroscopic and bright-field microscopic images of 16 specimens of thallose liverworts of biological soil crusts collected in Southern Sweden and Germany",
       "funder": [],
       "identifier": "S-BIAD824",

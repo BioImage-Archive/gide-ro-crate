@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1316-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1316"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1316"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1316",
@@ -81,13 +73,13 @@
           "@id": "#a2cd4a5d-67c6-4332-9156-2fb1f2d95fb9"
         },
         {
+          "@id": "obo:FBbi_00000243"
+        },
+        {
           "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000345"
-        },
-        {
-          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -107,16 +99,16 @@
           "@id": "#6f968923-0f98-40c7-ae97-729801d8086b"
         },
         {
-          "@id": "obo:NCBITaxon_32644"
+          "@id": "obo:NCBITaxon_9606"
+        },
+        {
+          "@id": "obo:NCBITaxon_10090"
         },
         {
           "@id": "obo:NCBITaxon_4932"
         },
         {
-          "@id": "obo:NCBITaxon_9606"
-        },
-        {
-          "@id": "obo:NCBITaxon_10090"
+          "@id": "obo:NCBITaxon_32644"
         }
       ],
       "author": [
@@ -134,10 +126,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-08-13"
-      },
+      "datePublished": "2024-08-13",
       "description": "Images (not externally cited), callsets, benchmarking measures, and analysis results used for testing fluorescence quantification software tools including Neuert Lab's TrueSpot tool.",
       "funder": [],
       "identifier": "S-BIAD1316",

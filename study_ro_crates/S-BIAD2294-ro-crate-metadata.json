@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2294-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2294"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2294"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2294",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-10-27"
-      },
+      "datePublished": "2025-10-27",
       "description": "Human immune protection against bacteria critically depends on activation of the complement system. The direct bacteriolytic activity of complement molecules against Gram-negative bacteria acts via the formation of Membrane Attack Complex (MAC) pores. Bactericidal MAC pores damage the bacterial outer membrane, leading to destabilization of the inner membrane. Although it is well-established that inner membrane damage is crucial for bacterial cell death, the critical event causing MAC-mediated inner membrane damage remains elusive. Here we questioned whether the bacterial cell envelope possesses vulnerable spots for MAC pores to insert. We followed the localization of MAC pores on E. coli over time using fluorescence microscopy and elucidate that MAC deposition initiates at the new bacterial pole, which induces inner membrane damage and halts bacterial division. MAC components C8 and C9 preferentially localize at new bacterial poles, while C3b localizes randomly on the bacterial surface. This suggests that preferential MAC localization is determined by one of the initial steps of MAC formation. These findings provide valuable information about the interplay between immune components and the Gram-negative cell envelope.",
       "funder": [],
       "identifier": "S-BIAD2294",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1990-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1990"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1990"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1990",
@@ -72,13 +64,13 @@
           "@id": "#8248f3e4-c5a8-4238-884c-067a4ba7b204"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000249"
         },
         {
           "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000249"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -116,10 +108,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-27"
-      },
+      "datePublished": "2025-05-27",
       "description": "Recent advances in isolating cells based on visual phenotypes have transformed our ability to identify the mechanisms and consequences of complex traits. Micronucleus (MN) formation is a frequent outcome of genome instability, triggers extensive changes in genome structure and signaling coincident with MN rupture, and is almost exclusively defined by visual analysis. Automated MN detection in microscopy images has proved challenging, limiting discovery of the mechanisms and consequences of MN. In this study we describe two new MN segmentation modules: a rapid model for classifying micronucleated cells and their rupture status (VCS MN), and a robust model for accurate MN segmentation (MNFinder) from a broad range of cell lines. As proof-of-concept, we define the transcriptome of non-transformed human cells with intact or ruptured MN after chromosome missegregation by combining VCS MN with photoactivation-based cell isolation and RNASeq. Surprisingly, we find that neither MN formation nor rupture triggers a strong unique transcriptional response. Instead, transcriptional changes appear correlated with small increases in aneuploidy in these cell classes. Our MN segmentation modules overcome a significant challenge with reproducible MN quantification, and, joined with visual cell sorting, enable the application of powerful functional genomics assays to a wide-range of questions in MN biology.",
       "funder": [],
       "identifier": "S-BIAD1990",

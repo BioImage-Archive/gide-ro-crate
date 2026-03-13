@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2228-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2228"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2228"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2228",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-08"
-      },
+      "datePublished": "2025-08-08",
       "description": "Nanometric scale size oscillations seem to be a fundamental feature of all living organisms on Earth. Their detection usually requires complex and very sensitive devices. However, some recent studies demonstrated that very simple optical microscopes and dedicated image processing software can also fulfill this task. This novel technique, termed as optical nanomotion detection (ONMD), was recently successfully used on yeast cells to conduct rapid antifungal sensitivity tests. In this study, we demonstrate that the ONMD method can monitor motile sub-cellular organelles, such as mitochondria. Here, mitochondrial isolates (from HEK 293 T and Jurkat cells) undergo predictable motility when viewed by ONMD and triggered by mitochondrial toxins, citric acid intermediates, and dietary and bacterial fermentation products (short-chain fatty acids) at various doses and durations. The technique has superior advantages compared to classical methods since it is rapid, possesses a single organelle sensitivity, and is label- and attachment-free.",
       "funder": [],
       "identifier": "S-BIAD2228",
