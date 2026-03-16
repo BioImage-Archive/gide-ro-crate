@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD888-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD888"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD888"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD888",
@@ -104,10 +96,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-09-15"
-      },
+      "datePublished": "2023-09-15",
       "description": "ER-phagy is a selective autophagy process which targets specific regions of the endoplasmic reticulum (ER) for removal via lysosomal degradation. During cellular stress induced by starvation, cargo receptors concentrate at distinct ER-phagy sites (ERPHS) to recruit core autophagy proteins and initiate ER-phagy. However, the molecular mechanism responsible for ERPHS formation remains unclear. In our study, we discovered that the UV radiation Resistance-Associated Gene (UVRAG) plays a crucial role in orchestrating the assembly of ERPHS. Upon starvation, UVRAG localizes to ERPHS and interacts with specific ER-phagy cargo receptors such as FAM134B, ATL3, and RTN3L. UVRAG regulates the oligomerization of cargo receptors and facilitates the recruitment of Atg8 family proteins. Consequently, UVRAG promotes the efficient ERPHS assembly and turnover of both ER sheets and tubules. Importantly, UVRAG-mediated ER-phagy contributes to the clearance of pathogenic proinsulin aggregates. Remarkably, the involvement of UVRAG in ER-phagy initiation is independent of its canonical function as a subunit of class III phosphatidylinositol 3-kinase complex II.",
       "funder": [],
       "identifier": "S-BIAD888",

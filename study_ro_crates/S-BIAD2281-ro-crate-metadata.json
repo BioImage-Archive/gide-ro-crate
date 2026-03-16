@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2281-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2281"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2281"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2281",
@@ -63,10 +55,10 @@
           "@id": "#51754164-2adf-4eec-b6f7-c7de01aec47c"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         },
         {
           "@id": "obo:FBbi_00000253"
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-30"
-      },
+      "datePublished": "2025-09-30",
       "description": "In vitro human organoid models have become transformative tools for studying organogenesis, for example, spinal cord organoids (SCOs) mimic aspects of spinal cord biology. However, current models do not produce spinal motor neurons (spMNs) with a wide range of axial identities along spinal cord segments within a single structure, limiting their utility in understanding human neural axial specification and the selective vulnerability of spMN subpopulations in motor neuron diseases. Here, we present a novel approach to enhance spMN axial heterogeneity in an advanced SCO model derived from neural stem cells (NSCs) and retinoic acid (RA)-primed neuromesodermal progenitors (NMPs). RA priming directed NMP differentiation into caudal neural progenitors, yielding SCOs enriched in spMNs with posterior axial identities. To further spMN axial diversity, we developed a novel, differentiation protocol, that combines NSCs with RA-primed NMPs, generating comprehensive axial SCOs (CASCOs) containing spMNs with segmental identities spanning cervical to lumbar regions, which self-organized into spatially distinct domains. CASCOs were electrophysiologically active, and the incorporation of either an endothelial-like network or skeletal muscle cells enhanced physiological complexity, neural maturation and overall organoid viability. This comprehensive approach provides a robust platform for studying human spMN specification and modeling neurodegenerative disease mechanisms.\n\nContained in this repository are raw images for Figures 6A-C, 8C, and 8E. All other raw image data can be found on the publishers website.",
       "funder": [],
       "identifier": "S-BIAD2281",

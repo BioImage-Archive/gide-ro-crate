@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2349-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2349"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2349"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2349",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-10-20"
-      },
+      "datePublished": "2025-10-20",
       "description": "Leigh syndrome (LS) is a complex, genetic mitochondrial disorder defined by neurodegenerative phenotypes with pediatric manifestation. However, recent clinical studies report behavioral phenotypes in human LS patients that are more reminiscent of neurodevelopmental delays. To determine if disruptions in epochs of rapid brain growth during infancy precede the hallmark brain lesions that arise during childhood, we evaluated neural and glial precursor cellular dynamics in a mouse model of LS. Loss of Complex I significantly impacted neural stem cell proliferation, neuronal and oligodendroglial progeny, lineage progression, and displayed overt differences in specific brain regions across postnatal development. Our findings show that these disruptions in all categories occur specifically within the subventricular zone and corpus callosum prior to the age where these mice experience neurodegeneration. Given that LS is considered a neurodegenerative disease, we propose that there are neurodevelopmental signatures predating classic diagnosis in LS.   ",
       "funder": [],
       "identifier": "S-BIAD2349",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1151-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1151"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1151"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1151",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-05-21"
-      },
+      "datePublished": "2024-05-21",
       "description": "Deep Visual Proteomics (DVP) is an innovative technique that enables spatially resolved sing-cell-type proteome analysis. The coexistence of classical Hodgkin lymphoma (cHL) and small lymphocytic lymphoma (SLL) in a single patient presents a challenging scenario for clinical decision-making. In this study, we investigate the potential of DVP to provide insights into precision medicine strategies. We use DVP to comprehensively profile the proteomic landscapes and signaling pathways within cHL and SLL compartments in a 71-year-old woman with composite lymphoma.",
       "funder": [],
       "identifier": "S-BIAD1151",

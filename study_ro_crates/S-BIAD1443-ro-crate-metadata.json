@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1443-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1443"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1443"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1443",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-10-29"
-      },
+      "datePublished": "2024-10-29",
       "description": "This repository presents an objective, quantifiable method for assessing atopic dermatitis (AD) severity. The program integrates deep learning object detection with spatial analysis algorithms to accurately calculate the density of circular nano-size objects (CNOs), termed the Effective Corneocyte Topographical Index (ECTI). The ECTI demonstrates remarkable robustness in overcoming the inherent challenges of nano-imaging, such as environmental noise and structural occlusions on the corneocyte surface, further enhancing its applicability in clinical settings.",
       "funder": [],
       "identifier": "S-BIAD1443",

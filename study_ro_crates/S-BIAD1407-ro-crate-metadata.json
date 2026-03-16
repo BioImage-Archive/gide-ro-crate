@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1407-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1407"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1407"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1407",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-11-30"
-      },
+      "datePublished": "2024-11-30",
       "description": "527 digital whole slide images of haematoxylin and eosin (H&E) stained tissue sections from 431 colorectal cancer patients across 3 clinical datasets (BRAF, MISSONI, and VALENTINO). The BRAF cohort is comprised of patients with BRAF V600E mutant microsatellite stable (MSS) cancers (n=165, 24m median follow-up). The MISSONI cohort is comprised of patients with microsatellite instability, with a subset receiving immunotherapy, (n=90, 24m median follow-up). The VALENTINO cohort includes patients with RAS/RAF wildtype MSS cancers who received chemotherapy and anti-EGFR therapy (n=176, 32m median follow-up). Slides are taken from both primary and metastatic sites. Slides were digitised using a Zeiss AxioScan.Z1 slide scanner (40x magnification, 0.11 µm/pixel).",
       "funder": [],
       "identifier": "S-BIAD1407",

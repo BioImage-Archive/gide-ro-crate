@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD680-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD680"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD680"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD680",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-05-26"
-      },
+      "datePublished": "2023-05-26",
       "description": "Extracting biological information from awake and unrestrained mice is imperative to in vivo basic and pre-clinical research. Accordingly, imaging methods which preclude invasiveness, anesthesia, and/or physical restraint enable more physiologically relevant biological data extraction by eliminating these extrinsic confounders. In this article we discuss the recent development of shortwave infrared (SWIR) fluorescent imaging to visualize peripheral organs in freely-behaving mice, as well as propose potential applications of this imaging modality in the neurosciences.",
       "funder": [],
       "identifier": "S-BIAD680",

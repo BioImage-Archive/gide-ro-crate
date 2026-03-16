@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1801-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1801"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1801"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1801",
@@ -69,13 +61,13 @@
           "@id": "#1b1eceb3-e5a7-40ed-8adb-024aeafc4886"
         },
         {
+          "@id": "obo:FBbi_00000243"
+        },
+        {
           "@id": "obo:FBbi_00000246"
         },
         {
           "@id": "obo:FBbi_00000251"
-        },
-        {
-          "@id": "obo:FBbi_00000243"
         }
       ],
       "about": [
@@ -104,10 +96,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-04-05"
-      },
+      "datePublished": "2025-04-05",
       "description": "Microscopy data for manuscript: \"Palmitoylated Importin Alpha Regulates Mitotic Spindle Orientation Through Interaction NuMA\". A study elucidating a novel role of the nuclear transport protein importin alpha in astral microtubule anchoring.",
       "funder": [],
       "identifier": "S-BIAD1801",

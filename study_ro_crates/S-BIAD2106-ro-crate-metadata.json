@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2106-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2106"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2106"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2106",
@@ -107,10 +99,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-06-25"
-      },
+      "datePublished": "2025-06-25",
       "description": "This dataset is the training set with annotations of contiguous structures for SELMA3D 2025 challenge. The SELMA3D 2025 challenge focuses on self-supervised learning for 3D light-sheet microscopy (LSM) image segmentation. Its objective is to encourage the development of generalizable models capable of serving multiple 3D LSM image segmentation tasks. This dataset is dedicated to developing self-supervised learning strategies for segmenting contiguous structures in 3D light-sheet microscopy images. It contains 3D image patches of different contiguous structures including blood vessels and nerves. Each patch includes corresponding pixel-wise annotations for the structures.",
       "funder": [],
       "identifier": "S-BIAD2106",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2127-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2127"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2127"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2127",
@@ -63,10 +55,10 @@
           "@id": "#7670c2ae-4109-4919-9d32-dc4f5a5f096a"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000246"
         }
       ],
       "about": [
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-07-04"
-      },
+      "datePublished": "2025-07-04",
       "description": "YAP and TAZ, key effectors of the Hippo pathway, are frequently hyperactivated in cancer, where they drive tumor progression and resistance to therapy. Their oncogenic activity relies on interaction with TEAD transcription factors, making the TEAD-YAP/TAZ complex an attractive therapeutic target. Using translational mouse models, we demonstrate that sustained systemic YAP/TAZ depletion leads to severe side effects. However, even transient YAP/TAZ inhibition alone is sufficient to suppress tumor growth in advanced stages. Mechanistically, YAP/TAZ activity promotes T cell exclusion from the tumors by inducing target genes involved in tissue remodeling. Consequentially, YAP/TAZ inhibition induces immune infiltration, but the infiltrating T cells rapidly become exhausted. Combining YAP/TAZ inhibition with immune checkpoint blockade (ICB) overcomes this exhaustion and sensitizes previously resistant tumors to immunotherapy.",
       "funder": [],
       "identifier": "S-BIAD2127",

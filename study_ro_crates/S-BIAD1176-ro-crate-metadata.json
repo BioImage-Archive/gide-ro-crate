@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1176-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1176"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1176"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1176",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-10"
-      },
+      "datePublished": "2025-08-10",
       "description": "Tumor heterogeneity drives drug resistance and relapse in breast cancer. This study examined spatial proteomic heterogeneity using integrated multi-region spatial mass spectrometry proteomics, exome sequencing, and imaging across 280 tumor regions. For the imaging component, 121 regions from 47 tissue sections across 11 tumors were analyzed. Consecutive tissue slices underwent different staining and imaging techniques. Pathologist-selected regions (based on H-DAB staining for ER, PR, HER2, and panCK) were laser captured for proteomic analysis. Additional staining for immune and stromal markers (CD31, alpha-SMA, Pan-CK, CD68, CD3, and DAPI) allowed for the assessment of blood vessel coverage, spatial distribution of tumor and immune cells, and stromal composition within and surrounding these regions.",
       "funder": [],
       "identifier": "S-BIAD1176",

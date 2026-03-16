@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD687-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD687"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD687"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD687",
@@ -92,10 +84,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-05-09"
-      },
+      "datePublished": "2023-05-09",
       "description": "The antiviral restriction factor, tetherin, blocks the release of several different families of enveloped viruses, including the Coronaviridae. Tetherin is an interferon-induced protein that forms parallel homodimers between the host cell and viral particles, linking viruses to the surface of infected cells and inhibiting their release. We demonstrated that SARS-CoV-2 infection causes tetherin downregulation, and that tetherin depletion from cells enhances SARS-CoV-2 viral titres. We investigated the potential viral proteins involved in abrogating tetherin function and found that SARS-CoV-2 ORF3a reduces tetherin localisation within biosynthetic organelles via reduced retrograde recycling and increases tetherin localisation to late endocytic organelles. By removing tetherin from the Coronavirus budding compartments, ORF3a enhances virus release. We also found expression of Spike protein caused a reduction in cellular tetherin levels. Our results confirm that tetherin acts as a host restriction factor for SARS-CoV-2 and highlight the multiple distinct mechanisms by which SARS-CoV-2 subverts tetherin function.",
       "funder": [],
       "identifier": "S-BIAD687",

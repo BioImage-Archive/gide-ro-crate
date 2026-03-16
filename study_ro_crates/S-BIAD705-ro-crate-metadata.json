@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD705-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD705"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD705"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD705",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-12-11"
-      },
+      "datePublished": "2023-12-11",
       "description": "Optical codes can be used to track single live cells in an image data space, while DNA barcodes can be used to identify single cells in a sequencing data space. We have developed dual image and DNA (ID)-coding, which identifies individual single cells in both live image and sequencing data spaces. Samples provided here are relevant to proof-of-concept studies of ID-coding presented in the associated publication.\nOptically-coded micro-particles were encapsulated in hydrogel droplets with or without single cells. Multiple hydrogel droplets were imaged in individual microscopic views, which were segmented afterwards. ",
       "funder": [],
       "identifier": "S-BIAD705",

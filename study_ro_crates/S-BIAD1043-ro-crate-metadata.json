@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1043-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1043"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1043"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1043",
@@ -129,10 +121,7 @@
           "@id": "https://doi.org/10.1038/s41598-024-66600-1"
         }
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-03-01"
-      },
+      "datePublished": "2024-03-01",
       "description": "High-throughput imaging (HTI) generates complex imaging datasets from a large number of\nexperimental perturbations. Commercial HTI software for image analysis workflows does not\nallow full customization and adoption of new image processing algorithms in the analysis modules.\nWhile open-source HTI analysis platforms provide individual modules in the workflow, like nuclei\nsegmentation, spot detection, or cell tracking, they are often limited in integrating novel analysis\nmodules or algorithms. Here, we introduce the High-Throughput Image Processing Software\n(HiTIPS) to expand the range and customization of existing HTI analysis capabilities. HiTIPS\nincorporates advanced image processing and machine learning algorithms for automated cell and\nnuclei segmentation, spot signal detection, nucleus tracking, spot tracking, and quantification of\nspot signal intensity. Furthermore, HiTIPS features a graphical user interface that is open to\nintegration of new algorithms for existing analysis pipelines and to adding new analysis pipelines\nthrough separate plugins. To demonstrate the utility of HiTIPS, we present three examples of\nimage analysis workflows for high-throughput DNA FISH, immunofluorescence (IF), and live-\ncell imaging of transcription in single cells. Altogether, we demonstrate that HiTIPS is a user-\nfriendly, flexible, and open-source HTI analysis platform for a variety of cell biology applications",
       "funder": [],
       "identifier": "S-BIAD1043",
@@ -285,10 +274,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024"
-      },
+      "datePublished": "2024",
       "name": "HiTIPS: High-Throughput Image Processing Software for the Study of Nuclear Architecture and Gene Expression"
     },
     {

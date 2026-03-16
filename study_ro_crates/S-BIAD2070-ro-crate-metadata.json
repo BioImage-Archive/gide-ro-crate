@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2070-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2070"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2070"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2070",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-08-29"
-      },
+      "datePublished": "2025-08-29",
       "description": "Single cell profiling studies and research on both postmortem Parkinson’s disease (PD) tissues and preclinical mouse models demonstrated that the Sox6/Aldh1a1 markers molecularly define the vulnerable ventral dopamine neurons, while Calbindin1 (Calb1) marks the resilient dorsal neurons.  These distinct dopamine neuronal subtypes not only differ in their molecular profiling but also exhibit unique projection patterns and functional responses. Therefore, studying these neurons in a subtype-specific manner can yield important insights into cell-intrinsic mechanisms of vulnerability in PD. We first addressed whether LRRK2 is expressed in dopamine neurons, as this is a prerequisite for any cell-autonomous effects. We performed immunolabeling on mouse brain sections and confirmed LRRK2 expression in SNc dopamine neurons",
       "funder": [],
       "identifier": "S-BIAD2070",

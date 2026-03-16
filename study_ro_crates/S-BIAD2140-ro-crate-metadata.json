@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2140-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2140"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2140"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2140",
@@ -101,10 +93,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-07-06"
-      },
+      "datePublished": "2025-07-06",
       "description": "During sensitive postnatal periods, brain neural circuits undergo significant refinement coincident with widespread occurrence of neuronal alternative splicing events in which hundreds of genes alter splice site selection to generate isoforms essential for synaptic plasticity. Here, we reveal that neuronal activity-dependent serine119 phosphorylation of paxillin (p-PaxillinS119) acts as a molecular switch in the nucleus to modulate alternative splicing during this period. We report that following NMDA receptor activation, nuclear p-PaxillinS119 is recruited to nuclear speckles, where it interacts with U2AFs and splicing factors. Neuronal paxillin expression is required for timely alternative splicing of synaptic factors, including Snap25. Consequently, young mice lacking paxillin S119 phosphorylation exhibit significantly reduced levels of Snap25-5b isoforms, impaired presynaptic function at hippocampal Schaffer collateral-CA1 synapses, and deficits in short-term learning and memory. These findings support the idea that nuclear p-Paxillin S119 is a critical mediator of alternative splicing programs in postnatal neurons during a sensitive period essential for neural plasticity.",
       "funder": [],
       "identifier": "S-BIAD2140",

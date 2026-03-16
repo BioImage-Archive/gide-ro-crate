@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1201-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1201"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1201"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1201",
@@ -90,10 +82,7 @@
           "@id": "https://doi.org/10.3389/fcell.2024.1430728"
         }
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-06-07"
-      },
+      "datePublished": "2024-06-07",
       "description": "TIRF FRAP datasets of Talin in aocal adhesions of transformed and non-transformed cell lines",
       "funder": [],
       "identifier": "S-BIAD1201",
@@ -151,10 +140,7 @@
       "@type": [
         "ScholarlyArticle"
       ],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "None"
-      },
+      "datePublished": "None",
       "name": "Differential Talin Cleavage in Transformed and Non-Transformed Cells and Its Consequences"
     },
     {

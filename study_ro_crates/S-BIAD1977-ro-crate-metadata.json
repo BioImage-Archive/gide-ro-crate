@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1977-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1977"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1977"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1977",
@@ -77,10 +69,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-26"
-      },
+      "datePublished": "2025-05-26",
       "description": "The separated root of Zelkova carpinifolia specimen (BIA Acc. No. S-BIAD1968, DOI:10.6019/S-BIAD1968) was subjected to NextITS sequencing. Ascomatal recognition via stereoscopic microscopy (BIA Acc. No. S-BIAD1947, DOI:10.6019/S-BIAD1947) and spore shape and size examination via optical microscopy (BIA Acc. No. S-BIAD1948, DOI:10.6019/S-BIAD1948) identified the root's symbiont as Tuber aestivum.\nThe Zelkova carpinifolia and Tuber aestivum sequences were deposited in NCBI GenBank under accession numbers PV663938 and PV665023, respectively.\nEctomycorrhizal evidence of Z. carpinifolia root, including external structures (SEM & stereoscopic binocular microscopy; Acc. No. S-BIAD1974, DOI:10.6019/S-BIAD1974) and internal structures (optical microscopy; Acc. No. S-BIAD1975, DOI:10.6019/S-BIAD1975 and FE-SEM; Acc. No. S-BIAD1976, DOI:10.6019/S-BIAD1976), was deposited on the BIA.",
       "funder": [],
       "identifier": "S-BIAD1977",

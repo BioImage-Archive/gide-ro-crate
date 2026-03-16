@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD931-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD931"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD931"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD931",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-01-18"
-      },
+      "datePublished": "2024-01-18",
       "description": "Human rhinovirus is the most frequently isolated virus during severe exacerbations of chronic respiratory diseases, like chronic obstructive pulmonary disease. In this disease, alveolar macrophages display significantly diminished phagocytic functions that could be associated with bacterial superinfections. However, how human rhinovirus affects the functions of macrophages is largely unknown. Macrophages treated with HRV16 demonstrated deficient bacteria killing activity, impaired phagolysosome biogenesis and altered intracellular compartments. Using RNA sequencing, we identified the small GTPase ARL5b to be upregulated by the virus in primary human macrophages. Importantly, depletion of ARL5b rescued bacterial clearance and localization of endosomal markers in macrophages upon HRV16 exposure. In permissive cells, depletion of ARL5b increased the secretion of HRV16 virions. Thus, we identify ARL5b as a novel regulator of intracellular trafficking dynamics and phagolysosomal biogenesis in macrophages and as a restriction factor of HRV16 in permissive cells. ",
       "funder": [],
       "identifier": "S-BIAD931",

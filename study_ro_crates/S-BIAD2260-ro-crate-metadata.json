@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2260-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2260"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2260"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2260",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-12-01"
-      },
+      "datePublished": "2025-12-01",
       "description": "Biomolecular condensates mediate dynamic compartmentalization of cellular processes. The multivalent interactions that underlie biomolecular condensation are often promoted by intrinsically disordered regions (IDRs) within proteins. While the role of IDRs in biomolecular condensates is well appreciated, predicting whether an IDR forms condensates in cells remains challenging. Here, we developed a machine learning model to accurately predict the condensation behavior of IDRs, analyzing 215 IDRs from fusion oncoproteins in HEK293T cells. We identified distinct sequence-derived physicochemical features associated with condensation. Leveraging these data, our model predicts that ~12% of the ~13,000 IDRs in the human proteome are likely to form cellular condensates, establishing a robust framework for proteome-wide analysis of IDR-mediated biomolecular condensation. Notably, proteins with condensate-forming IDRs are significantly enriched in RNA processing and splicing functions and are predominantly localized to membrane-less organelles (MLOs), highlighting a central role of IDR-mediated biomolecular condensation in cellular organization and RNA biology. ",
       "funder": [],
       "identifier": "S-BIAD2260",

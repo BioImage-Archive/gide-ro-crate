@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1922-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1922"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1922"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1922",
@@ -86,10 +78,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-08"
-      },
+      "datePublished": "2025-05-08",
       "description": "Gene regulation by RNA interference (RNAi) is a conserved process driven by double-stranded RNA (dsRNA). It responds to exogenous cues and drives endogenous gene regulation. In Caenorhabditis elegans, RNAi can be inherited from parents to offspring. While a number of factors have been implicated in this inheritance process, we do not understand how and when they function. Using a new inheritance assay, we establish a hierarchy amongst previously identified inheritance factors. The nuclear Argonaute protein HRDE-1 was required for RNAi establishment in parents and offspring, but not for the inheritance process. In contrast, the cytoplasmic Argonaute protein WAGO-3 was the only factor essential for inheritance, via sperm and oocyte, while not affecting establishment in either parent or offspring. We propose a cycle between nuclear and cytoplasmic Argonaute proteins, where nuclear activity drives most of the silencing and cytoplasmic activity ensures inheritance. Finally, we implicate the RNA helicase ZNFX-1 as a factor that links the inherited WAGO-3 protein to nuclear RNAi in the offspring.",
       "funder": [],
       "identifier": "S-BIAD1922",

@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD961-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD961"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD961"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD961",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-12-06"
-      },
+      "datePublished": "2023-12-06",
       "description": "Molecular interactions are key to all cellular processes, and particularly interesting to investigate in the context of gene regulation. Protein–protein interactions are challenging to examine in vivo as they are dynamic, and require spatially and temporally resolved studies to interrogate them. Foerster Resonance Energy Transfer (FRET) is a highly sensitive imaging method, which can interrogate molecular interactions. FRET can be detected by Fluorescence Lifetime Imaging Microscopy (FLIM-FRET), which is more robust to concentration variations and photobleaching than intensity-based FRET but typically needs long acquisition times to achieve high photon counts. New variants of non-fitting lifetime-based FRET perform well in samples with lower signal and require less intensive instrument calibration and analysis, making these methods ideal for probing protein–protein interactions in more complex live 3D samples. Here we show that a non-fitting FLIM-FRET variant, based on the Average Arrival Time of photons per pixel (AAT− FRET), is a sensitive and simple way to detect and measure protein–protein interactions in live early stage zebrafish embryos.",
       "funder": [],
       "identifier": "S-BIAD961",

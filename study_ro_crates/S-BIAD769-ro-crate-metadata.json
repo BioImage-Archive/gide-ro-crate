@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD769-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD769"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD769"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD769",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-06-29"
-      },
+      "datePublished": "2023-06-29",
       "description": "Nix is a membrane-anchored outer mitochondrial protein than induces mitophagy.  While Nix has a LIR motif for binding to ATG8 proteins, it also contains a MER (minimal essential region) that induces mitophagy through an unknown mechanism.  We use chemically induced dimerization (CID) to probe the mechanism of Nix-mediated mitophagy and find that both the LIR and MER are required for robust mitophagy.  We find that the Nix MER interacts with WIPI2 and recruits WIPI2 to mitochondria.  The Nix LIR motif is also required for robust mitophagy and converting WIPI2 coating the mitochondria into puncta, independently of Atg8s. Together this work reveals unanticipated mechanisms in Nix-induced mitophagy and the elusive role of the MER, while also revealing an interesting example of autophagy induction downstream of the Ulk1 initiation and PI3K complexes.",
       "funder": [],
       "identifier": "S-BIAD769",

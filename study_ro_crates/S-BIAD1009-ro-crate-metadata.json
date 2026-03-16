@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1009-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1009"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1009"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1009",
@@ -89,10 +81,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-02-21"
-      },
+      "datePublished": "2024-02-21",
       "description": "The tight control of fate transitions during stem cell differentiation is essential for proper\ntissue development and maintenance. However, identifying how the multilayered regulation\nof gene expression programmes orchestrates stem cell differentiation in vivo remains\nelusive, because of the challenges in studying sparsely distributed adult stem cells in a\nsystematic manner. Here, we synchronised Drosophila female germline stem cell (GSC)\ndifferentiation in vivo to perform in-depth transcriptome and translatome analyses at high\ndevelopmental resolution. This characterisation revealed widespread and dynamic changes\nin mRNA level, promoter usage, exon inclusion, and translation efficiency. Transient\nexpression of the master regulator, Bam, drives a first wave of expression changes, primarily\nmodifying the cell cycle programme. Surprisingly, as Bam levels recede, differentiating cells\nreturn to a remarkably stem cell-like transcription and translation programme, with a few\ncrucial changes feeding into a second phase driving terminal differentiation to form the\noocyte. Altogether, these findings reveal that rather than a unidirectional accumulation of\nchanges, the in vivo differentiation programme relies on distinctly regulated and\ndevelopmentally sequential waves.",
       "funder": [],
       "identifier": "S-BIAD1009",

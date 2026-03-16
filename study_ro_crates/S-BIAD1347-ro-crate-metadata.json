@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1347-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1347"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1347"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1347",
@@ -98,10 +90,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2024-09-01"
-      },
+      "datePublished": "2024-09-01",
       "description": "The assembly of membrane receptors into signaling complexes is at the origin of key cellular events. Yet, we often lack detailed structural mechanistic understanding. Receptors are embedded into a complex cellular membrane, which defines their dynamics but also complicates their experimental characterizations significantly. Here, we showcase an integrative structural biology approach to investigate the activation mechanism of the human growth factor receptor MET. MET is a receptor tyrosine kinase involved in cell proliferation, migration, and survival. MET is also hijacked by the intracellular pathogen Listeria monocytogenes. Its invasion protein, internalin B (InlB), binds to MET and promotes the formation of a signaling dimer that triggers the internalization of the pathogen. Here, we use a combination of structural biology, modeling, molecular dynamics simulations, and in situ single-molecule Förster resonance energy transfer (smFRET) to elucidate the early events in MET activation. Simulations show that InlB binding stabilizes MET in a conformation that promotes dimer formation. smFRET identifies the organization of the in situ signaling dimer, which resembles one of two previously published  crystal structures yet shows differences. Further MD simulations resulted in a refinement of the dimer model, which is in quantitative agreement with smFRET results. We accurately describe the structural dynamics underpinning an important cellular event and introduce a powerful methodological pipeline applicable to studying the activation of other plasma membrane receptors in situ.",
       "funder": [],
       "identifier": "S-BIAD1347",

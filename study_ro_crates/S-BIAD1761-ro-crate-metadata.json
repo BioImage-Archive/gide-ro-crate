@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD1761-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1761"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1761"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD1761",
@@ -63,10 +55,10 @@
           "@id": "#06daabf3-8062-45c2-9bd4-385ef1859251"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000243"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -119,10 +111,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-05-16"
-      },
+      "datePublished": "2025-05-16",
       "description": "Fetal hematopoiesis takes place in the liver before colonizing the bone marrow where it will persist for life. This colonization is thought to be mediated by specification of a microenvironment that selectively recruits hematopoietic cells to the nascent bone marrow. The identity and mechanisms regulating the specification of this “colonization niche” are unclear. Here we identify a VCAM1+ sinusoidal colonization niche in the diaphysis that regulates neutrophil and hematopoietic stem cell colonization of the bone marrow. Using confocal microscopymicroscopy, we found that colonizing hematopoietic stem and progenitor cells (HSPC) and myeloid cells selectively localize to a subset of VCAM1+ sinusoids in the center of the diaphysis. Vcam1 deletion in endothelial cells impaired hematopoietic colonization while depletion of yolk-sac-derived osteoclasts abrogateddisrupted VCAM1+ expression, resulting in impaired and neutrophil and HSPC colonization ofto the bone marrow. Unexpectedly, depletion of yolk-sac-derived myeloid cells also increased fetal liver hematopoietic stem cell numbers, function and erythropoiesis in an osteoclast-independent mannerof osteoclast activity. Thus, the yolk sac produces two different types of myeloid cells in different organs that have oppositedistinct roles in regulating fetal hematopoiesis: while yolk-sac derived myeloid cells in the bone marrow promote hematopoietic colonization by specifying a VCAM1+ colonization niche, a different subset of yolk-sac-derived myeloid cells inhibitsregulates HSC in the fetal liverfetal liver hematopoiesis.",
       "funder": [],
       "identifier": "S-BIAD1761",

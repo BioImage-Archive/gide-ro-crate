@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD849-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD849"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD849"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD849",
@@ -63,10 +55,10 @@
           "@id": "#2780bbed-d82e-4bd8-9317-30def3e0ac48"
         },
         {
-          "@id": "obo:FBbi_00000251"
+          "@id": "obo:FBbi_00000246"
         },
         {
-          "@id": "obo:FBbi_00000246"
+          "@id": "obo:FBbi_00000251"
         }
       ],
       "about": [
@@ -119,10 +111,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2023-09-07"
-      },
+      "datePublished": "2023-09-07",
       "description": "The peptide toxin candidalysin, secreted by Candida albicans hyphae promotes, the stimulation of neutrophil extracellular traps (NETs), while candidalysin alone triggers a distinct mechanism for NET-like structures (NLS), which are more compact and less fibrous than canonical NETs. Candidalysin activates NADPH oxidase and calcium influx, with both processes contributing to morphological changes in neutrophils resulting in NLS formation. NLS are induced by leukotoxic hypercitrullination, which is governed by calcium-induced protein arginine deaminase 4 activation and initiation of intracellular signalling events in a dose- and time-dependent manner. However, activation of signalling by candidalysin does not suffice to trigger downstream events essential for NET formation, as demonstrated by lack of lamin A/C phosphorylation, an event required for activation of cyclin-dependent kinases that are crucial for NET release. Candidalysin-triggered NLS demonstrate anti-Candida activity, which is resistant to nuclease treatment and dependent on the deprivation of Zn2+. This study reveals that C. albicans hyphae releasing candidalysin concurrently trigger canonical NETs and NLS, which together form a fibrous sticky network that entangles C. albicans hyphae and efficiently inhibits their growth.",
       "funder": [],
       "identifier": "S-BIAD849",

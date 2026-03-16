@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2326-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2326"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2326"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2326",
@@ -80,10 +72,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-09-30"
-      },
+      "datePublished": "2025-09-30",
       "description": "Colocalization of VGLUT1 or VGLUT2 with α-synuclein was analyzed in cortical sections from striatal monomer-injected mice. Sections were co-stained with either VGLUT1/α-synuclein or VGLUT2/α-synuclein and imaged in 3D Airyscan mode. Images were processed to super-resolution (strength = 5.5), with chromatic aberration corrected (1.2 pixels in the z-axis). Background subtraction was performed in Imaris prior to colocalization analysis. The Coloc function was applied to quantify colocalization of VGLUT1 with α-synuclein and, in a separate analysis, VGLUT2 with α-synuclein. Thresholds for each channel were set independently using the automatic “calculate threshold” function. Colocalization was assessed using the Build Coloc Channel tool in Imaris, and parameters including Manders’ coefficients and the percentage of VGLUT1- or VGLUT2-positive voxels above threshold colocalized with α-synuclein were analyzed.",
       "funder": [],
       "identifier": "S-BIAD2326",

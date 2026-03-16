@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD2001-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2001"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2001"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2001",
@@ -83,10 +75,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2025-06-04"
-      },
+      "datePublished": "2025-06-04",
       "description": "RASA2KO and WT TCR T cells co-cultured with A375 melanoma cell line. The A375 cells express RFP which has the highest intensity in the nucleus. The TCR T cells are engineered to target the NY-ESO-1 antigen that is expressed by the A375 cells. Each well is imaged once every 2hrs using the automated Incucyte Zoom live-cell imaging machine. Phase and red channels are collected for each image. Spatial resolution is 4.975 μm/pixel. Plate maps of RASA2KO vs WT titrations and E:T ratios can be found here: https://github.com/bee-hive/sflcba/tree/main. ",
       "funder": [],
       "identifier": "S-BIAD2001",

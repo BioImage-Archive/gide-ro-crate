@@ -31,27 +31,19 @@
       },
       "labEquipment": {
         "@id": "http://schema.org/labEquipment"
-      },
-      "datePublished": {
-        "@id": "http://schema.org/datePublished",
-        "@type": "xsd:date"
       }
     }
   ],
   "@graph": [
     {
-      "@id": "S-BIAD594-ro-crate-metadata.json",
-      "@type": [
-        "CreativeWork"
-      ],
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.2"
       },
-      "about": [
-        {
-          "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD594"
-        }
-      ]
+      "about": {
+        "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD594"
+      }
     },
     {
       "@id": "https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD594",
@@ -66,19 +58,19 @@
           "@id": "#c4e821e3-df5e-45aa-9192-c96871720989"
         },
         {
-          "@id": "obo:FBbi_00000245"
-        },
-        {
-          "@id": "obo:FBbi_00000244"
+          "@id": "obo:FBbi_00000243"
         },
         {
           "@id": "obo:FBbi_00000251"
         },
         {
+          "@id": "obo:FBbi_00000245"
+        },
+        {
           "@id": "obo:FBbi_00000247"
         },
         {
-          "@id": "obo:FBbi_00000243"
+          "@id": "obo:FBbi_00000244"
         }
       ],
       "about": [
@@ -113,10 +105,7 @@
         }
       ],
       "citation": [],
-      "datePublished": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2022-12-09"
-      },
+      "datePublished": "2022-12-09",
       "description": "In neurons, many membrane proteins, synthesized in cell bodies, must be efficiently delivered to axons to influence neuronal connectivity, synaptic communication, and repair. Previously, we found that axonal targeting of TrkA neurotrophin receptors in sympathetic neurons occurs via an atypical transport mechanism called transcytosis, which relies on TrkA interactions with PTP1B, a protein tyrosine phosphatase. Here, we generated TrkAR685A mice, where TrkA receptor signaling is preserved, but its PTP1B-dependent transcytosis is disrupted, to show that this mode of axonal transport is essential for sympathetic neuron development and autonomic function. TrkAR685A mice have decreased axonal TrkA levels in vivo, developmental loss of sympathetic neurons, and reduced innervation of targets. Postnatal TrkAR685A mice exhibit reduced pupil size and eyelid ptosis, indicative of sympathetic dysfunction. These findings establish the necessity of transcytosis in supplying TrkA receptors to sympathetic axons and highlight the physiological relevance of this axon targeting mechanism in the nervous system.",
       "funder": [],
       "identifier": "S-BIAD594",
